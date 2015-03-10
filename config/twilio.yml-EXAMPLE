@@ -1,0 +1,6 @@
+production:
+  account_sid_hash: "your_sid_hash_here"
+
+test:
+  # This is the sha1 hash of 'test_sid', which is used in spec/controllers/app_controller_spec.rb
+  account_sid_hash: "44e983ca9114c2305fd33cd343ab5fb320b8efc1"

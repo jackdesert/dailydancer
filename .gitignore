@@ -1,0 +1,10 @@
+.bundle
+*.swp
+*.swo
+*.swn
+*.swm
+tmp
+db/*.db
+log
+nohup.out
+

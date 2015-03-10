@@ -15,3 +15,11 @@ Write tests based on actual content
   * Each email could be a yaml file: expected date, expected location
 
 
+Choose a Mail Provider
+
+
+http://mailnuggets.com
+http://www.mailhooks.com
+http://www.email2http.net
+http://mailgun.com
+

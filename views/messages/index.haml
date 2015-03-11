@@ -4,4 +4,5 @@
   %h1 Sacred Circle Dance Emails
   %ol
     - messages.each do |message|
-      %li= message.plain
+      - date = message.parse_date || 'no date found'
+      %li= "(#{date}) #{message.plain}"

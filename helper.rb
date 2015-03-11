@@ -13,6 +13,7 @@ unless settings.test?
 end
 
 require './models/util'
+require './models/date_parser'
 require './models/message'
 require './models/event'
 

@@ -19,4 +19,8 @@ class Message < Sequel::Model
     super
   end
 
+  def parse_date
+    DateParser.new(plain).parse
+  end
+
 end

@@ -10,6 +10,7 @@ require 'pry'
 require 'rspec'
 require 'rr'
 require 'database_cleaner'
+require 'chronic'
 
 # DB must be defined before models are required
 DB = Sequel.sqlite
@@ -21,6 +22,7 @@ Dir["#{File.dirname(__FILE__)}/../db/migrations/*.rb"].each { |f| require(f) }
 require_relative '../models/util'
 require_relative '../models/message'
 require_relative '../models/event'
+require_relative '../models/date_parser'
 
 RSpec.configure do |config|
   config.mock_with :rr

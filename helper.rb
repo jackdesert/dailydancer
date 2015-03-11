@@ -4,6 +4,7 @@ require 'sequel'
 require 'json'
 require 'active_support/core_ext/object/try'
 require 'active_support/core_ext/object/blank'
+require 'chronic'
 
 # Note you must connect to Sequel before requiring any models that inherit from Sequel::Model
 unless settings.test?

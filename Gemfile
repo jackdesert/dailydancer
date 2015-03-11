@@ -14,6 +14,7 @@ gem 'rake'
 gem 'rspec'
 gem 'thin'
 gem 'rr', require: false
+gem 'haml'
 gem 'guard-rspec'
 gem 'guard-livereload'
 gem 'rb-readline' # For some reason this is required on my Digital Ocean box under Ruby 2.1.2

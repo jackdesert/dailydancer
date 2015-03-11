@@ -5,6 +5,7 @@ require './helper'
 set :raise_errors, true
 
 # Bind to 0.0.0.0 even in development mode for access from VM
+# If it does not bind properly, use `-o 0.0.0.0` from command line
 set :bind, '0.0.0.0'
 
 # Make sure newer version of sqlite3 is used, so that HAVE_USLEEP was configured during build
@@ -33,6 +34,11 @@ class Dancer < Sinatra::Base
     end
   end
 
+  get '/messages' do
+    locals = { messages: Message.all }
+    haml :'messages/index', locals: locals
+  end
+
   post '/messages' do
     author = params['headers'].try(:[], 'From' )
     subject = params['headers'].try(:[], 'Subject')
@@ -41,9 +47,9 @@ class Dancer < Sinatra::Base
     plain = params['plain'] || ''
     html  = params['html']  || ''
 
-    message = Message.new(author: author, 
-                          subject: subject, 
-                          plain: plain, 
+    message = Message.new(author: author,
+                          subject: subject,
+                          plain: plain,
                           html: html)
 
     if message.valid?

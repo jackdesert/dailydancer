@@ -29,6 +29,13 @@ Running the server in Development Mode
 
     bundle exec rerun 'rackup config-dancer.ru -p 8856' --background
 
+If you are running it in a VM and can't access it from the host OS,
+add
+
+    -o 0.0.0.0
+
+to the command
+
 Running the server in Production Mode
 -------------------------------------
 

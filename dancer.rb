@@ -1,6 +1,7 @@
-require 'helper'
+require './helper'
 
-set :port, 8856
+# Set port 8852 using rackup when in production mode to match nginx config
+# set :port, 8852
 set :raise_errors, true
 
 # Bind to 0.0.0.0 even in development mode for access from VM
@@ -33,7 +34,26 @@ class Dancer < Sinatra::Base
   end
 
   post '/messages' do
-    binding.pry
+    author = params['headers'].try(:[], 'From' )
+    subject = params['headers'].try(:[], 'Subject')
+
+    # either html or plain must be present to have a meaningful message
+    plain = params['plain'] || ''
+    html  = params['html']  || ''
+
+    message = Message.new(author: author, 
+                          subject: subject, 
+                          plain: plain, 
+                          html: html)
+
+    if message.valid?
+      message.save
+      status 201
+      message.values.to_json
+    else
+      log_params
+      status 400
+    end
   end
 
   def log(text)

@@ -32,7 +32,7 @@ Running the server in Development Mode
 Running the server in Production Mode
 -------------------------------------
 
-    nohup script/run_dancer.sh &
+    nohup script/run_dancer_indefinitely.sh &
 
 Roadmap
 --------------

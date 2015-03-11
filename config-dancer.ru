@@ -1,4 +1,4 @@
-require './daily_lager'
+require './dancer'
 
 require 'logger'
 
@@ -8,8 +8,8 @@ class ::Logger
   alias_method :write, :<<
 end
 
-logger = Logger.new(DailyLager::LOG_FILE)
+logger = Logger.new(Dancer::LOG_FILE)
 
 use Rack::CommonLogger, logger
 
-run DailyLager
+run Dancer

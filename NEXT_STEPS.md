@@ -19,7 +19,13 @@ Choose a Mail Provider
 
 
 http://mailnuggets.com
+  $5/month
+  10k emails
+
 http://www.mailhooks.com
+  ??
+
 http://www.email2http.net
+
 http://mailgun.com
 

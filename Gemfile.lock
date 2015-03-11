@@ -69,6 +69,8 @@ GEM
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
+    rack-test (0.6.3)
+      rack (>= 1.0)
     rake (10.4.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
@@ -119,6 +121,7 @@ DEPENDENCIES
   guard-livereload
   guard-rspec
   pry-byebug
+  rack-test
   rake
   rb-readline
   rerun

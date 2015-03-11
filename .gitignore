@@ -5,6 +5,6 @@
 *.swm
 tmp
 db/*.db
-log
+log/*.log
 nohup.out
 

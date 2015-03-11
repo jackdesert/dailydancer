@@ -1,6 +1,7 @@
 require 'sinatra'
 require 'pry'
 require 'sequel'
+require 'json'
 require 'active_support/core_ext/object/try'
 require 'active_support/core_ext/object/blank'
 

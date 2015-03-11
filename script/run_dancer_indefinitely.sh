@@ -11,11 +11,11 @@
 echo "REMINDER: call this with 'nohup' and a trailing '&'"
 
 while true; do
-  cd /home/dev/daily_lager
+  cd /home/dev/dancer
   bundle install
-  RACK_ENV=production bundle exec rackup config-daily_lager.ru -p 8853
+  RACK_ENV=production bundle exec rackup config-dancer.ru -p 8852
   sleep 10
-  echo "daily_lager restarted `date`" >> log/daily_lager_restart.log
+  echo "dancer restarted `date`" >> log/dancer_restart.log
 done
 
 

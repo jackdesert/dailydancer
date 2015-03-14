@@ -16,4 +16,5 @@ require './models/util'
 require './models/date_parser'
 require './models/message'
 require './models/event'
+require './helpers/application_helper'
 

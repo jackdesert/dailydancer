@@ -77,19 +77,52 @@ describe Message do
   #
   #
 
-  describe '.by_date', focus: true do
+  describe '.future' do
     let(:valentines_day) { Date.new(2015, 2, 14) }
 
     context 'when there are messages' do
-      let!(:message_1) { create(:message, received_at: '2015-02-13') }
-      let!(:message_2) { create(:message, received_at: '2015-02-15') }
-      let!(:message_3) { create(:message, received_at: '2015-02-14') }
-      let!(:message_4) { create(:message, received_at: '2015-02-15') }
-      let!(:message_5) { create(:message, received_at: '2015-02-14') }
+      let!(:message_1) { create(:message, plain: 'Feb 13') }
+      let!(:message_2) { create(:message, plain: 'Feb 14') }
+      let!(:message_3) { create(:message, plain: 'Feb 15') }
+      let!(:message_4) { create(:message, plain: 'Feb 14') }
+      let!(:message_5) { create(:message, plain: 'Feb 15') }
+      it 'returns messages that have present or future parsed_date' do
+
+        pretend_now_is(valentines_day) do
+          described_class.future.should =~ [message_2, message_3, message_4, message_5]
+        end
+      end
+    end
+
+    context 'when there are no messages' do
+      before do
+        Message.all.map(&:delete)
+      end
+
+      it 'returns an empty Array' do
+        pretend_now_is(valentines_day) do
+          described_class.future.should be_empty
+        end
+      end
+    end
+  end
+
+
+  describe '.by_date' do
+    let(:valentines_day) { Date.new(2015, 2, 14) }
+
+    context 'when there are messages' do
+      let!(:message_1) { create(:message, plain: 'Feb 13') }
+      let!(:message_2) { create(:message, plain: 'Feb 14') }
+      let!(:message_3) { create(:message, plain: 'Feb 15') }
+      let!(:message_4) { create(:message, plain: 'Feb 14') }
+      let!(:message_5) { create(:message, plain: 'Feb 15') }
       it 'returns them in order' do
-        expected  = { '2015-02-14' => [message_3, message_5],
-                      '2015-02-15' => [message_2, message_4] }
-        described_class.by_date(2).should == expected
+        expected  = { '2015-02-14' => [message_2, message_4],
+                      '2015-02-15' => [message_3, message_5] }
+        pretend_now_is(valentines_day) do
+          described_class.by_date(2).should == expected
+        end
       end
     end
 
@@ -99,24 +132,11 @@ describe Message do
       end
 
       it 'returns a Hash with values that are empty arrays' do
-        pretend_now_is(valentines_day)
-        described_class.by_date(2).should == { '2015-02-14' => [], '2015-02-15' => [] }
-      end
-    end
-  end
-
-  describe '#parse_date' do
-    hash =  { 'Sunday Mar 15, 2015' => '2015-03-15',
-              'Mar. 17'             => '2015-13-17',
-              'OCTOBER 3'           => '2015-10-03' }
-
-    hash.each do |text, expected_date|
-      context "when text is #{text}" do
-        it "returns #{expected_date}" do
-          message = described_class.new(plain: text)
-          message.parse_date.should == expected_date
+        pretend_now_is(valentines_day) do
+          described_class.by_date(2).should == { '2015-02-14' => [], '2015-02-15' => [] }
         end
       end
     end
   end
+
 end

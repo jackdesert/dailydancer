@@ -24,19 +24,28 @@ class Message < Sequel::Model
     @parsed_date ||= DateParser.new(plain).parse
   end
 
-  def self.by_date(num_days)
-    return {} if num_days == 0
-    output = {}
-    messages = Message.all.sort_by(&:parsed_date)
-    range_of_dates(num_days).each do |date|
-      output[date.to_s] = []
-      while date == messages.first.try(:parsed_date)
-        output[date.to_s] << messages.pop
-      end
+  def self.future
+    messages = all.select do |message|
+      message.parsed_date && message.parsed_date >= Util.current_date_in_portland.to_s
     end
   end
 
-  def self.range_of_dates(num_days)
+  def self.by_date(num_days)
+    return {} if num_days == 0
+    output = {}
+    messages = future.sort_by(&:parsed_date)
+
+    range_of_date_strings(num_days).each do |date_string|
+      output[date_string] = []
+      while date_string == messages.first.try(:parsed_date)
+        output[date_string] << messages.shift
+      end
+    end
+
+    output
+  end
+
+  def self.range_of_date_strings(num_days)
     today = Util.current_date_in_portland
     dates = (today..today + num_days - 1).to_a
     dates.map(&:to_s)

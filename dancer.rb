@@ -14,6 +14,7 @@ if settings.production? && (SQLite3.libversion.to_s < "3008002")
 end
 
 class Dancer < Sinatra::Base
+  include ApplicationHelper
 
   LOG_FILE = settings.root + "/log/#{settings.environment}.log"
   error_logger = File.new(LOG_FILE, 'a')
@@ -32,6 +33,11 @@ class Dancer < Sinatra::Base
       body_parameters = request.body.read
       params.merge!(JSON.parse(body_parameters))
     end
+  end
+
+  get '/' do
+    locals = { date_range_with_messages: Message.by_date(7) }
+    haml :'messages/index_by_date', locals: locals
   end
 
   get '/messages' do

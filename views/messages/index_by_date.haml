@@ -1,0 +1,11 @@
+!!! 5
+%head
+%body
+  %h1 This Week in Sacred Circle
+  - date_range_with_messages.each do |date, messages|
+    %h2.date= display_date(date)
+    - messages.each do |message|
+      .message
+        %h3.subject= message.subject
+        .details= message.plain
+

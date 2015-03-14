@@ -6,6 +6,8 @@
     %h2.date= display_date(date)
     - messages.each do |message|
       .message
-        %h3.subject= message.subject
-        .details= message.plain
+        %h3.subject= formatted_subject(message)
+        .details
+          - details_as_array(message).each do |line|
+            .line= line
 

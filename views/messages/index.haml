@@ -7,21 +7,19 @@
   %h1 Sacred Circle Dance Emails
 
   - messages.each_with_index do |message, index|
-  - date = message.parsed_date || 'no date found'
     .admin-message{class: index.odd? ? 'odd' : 'even' }
       .admin-message-heading
         .admin-id= "#{message.id}."
         .admin-subject= formatted_subject(message)
       .admin-details
+        .line= "( by #{message.author})"
         - details_as_array(message).each do |line|
           .line= line
       %hr
-      .admin-author
-        posted_by:
-        = message.author
-      .admin-date{class: message.parsed_date ? 'bold' : ''}
-        parsed_date:
-        = date
+      - if message.parsed_date
+        .admin-date{class: message.parsed_date ? 'bold' : ''}
+          Event found:
+          = message.parsed_date
 
   .admin-footer
     created by

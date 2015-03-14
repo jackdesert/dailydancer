@@ -1,8 +1,29 @@
 !!! 5
 %head
+  %title= 'Sacred Circle Dance Emails'
+  %link{:rel => :stylesheet, :type => :"text/css", :href => 'reset.css'}
+  %link{:rel => :stylesheet, :type => :"text/css", :href => 'admin.css'}
 %body
   %h1 Sacred Circle Dance Emails
-  %ol
-    - messages.each do |message|
-      - date = message.parsed_date || 'no date found'
-      %li= "(#{date}) #{message.plain}"
+
+  - messages.each_with_index do |message, index|
+  - date = message.parsed_date || 'no date found'
+    .admin-message{class: index.odd? ? 'odd' : 'even' }
+      .admin-message-heading
+        .admin-id= "#{message.id}."
+        .admin-subject= formatted_subject(message)
+      .admin-details
+        - details_as_array(message).each do |line|
+          .line= line
+      %hr
+      .admin-author
+        posted_by:
+        = message.author
+      .admin-date{class: message.parsed_date ? 'bold' : ''}
+        parsed_date:
+        = date
+
+  .admin-footer
+    created by
+    %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Sacred%20Circle%20Events%20Page'} Jack Desert
+

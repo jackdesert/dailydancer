@@ -1,0 +1,65 @@
+div{
+  border-radius: 1rem;
+  color: #222;
+  font-size: 16px;
+}
+
+h1{
+  font-size: 200%;
+  text-align: center;
+  margin-top: -0.7rem;
+  color: #555;
+}
+
+
+
+
+.admin-message{
+  padding: 1rem;
+  margin: 2rem 3rem;
+  border: 1px solid #aaa;
+}
+
+.admin-message.odd{
+  background-color: #fff;
+}
+
+.admin-message.even{
+  background-color: #eee;
+}
+
+body{
+  padding: 2rem;
+  background-color: #ddd;
+}
+
+
+.admin-footer{
+  text-align: center;
+  color: #888;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.admin-date{
+  padding-bottom: 0.5rem;
+}
+.admin-date.bold{
+  color: red;
+  font-weight: bold;
+}
+.admin-id, .admin-subject, .admin-date{
+  display: inline;
+}
+.admin-subject{
+  font-weight: bold;
+}
+.admin-details{
+  padding-top: 1rem;
+}
+
+a{
+  //text-decoration: none;
+  color: inherit;
+}
+

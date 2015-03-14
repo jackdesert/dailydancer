@@ -33,7 +33,7 @@ class Message < Sequel::Model
   def self.by_date(num_days)
     return {} if num_days == 0
     output = {}
-    messages = future.sort_by(&:parsed_date)
+    messages = future.sort_by{|m| "#{m.parsed_date} #{m.subject}"}
 
     range_of_date_strings(num_days).each do |date_string|
       output[date_string] = []

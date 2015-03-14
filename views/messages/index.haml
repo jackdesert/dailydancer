@@ -12,9 +12,9 @@
         .admin-id= "#{message.id}."
         .admin-subject= formatted_subject(message)
       .admin-details
-        .line= "( by #{message.author})"
         - details_as_array(message).each do |line|
           .line= line
+        .line= "( by #{message.author})"
       %hr
       - if message.parsed_date
         .admin-date{class: message.parsed_date ? 'bold' : ''}

@@ -27,7 +27,7 @@ To run a specific migration against a particular environment:
 Running the server in Development Mode
 --------------------------------------
 
-    bundle exec rerun 'rackup config-dancer.ru -p 8856' --background
+    bundle exec rerun 'rackup config-dancer.ru -o 0.0.0.0' --background
 
 If you are running it in a VM and can't access it from the host OS,
 add

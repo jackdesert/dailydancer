@@ -10,7 +10,7 @@ group :views do
   end
 end
 
-guard 'rspec' do
+guard 'rspec', cmd: 'bundle exec rspec' do
 
   # Model files
   watch(%r{^models/(.+)\.rb$})                           { |m| "spec/models/#{m[1]}_spec.rb" }

@@ -7,7 +7,7 @@ module Util
       hash.each_pair.any?{|name, value| value > 0}
     end
 
-    def current_date_in_california
+    def current_date_in_portland
       Time.zone = 'Pacific Time (US & Canada)'
       Time.zone.now.to_date
     end

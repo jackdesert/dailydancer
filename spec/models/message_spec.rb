@@ -75,6 +75,35 @@ describe Message do
   #  end
   #end
   #
+  #
+
+  describe '.by_date', focus: true do
+    let(:valentines_day) { Date.new(2015, 2, 14) }
+
+    context 'when there are messages' do
+      let!(:message_1) { create(:message, received_at: '2015-02-13') }
+      let!(:message_2) { create(:message, received_at: '2015-02-15') }
+      let!(:message_3) { create(:message, received_at: '2015-02-14') }
+      let!(:message_4) { create(:message, received_at: '2015-02-15') }
+      let!(:message_5) { create(:message, received_at: '2015-02-14') }
+      it 'returns them in order' do
+        expected  = { '2015-02-14' => [message_3, message_5],
+                      '2015-02-15' => [message_2, message_4] }
+        described_class.by_date(2).should == expected
+      end
+    end
+
+    context 'when there are no messages' do
+      before do
+        Message.all.map(&:delete)
+      end
+
+      it 'returns a Hash with values that are empty arrays' do
+        pretend_now_is(valentines_day)
+        described_class.by_date(2).should == { '2015-02-14' => [], '2015-02-15' => [] }
+      end
+    end
+  end
 
   describe '#parse_date' do
     hash =  { 'Sunday Mar 15, 2015' => '2015-03-15',

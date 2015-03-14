@@ -1,13 +1,30 @@
 !!! 5
 %head
+  %title= 'Sacred Circle Events by Date'
+  %link{:rel => :stylesheet, :type => :"text/css", :href => 'reset.css'}
+  %link{:rel => :stylesheet, :type => :"text/css", :href => 'style.css'}
+  / %link{:rel => :stylesheet, :type => :"text/css", :href => "#{asset_base}/app.css"}
+  / %meta{charset: 'utf-8'}
+  / %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
+  / %script{src: "#{asset_base}/modernizr.js"}
 %body
   %h1 This Week in Sacred Circle
+  - odd = true
   - date_range_with_messages.each do |date, messages|
-    %h2.date= display_date(date)
-    - messages.each do |message|
-      .message
-        %h3.subject= formatted_subject(message)
-        .details
-          - details_as_array(message).each do |line|
-            .line= line
+    - odd = !odd
+    - odd_class = odd ? 'odd' : 'even'
+    - display_date_class = messages.empty? ? 'empty' : 'full'
+
+    .date-holder{class: odd_class}
+      %h2.date{class: display_date_class}= display_date(date)
+      - messages.each_with_index do |message, index|
+        .message{class: index.odd? ? 'odd' : 'even' }
+          %h3.subject= formatted_subject(message)
+          .details
+            - details_as_array(message).each do |line|
+              .line= line
+
+  .footer
+    created by
+    %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Sacred%20Circle%20Events%20Page'} Jack Desert
 

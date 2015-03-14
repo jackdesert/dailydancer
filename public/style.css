@@ -1,0 +1,77 @@
+div{
+  border-radius: 1rem;
+  color: #222;
+}
+
+h1{
+  font-size: 200%;
+  text-align: center;
+  margin-top: -0.7rem;
+  color: #555;
+}
+
+h2{
+  font-size: 230%;
+  padding: 1rem 0 2rem 0.2rem;
+}
+h2.date{
+  color: #555;
+}
+
+
+h2.empty{
+  color: #aaa;
+}
+
+h3{
+  font-size: 120%;
+}
+
+.date-holder{
+  background-color: #ccc;
+}
+.date-holder.odd{
+  background-color: #bbb;
+}
+
+.message{
+  padding: 1rem;
+  margin: 2rem 3rem;
+  border: 1px solid #aaa;
+}
+
+.message.odd{
+  background-color: #fff;
+}
+
+.message.even{
+  background-color: #eee;
+}
+
+body{
+  padding: 2rem;
+  background-color: #ddd;
+}
+
+.date-holder{
+  padding: 1rem;
+  margin: 1rem;
+  border: 1px solid #ccc;
+}
+
+.footer{
+  text-align: center;
+  color: #888;
+  padding: 2rem;
+  margin: 1rem;
+}
+
+.date{
+  padding-bottom: 0.5rem;
+}
+
+a{
+  //text-decoration: none;
+  color: inherit;
+}
+

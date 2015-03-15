@@ -28,4 +28,8 @@ module ApplicationHelper
   end
 
 
+  def page_title
+    'This Week in Sacred Circle (Beta)'
+  end
+
 end

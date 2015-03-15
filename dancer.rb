@@ -35,6 +35,10 @@ class Dancer < Sinatra::Base
     end
   end
 
+  before do
+    redirect_if_www
+  end
+
   get '/' do
     locals = { date_range_with_messages: Message.by_date(7) }
     haml :'messages/index_by_date', locals: locals
@@ -79,6 +83,16 @@ class Dancer < Sinatra::Base
     hash = { Body: params[:Body],
              From: params[:From]}
     log("params: #{hash}")
+  end
+
+  def redirect_if_www
+    www_regex = /\Awww\./
+    http_host = env['HTTP_HOST']
+
+    if http_host.match www_regex
+      naked_http_host = http_host.sub(www_regex, '')
+      redirect "http://#{naked_http_host}"
+    end
   end
 
 end

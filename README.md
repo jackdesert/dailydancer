@@ -50,8 +50,11 @@ Completed:
 
 Backlog:
 
+  * Purchase cloudmailin subscription
+  * Redirect from www to naked domain
   * Identify false positives.
   * Identify missing negatives
+  * Correctly identify date when for Re: and Fw: in conjunction with 'on Friday, Nov 6 at 12:29pm so and so wrote ...'
 
 Icebox:
 

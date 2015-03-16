@@ -48,6 +48,21 @@ Completed:
 
   *
 
+LAUNCH PLAN
+-----------
+
+POINTS    VALUE   ITEM
+1         4       Subscribe ($9/month)
+2         4       Responsive
+2         10      Minimized
+2         6       About Page
+1         2       Support Page
+2         10      Letter to List
+3         2       Better Filters (a way to test them??)
+8         8       Artwork (communication, pick best design, CSS to match)
+1         2       Letter to Jenya
+2         1       Load Testing (expected load?)
+
 Backlog:
 
   * Purchase cloudmailin subscription
@@ -55,6 +70,11 @@ Backlog:
   * Identify false positives.
   * Identify missing negatives
   * Correctly identify date when for Re: and Fw: in conjunction with 'on Friday, Nov 6 at 12:29pm so and so wrote ...'
+  * Decide if one week is the ideal amount of events to display
+  * Get www to redirect in production
+  * Staging site
+  * Uptime Monitor
+
 
 Icebox:
 

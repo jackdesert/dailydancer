@@ -1,0 +1,33 @@
+There is a project in existence that still needs some design work.
+
+Take a look at http://dancer.jackdesert.com
+
+The site takes the contents of an email list-serve, and generates
+a calendar, grouping items by the date of the event they are advertising.
+
+I can build the site using Zurb Foundation. What I need from you is a great design that
+displays the same information as the website referenced above, but that LOOKS GREAT on a
+smartphone.
+
+Please provide your design in .jpg or .png format (I do not use PhotoShop)
+
+Additionally, the site needs:
+
+* It must look GREAT on a mobile phone.
+* The details of each event must be able to maximize/minimize
+* Must be clear which day each event belongs to
+* A positive/nourishing/creative theme. (This is a DANCE email list)
+* A menu that links to a "Support" page and an "About" page.
+* To have a button/link near the top of the page for "maximize all"
+* To have a button/link near the bottom for "show more"
+* A subtitle under the title
+* Must use common web fonts.
+
+Note that I am not set on the buttons being labeled with those words, but that is the function
+they need to carry.
+
+Please provide images used in the site as separate attachments in .png format with a transparent background.
+
+I'm looking forward to what you come up with!!
+
+Jack

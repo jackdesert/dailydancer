@@ -3,12 +3,12 @@
 - page_title    = 'Daily Dancer'
 
 %head
+  %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
   %title= page_title
   %link{:rel => :stylesheet, :type => :"text/css", :href => 'reset.css'}
   %link{:rel => :stylesheet, :type => :"text/css", :href => 'style.css'}
   / %link{:rel => :stylesheet, :type => :"text/css", :href => "#{asset_base}/app.css"}
   / %meta{charset: 'utf-8'}
-  / %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
   / %script{src: "#{asset_base}/modernizr.js"}
 %body
   %h1#title= page_title
@@ -21,8 +21,8 @@
 
     .date-holder{class: odd_class}
       %h2.date{class: display_date_class}= display_date(date)
-      - messages.each do |message|
-        .message{id: message.id}
+      - messages.each_with_index do |message, index|
+        .message{id: message.id, class: index.odd? ? 'odd' : 'even' }
           %h3.subject= formatted_subject(message)
           .details
             - details_as_array(message).each do |line|

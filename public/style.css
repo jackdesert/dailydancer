@@ -1,14 +1,14 @@
 div{
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   color: #222;
 }
 
 
 body{
-  padding: 2rem;
-  //background-color: #ddd;
+  padding: 2rem 0.1rem;
   background-color: #222;
 }
+
 
 #title{
   font-size: 200%;
@@ -20,14 +20,13 @@ body{
   text-align: center;
   color: #999;
   font-style: italic;
+  padding-bottom: 0.7rem;
 }
 
-h2{
+.date{
   font-size: 230%;
-  padding: 1rem 0 2rem 0.2rem;
-}
-h2.date{
   color: #555;
+  padding: 1rem 0 2rem 0.2rem;
 }
 
 
@@ -41,23 +40,25 @@ h3{
 
 .date-holder{
   background-color: #ccc;
+  padding: 0.1rem;
 }
 .date-holder.odd{
   background-color: #bbb;
 }
 
 .message{
-  padding: 1rem;
-  margin: 2rem 3rem;
+  padding: 0.5rem;
   border: 1px solid #aaa;
   background-color: #fff;
   overflow: hidden;
 }
 
+.message.odd{
+  background-color: #e0e0e0;
+}
+
 
 .date-holder{
-  padding: 1rem;
-  margin: 1rem;
   border: 1px solid #ccc;
 }
 
@@ -73,7 +74,51 @@ h3{
 }
 
 a{
-  //text-decoration: none;
+  /* text-decoration: none; */
   color: inherit;
 }
 
+
+
+/* Medium and large screens */
+@media screen and (min-width: 700px) {
+
+  body{
+    padding: 2rem !important;
+  }
+
+
+  div{
+    border-radius: 0.8rem;
+  }
+
+  .date-holder{
+    margin: 0 1rem;
+    padding: 1rem;
+
+  }
+  .date-holder + .date-holder{
+  }
+
+  .message{
+    padding: 1rem;
+    margin: 2rem 3rem;
+  }
+
+  /* From reset */
+  html, body, div, span, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  abbr, address, cite, code,
+  del, dfn, em, img, ins, kbd, q, samp,
+  small, strong, sub, sup, var,
+  b, i,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section, summary,
+  time, mark, audio, video {
+    font-size:20px;
+  }
+
+}

@@ -3,11 +3,23 @@ div{
   color: #222;
 }
 
-h1{
+
+body{
+  padding: 2rem;
+  //background-color: #ddd;
+  background-color: #222;
+}
+
+#title{
   font-size: 200%;
   text-align: center;
   margin-top: -0.7rem;
-  color: #555;
+  color: #999;
+}
+#subtitle{
+  text-align: center;
+  color: #999;
+  font-style: italic;
 }
 
 h2{
@@ -38,20 +50,10 @@ h3{
   padding: 1rem;
   margin: 2rem 3rem;
   border: 1px solid #aaa;
-}
-
-.message.odd{
   background-color: #fff;
+  overflow: hidden;
 }
 
-.message.even{
-  background-color: #eee;
-}
-
-body{
-  padding: 2rem;
-  background-color: #ddd;
-}
 
 .date-holder{
   padding: 1rem;

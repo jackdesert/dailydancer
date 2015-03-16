@@ -46,7 +46,7 @@ module ApplicationHelper
       # Put the first part in the output so we do not search it for any more links
       # since some links are subset of others
       output += text_array.first
-      output += "<a href='#{hyperlink}'>#{hyperlink}</a>"
+      output += "<a href='#{hyperlink}' target='_blank'>#{hyperlink}</a>"
 
       # Use the last part going forward
       text = text_array.last

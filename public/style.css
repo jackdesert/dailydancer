@@ -9,6 +9,9 @@ body{
   background-color: #222;
 }
 
+.hidden{
+  display: none;
+}
 
 #title{
   font-size: 200%;
@@ -34,8 +37,14 @@ h2.empty{
   color: #aaa;
 }
 
-h3{
+.subject{
   font-size: 120%;
+  /* cursor: pointer; */
+}
+
+.message.odd:hover, .message.even:hover{
+  background-color: #ccc;
+  cursor: pointer;
 }
 
 .date-holder{
@@ -53,8 +62,12 @@ h3{
   overflow: hidden;
 }
 
+.message:hover{
+  border-color: #888;
+}
+
 .message.odd{
-  background-color: #e0e0e0;
+  /* background-color: #e0e0e0; */
 }
 
 
@@ -65,8 +78,13 @@ h3{
 .footer{
   text-align: center;
   color: #888;
-  padding: 2rem;
+  /* The long padding at the bottom of the footer is so that when
+   * items are collapsed the page will (hopefully) not scroll
+   * too much padding and a page refresh is weird if you are at the
+   * bottom */
+  padding: 2rem 2rem 50rem;
   margin: 1rem;
+
 }
 
 .date{
@@ -76,6 +94,9 @@ h3{
 a{
   /* text-decoration: none; */
   color: inherit;
+}
+a:hover{
+  font-weight: bold;
 }
 
 
@@ -93,16 +114,16 @@ a{
   }
 
   .date-holder{
-    margin: 0 1rem;
+    margin: 0.5rem 1rem;
     padding: 1rem;
-
   }
+
   .date-holder + .date-holder{
   }
 
   .message{
     padding: 1rem;
-    margin: 2rem 3rem;
+    margin: 1rem 3rem;
   }
 
   /* From reset */

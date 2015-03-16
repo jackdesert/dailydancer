@@ -24,7 +24,7 @@
       - messages.each_with_index do |message, index|
         .message{id: message.id, class: index.odd? ? 'odd' : 'even' }
           %h3.subject= formatted_subject(message)
-          .details
+          .details.hidden
             - details_as_array(message).each do |line|
               .line= line
 
@@ -32,3 +32,5 @@
     created by
     %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Sacred%20Circle%20Events%20Page'} Jack Desert
 
+  %script{src: 'jqlite.1.1.1.min.js'}
+  %script{src: 'dancer.js'}

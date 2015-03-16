@@ -39,7 +39,7 @@ h2.empty{
 
 .subject{
   font-size: 120%;
-  /* cursor: pointer; */
+  padding-bottom: 0.8rem;
 }
 
 .message.odd:hover, .message.even:hover{
@@ -82,7 +82,7 @@ h2.empty{
    * items are collapsed the page will (hopefully) not scroll
    * too much padding and a page refresh is weird if you are at the
    * bottom */
-  padding: 2rem 2rem 50rem;
+  padding: 2rem 2rem 25rem;
   margin: 1rem;
 
 }

@@ -44,9 +44,9 @@ class Dancer < Sinatra::Base
     haml :'messages/index_by_date', locals: locals
   end
 
-  get '/messages' do
+  get '/admin/messages' do
     locals = { messages: Message.order(Sequel.desc(:id)) }
-    haml :'messages/index', locals: locals
+    haml :'admin/messages/index', locals: locals
   end
 
   post '/messages' do

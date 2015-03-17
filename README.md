@@ -106,5 +106,6 @@ Icebox:
     the "confirmed_date" so it is easy to test whether they are all correctly identified.
   * Identify false positives.
   * Identify missing negatives
+  * Cache assets so they do not need requesting again
 
 

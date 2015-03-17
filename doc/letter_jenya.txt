@@ -6,6 +6,8 @@ Second, I want to show you a site I've built that shows a day-by-day view of wha
 
 http://dailydancer.jackdesert.com
 
+It's not searchable by Google.
+
 I'll send a message to the list announcing it after I've done some more user testing.
 
 --Jack

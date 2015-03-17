@@ -90,6 +90,11 @@ Backlog:
   * Fix so can pull down latest database
   * Add a flag for displaying N number of days
   * Scroll to top whenever page is reloaded && remove super long padding on bottom of footer
+  * Return the id when creating a message so cloudin can see it
+  * Make a /jack page that tells about the author, and link to it instead of giving a mailto
+  * Make a support page and put the link to it at the bottom (with a big arrow for BACK)
+  * Make an about page and put the link to it in the footer (with a big arrow for BACK)
+  * Add negative lookahead expression that knows "march 2010" is not an event.
 
 
 Icebox:

@@ -43,7 +43,7 @@ h2.empty{
 }
 
 .message.odd:hover, .message.even:hover{
-  background-color: #ccc;
+  background-color: #fff;
   cursor: pointer;
 }
 
@@ -58,7 +58,7 @@ h2.empty{
 .message{
   padding: 0.5rem;
   border: 1px solid #aaa;
-  background-color: #fff;
+  background-color: #fcfcfc;
   overflow: hidden;
 }
 

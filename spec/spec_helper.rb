@@ -53,6 +53,8 @@ RSpec.configure do |config|
     DatabaseCleaner.clean
   end
 
+  config.expect_with(:rspec) { |c| c.syntax = [:should, :expect] }
+
 
 end
 

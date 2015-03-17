@@ -1,6 +1,9 @@
 Subject: Introducing DailyDancer---An easy way to glance at dance events
 Subject: DailyDancer---See today's Dance Happenings
 
+
+Pocket Reference!
+
 ============  v1  ===============
 
 If you're like me, you love going to the events that are posted in this list. And if you're like me, you might want an easier way to see what events from the list are available on a particular day.
@@ -46,3 +49,11 @@ Oh Geez, where was that email? I'm sure it's around here somewhere. It's a dance
 Wait, there's a new thing out: http://dailydancer.jackdesert.com that keeps track of this sort of thing for me. Anything that comes from this list ends up there, correlated by event date. Oh got it! It's in Philip's basement!!! Whew!
 
 (Maybe do this with a real event that's coming up ??)
+
+===============  v6   ==========================
+Ever wanted a pocket reference for events that show up on the sacred circle mailing list? Here it is:
+
+  http://dailydancer.jackdesert.com
+
+It's not anything that Google knows about---just us and those we tell.
+===================================================

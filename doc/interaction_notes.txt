@@ -1,0 +1,5 @@
+Leslie says that when you click something that you need some visual indication
+that something actually happened so that you *know* what happened and what it means
+
+For me, this probably means transitions as events expand/collapse. How can I get that
+with jQlite? I have some code that simulates falling objects in a connect-four game.

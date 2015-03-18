@@ -25,6 +25,10 @@ body{
   font-style: italic;
   padding-bottom: 0.7rem;
 }
+.question, .answer{
+  color: #999;
+}
+
 
 .date{
   font-size: 230%;
@@ -82,9 +86,7 @@ h2.empty{
    * items are collapsed the page will (hopefully) not scroll
    * too much padding and a page refresh is weird if you are at the
    * bottom */
-  padding: 2rem 2rem 25rem;
-  margin: 1rem;
-
+  padding: 2rem 2rem 1rem;
 }
 
 .date{
@@ -124,6 +126,10 @@ a:hover{
   .message{
     padding: 1rem;
     margin: 1rem 3rem;
+  }
+
+  .footer{
+    margin: 1rem;
   }
 
   /* From reset */

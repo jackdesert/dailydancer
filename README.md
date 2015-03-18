@@ -56,6 +56,8 @@ Completed:
   * Add negative lookahead expression that knows "march 2010" is not an event.
   * Correctly identify date when for Re: and Fw: in conjunction with 'on Friday, Nov 6 at 12:29pm so and so wrote ...'
   * Make it so you can select text AND so it's easy to minimize things.
+  * Inertial transitions when events expand/contract.
+  * Make a FAQ page
 
 LAUNCH PLAN
 -----------
@@ -80,12 +82,9 @@ POINTS    VALUE   ITEM
 
 Backlog:
 
-
+  * Design the FAQ page (HEBA) and create a link to it
   * Make a /jack page that tells about the author, and link to it instead of giving a mailto
-  * Make a support page and put the link to it at the bottom (with a big arrow for BACK)
-  * Make an about page and put the link to it in the footer (with a big arrow for BACK)
   * Link for "show me more"
-  * Inertial transitions when events expand/contract.
   * Make the subjects look more like buttons
 
   * Confirm that 11:50pm shows the same day (not the next)
@@ -100,6 +99,8 @@ Backlog:
   * Test in IE8
   * Investigate Zepto
 
+  * Ask heba to show minimized versions
+
 
 Icebox:
 
@@ -110,5 +111,7 @@ Icebox:
   * Identify false positives.
   * Identify missing negatives
   * Cache assets so they do not need requesting again
+  * Make a support page and put the link to it at the bottom (with a big arrow for BACK)
+  * Make an about page and put the link to it in the footer (with a big arrow for BACK)
 
 

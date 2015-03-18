@@ -1,0 +1,45 @@
+!!! 5
+
+- page_title    = 'Daily Dancer FAQ'
+
+%head
+  %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
+  %title= page_title
+  %link{:rel => :stylesheet, :type => :"text/css", :href => 'reset.css'}
+  %link{:rel => :stylesheet, :type => :"text/css", :href => 'style.css'}
+  / %link{:rel => :stylesheet, :type => :"text/css", :href => "#{asset_base}/app.css"}
+  / %meta{charset: 'utf-8'}
+  / %script{src: "#{asset_base}/modernizr.js"}
+%body
+  #back-home Back to Events
+  %h1#title= page_title
+
+  .question How does it work?
+  .answer Daily Dancer reads the Sacred Circle email list and determines which messages are event announcements. Anything that represents an event gets displayed, grouped next to other events happening the same day.
+
+  .question I posted something to the list, and it does not show up on Daily Dancer. What do I do.
+  .answer First, does your message represent an event? Only events show up on Daily Dancer.
+  .answer Second, has the message already come through the list?
+  .answer
+    Third, if the above are true and it still does not show up,
+    %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Daily%20Dancer%20Support'} send us an email
+    so we can help. Please reference the subject line of the message you sent and what day and time you sent it.
+
+  .question I have a suggestion. Where do I send it?
+  .answer
+    Great! Would love to hear your feedback on usability and design. You can
+    %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Daily%20Dancer%20Feedback'} send feedback by email
+    = '.'
+
+
+  .question Do events on Daily Dancer show up in search engines such as Google?
+  .answer No. Daily Dancer is opted out of search engine results. The only people that see the Daily Dancer are those that we share it with.
+
+
+
+  .footer
+    created by
+    %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Daily%20Dancer'} Jack Desert
+
+  %script{src: 'jqlite.1.1.1.min.js'}
+  %script{src: 'dancer.js'}

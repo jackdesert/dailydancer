@@ -55,6 +55,7 @@ Completed:
   * /admin/messages so people know it's intended only for admins
   * Add negative lookahead expression that knows "march 2010" is not an event.
   * Correctly identify date when for Re: and Fw: in conjunction with 'on Friday, Nov 6 at 12:29pm so and so wrote ...'
+  * Make it so you can select text AND so it's easy to minimize things.
 
 LAUNCH PLAN
 -----------
@@ -80,7 +81,6 @@ POINTS    VALUE   ITEM
 Backlog:
 
 
-  * Make it so you can select text AND so it's easy to minimize things.
   * Make a /jack page that tells about the author, and link to it instead of giving a mailto
   * Make a support page and put the link to it at the bottom (with a big arrow for BACK)
   * Make an about page and put the link to it in the footer (with a big arrow for BACK)
@@ -96,6 +96,9 @@ Backlog:
   * Return the id when creating a message so cloudin can see it
   * Redirect from www to naked domain (sinatra does not see the www)
   * Inline scripts and stylesheets in production mode so only one network hit
+  * Inertial transitions when events expand/contract.
+  * Test in IE8
+  * Investigate Zepto
 
 
 Icebox:

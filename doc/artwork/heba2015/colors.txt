@@ -1,0 +1,8 @@
+the hex codes :
+text-color: #fff
+nav-bar-highlighted-text-color: #ef6e37
+nav-bar-highlighted- background-opacity :20%
+menu bar color: #000
+menu bar opacity: 73%
+event header color: #ee4701
+event header opacity: 0%

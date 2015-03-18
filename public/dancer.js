@@ -42,18 +42,19 @@ var toggleMessageOnFastClick = function(){
 
 var gravity = function($target, direction){
 
-  var acc = 0.1  //acceleration
+  var acceleration = 2
   var time = 0
   var that = this
+  var speedConstant = $('body')[0].offsetWidth / 10000
   var startHeight, callback, directionConstant, isFinished, newMaxHeight
 
   var initialize = function(){
     if (direction === 'down'){
       startHeight = 0
-      destinationHeight = 1000
+      destinationHeight = 2000
       directionConstant = 1
       isFinished = function(){ return (newMaxHeight > destinationHeight) }
-      callback = function(){ $target.css('max-height', 10000000) }
+      callback = function(){ $target.css('max-height', 10000) }
 
       $target.css('max-height', 0)
       $target.show()
@@ -71,14 +72,15 @@ var gravity = function($target, direction){
   var dropALittle = function(){
     var deltaTime = 3 // How long to wait between refreshes
     time += deltaTime
-    newMaxHeight = startHeight + 0.5 * directionConstant * acc * time * time
+    newMaxHeight = startHeight + 0.5 * speedConstant * directionConstant * acceleration * time * time
     console.log('newMaxHeight', newMaxHeight)
     console.log('destinationHeight', destinationHeight)
     console.log('isFinished', isFinished())
 
     // Call this again and again until isFinished() comes back true
     if (isFinished()){
-      callback()
+      // Make sure the callback is the last thing called
+      setTimeout(callback, deltaTime)
     }else{
       setTimeout(dropALittle, deltaTime)
     }

@@ -21,7 +21,15 @@ class Message < Sequel::Model
   end
 
   def parsed_date
-    @parsed_date ||= DateParser.new(plain).parse
+    @parsed_date ||= parsed_date_from_plain || parsed_relative_date_from_subject_and_received_at
+  end
+
+  def parsed_date_from_plain
+    DateParser.new(plain).parse
+  end
+
+  def parsed_relative_date_from_subject_and_received_at
+    DateParser.new(subject).parse_relative(received_at)
   end
 
   def self.future

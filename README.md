@@ -99,6 +99,8 @@ Backlog:
   * Test in IE8
 
   * Ask heba to show minimized versions
+  * Do not display "Move in as soon as May 1st." as an event
+  * Display "This Friday" as an event
 
 
 Icebox:

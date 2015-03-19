@@ -58,6 +58,7 @@ Completed:
   * Make it so you can select text AND so it's easy to minimize things.
   * Inertial transitions when events expand/contract.
   * Make a FAQ page
+  * Make the subjects look more like buttons
 
 LAUNCH PLAN
 -----------
@@ -82,22 +83,20 @@ POINTS    VALUE   ITEM
 
 Backlog:
 
-  * Design the FAQ page (HEBA) and create a link to it
+  * Ask HEBA to design the FAQ page for me
+  * Create a link to the FAQ page
   * Make a /jack page that tells about the author, and link to it instead of giving a mailto
   * Link for "show me more"
-  * Make the subjects look more like buttons
 
   * Confirm that 11:50pm shows the same day (not the next)
-  * Cache assets so they do not need requesting again
   * Fix so can pull down latest database
-  * Add a flag for displaying N number of days
+  * Add a parameter for displaying N number of days
   * Scroll to top whenever page is reloaded && remove super long padding on bottom of footer
   * Return the id when creating a message so cloudin can see it
   * Redirect from www to naked domain (sinatra does not see the www)
   * Inline scripts and stylesheets in production mode so only one network hit
-  * Inertial transitions when events expand/contract.
+  * Cache assets so they do not need requesting again
   * Test in IE8
-  * Investigate Zepto
 
   * Ask heba to show minimized versions
 
@@ -113,5 +112,6 @@ Icebox:
   * Cache assets so they do not need requesting again
   * Make a support page and put the link to it at the bottom (with a big arrow for BACK)
   * Make an about page and put the link to it in the footer (with a big arrow for BACK)
+  * Investigate Zepto
 
 

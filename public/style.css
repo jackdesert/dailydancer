@@ -1,5 +1,4 @@
 div{
-  border-radius: 0.5rem;
   color: #222;
 }
 
@@ -46,10 +45,6 @@ h2.empty{
   padding-bottom: 0.8rem;
 }
 
-.message.odd:hover, .message.even:hover{
-  background-color: #fff;
-  cursor: pointer;
-}
 
 .date-holder{
   background-color: #ccc;
@@ -62,18 +57,16 @@ h2.empty{
 .message{
   padding: 0.5rem;
   border: 1px solid #aaa;
-  background-color: #fcfcfc;
+  background-color: #fafafa;
   overflow: hidden;
-}
-
-.message:hover{
-  border-color: #888;
+  box-shadow: 0.2rem 0.15rem 0.1rem #888;
+  margin: 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .message.odd{
   /* background-color: #e0e0e0; */
 }
-
 
 .date-holder{
   border: 1px solid #ccc;
@@ -110,13 +103,8 @@ a:hover{
     padding: 2rem !important;
   }
 
-
-  div{
-    border-radius: 0.8rem;
-  }
-
   .date-holder{
-    margin: 0.5rem 1rem;
+    /* margin: 0.5rem 1rem; */
     padding: 1rem;
   }
 
@@ -125,7 +113,16 @@ a:hover{
 
   .message{
     padding: 1rem;
-    margin: 1rem 3rem;
+    /* margin: 1rem 3rem; */
+    box-shadow: 0.3rem 0.2rem 0.1rem #888;
+    border-radius: 0.8rem;
+  }
+
+  /* Note that hover only applies to desktops */
+  .message:hover{
+    background-color: #fff;
+    cursor: pointer;
+    border-color: #888;
   }
 
   .footer{
@@ -148,4 +145,14 @@ a:hover{
     font-size:20px;
   }
 
+}
+
+/* Large screens */
+@media screen and (min-width: 1000px) {
+  .date-holder{
+    /* On wide screens, keep content narrow but centered */
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

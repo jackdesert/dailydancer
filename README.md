@@ -59,6 +59,7 @@ Completed:
   * Inertial transitions when events expand/contract.
   * Make a FAQ page
   * Make the subjects look more like buttons
+  * Display "This Friday" as an event
 
 LAUNCH PLAN
 -----------
@@ -100,7 +101,7 @@ Backlog:
 
   * Ask heba to show minimized versions
   * Do not display "Move in as soon as May 1st." as an event
-  * Display "This Friday" as an event
+  * Make sure received-at is converted to the correct day (Pacific time) when used to parse relative dates in subjects
 
 
 Icebox:

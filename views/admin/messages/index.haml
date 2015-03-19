@@ -15,7 +15,7 @@
         - details_as_array(message).each do |line|
           .line= line
         .line= "( by #{message.author})"
-        .line= "( on #{message.received_at})"
+        .line= "( on #{message.received_at.strftime('%A')}, #{message.received_at})"
       %hr
       - if message.parsed_date
         .admin-date{class: message.parsed_date ? 'bold' : ''}

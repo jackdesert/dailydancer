@@ -4,17 +4,9 @@
   %title= page_title
   %link{:rel => :stylesheet, :type => :"text/css", :href => 'reset.css'}
   %link{:rel => :stylesheet, :type => :"text/css", :href => 'style.css'}
-  / %link{:rel => :stylesheet, :type => :"text/css", :href => "#{asset_base}/app.css"}
-  / %meta{charset: 'utf-8'}
-  / %script{src: "#{asset_base}/modernizr.js"}
+  %meta{charset: 'utf-8'}
 %body
-  / #nav
-  /   %a{href: '/faq'}
-  /     #nav-item{class: nav_class == :faq  ? 'active' : ''} FAQ
-  /   %a{href: '/'}
-  /     #nav-item{class: nav_class == :home ? 'active' : ''} Home
   #content= yield
-
 
   .footer
     created by

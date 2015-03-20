@@ -17,17 +17,21 @@ body{
 
 #nav{
   position: absolute;
-  right: 0;
+  right: -1px;
   top: -1.55rem;
 }
-#nav-item{
+.nav-item{
   background-color: #ccc;
   float: right;
   padding: 0.1rem 0.7rem;
   border-radius: 0.3rem 0.3rem 0 0;
 }
 
-#nav-item.active{
+.nav-item.faq{
+  margin-left: 0.15rem;
+}
+
+.nav-item.active{
   background-color: #888;
 }
 

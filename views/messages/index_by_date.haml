@@ -1,36 +1,20 @@
-!!! 5
+%h1#title= page_title
+#subtitle Events from Sacred Circle Mailing List
+- odd = true
+- first_time = true
+- date_range_with_messages.each do |date, messages|
+  - odd = !odd
+  - odd_class = odd ? 'odd' : 'even'
+  - display_date_class = messages.empty? ? 'empty' : 'full'
 
-- page_title    = 'Daily Dancer'
-
-%head
-  %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
-  %title= page_title
-  %link{:rel => :stylesheet, :type => :"text/css", :href => 'reset.css'}
-  %link{:rel => :stylesheet, :type => :"text/css", :href => 'style.css'}
-  / %link{:rel => :stylesheet, :type => :"text/css", :href => "#{asset_base}/app.css"}
-  / %meta{charset: 'utf-8'}
-  / %script{src: "#{asset_base}/modernizr.js"}
-%body
-  %h1#title= page_title
-  #subtitle Events from Sacred Circle Mailing List
-  - odd = true
-  - date_range_with_messages.each do |date, messages|
-    - odd = !odd
-    - odd_class = odd ? 'odd' : 'even'
-    - display_date_class = messages.empty? ? 'empty' : 'full'
-
-    .date-holder{class: odd_class}
-      %h2.date{class: display_date_class}= display_date(date)
-      - messages.each_with_index do |message, index|
-        .message{id: message.id, class: index.odd? ? 'odd' : 'even' }
-          %h3.subject= formatted_subject(message)
-          .details.hidden
-            - details_as_array(message).each do |line|
-              .line= line
-
-  .footer
-    created by
-    %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Daily%20Dancer'} Jack Desert
-
-  %script{src: 'jqlite.1.1.1.min.js'}
-  %script{src: 'dancer.js'}
+  .date-holder{class: odd_class}
+    - if first_time
+      = haml :_nav, locals: locals
+      - first_time = false
+    %h2.date{class: display_date_class}= display_date(date)
+    - messages.each_with_index do |message, index|
+      .message{id: message.id, class: index.odd? ? 'odd' : 'even' }
+        %h3.subject= formatted_subject(message)
+        .details.hidden
+          - details_as_array(message).each do |line|
+            .line= line

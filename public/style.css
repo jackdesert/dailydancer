@@ -12,6 +12,26 @@ body{
   display: none;
 }
 
+#content{
+  padding: 0.1rem;
+}
+
+#nav{
+  position: absolute;
+  right: 0;
+  top: -1.55rem;
+}
+#nav-item{
+  background-color: #ccc;
+  float: right;
+  padding: 0.1rem 0.7rem;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+
+#nav-item.active{
+  background-color: #888;
+}
+
 #title{
   font-size: 200%;
   text-align: center;
@@ -22,10 +42,11 @@ body{
   text-align: center;
   color: #999;
   font-style: italic;
-  padding-bottom: 0.7rem;
+  padding-bottom: 1.6rem;
 }
 .question, .answer{
   color: #999;
+  padding: 0 3%;
 }
 
 
@@ -42,13 +63,15 @@ h2.empty{
 
 .subject{
   font-size: 120%;
-  padding-bottom: 0.8rem;
 }
 
+.details{
+  padding-top: 0.8rem;
+}
 
 .date-holder{
   background-color: #ccc;
-  padding: 0.1rem;
+  position: relative; /* This is so the nav can exist in absolute space */
 }
 .date-holder.odd{
   background-color: #bbb;
@@ -93,6 +116,21 @@ a{
 a:hover{
   font-weight: bold;
 }
+
+.question, .answer{
+  color: #222;
+}
+
+.question{
+  margin-top: 2rem;
+  font-size: 130%;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.answer{
+}
+
 
 
 
@@ -154,5 +192,8 @@ a:hover{
     width: 900px;
     margin-left: auto;
     margin-right: auto;
+  }
+  #subtitle{
+    padding-bottom: 0.5rem;
   }
 }

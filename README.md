@@ -136,5 +136,6 @@ Notes from Jennifer:
 * If two emails for same event, how can I know which one is more recent?
 * What about really juicy events that are announced six weeks ahead and that will fill up fast? Do
   I want that to show up in DD?
+* Are you going to put in FAQ, "Who is Jack Desert?"
 
 Last Call: When show-more button opens, can it go ALL THE WAY into the future.

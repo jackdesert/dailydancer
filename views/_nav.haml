@@ -1,0 +1,9 @@
+#nav
+  - if nav_class == :faq
+    #nav-item FAQ
+    %a{href: '/'}
+      #nav-item{class: 'active'} Events
+  - else
+    %a{href: '/faq'}
+      #nav-item{class: 'active'} FAQ
+    #nav-item Events

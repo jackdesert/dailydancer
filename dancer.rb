@@ -40,17 +40,21 @@ class Dancer < Sinatra::Base
   end
 
   get '/' do
-    locals = { date_range_with_messages: Message.by_date(7) }
+    locals = { date_range_with_messages: Message.by_date(7),
+                page_title: 'Daily Dancer',
+                nav_class: :home
+              }
+
     haml :'messages/index_by_date', locals: locals
   end
 
   get '/faq' do
-    haml :'pages/faq'
+    haml :'pages/faq', locals: {page_title: 'Daily Dancer', nav_class: :faq}
   end
 
   get '/admin/messages' do
     locals = { messages: Message.order(Sequel.desc(:id)) }
-    haml :'admin/messages/index', locals: locals
+    haml :'admin/messages/index', locals: locals, layout: false
   end
 
   post '/messages' do

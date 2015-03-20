@@ -1,0 +1,24 @@
+!!! 5
+%head
+  %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0'}
+  %title= page_title
+  %link{:rel => :stylesheet, :type => :"text/css", :href => 'reset.css'}
+  %link{:rel => :stylesheet, :type => :"text/css", :href => 'style.css'}
+  / %link{:rel => :stylesheet, :type => :"text/css", :href => "#{asset_base}/app.css"}
+  / %meta{charset: 'utf-8'}
+  / %script{src: "#{asset_base}/modernizr.js"}
+%body
+  / #nav
+  /   %a{href: '/faq'}
+  /     #nav-item{class: nav_class == :faq  ? 'active' : ''} FAQ
+  /   %a{href: '/'}
+  /     #nav-item{class: nav_class == :home ? 'active' : ''} Home
+  #content= yield
+
+
+  .footer
+    created by
+    %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Daily%20Dancer'} Jack Desert
+
+  %script{src: 'jqlite.1.1.1.min.js'}
+  %script{src: 'dancer.js'}

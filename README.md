@@ -121,4 +121,20 @@ Icebox:
   * Make an about page and put the link to it in the footer (with a big arrow for BACK)
   * Investigate Zepto
 
+Notes from Jennifer:
+*** Can it bring in things from the facebook list too?
+* What about the weekly things? Why isn't next wednesday's dance on here yet?
+* Can we put the first four lines of the body?
+* How do I know who posted this? It makes a big difference to me.
+* Location, time? Are those hard?
+* I notice that a four-day event only shows up on the first day of that event...
+* How about a note, "automatically culled from..."
+* Votes for ten days' worth
+* If button for "show more", then can it be a big button?
+* It sounds like you are calling yourself Daily Dancer
+* What about putting posting guidelines in the FAQ how to make sure the event is found?
+* If two emails for same event, how can I know which one is more recent?
+* What about really juicy events that are announced six weeks ahead and that will fill up fast? Do
+  I want that to show up in DD?
 
+Last Call: When show-more button opens, can it go ALL THE WAY into the future.

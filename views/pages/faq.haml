@@ -11,13 +11,13 @@
   .answer Second, has the message already come through the list?
   .answer
     Third, if the above are true and it still does not show up,
-    %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Daily%20Dancer%20Support'} send us an email
+    %a{href: mailto('Support')} send us an email
     so we can help. Please reference the subject line of the message you posted to the list and what day and time you sent it.
 
   .question I have a suggestion. Where do I send it?
   .answer
     Great! Would love to hear your feedback on usability and design. You can
-    %a{href: 'mailto:Jack%20Desert<jworky@gmail.com>?subject=Daily%20Dancer%20Feedback'} send feedback by email
+    %a{href: mailto('Feedback')} send feedback by email
     = '.'
 
   .question Do events on Daily Dancer show up in search engines such as Google?
@@ -28,5 +28,7 @@
 
   .question What technologies does this use?
   .answer Daily Dancer uses open-source technologies---a combination of ruby, regular expressions, sinatra, sqlite, the sequel gem, jqlite, JavaScript, and CSS.
+
+  #faq-spacer
 
 

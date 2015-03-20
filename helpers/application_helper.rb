@@ -56,5 +56,9 @@ module ApplicationHelper
     output += text
     output
   end
+
+  def mailto(last_word='')
+    "mailto:Jack%20Desert<jackdesert@gmail.com>?subject=Daily%20Dancer%20#{last_word}"
+  end
 end
 

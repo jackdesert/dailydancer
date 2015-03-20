@@ -2,7 +2,6 @@ div{
   color: #222;
 }
 
-
 body{
   padding: 2rem 0.1rem;
   background-color: #222;
@@ -128,7 +127,8 @@ a:hover{
   font-size: 110%;
 }
 
-.answer{
+#faq-spacer{
+  height: 2.5rem;
 }
 
 

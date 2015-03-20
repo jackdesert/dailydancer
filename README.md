@@ -102,6 +102,10 @@ Backlog:
   * Ask heba to show minimized versions
   * Do not display "Move in as soon as May 1st." as an event
   * Make sure received-at is converted to the correct day (Pacific time) when used to parse relative dates in subjects
+  * Make response times faster (0.25 seconds with 120 entries)
+  * Add to readme how to set up cloudmailin
+  * Provide a "Contact" link (because that's what users expect)
+  * Add to README the rationale behind the architectural decisions made
 
 
 Icebox:

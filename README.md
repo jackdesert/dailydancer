@@ -120,6 +120,9 @@ Icebox:
   * Make a support page and put the link to it at the bottom (with a big arrow for BACK)
   * Make an about page and put the link to it in the footer (with a big arrow for BACK)
   * Investigate Zepto
+  * Blacklist the AstrologyNow Forecast
+  * Find a way to hide duplicates (even if it's manually)
+  * Hide duplicates if same subject
 
 Notes from Jennifer:
 *** Can it bring in things from the facebook list too?

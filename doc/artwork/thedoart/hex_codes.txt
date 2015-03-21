@@ -1,0 +1,7 @@
+body_background: #ebebeb
+text_color: #464646
+heading_text_color: #ffffff
+light_blue_text_color: #bbdefb
+horizontal_rule_color: #b7b7b7
+show_more_button_color: #c62828
+arrow_color: #ffffff

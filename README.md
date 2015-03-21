@@ -123,6 +123,7 @@ Icebox:
   * Blacklist the AstrologyNow Forecast
   * Find a way to hide duplicates (even if it's manually)
   * Hide duplicates if same subject
+  * If two dates in body, choose the first one AFTER received-at
 
 Notes from Jennifer:
 *** Can it bring in things from the facebook list too?

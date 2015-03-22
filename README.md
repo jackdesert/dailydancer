@@ -41,6 +41,23 @@ Running the server in Production Mode
 
     nohup script/run_dancer_indefinitely.sh &
 
+
+Viewing All Messages in Reverse Chronological Order
+---------------------------------------------------
+
+This view, while not intended for public consumption, lets you
+sanity check that messages with dates in them show up on the correct day
+
+    localhost:9292/admin/messages
+
+
+Viewing Duplicates
+------------------
+
+This view shows duplicates in a different color so you can see what is being filtered out
+
+    localhost:9292/?admin=true
+
 Roadmap
 --------------
 

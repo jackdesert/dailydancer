@@ -13,8 +13,10 @@
       - first_time = false
     %h2.date{class: display_date_class}= display_date(date)
     - messages.each_with_index do |message, index|
-      .message{id: message.id, class: index.odd? ? 'odd' : 'even' }
-        %h3.subject= formatted_subject(message)
+      - klass = index.odd? ? 'odd' : 'even'
+      - klass += ' duplicate' if message.marked_as_duplicate?
+      .message{id: message.id, class: klass}
+        %h3.subject= message.subject_filtered
         .details.hidden
           - details_as_array(message).each do |line|
             .line= line

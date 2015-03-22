@@ -40,9 +40,27 @@ class Dancer < Sinatra::Base
   end
 
   get '/' do
-    locals = { date_range_with_messages: Message.by_date(7),
+
+    show_duplicates = admin = !!params[:admin]
+    date_range_with_messages = Message.by_date(7)
+
+    date_range_with_messages.each do |date, messages|
+      # Cloning messages because deduplicate shifts from the array
+      uniques = deduplicate(messages.clone)
+      if show_duplicates
+        duplicates = messages - uniques
+        duplicates.each(&:mark_as_duplicate)
+        messages_to_display = messages
+      else
+        messages_to_display = uniques
+      end
+      date_range_with_messages[date] = messages_to_display.sort_by(&:subject)
+    end
+
+    locals = { date_range_with_messages: date_range_with_messages,
                 page_title: 'Daily Dancer',
-                nav_class: :home
+                nav_class: :home,
+                admin: admin
               }
 
     haml :'messages/index_by_date', locals: locals

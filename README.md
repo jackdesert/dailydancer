@@ -70,6 +70,7 @@ PASSIONATE ABOUT:
 
 PRETTY WARM ABOUT:
   * If two dates in body, choose the first one AFTER received-at
+  * Make a way to manually hide a message (this requires less effor than building a perfect system)
   * Do not display "Move in as soon as May 1st." as an event
   * Advertise it among friends
   * Advertise on facebook list
@@ -80,7 +81,6 @@ PRETTY WARM ABOUT:
 
 SEEMS LIKE A GOOD IDEA:
 
-  * Make a way to manually hide a message (this requires less effor than building a perfect system)
   * Blacklist the AstrologyNow Forecast
   * Ask HEBA to design the FAQ page for me
   * Link for "show me more"

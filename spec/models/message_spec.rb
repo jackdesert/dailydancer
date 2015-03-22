@@ -170,5 +170,41 @@ describe Message do
     end
   end
 
+  describe '#duplicate_of?' do
+    context 'when content is exactly the same' do
+      let(:plain) { "June 14 there is.something playing.at the fair.that might interest.you." }
+      let(:message_1) { create(:message, plain: plain) }
+      let(:message_2) { create(:message, plain: plain) }
 
+      it do
+        message_1.duplicate_of?(message_2).should == true
+      end
+    end
+
+    context 'when four of five lines are the same' do
+      let(:plain_1) { "June 14 there is.something playing.at the fair.that might interest.you." }
+      let(:plain_2) { "June 14 there is.THIS IS DIFFERENT.at the fair.that might interest.you." }
+      let(:subject_1) { 'one two three four Amy' }
+      let(:subject_2) { 'one two three four Fred' }
+      let(:message_1) { create(:message, plain: plain_1, subject: subject_1) }
+      let(:message_2) { create(:message, plain: plain_2, subject: subject_2) }
+
+      it do
+        message_1.duplicate_of?(message_2).should == true
+      end
+    end
+
+    context 'when two of five lines are the same' do
+      let(:plain_1) { "June 14 there is.something playing.at the fair.that might interest.you." }
+      let(:plain_2) { "June 14 there is.THIS IS DIFFERENT.THIS TOO.that might interest.you." }
+      let(:subject_1) { 'one two Amy Rose Charles' }
+      let(:subject_2) { 'one two Fred Randy Dan' }
+      let(:message_1) { create(:message, plain: plain_1, subject: subject_1) }
+      let(:message_2) { create(:message, plain: plain_2, subject: subject_2) }
+
+      it do
+        message_1.duplicate_of?(message_2).should == false
+      end
+    end
+  end
 end

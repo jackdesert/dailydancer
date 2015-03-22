@@ -7,6 +7,10 @@ body{
   background-color: #222;
 }
 
+body.admin{
+  background-color: #600;
+}
+
 .hidden{
   display: none;
 }
@@ -88,6 +92,10 @@ h2.empty{
   box-shadow: 0.2rem 0.15rem 0.1rem #888;
   margin: 0.3rem;
   border-radius: 0.5rem;
+}
+
+.message.odd.duplicate, .message.even.duplicate{
+  background-color: #800;
 }
 
 .message.odd{

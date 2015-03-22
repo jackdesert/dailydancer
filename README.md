@@ -61,10 +61,11 @@ COMPLETED:
   * Make the subjects look more like buttons
   * Display "This Friday" as an event
   * Create a link to the FAQ page
+  * Confirm that 11:50pm shows the same day (not the next)
+  * Use subject, author, and plain to determine duplicates, and only show latest if duplicate
 
 
 PASSIONATE ABOUT:
-  * Only show the most recent email if two are for the same event and have mostly the same content
   * Beautiful rendering of email content (possibly using html and parsing out custom styles)
 
 
@@ -84,7 +85,6 @@ SEEMS LIKE A GOOD IDEA:
   * Blacklist the AstrologyNow Forecast
   * Ask HEBA to design the FAQ page for me
   * Link for "show me more"
-  * Confirm that 11:50pm shows the same day (not the next)
   * Fix so can pull down latest database
   * Redirect from www to naked domain (sinatra does not see the www)
   * Return the id when creating a message so cloudin can see it
@@ -109,6 +109,9 @@ NOT SO SURE ABOUT:
   * Load Testing
   * Using the artwork from one of the fiverr artists (in /doc/artwork)
 
+NEEDS PRIORITIZATION
+
+  * Allow google to index either the faq page or the main page (without events)
 
 Notes from Jennifer:
   * Can it bring in things from the facebook list too?

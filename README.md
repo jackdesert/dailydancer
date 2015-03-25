@@ -129,6 +129,12 @@ NOT SO SURE ABOUT:
 NEEDS PRIORITIZATION
 
   * Allow google to index either the faq page or the main page (without events)
+  * collect unique IP addresses via (redis?) by date
+  * Set up automatic database archiving
+  * Print out slips of cardstock that have daily dancer address
+  * Talk with Abigail about ways to get more mindshare around DailyDancer
+  * Only load messages that arrived within the last 30 days. (And use an index on received at)
+  * Fix admin page so it returns
 
 Notes from Jennifer:
   * Can it bring in things from the facebook list too?

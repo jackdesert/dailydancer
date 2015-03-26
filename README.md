@@ -86,6 +86,7 @@ COMPLETED:
   * Create a link to the FAQ page
   * Confirm that 11:50pm shows the same day (not the next)
   * Use subject, author, and plain to determine duplicates, and only show latest if duplicate
+  * Make a way to manually hide a message (this requires less effor than building a perfect system)
 
 
 PASSIONATE ABOUT:
@@ -93,8 +94,8 @@ PASSIONATE ABOUT:
 
 
 PRETTY WARM ABOUT:
+  * Link for "show me more" that shows lots of events
   * If two dates in body, choose the first one AFTER received-at
-  * Make a way to manually hide a message (this requires less effor than building a perfect system)
   * Do not display "Move in as soon as May 1st." as an event
   * Advertise it among friends
   * Advertise on facebook list
@@ -107,7 +108,6 @@ SEEMS LIKE A GOOD IDEA:
 
   * Blacklist the AstrologyNow Forecast
   * Ask HEBA to design the FAQ page for me
-  * Link for "show me more"
   * Fix so can pull down latest database
   * Redirect from www to naked domain (sinatra does not see the www)
   * Return the id when creating a message so cloudin can see it
@@ -140,7 +140,7 @@ NEEDS PRIORITIZATION
   * Print out slips of cardstock that have daily dancer address
   * Talk with Abigail about ways to get more mindshare around DailyDancer
   * Only load messages that arrived within the last 30 days. (And use an index on received at)
-  * Fix admin page so it returns
+  
 
 Notes from Jennifer:
   * Can it bring in things from the facebook list too?

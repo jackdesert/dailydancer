@@ -58,6 +58,12 @@ This view shows duplicates in a different color so you can see what is being fil
 
     localhost:9292/?admin=true
 
+
+Manually Hiding Messages
+------------------------
+
+    Message.find(id: <id>).hide('<reason>')
+
 Roadmap
 --------------
 

@@ -48,7 +48,7 @@ body{
   color: red;
   font-weight: bold;
 }
-.admin-id, .admin-subject, .admin-date{
+.admin-id, .admin-subject{
   display: inline;
 }
 .admin-subject{

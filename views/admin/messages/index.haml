@@ -10,17 +10,23 @@
     .admin-message{class: index.odd? ? 'odd' : 'even' }
       .admin-message-heading
         .admin-id= "#{message.id}."
-        .admin-subject= formatted_subject(message)
+        .admin-subject= message.subject_filtered
       .admin-details
         - details_as_array(message).each do |line|
           .line= line
         .line= "( by #{message.author})"
         .line= "( on #{message.received_at.strftime('%A')}, #{message.received_at})"
       %hr
+
       - if message.parsed_date
-        .admin-date{class: message.parsed_date ? 'bold' : ''}
+        .admin-date.bold
           Event found:
           = message.parsed_date
+
+      - if message.hidden
+        .admin-date.bold
+          Event hidden:
+          = message.hide_reason
 
   .admin-footer
     created by

@@ -207,4 +207,11 @@ describe Message do
       end
     end
   end
+
+  describe '#hidden' do
+    it 'defaults to false' do
+      create(:message).hidden.should == false
+    end
+  end
+
 end

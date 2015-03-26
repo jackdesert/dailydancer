@@ -96,9 +96,19 @@ class Message < Sequel::Model
   def subject_filtered
     subject.sub(SUBJECT_SNIP, '')
   end
+  
+  def hide(reason)
+    self.hidden = true
+    self.hide_reason = reason
+    save
+  end
+
+  def self.visible
+    where(hidden: false)
+  end
 
   def self.future
-    messages = all.select do |message|
+    messages = visible.all.select do |message|
       message.parsed_date && message.parsed_date >= Util.current_date_in_portland.to_s
     end
   end

@@ -101,6 +101,7 @@ class Message < Sequel::Model
     self.hidden = true
     self.hide_reason = reason
     save
+    puts "This subject now hidden: \"#{subject}\""
   end
 
   def self.visible

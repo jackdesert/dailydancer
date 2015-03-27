@@ -24,7 +24,7 @@ class DateParser
 
   DAYS_OF_WEEK = %w(sunday monday tuesday wednesday thursday friday saturday)
   DAYS_OF_WEEK_OPTIONS = DAYS_OF_WEEK.join(PIPE)
-  RELATIVE_DATE_REGEX = /this#{ONE_OR_MORE_SPACES}(#{DAYS_OF_WEEK_OPTIONS})/
+  RELATIVE_DATE_REGEX = /this#{ONE_OR_MORE_SPACES}(coming#{ONE_OR_MORE_SPACES})?(#{DAYS_OF_WEEK_OPTIONS})/
   DAY_OF_WEEK_REGEX = /(#{DAYS_OF_WEEK_OPTIONS})/
 
   attr_reader :text

@@ -112,35 +112,39 @@ describe Message do
   end
 
   describe '#parsed_date' do
-    context 'when date is in plain' do
-      it 'returns date found' do
+    context 'when there is no relative date in subject' do
+      it 'returns nil' do
         # Note received at is on a monday
-        message = create(:message, plain: 'December 20', subject: 'this friday', received_at: Time.new(2015, 3, 2))
-        message.parsed_date.should == '2015-12-20'
+        message = create(:message, plain: 'Merriweather', subject: 'eminem', received_at: Time.new(2015, 3, 2))
+        message.parsed_date.should == nil
       end
+      context 'but date is in plain' do
+        it 'returns date found' do
+          # Note received at is on a monday
+          message = create(:message, plain: 'December 20', subject: 'fantastic evening', received_at: Time.new(2015, 3, 2))
+          message.parsed_date.should == '2015-12-20'
+        end
 
-      context 'but plain includes "room for rent" which triggers not_an_event?' do
-        it 'returns nil' do
-          message = create(:message, plain: 'December 20 room for rent', subject: 'this friday', received_at: Time.new(2015, 3, 2))
-          message.parsed_date.should be_nil
+        context 'but plain includes "room for rent" which triggers not_an_event?' do
+          it 'returns nil' do
+            message = create(:message, plain: 'December 20 room for rent', subject: 'this friday', received_at: Time.new(2015, 3, 2))
+            message.parsed_date.should be_nil
+          end
         end
       end
     end
 
-    context 'when there is no date in plain' do
-      context 'when there is no relative date in subject' do
-        it 'returns nil' do
-          # Note received at is on a monday
-          message = create(:message, plain: 'Merriweather', subject: 'eminem', received_at: Time.new(2015, 3, 2))
-          message.parsed_date.should == nil
-        end
+    context 'when there is a relative date in subject' do
+      it 'returns that date' do
+        # Note received at is on a monday
+        message = create(:message, subject: 'dance this tuesday at 5', received_at: Time.new(2015, 3, 2))
+        message.parsed_date.should == '2015-03-03'
       end
 
-      context 'when there is a relative date in subject' do
+      context 'but plain includes "room for rent" which triggers not_an_event?' do
         it 'returns nil' do
-          # Note received at is on a monday
-          message = create(:message, plain: 'Merriweather', subject: 'dance this tuesday at 5', received_at: Time.new(2015, 3, 2))
-          message.parsed_date.should == '2015-03-03'
+          message = create(:message, subject: 'This Friday', plain: 'sublet', received_at: Time.new(2015, 3, 2))
+          message.parsed_date.should be_nil
         end
       end
     end

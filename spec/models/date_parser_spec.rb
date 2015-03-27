@@ -32,13 +32,13 @@ describe DateParser do
 
       hash = {
         # Note that when today is monday, and you say "this monday", that doesn't count
-        'This  monday'    => nil,
-        'This  tuesday'   => '2015-03-17',
-        'This  wednesday' => '2015-03-18',
-        'This  thursday'  => '2015-03-19',
-        'This friday'     => '2015-03-20',
-        'This saturday'   => '2015-03-21',
-        'This sunday'     => '2015-03-22',
+        'This  monday'        => nil,
+        'This  tuesday'       => '2015-03-17',
+        'This  wednesday'     => '2015-03-18',
+        'This  thursday'      => '2015-03-19',
+        'This Coming  friday' => '2015-03-20',
+        'This saturday'       => '2015-03-21',
+        'This sunday'         => '2015-03-22',
       }
 
       hash.each do |text, expected_date|

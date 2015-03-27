@@ -1,14 +1,31 @@
+- cool_event = ['Pillow Fest', 'Free Hugs Marathon', 'Trout Fest', 'Snickerdoodle Slumber Party', 'Long Johns Party'].shuffle.first
+
 %h1#title= page_title
 #subtitle Frequently Asked Questions
 
 .date-holder
   = haml :_nav, locals: locals
-  .question How does it work?
-  .answer Daily Dancer is a computer program that reads the Sacred Circle email list and determines which messages are event announcements. Anything that represents an event gets displayed, grouped next to other events happening the same day. Most of the time it does this correctly without any human intervention. If it misses one, let us know!
+  .question What is Daily Dancer?
+  .answer
+    Daily Dancer is a computer program that reads the
+    %a{href: 'http://pdxecstaticdance.com/subscribe/', target: '_blank'} Sacred Circle email list
+    and determines which messages are event announcements. Anything that represents an event gets displayed, grouped next to other events happening the same day. Most of the time it does this correctly without any human intervention.
 
-  .question How do I make sure Daily Dancer sees my event?
-  .answer The easiest way is to include the text "This Sunday" (or Thursday, etc.) in the subject line.
-  .answer The next easiest way is to include a date in the body in the form "March 30", and make sure it is the first date that shows up. 
+  .question How do I make sure Daily Dancer recognizes the event that I post to the list?
+  .answer
+    The easiest way is to include the text "This Sunday" in the subject line.
+    %br
+    Example subject:
+    .example Contact Jam This Friday
+  .answer
+    The next easiest way is to make sure the actual date of the event is the first date listed in the email, and use the format "March 15" or "Mar 15".
+    %br
+    Example email:
+    .example
+      Come one, come all to the first annual
+      = cool_event
+      on October 1st. Register by September 30th to get early bird pricing.
+    (Date selected will be the first one, October 1.)
 
   .question I posted something to the list, and it does not show up on Daily Dancer. What do I do?
   .answer First, does your message represent an event? Only events show up on Daily Dancer.
@@ -18,7 +35,7 @@
     %a{href: mailto('Support')} send us an email
     so we can help. Please reference the subject line of the message you posted to the list and what day and time you sent it.
 
-  .question I posted the same event twice, and it only shows up once on Daily Dancer. Is that normal?
+  .question I posted the same event twice, and it only shows up on Daily Dancer once. Is that normal?
   .answer Yes, that's normal. When Daily Dancer detects two messages that represent the same event, it uses only the most recent message to portray the event.
 
   .question I have a suggestion. Where do I send it?

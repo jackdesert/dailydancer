@@ -38,7 +38,7 @@ class Message < Sequel::Model
 
   def parsed_date
     return nil if not_an_event?
-    @parsed_date ||= parsed_date_from_plain || parsed_relative_date_from_subject_and_received_at
+    @parsed_date ||= parsed_relative_date_from_subject_and_received_at || parsed_date_from_plain
   end
 
   def parsed_date_from_plain

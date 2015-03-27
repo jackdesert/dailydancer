@@ -1,6 +1,8 @@
 require 'spec_helper'
 
 describe Message do
+
+
   #before do
   #  mock(Date).today.never
   #end
@@ -81,6 +83,25 @@ describe Message do
   # Note this is at noon so that regardless of which time zone you are actually in the
   # date still comes out right
   let(:valentines_day_at_noon) { Time.new(2015, 2, 14, 12) }
+
+  describe '#not_an_event?' do
+    { 'apartment for rent' => true,
+      'studio for rent' => true,
+      'house sit for me' => true,
+      'pet sit for me' => true,
+      'dog sitters are cool' => true,
+      'cat sitters are cool' => true,
+      'sublet my office' => true,
+      'month to month available' => true,
+      'go to kickstarter.com' => true,
+      'dogs are fun' => false}.each do |plain, response|
+      context "When plain is #{plain}" do
+        it "returns #{response}" do
+          described_class.new(plain: plain).not_an_event?.should == response
+        end
+      end
+    end
+  end
 
   describe '#parsed_date' do
     context 'when date is in plain' do

@@ -140,6 +140,8 @@ NEEDS PRIORITIZATION
   * Print out slips of cardstock that have daily dancer address
   * Talk with Abigail about ways to get more mindshare around DailyDancer
   * Only load messages that arrived within the last 30 days. (And use an index on received at)
+  * Make it faster (loading in 0.6 seconds). index on hidden? store parsed date? Memcached?
+  * Do not show "register by April 1"
   
 
 Notes from Jennifer:

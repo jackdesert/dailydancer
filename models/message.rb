@@ -10,6 +10,11 @@ class Message < Sequel::Model
 
   SUBJECT_SNIP = '[SacredCircleDance] '
 
+  RENTAL_REGEX = /(for\s+rent)|(sublet)|(month\s+to\s+month)/
+  HOUSE_SITTER_REGEX = /house\s+sit/
+  PET_SITTER_REGEX = /(dog|cat|pet)\s+sit/
+  KICKSTARTER_REGEX = /kickstarter\.com/
+
   plugin :validation_helpers
 
   attr_accessor :marked_as_duplicate
@@ -41,6 +46,10 @@ class Message < Sequel::Model
 
   def parsed_relative_date_from_subject_and_received_at
     DateParser.new(subject).parse_relative(received_at)
+  end
+
+  def not_an_event?
+    [RENTAL_REGEX, HOUSE_SITTER_REGEX, PET_SITTER_REGEX, KICKSTARTER_REGEX].any?{|f| plain.match(f)}
   end
 
   def duplicate_of?(other_message)

@@ -94,10 +94,18 @@ describe Message do
       'sublet my office' => true,
       'month to month available' => true,
       'go to kickstarter.com' => true,
-      'dogs are fun' => false}.each do |plain, response|
-      context "When plain is #{plain}" do
+      'dogs are fun' => false}.each do |text, response|
+      context "When plain is #{text}" do
         it "returns #{response}" do
-          described_class.new(plain: plain).not_an_event?.should == response
+          # Note subject is set to empty string because #not_an_event? adds subject and plain
+          described_class.new(subject: '', plain: text).not_an_event?.should == response
+        end
+      end
+
+      context "When subject is #{text}" do
+        it "returns #{response}" do
+          # Note plain is set to empty string because #not_an_event? adds subject and plain
+          described_class.new(subject: text, plain: '').not_an_event?.should == response
         end
       end
     end
@@ -109,6 +117,13 @@ describe Message do
         # Note received at is on a monday
         message = create(:message, plain: 'December 20', subject: 'this friday', received_at: Time.new(2015, 3, 2))
         message.parsed_date.should == '2015-12-20'
+      end
+
+      context 'but plain includes "room for rent" which triggers not_an_event?' do
+        it 'returns nil' do
+          message = create(:message, plain: 'December 20 room for rent', subject: 'this friday', received_at: Time.new(2015, 3, 2))
+          message.parsed_date.should be_nil
+        end
       end
     end
 

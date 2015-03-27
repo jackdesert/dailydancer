@@ -18,6 +18,10 @@
         .line= "( on #{message.received_at.strftime('%A')}, #{message.received_at})"
       %hr
 
+      - if message.not_an_event?
+        .admin-date.bold
+          not_an_event
+
       - if message.parsed_date
         .admin-date.bold
           Event found:

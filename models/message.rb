@@ -37,6 +37,7 @@ class Message < Sequel::Model
   end
 
   def parsed_date
+    return nil if not_an_event?
     @parsed_date ||= parsed_date_from_plain || parsed_relative_date_from_subject_and_received_at
   end
 
@@ -49,7 +50,9 @@ class Message < Sequel::Model
   end
 
   def not_an_event?
-    [RENTAL_REGEX, HOUSE_SITTER_REGEX, PET_SITTER_REGEX, KICKSTARTER_REGEX].any?{|f| plain.match(f)}
+    regexes = [RENTAL_REGEX, HOUSE_SITTER_REGEX, PET_SITTER_REGEX, KICKSTARTER_REGEX]
+    subject_and_plain = subject + plain
+    regexes.any?{|f| subject_and_plain.match(f)}
   end
 
   def duplicate_of?(other_message)
@@ -105,7 +108,7 @@ class Message < Sequel::Model
   def subject_filtered
     subject.sub(SUBJECT_SNIP, '')
   end
-  
+
   def hide(reason)
     self.hidden = true
     self.hide_reason = reason

@@ -58,11 +58,11 @@ class Event < Sequel::Model
     which
   end
 
-  def self.fetch_events_now
+  def self.fetch_events_foreground
     fetch_events_using_background_flag(false)
   end
 
-  def self.fetch_events_later
+  def self.fetch_events_background
     fetch_events_using_background_flag(true)
   end
 
@@ -81,8 +81,11 @@ class Event < Sequel::Model
   end
 
   def self.load
+    time = Time.now
+    previous_last_id = last.id
+
     unless File.exists?(SAVED_WEB_PAGE)
-      fetch_events_now
+      fetch_events_foreground
     end
 
     # Load from file. This will most often be from last time
@@ -90,9 +93,7 @@ class Event < Sequel::Model
     doc = Nokogiri::HTML(file)
 
     # Fetch events for next time (system call returns quickly)
-    now = Time.now
-    fetch_events_later
-    puts "elapsed time is #{Time.now - now}"
+    fetch_events_background
 
     rows = doc.css('table').first.css('tr')
 
@@ -101,10 +102,13 @@ class Event < Sequel::Model
     rows.each do |row|
       create_event_from_row(row)
     end
+
+    delete_all_with_id_less_than(previous_last_id)
+    puts "load time is #{Time.now - time}"
   end
 
-  def self.capture_preexisting_and_delete_them_after_new_ones_created
-    # TODO
+  def self.delete_all_with_id_less_than(previous_last_id)
+    where("id <= #{previous_last_id}").each(&:delete)
   end
 
   def self.create_event_from_row(row)

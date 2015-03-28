@@ -1,12 +1,17 @@
-Dancer
-======
+DailyDancer
+===========
+
+Daily Dancer is a Sinatra app that accepts emails via HTTP POST from a
+provider such as http://cloudmailin.com, stores them in an sqlite database,
+decides which emails represent *events*, and displays those events on a
+calendar.
 
 
-Inspect
-=======
+Working Example
+---------------
 
-    $ be ruby pry
-    > require './helper'
+The original site is in use at http://dailydancer.jackdesert.com.
+
 
 Running the Tests
 -----------------
@@ -14,8 +19,24 @@ Running the Tests
     bundle exec rspec
 
 
+Manually Firing Emails via HTTP
+-------------------------------
+
+You can use `bin/http_agent.rb` to fire emails at your server using the expected format.
+
+
+Inspect
+-------
+
+    $ be ruby pry
+    > require './helper'
+
+
 Migrations
 ----------
+
+You will need to migrate the development and production databases manually.
+(The test database calls migrations from spec/spec_helper automatically)
 
 To run a specific migration against a particular environment:
 
@@ -29,17 +50,22 @@ Running the server in Development Mode
 
     bundle exec rerun 'rackup config-dancer.ru -o 0.0.0.0' --background
 
-If you are running it in a VM and can't access it from the host OS,
-add
+Note the -o 0.0.0.0 is only necessary if you are running inside a VM
 
-    -o 0.0.0.0
-
-to the command
 
 Running the server in Production Mode
 -------------------------------------
 
     nohup script/run_dancer_indefinitely.sh &
+
+
+Setting up your mailing list
+----------------------------
+
+Sign up for an account at cloudmailin.com. Get a cloudmailin email address. Make sure your production
+server is up and running. Subscribe your cloudmailin email address to your mailing list, then go into the
+sqlite database using the "Inspect" instructions above to retrieve the verification link so you can prove
+to your list serve that it's really your address. Then it's ready to go.
 
 
 Viewing All Messages in Reverse Chronological Order
@@ -69,31 +95,28 @@ Roadmap
 
 COMPLETED:
 
-  * Confirmed 12:10 am shows the next day.
-  * Hyperlinks
-  * Uptime Monitor
-  * robots.txt
-  * Purchase cloudmailin subscription
-  * Move subdomain to dailydancer.jackdesert.com
-  * /admin/messages so people know it's intended only for admins
+  * Confirmed Util.current_date_in_portland works correctly before and after midnight
+  * Hyperlinks are clickable
+  * robots.txt opts out of search engines
+  * /admin/messages allows a view into which messages are being picked up
   * Add negative lookahead expression that knows "march 2010" is not an event.
   * Correctly identify date when for Re: and Fw: in conjunction with 'on Friday, Nov 6 at 12:29pm so and so wrote ...'
-  * Make it so you can select text AND so it's easy to minimize things.
-  * Inertial transitions when events expand/contract.
-  * Make a FAQ page
-  * Make the subjects look more like buttons
-  * Display "This Friday" as an event
-  * Create a link to the FAQ page
-  * Confirm that 11:50pm shows the same day (not the next)
+  * Animations when clicking on subject
+  * Text still selectable without activating animation
+  * FAQ page with link to it
+  * Responsive design using lightweight tools
+  * Recognize "This Friday" in subject as an event
   * Use subject, author, and plain to determine duplicates, and only show latest if duplicate
-  * Make a way to manually hide a message (this requires less effor than building a perfect system)
+  * Manual hiding of messages using the :hidden database colum
 
 
 PASSIONATE ABOUT:
+
   * Beautiful rendering of email content (possibly using html and parsing out custom styles)
 
 
 PRETTY WARM ABOUT:
+
   * Link for "show me more" that shows lots of events
   * If two dates in body, choose the first one AFTER received-at
   * Do not display "Move in as soon as May 1st." as an event
@@ -142,9 +165,10 @@ NEEDS PRIORITIZATION
   * Only load messages that arrived within the last 30 days. (And use an index on received at)
   * Make it faster (loading in 0.6 seconds). index on hidden? store parsed date? Memcached?
   * Do not show "register by April 1"
-  
+  * Search in subject + plain for date
 
-Notes from Jennifer:
+
+Notes from my Sweetheart:
   * Can it bring in things from the facebook list too?
   * What about the weekly things? Why isn't next wednesday's dance on here yet?
   * Can we put the first four lines of the body?

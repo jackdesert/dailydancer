@@ -2,7 +2,13 @@ class Event < Sequel::Model
 
   class ParseException < Exception;end
 
-  attr_accessor :day_of_week, :time, :name, :location, :location_url, :url, :contact_email, :hostess
+  # These now come from Sequel, as they are defined in the database
+  # attr_accessor :day_of_week, :time, :name, :url, :hostess,  :location, :location_url
+
+  def before_create
+    self.scraped_at ||= DateTime.now
+    super
+  end
 
   class << self
     attr_accessor :klass_day_of_week
@@ -21,10 +27,19 @@ class Event < Sequel::Model
     end
   end
 
+  def self.capture_preexisting_and_delete_them_after_new_ones_created
+    # TODO
+  end
+
   def self.create_event_from_row(row)
     cells = row.css('td')
+
+    # If only one cell, this cell is for formatting only
+    return if cells.length == 1
+
     if cells.length == 6
-      self.klass_day_of_week = cells.shift.children.try(:first).try(:text).try(:strip)
+      # The extra cell is the day of the week, which has rowspan > 1
+      self.klass_day_of_week = cells.shift.children.first.text.strip
       raise ParseException, "day of week not found" unless klass_day_of_week
     end
 
@@ -32,13 +47,17 @@ class Event < Sequel::Model
     event.day_of_week = klass_day_of_week
     event.time = text_from_cell(cells.shift)
 
-    name_cell = cells.shift
+    name_cell  = cells.shift
     event.name = text_from_cell(name_cell)
-    event.url = url_from_cell(name_cell)
+    event.url  = url_from_cell(name_cell)
 
-    binding.pry
-    binding.pry
-    a = 5
+    event.hostess = text_from_cell(cells.shift)
+
+    location_cell      = cells.shift
+    event.location     = text_from_cell(location_cell)
+    event.location_url = url_from_cell(location_cell)
+
+    event.save
   end
 
   def self.text_from_cell(cell)

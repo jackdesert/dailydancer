@@ -33,6 +33,11 @@ class Event < Sequel::Model
     attr_accessor :klass_day_of_week, :klass_last_fetched_at
   end
 
+  def self.by_date(num_days)
+    Util.range_of_date_strings(num_days).each do |date_string|
+      output[date_string] = for_date_string(date_string)
+    end
+  end
 
   def self.for_date_string(date_string)
     date = Date.parse(date_string)
@@ -58,35 +63,33 @@ class Event < Sequel::Model
     which
   end
 
-  def self.fetch_events_foreground
-    fetch_events_using_background_flag(false)
-  end
-
-  def self.fetch_events_background
-    fetch_events_using_background_flag(true)
-  end
-
-  def self.fetch_events_using_background_flag(background)
-    # when foreground is false, this is a non-blockin call in the sense that the system call
-    # is called with an & sign
-    return if background && klass_last_fetched_at && klass_last_fetched_at > 1.hour.ago
-
+  def self.fetch_events
     url = 'http://pdxecstaticdance.com/'
 
     command = "curl #{url} > #{SAVED_WEB_PAGE}"
-    command += ' &' if background
     system(command)
+  end
 
-    self.klass_last_fetched_at = Time.now
+  def self.load_in_thread_if_its_been_a_while
+    Thread.new { load_if_its_been_a_while }
+  end
+
+  def self.load_if_its_been_a_while
+    # TODO wrap this in a semaphore since multiple actors access the same class instance var
+
+    return false if klass_last_loaded_at && klass_last_loaded_at < 1.hour.ago
+
+    # Explicit self because 'load' has other meanings
+    self.load
+    self.klass_last_loaded_at = Time.now
+
+    true
   end
 
   def self.load
-    time = Time.now
     previous_last_id = last.id
 
-    unless File.exists?(SAVED_WEB_PAGE)
-      fetch_events_foreground
-    end
+    fetch_events
 
     # Load from file. This will most often be from last time
     file = File.open(SAVED_WEB_PAGE)
@@ -104,7 +107,6 @@ class Event < Sequel::Model
     end
 
     delete_all_with_id_less_than(previous_last_id)
-    puts "load time is #{Time.now - time}"
   end
 
   def self.delete_all_with_id_less_than(previous_last_id)

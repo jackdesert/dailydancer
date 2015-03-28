@@ -42,7 +42,8 @@ class Dancer < Sinatra::Base
   get '/' do
 
     show_duplicates = admin = !!params[:admin]
-    date_range_with_messages = Message.by_date(7)
+    num_days = 7
+    date_range_with_messages = Message.by_date(num_days)
 
     date_range_with_messages.each do |date, messages|
       # Cloning messages because deduplicate shifts from the array
@@ -57,7 +58,13 @@ class Dancer < Sinatra::Base
       date_range_with_messages[date] = messages_to_display.sort_by(&:subject)
     end
 
-    locals = { date_range_with_messages: date_range_with_messages,
+    date_range_with_events = Event.by_date(num_days)
+
+    # For next time
+    Event.load_in_thread_if_its_been_a_while
+
+    locals  = { date_range_with_messages: date_range_with_messages,
+                date_range_with_events: date_range_with_events,
                 page_title: 'Daily Dancer',
                 nav_class: :home,
                 admin: admin

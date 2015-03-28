@@ -16,22 +16,25 @@
       - first_time = false
     %h2.date{class: display_date_class}= display_date(date_string)
     - events.each do |event|
-      .event{id: "event-#{event.id}"}
+      .message-or-event{id: "event-#{event.id}"}
+        .event-marker
         %h3.subject= event.name
         .details.hidden
-          %a{href: event.url}=event.name
+          .source (Recurring Event from pdxecstaticdance.com)
+          %a{href: event.url, target: '_blank'}=event.name
           .time= event.time
           .hostess
             Hosted by
             = event.hostess
           .location
             Location:
-            %a{href: event.location_url}= event.location
+            %a{href: event.location_url, target: '_blank'}= event.location
 
     - messages.each do |message|
       - klass = message.marked_as_duplicate? ? 'duplicate' : ''
-      .message{id: "message-#{message.id}", class: klass}
+      .message-or-event{id: "message-#{message.id}", class: klass}
         %h3.subject= message.subject_filtered
         .details.hidden
+          .source= "(Posted by #{message.author} on #{message.received_at})"
           - details_as_array(message).each do |line|
             .line= line

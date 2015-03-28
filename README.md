@@ -25,11 +25,12 @@ Manually Firing Emails via HTTP
 You can use `bin/http_agent.rb` to fire emails at your server using the expected format.
 
 
-Inspect
--------
+Pry Conole
+--------------
 
-    $ be ruby pry
-    > require './helper'
+This script will load models for you and give you a pry console
+
+    $ ./inspect.sh
 
 
 Migrations

@@ -1,5 +1,5 @@
 class Event < Sequel::Model
 
-  one_to_many :messages
+  attr_accessor :name, :location, :location_url, :url, :contact_email, :hostess
 
 end

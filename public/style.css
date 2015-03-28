@@ -92,7 +92,8 @@ h2.empty{
   background-color: #bbb;
 }
 
-.message{
+.message-or-event{
+  position: relative;
   padding: 0.5rem;
   border: 1px solid #aaa;
   background-color: #fafafa;
@@ -102,12 +103,31 @@ h2.empty{
   border-radius: 0.5rem;
 }
 
-.message.odd.duplicate, .message.even.duplicate{
+.message-or-event.odd.duplicate, .message-or-event.even.duplicate{
   background-color: #800;
 }
 
-.message.odd{
+.message-or-event.odd{
   /* background-color: #e0e0e0; */
+}
+
+.event-marker{
+  position: absolute;
+  background-color: #ccc;
+  width: 0.7rem;
+  height: 100%;
+  border-radius: 0 0.5rem 0.5rem 0;
+  top: 0;
+  right: 0;
+}
+
+.source{
+  color: #bbb;
+}
+
+.website{
+  font-size: 140%;
+  padding-bottom: 0.2rem;
 }
 
 .date-holder{
@@ -181,7 +201,7 @@ a:hover{
   .date-holder + .date-holder{
   }
 
-  .message{
+  .message-or-event{
     padding: 1rem;
     /* margin: 1rem 3rem; */
     box-shadow: 0.3rem 0.2rem 0.1rem #888;
@@ -189,10 +209,15 @@ a:hover{
   }
 
   /* Note that hover only applies to desktops */
-  .message:hover{
+  .message-or-event:hover{
     background-color: #fff;
     cursor: pointer;
     border-color: #888;
+  }
+
+  .event-marker{
+    width: 0.8rem;
+    border-radius: 0 0.8rem 0.8rem 0;
   }
 
   .footer{

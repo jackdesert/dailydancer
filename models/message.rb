@@ -131,7 +131,7 @@ class Message < Sequel::Model
     output = {}
     messages = future.sort_by{|m| "#{m.parsed_date} #{m.subject}"}
 
-    range_of_date_strings(num_days).each do |date_string|
+    Util.range_of_date_strings(num_days).each do |date_string|
       output[date_string] = []
       while date_string == messages.first.try(:parsed_date)
         output[date_string] << messages.shift
@@ -139,12 +139,6 @@ class Message < Sequel::Model
     end
 
     output
-  end
-
-  def self.range_of_date_strings(num_days)
-    today = Util.current_date_in_portland
-    dates = (today..today + num_days - 1).to_a
-    dates.map(&:to_s)
   end
 
 end

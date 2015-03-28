@@ -1,21 +1,21 @@
 $(document).ready(function(){
 
-  toggleMessageOnFastClick()
+  toggleVisibilityOnFastClick()
 
 })
 
-var toggleMessageOnFastClick = function(){
+var toggleVisibilityOnFastClick = function(){
 
   var squaredResolution = 16
   var lastX = 0
   var lastY = 0
 
-  $('.message').mousedown(function(event){
+  $('.message-or-event').mousedown(function(event){
     lastX = event.pageX
     lastY = event.pageY
   })
 
-  $('.message').mouseup(function(event){
+  $('.message-or-event').mouseup(function(event){
     var deltaX = event.pageX - lastX
     var deltaY = event.pageY - lastY
     var deltaSquared = deltaX * deltaX + deltaY * deltaY

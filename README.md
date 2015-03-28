@@ -25,11 +25,12 @@ Manually Firing Emails via HTTP
 You can use `bin/http_agent.rb` to fire emails at your server using the expected format.
 
 
-Inspect
--------
+Pry Conole
+--------------
 
-    $ be ruby pry
-    > require './helper'
+This script will load models for you and give you a pry console
+
+    $ ./inspect.sh
 
 
 Migrations
@@ -90,6 +91,15 @@ Manually Hiding Messages
 
     Message.find(id: <id>).hide('<reason>')
 
+
+Credits
+-------
+
+Thank you to Nicholas for initial inspiration, and for all the times
+we've hashed over what's actually important.
+Thank you to Jennifer for noticing all the things it does and doesn't do.
+
+
 Roadmap
 --------------
 
@@ -108,6 +118,8 @@ COMPLETED:
   * Recognize "This Friday" in subject as an event
   * Use subject, author, and plain to determine duplicates, and only show latest if duplicate
   * Manual hiding of messages using the :hidden database colum
+  * Pulling recurring events from pdxecstaticdance.com
+  * Displaying author's name
 
 
 PASSIONATE ABOUT:
@@ -171,15 +183,11 @@ NEEDS PRIORITIZATION
 
 Notes from my Sweetheart:
   * Can it bring in things from the facebook list too?
-  * What about the weekly things? Why isn't next wednesday's dance on here yet?
   * Can we put the first four lines of the body?
-  * How do I know who posted this? It makes a big difference to me.
   * Location, time? Are those hard?
   * I notice that a four-day event only shows up on the first day of that event...
-  * How about a note, "automatically culled from..."
   * Votes for ten days' worth
   * If button for "show more", then can it be a big button?
-  * If two emails for same event, how can I know which one is more recent?
   * What about really juicy events that are announced six weeks ahead and that will fill up fast? Do
     I want that to show up in DD?
   * When show-more button opens, can it go ALL THE WAY into the future.

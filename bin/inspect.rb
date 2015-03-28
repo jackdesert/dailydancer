@@ -1,3 +1,3 @@
 require './helper'
-binding.pry
+Event.load
 puts 'Thank You!'

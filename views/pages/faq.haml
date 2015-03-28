@@ -7,27 +7,39 @@
   = haml :_nav, locals: locals
   .question What is Daily Dancer?
   .answer
-    Daily Dancer is a computer program that reads the
+    Daily Dancer helps to answer the question, "What's going on today in the dance community?" It is a a computer program that pulls events from the
     %a{href: 'http://pdxecstaticdance.com/subscribe/', target: '_blank'} Sacred Circle email list
-    and determines which messages are event announcements. Anything that represents an event gets displayed, grouped next to other events happening the same day. Most of the time it does this correctly without any human intervention.
+    and groups them by date. Most of the time it does this correctly without any human intervention.
 
-  .question How do I make sure Daily Dancer recognizes the event that I post to the list?
+  .question What does it look for?
   .answer
-    The easiest way is to include the text "This Sunday" in the subject line.
-    %br
-    Example subject:
-    .example Contact Jam This Friday
+    First, it looks for one of these patterns in the subject:
+    .example This Coming Thursday
   .answer
-    The next easiest way is to make sure the actual date of the event is the first date listed in the email, and use the format "March 15" or "Mar 15".
+    If it doesn't find anything there, then it goes to the body of the email and uses the first date it comes to with the following format:
+    .example Oct. 12
+    .example Dec 1
+    .example January 31
+
+  .question How do I make sure the event I post gets recognized correctly?
+  .answer
+    Either: use the "This Friday" pattern in the
+    .inline.italic subject:
     %br
-    Example email:
-    .example
-      Come one, come all to the first annual
+    .example.inline Watch the Moon Rise with us This Friday
+  .answer
+    Or: use one of the date formats shown above in the
+    .inline.italic body:
+    %br
+    .example.inline
+      First annual
       = cool_event
-      on October 1st. Register by September 30th to get early bird pricing.
-    (Date selected will be the first one, October 1.)
+      is March 25. Register by March 15 to get early bird pricing. Cost is blah blah blah...
 
-  .question I posted something to the list, and it does not show up on Daily Dancer. What do I do?
+    %br
+    Make sure you list the event date before any ancillary dates, since the first one it comes to (March 25 in this example) is the one that counts.
+
+  .question I posted an event to the list, and it does not show up on Daily Dancer. What do I do?
   .answer First, does your message represent an event? Only events show up on Daily Dancer.
   .answer Second, has the message already come through the list?
   .answer
@@ -40,7 +52,7 @@
 
   .question I have a suggestion. Where do I send it?
   .answer
-    Great! Would love to hear your feedback on usability and design. You can
+    Great! Would love to hear your feedback on how to improve Daily Dancer. You can
     = "<a href='#{mailto('Feedback')}'>send feedback by email</a>."
 
   .question Do events on Daily Dancer show up in a Google search?
@@ -49,8 +61,9 @@
   .question Who built this?
   .answer You've probably seen him in the Tiffany Center on Sunday mornings in red pants and a black tanktop, or at contact improv on Tuesday nights. Jack started dancing in 2014, and loves to build things.
 
-  .question What technologies does this use?
-  .answer Daily Dancer uses open-source technologies---a combination of ruby, regular expressions, rspec, sinatra, sqlite, the sequel gem, jqlite, JavaScript, and CSS.
+  .question Where can I find the source code?
+  .answer
+    Daily Dancer is open source, and it uses other open-source technologies---a combination of ruby, regular expressions, rspec, sinatra, sqlite, the sequel gem, jqlite, JavaScript, and CSS. Read the source code <a href='http://github.com/jackdesert/dailydancer' target='_blank'>here</a>.
 
   #faq-spacer
 

@@ -2,6 +2,18 @@ div{
   color: #222;
 }
 
+.bold{
+  font-weight: bold;
+}
+
+.italic{
+  font-style: italic;
+}
+
+.inline{
+  display: inline;
+}
+
 body{
   padding: 2rem 0.1rem;
   background-color: #222;
@@ -143,7 +155,7 @@ a:hover{
 .example{
   font-weight: bold;
   font-style: italic;
-  padding: 0.5rem;
+  padding: 0 1rem;
   color: #777;
 }
 

@@ -11,7 +11,9 @@ require 'rspec'
 require 'rr'
 require 'database_cleaner'
 require 'chronic'
+require 'nokogiri'
 require 'time-warp'
+
 
 # DB must be defined before models are required
 DB = Sequel.sqlite

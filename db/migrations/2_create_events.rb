@@ -7,6 +7,7 @@ DB.create_table(:events) do
   String   :hostess,      null: false, default: ''
   String   :location,     null: false, default: ''
   String   :location_url, null: false, default: ''
+  String   :occurs_on,    null: false, default: 'all'
   DateTime :scraped_at,   null: false
 end
 

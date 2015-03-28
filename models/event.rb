@@ -1,6 +1,12 @@
+require 'open-uri' # loads the :open method
+
 class Event < Sequel::Model
 
   class ParseException < Exception;end
+
+  SAVED_WEB_PAGE = 'data/pdxecstaticdance.com.html'
+
+  COMMA = ','
 
   # These now come from Sequel, as they are defined in the database
   # attr_accessor :day_of_week, :time, :name, :url, :hostess,  :location, :location_url
@@ -10,14 +16,84 @@ class Event < Sequel::Model
     super
   end
 
+  def set_occurrence_from_time
+    occurrences = []
+    occurrences << '1' if time.include?('1st')
+    occurrences << '2' if time.include?('2nd')
+    occurrences << '3' if time.include?('3rd')
+    occurrences << '4' if time.include?('4th')
+    occurrences << '5' if time.include?('5th')
+
+    return if occurrences.empty?
+
+    self.occurs_on = occurrences.join(COMMA)
+  end
+
   class << self
-    attr_accessor :klass_day_of_week
+    attr_accessor :klass_day_of_week, :klass_last_fetched_at
+  end
+
+
+  def self.for_date_string(date_string)
+    date = Date.parse(date_string)
+    occurrence = which_occurrence(date)
+
+    day_of_week = date.strftime('%A').downcase
+    events = where(day_of_week: day_of_week).all
+
+    events.select do |event|
+      event.occurs_on == 'all' || event.occurs_on.split(COMMA).include?(occurrence)
+    end
+  end
+
+  def self.which_occurrence(date)
+    day = date.day
+    which = 0
+
+    while day > 0
+      which += 1
+      day   -= 7
+    end
+
+    which
+  end
+
+  def self.fetch_events_now
+    fetch_events_using_background_flag(false)
+  end
+
+  def self.fetch_events_later
+    fetch_events_using_background_flag(true)
+  end
+
+  def self.fetch_events_using_background_flag(background)
+    # when foreground is false, this is a non-blockin call in the sense that the system call
+    # is called with an & sign
+    return if background && klass_last_fetched_at && klass_last_fetched_at > 1.hour.ago
+
+    url = 'http://pdxecstaticdance.com/'
+
+    command = "curl #{url} > #{SAVED_WEB_PAGE}"
+    command += ' &' if background
+    system(command)
+
+    self.klass_last_fetched_at = Time.now
   end
 
   def self.load
-    puts 'Hiiiiiiiiiiiiiiiiiiiiiiiiiiiiii'
-    file = File.open('file.txt')
+    unless File.exists?(SAVED_WEB_PAGE)
+      fetch_events_now
+    end
+
+    # Load from file. This will most often be from last time
+    file = File.open(SAVED_WEB_PAGE)
     doc = Nokogiri::HTML(file)
+
+    # Fetch events for next time (system call returns quickly)
+    now = Time.now
+    fetch_events_later
+    puts "elapsed time is #{Time.now - now}"
+
     rows = doc.css('table').first.css('tr')
 
     # Remove the header row
@@ -44,8 +120,11 @@ class Event < Sequel::Model
     end
 
     event = new
-    event.day_of_week = klass_day_of_week
-    event.time = text_from_cell(cells.shift)
+    event.day_of_week = day_of_week_from_abbreviation(klass_day_of_week)
+
+    time_cell = cells.shift
+    event.time = text_from_cell(time_cell)
+    event.set_occurrence_from_time
 
     name_cell  = cells.shift
     event.name = text_from_cell(name_cell)
@@ -67,6 +146,19 @@ class Event < Sequel::Model
   def self.url_from_cell(cell)
     cell.css('a').first.attributes['href'].value
   end
+
+  def self.day_of_week_from_abbreviation(abbreviation)
+    key = abbreviation.downcase[0..2].to_sym
+    hash  = { mon: 'monday',
+              tue: 'tuesday',
+              wed: 'wednesday',
+              thu: 'thursday',
+              fri: 'friday',
+              sat: 'saturday',
+              sun: 'sunday' }
+    hash[key]
+  end
+
 
 
 end

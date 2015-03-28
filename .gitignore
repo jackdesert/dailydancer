@@ -9,3 +9,5 @@ log/*.log
 nohup.out
 
 *.DS_Store
+
+data/pdxecstaticdance.com.html

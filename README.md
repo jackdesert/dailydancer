@@ -166,6 +166,7 @@ NEEDS PRIORITIZATION
   * Make it faster (loading in 0.6 seconds). index on hidden? store parsed date? Memcached?
   * Do not show "register by April 1"
   * Search in subject + plain for date
+  * Link to pdxecstaticdance.com
 
 
 Notes from my Sweetheart:

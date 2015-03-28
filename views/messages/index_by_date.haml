@@ -2,7 +2,10 @@
 #subtitle Events from Sacred Circle Mailing List
 - odd = true
 - first_time = true
-- date_range_with_messages.each do |date, messages|
+- date_strings = date_range_with_messages.keys
+- date_strings.each do |date_string|
+  - messages = date_range_with_messages[date_string]
+  - events = date_range_with_events[date_string]
   - odd = !odd
   - odd_class = odd ? 'odd' : 'even'
   - display_date_class = messages.empty? ? 'empty' : 'full'
@@ -11,11 +14,23 @@
     - if first_time
       = haml :_nav, locals: locals
       - first_time = false
-    %h2.date{class: display_date_class}= display_date(date)
-    - messages.each_with_index do |message, index|
-      - klass = index.odd? ? 'odd' : 'even'
-      - klass += ' duplicate' if message.marked_as_duplicate?
-      .message{id: message.id, class: klass}
+    %h2.date{class: display_date_class}= display_date(date_string)
+    - events.each do |event|
+      .event{id: "event-#{event.id}"}
+        %h3.subject= event.name
+        .details.hidden
+          %a{href: event.url}=event.name
+          .time= event.time
+          .hostess
+            Hosted by
+            = event.hostess
+          .location
+            Location:
+            %a{href: event.location_url}= event.location
+
+    - messages.each do |message|
+      - klass = message.marked_as_duplicate? ? 'duplicate' : ''
+      .message{id: "message-#{message.id}", class: klass}
         %h3.subject= message.subject_filtered
         .details.hidden
           - details_as_array(message).each do |line|

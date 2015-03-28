@@ -9,8 +9,8 @@ module ApplicationHelper
   HTTP_OR_HTTPS_REGEX = /http(s)?/
   ENDS_WITH_PERIOD_REGEX = /\.\z/
 
-  def display_date(date)
-    Chronic.parse(date).strftime('%A, %b %d')
+  def display_date(date_string)
+    Chronic.parse(date_string).strftime('%A, %b %d')
   end
 
   def details_as_array(message)

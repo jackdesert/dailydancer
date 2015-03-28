@@ -34,9 +34,12 @@ class Event < Sequel::Model
   end
 
   def self.by_date(num_days)
+    output = {}
     Util.range_of_date_strings(num_days).each do |date_string|
       output[date_string] = for_date_string(date_string)
     end
+
+    output
   end
 
   def self.for_date_string(date_string)

@@ -10,7 +10,7 @@ class Message < Sequel::Model
 
   SUBJECT_SNIP = '[SacredCircleDance] '
 
-  RENTAL_REGEX = /(for\s+rent)|(sublet)|(month\s+to\s+month)/
+  RENTAL_REGEX = /(to\s+rent)|(for\s+rent)|(sublet)|(month\s+to\s+month)/
   HOUSE_SITTER_REGEX = /house\s+sit/
   PET_SITTER_REGEX = /(dog|cat|pet)\s+sit/
   KICKSTARTER_REGEX = /kickstarter\.com/

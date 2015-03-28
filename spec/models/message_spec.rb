@@ -86,7 +86,7 @@ describe Message do
 
   describe '#not_an_event?' do
     { 'apartment for rent' => true,
-      'studio for rent' => true,
+      'looking for studio to rent' => true,
       'house sit for me' => true,
       'pet sit for me' => true,
       'dog sitters are cool' => true,

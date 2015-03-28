@@ -21,3 +21,4 @@ gem 'rb-readline' # For some reason this is required on my Digital Ocean box und
 gem 'database_cleaner', require: false
 gem 'chronic'
 gem 'time-warp'
+gem 'nokogiri'

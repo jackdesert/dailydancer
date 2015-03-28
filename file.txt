@@ -1,0 +1,767 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en-us"><head>
+  
+  <link rel="stylesheet" type="text/css" href="./pdxecstaticdance.css">
+
+  
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Ecstatic Dance In Portland</title>
+
+  
+  
+  <script type="text/javascript">
+<!--
+if (self != top)
+{
+top.location.href = self.location.href;
+}
+//-->
+  </script>
+</head><body style="background-color: rgb(255, 249, 186); text-decoration: none;" lang="EN-US" link="blue" vlink="purple">
+<center>
+<div>
+<div class="title"><a target="_blank" href="http://www.pdxecstaticdance.com">Ecstatic Dance in
+Portland</a> </div>
+<a target="_blank" href="http://www.pdxecstaticdance.com">PDXEcstaticDance.com</a><br>
+updated: 3/23/2015<br>
+
+<br>
+<center><i>Click here to <a target="_blank" href="subscribe">subscribe to the
+Sacred Circle Dance mailing list</a><br><br> </i></center>
+
+<br>
+<font style="font-style: italic;" size="4">DANCE
+CALENDAR</font>
+<table style="width: 728px;" border="1" cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="vertical-align: top;"><i>Time</i><br>
+      </td>
+      <td style="vertical-align: top;"><i>Event</i><br>
+      </td>
+      <td style="vertical-align: top;"><i>Offered
+by</i><br>
+      </td>
+      <td style="vertical-align: top;"><i>Location (click for
+directions)</i><br>
+      </td>
+      <td style="vertical-align: top;"><i>Email</i><br>
+      </td>
+    </tr>
+    <tr>
+      <td class="dayofweekcol" rowspan="3">SUN </td>
+      <td class="datetimecol" class="datetimecol">10:30am-12:30pm </td>
+      <td style="width: 197px;"><a target="_blank" href="http://www.sacredcircledance.com">Sacred
+Circle Dance</a>
+      </td>
+      <td style="width: 122px;">Sacred Circle Dance<br>
+      </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=1410+SW+Morrison+St+Portland+OR">TIFFANY
+CENTER</a></td>
+      <td><a target="_blank" href="contactform_scdc.php?recipient=sacredcircle&amp;subject=Sacred+Circle+Dance"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a>
+      </td>
+    </tr>
+    <tr>
+      <td class="datetimecol">9:30-11am</td>
+      <td style="width: 197px;"><a target="_blank" href="http://www.ecstaticdancers.com/mcm3_classes.php#sun">Soul
+Motion: Sweat Ecstasy</a></td>
+      <td style="width: 122px;">Winky and Meshi</td>
+      <td style="width: 156px;" class="locations"><a target="_blank" href="http://maps.google.com/maps?q=810+SE+Belmont+St+Portland+OR">STUDIO 2@ZOOMTOPIA</a><br><a target="_blank" href="http://maps.google.com/maps?q=615+SE+Alder+St+Portland+OR"></a></td>
+      <td><a target="_blank" href="contactform.php?recipient=momentum&amp;realname=Winky+and+Meshi&amp;subject=Sunday+morning+classes"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a></td>
+    </tr>
+    <tr>
+      <td class="datetimecol">10:30am-noon</td>
+      <td style="width: 197px;"><a target="_blank" href="http://somaspace.us/classes.html#soul">Soul Motion:
+Odyssey</a></td>
+      <td style="width: 122px;">Paula Byrne </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a></td>
+      <td ><a target="_blank" href="contactform.php?recipient=paula&amp;realname=Paula+Byrne&amp;subject=Soul+Motion+Odyssey"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+
+    <!-- tr>    
+	<td class="datetimecol">1-3pm<br><span style="color: rgb(255, 0, 0); font-weight: bold;">(no class Jun 22)</span></td>
+	<td style="width: 197px;"><a target="_blank" href="muse.htm">MUSE Dance</a></td>
+	<td style="width: 122px;">Franklin Markowitz</td>
+	<td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+	<td><a target="_blank" href="contactform.php?recipient=musedance&amp;subject=MUSE"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+   </tr -->
+    <tr class="bold">
+      <td style="background-color: rgb(192, 192, 192); height: 1px; width: 156px;" colspan="6"></td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="font-weight: bold;">MON</td>
+      <td class="datetimecol">1st &amp; 3rd Mondays, 7-8:30pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://somaspace.us/classes.html#chakradance">Chakra Dance</a></td>
+      <td style="width: 122px;" >Anna Doogan</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a><br>
+      </td>
+      <td><a target="_blank" href="contactform.php?recipient=annadoogan&amp;realname=Anna+Doogan&amp;subject=Monday+night+classes"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+    <tr>
+      <td class="datetimecol">7:30-9:30pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://www.spiritweaves.com/soul-motion-breath-made-visible-class">Soul Motion: breath made visible</a> </td>
+      <td style="width: 122px;">Michael Molin-skelton</td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td class="emailcol"><a target="_blank" href="contactform.php?recipient=michaelskelton&amp;realname=Michael+Molin-skelton&amp;subject=breath+made+visible"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+    <tr class="bold">
+      <td style="background-color: rgb(192, 192, 192); height: 1px; width: 156px;" colspan="6"></td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="vertical-align: middle; font-weight: bold;">TUE</td>
+      <td class="datetimecol" class="datetimecol">6-7:30pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://www.ecstaticdancers.com/mcm3_classes.php#tue">Soul
+Motion: Movement+Metaphor</a> </td>
+      <td style="width: 122px;">Winky Wheeler</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=1028+SE+Water+Ave+Portland+OR">MOMENTUM
+STUDIO</a> </td>
+      <td>
+<a target="_blank" href="contactform.php?recipient=winky&amp;subject=Poetry+in+Motion"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a>
+      </td>
+    </tr>
+    <tr>
+      <td class="datetimecol">6:30-10pm</td>
+      <td style="width: 197px;"><a target="_blank" href="contactimprovjam.htm">Contact Improv Class &amp; Jam</a> </td>
+      <td style="width: 122px;">Christine Maxwell
+      </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=615+SE+Alder+St+Portland+OR">LENORA'S BALLROOM</a>
+      </td>
+      <td class="emailcol"><a target="_blank" href="contactform.php?recipient=tuesdaycontact&amp;realname=Christine+Maxwell&amp;subject=Contact+Improv"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+    <tr>
+      <td class="datetimecol" class="datetimecol">7:30-9pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://somaspace.us/classes.html#luminouslight">Luminous Light</a></td>
+      <td style="width: 122px;">Laura Farner </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a></td>
+      <td class="emailcol"><a target="_blank" href="contactform.php?recipient=laurafarner&amp;realname=Laura+Farner&amp;subject=Luminous+Light"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+    <tr class="bold">
+      <td style="background-color: rgb(192, 192, 192); height: 1px; width: 156px;" colspan="6"></td>
+    </tr>
+    <tr>
+      <td class="dayofweekcol" rowspan="2">WED</td>
+      <td>6-7:30pm</td>
+      <td><a target="_blank" href="http://www.ecstaticdancers.com/mcm3_classes.php#wed">The Practice</a></td>
+      <td>Meshi Chavez</td>
+      <td  class="locations"><a target="_blank" href="http://maps.google.com/maps?q=1028+SE+Water+Ave+Portland+OR">MOMENTUM
+STUDIO</a></td>
+      <td  class="emailcol"><a target="_blank" href="contactform.php?recipient=meshi&amp;subject=The+Practice"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+    <tr>
+      <td class="datetimecol" class="datetimecol">6:45-8:30pm</td>
+      <td style="width: 197px;"><a target="_blank" href="mindfulmeltdown.htm">Mindful Meltdown </a></td>
+      <td style="width: 122px;">Felix, Chris, Megan<br>
+      </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></span>
+      </a> </td>
+      <td><a target="_blank" href="contactform.php?recipient=mindful_meltdown&amp;subject=Mindful+Meltdown"><img src="mail-icon.gif" alt="Email" class="emailicon" title="Email"></a></td>
+    </tr>
+    <tr class="bold">
+      <td style="background-color: rgb(192, 192, 192); height: 1px; width: 156px;" colspan="6"></td>
+    </tr>
+    <tr>
+      <td class="dayofweekcol" rowspan="4">THU</td>
+      <td class="datetimecol">9-10am</td>
+      <td style="width: 197px;"><a target="_blank" href="http://somaspace.us/classes.html#dropintoyourself">Drop Into Yourself</a><br>
+      </td>
+      <td style="width: 122px;" >Jacqueline Rubinstein</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a><br>
+      </td>
+      <td><a target="_blank" href="contactform.php?recipient=somaspace&amp;subject=Drop+Into+Yourself"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a></td>
+    </tr>
+    <tr>
+      <td class="datetimecol">8-9:30pm</td>
+      <td style="width: 197px;"><a target="_blank" href="./dancetemple.htm">Dance Temple</a><br>
+      </td>
+      <td style="width: 122px;">Sacred Circle Dance</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td><a target="_blank" href="contactform_scdc.php?recipient=sacredcircle&amp;subject=Sacred+Circle+Dance"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a></td>
+    </tr>
+    <tr>
+      <td class="datetimecol">7-9pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://contactgames.wordpress.com/classes-jams/contact-games-labs">Contact Improv Lab</a></td>
+      <td style="width: 122px;">Carolyn Stuart</td>
+      <td style="font-style: italic; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=4920+NE+55th+Ave+Portland+OR+(behind+yellow+house)">GRACEWOOD
+STUDIO</a></td>
+      <td>
+      <a target="_blank" href="contactform.php?recipient=carolyn_stuart&amp;realname=Carolyn+Stuart&amp;subject=Contact+Improv"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a>
+      </td>
+    </tr>
+    <!-- tr>
+      <td class="datetimecol">2nd & 4th Thursdays, 7-9pm<br>
+      </td>
+      <td style="width: 197px;"><a target="_blank" href="http://www.facebook.com/pages/In-Body/244180105714444">In-Body</a><br>
+      </td>
+      <td style="width: 122px;">Anna Dale </td>
+      <td style="font-style: italic; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=1532+SW+Jefferson+St+Portland+OR">VIBRANT STUDIOS</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=annadale&amp;subject=In-Body"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a> </td>
+    </tr -->
+    <tr>
+      <td class="datetimecol">1st & 3rd Thursdays, 7-9pm</td>
+      <td style="color: rgb(0, 0, 255); width: 197px;"><a target="_blank" href="http://samandbob.webs.com/ecstaticdance.htm">Naked
+Bliss Dance</a></td>
+      <td style="width: 122px;">Sam Bean<br>
+      </td>
+      <td style="font-style: italic; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=45.459995,-122.700774">SAM + BOB'S</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=sam&amp;subject=Naked+Bliss+Dance"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a> </td>
+    </tr>
+
+
+    <!-- tr>
+      <td class="datetimecol">1st & 3rd Thursdays, 6:45-9pm</td>
+      <td style="width: 197px;"><a target="_blank" href="rhythmsilence.htm">Rhythm & Silence</a></td>
+      <td style="width: 122px;">Phil Stockton</td>
+      <td style="font-style: italic; vertical-align: middle; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=134+SE+Taylor+St+Portland+OR">BAMBOO GROVE SALON</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=philstockton&amp;subject=Rhythm+Silence"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a>
+      </td>
+    </tr -->
+
+    <tr class="bold">
+      <td style="background-color: rgb(192, 192, 192); height: 1px; width: 156px;" colspan="6"></td>
+    </tr>
+
+    <tr>
+      <td rowspan="4" style="vertical-align: middle; font-weight: bold;">FRI</td>
+      <td class="datetimecol">1st Fridays, 7-9pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://ecstaticdancers.com/mcm3_fridays.php">Score</a></td>
+      <td style="width: 122px;">Meshi and&nbsp;guests</td>
+      <td style="font-style: italic; vertical-align: middle; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=1028+SE+Water+Ave+Portland+OR">MOMENTUM
+STUDIO</a><br>
+      </td>
+      <td style="vertical-align: middle;"><a target="_blank" href="contactform.php?recipient=winky&amp;realname=Winky+and+Meshi&amp;subject=Friday+night+classes"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+    <tr>
+      <td class="datetimecol">1st Fridays, 7:30-9:30pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://somaspace.us/classes.html#urban">Urban Boogie</a></td>
+      <td style="width: 122px;" >Paula
+Byrne & Guests</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a><br>
+      </td>
+      <td ><a target="_blank" href="contactform.php?recipient=paula&amp;realname=Paula+Byrne&amp;subject=Friday+night+classes"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+    <tr>
+      <td class="datetimecol">3rd
+Fridays, 6:30-9:30pm
+      </td>
+      <td style="width: 197px;"><a target="_blank" href="http://ecstaticdancers.com/mcm3_fridays.php">Reflective
+Dance Practice<br>
+      </a></td>
+      <td style="width: 122px;">Winky
+Wheeler </td>
+      <td style="font-style: italic; vertical-align: middle; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=1028+SE+Water+Ave+Portland+OR">MOMENTUM
+STUDIO</a><br>
+      </td>
+      <td style="vertical-align: middle;"><a target="_blank" href="contactform.php?recipient=winky&amp;realname=Winky+and+Meshi&amp;subject=Friday+night+classes"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+    <!-- tr>
+      <td style="width: 168px">2nd Fridays, 7-10pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://somaspace.us/classes.html#womentango">Women's Tango</a></td>
+      <td style="width: 122px;" >Laura Yee</td>
+    </tr -->
+    <!-- tr>
+      <td style="width: 168px">3rd Fridays, 7-10pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://somaspace.us/classes.html#womensalon">Women's Desire Salon</a></td>
+      <td style="width: 122px;" >Rae Mullin</td>
+    </tr -->
+    <tr>
+      <td class="datetimecol">3rd
+Fridays, 7:30-9:30pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://somaspace.us/classes.html#dreamtime">Dreamtime</a></td>
+      <td style="width: 122px;">Paula
+Byrne</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a><br>
+      </td>
+      <td ><a target="_blank" href="contactform.php?recipient=paula&amp;realname=Paula+Byrne&amp;subject=Friday+night+classes"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+
+    <!-- tr>
+      <td class="datetimecol">2nd & 4th Fridays, 7-9pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://www.ecstaticdancers.com/5rhythmsWaves.php">5Rhythms: Waves</a></td>
+      <td style="width: 122px;">Kari Uhlman</td>
+      <td style="font-style: italic; vertical-align: middle; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=1028+SE+Water+Ave+Portland+OR">MOMENTUM
+STUDIO</a></td>
+      <td>
+	<a target="_blank" href="contactform.php?recipient=kari_uhlman&amp;subject=5Rhythms+Waves"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a>
+      </td>
+    </tr -->
+
+    <tr class="bold">
+      <td style="background-color: rgb(192, 192, 192); height: 1px; width: 156px;" colspan="6"></td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold;">SAT</td>
+      <td class="datetimecol" class="datetimecol">4-7pm</td>
+      <td style="width: 197px;"><a target="_blank" href="http://contactgames.wordpress.com/classes-jams/contact-improv-jam">Contact
+Improv Jam</a> </td>
+      <td style="width: 122px;">Carolyn Stuart<br>
+      </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4920+NE+55th+Ave+Portland+OR+(behind+yellow+house)">GRACEWOOD
+STUDIO</a> </td>
+      <td>
+      <a target="_blank" href="contactform.php?recipient=carolyn_stuart&amp;realname=Carolyn+Stuart&amp;subject=Contact+Improv"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a>
+      </td>
+    </tr>
+    <!-- tr>
+      <td class="datetimecol" class="datetimecol">4th Saturdays, 7:30pm</td>
+      <td style="width: 197px;"><span class="bold">Ecstatic Dance on the Mats</span> </td>
+      <td style="width: 122px;">Jennifer Torrock<br>
+      </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=5607+SE+Woodstock+Blvd+Portland+OR">ALIVE MMA</a> </td>
+      <td>
+      <a target="_blank" href="contactform.php?recipient=bill_bradley&amp;realname=Bill+Bradley&amp;subject=Ecstatic+Dance+on+the+Mats"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a>
+      </td>
+    </tr -->
+  </tbody>
+</table>
+<br>
+<!-- script src="http://www.gmodules.com/ig/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/106146176982320752205/google_calendar.xml&amp; up_height=200&amp; up_nav=1&amp; up_dates=1&amp; up_tabs=0&amp; up_cals=0&amp; up_print=1&amp; up_timezone=America%2FLos_Angeles&amp; up_tz=1&amp; up_viewmode=AGENDA&amp; up_calendars=9&amp; up_cal1=poerh5r0el2mqqnb5rn3mh0fgs%40group.calendar.google.com&amp; up_color1=%23ffdd88&amp; up_color1html=%23ffdd88&amp; synd=open&amp; w=520&amp; h=200&amp; title=Google+Calendar&amp; border=0px+%23ffdd88%2C0px+%23ffdd88&amp; output=js"></script --><br>
+<font style="font-style: italic;" size="4">SPECIAL EVENTS</font><br>
+<table style="width: 728px" border="1" cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><br>
+      </td>
+      <td style="vertical-align: top;"><i>Date/Time</i><br>
+      </td>
+      <td style="vertical-align: top;"><i>Event</i><br>
+      </td>
+      <td style="vertical-align: top;"><i>Offered
+by</i><br>
+      </td>
+      <td style="vertical-align: top;"><i>Location (click for
+directions)</i><br>
+      </td>
+      <td style="vertical-align: top;"><i>Email</i><br>
+      </td>
+    </tr>
+
+    <!-- tr>
+      <td><b>THU</b>
+      </td>
+      <td>Nov 27, 2014, 10am-noon
+      </td>
+      <td><a target="_blank" href="http://ecstaticdancers.com/tgiving.php">Thanksgiving Day Dance</a><br>
+      </td>
+      <td>Meshi & Winky<br>
+      </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=918+SW+Yamhill+St+Portland+OR">CONDUIT</a></td>
+      <td style="font-style: italic;" ><a target="_blank" href="contactform.php?recipient=momentum&amp;realname=Winky+and+Meshi&amp;subject=Thanksgiving+Day+Dance"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol"><br>
+      </td>
+      <td class="datetimecol"><br>
+      </td>
+      <td style="width: 198px;"><a target="_blank" href="http://somaspace.us/events.html#moving">Moving Body
+&amp; Spirit</a><br>
+      <small>Conscious Dance Leadership Program</small></td>
+      <td style="width: 122px;">Paula Byrne</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a></td>
+      <td style="width: 17px;"><a target="_blank" href="contactform.php?recipient=paula&amp;subject=Moving+Body+and+Spirit"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+   <!-- tr>
+      <td class="dayofweekcol">THU</td>
+      <td>Nov 27, 2013, 6-10pm</td>
+      <td><a target="_blank" href="http://www.facebook.com/events/286740071535041">Thanksgiving Ecstatic Dance, Sauna and Potluck Social</a><br>
+      </td>
+      <td>Sacred Circle Dance<br>
+      </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=3415+SE+9th+Ave+Portland+OR">3415 SE 9th Ave</a></td>
+      <td><a target="_blank" href="contactform_scdc.php?recipient=sacredcircle&amp;subject=Thanksgiving+Sauna+and+Potluck+Social"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a>
+      </td>
+    </tr -->
+
+    <tr>
+      <td class="dayofweekcol">FRI</td>
+      <td class="datetimecol">Mar 20+Apr 17, 7-8:30pm</td>
+      <td style="width: 198px;"><a target="_blank" href="https://www.facebook.com/events/1409141056049474">New Moon Dance</a></td>
+      <td style="width: 122px;">Jess Ripley</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=1515+NW+23rd+Ave+Portland+OR">THE FLOAT SHOPPE</a></td>
+      <td style="width: 17px;"><a target="_blank" href="contactform.php?recipient=jessripley&amp;subject=New+Moon+Dance"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr>
+
+    <!-- tr>
+      <td class="dayofweekcol">THU</td>
+      <td>Dec 25, 2014, 10AM-noon</td>
+      <td><a target="_blank" href="http://ecstaticdancers.com/xmas.php">Christmas Day ~ Emerging Light</a><br>
+      </td>
+      <td>Meshi & Winky<br>
+      </td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=918+SW+Yamhill+St+Portland+OR">CONDUIT</a></td>
+      <td style="font-style: italic;" ><a target="_blank" href="contactform.php?recipient=momentum&amp;realname=Winky+and+Meshi&amp;subject=Christmas+Day+Emerging+Light"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">SUN</td>
+      <td>Mar 8+22, 7-8pm</td>
+      <td><a target="_blank" href="https://www.facebook.com/events/339588236243341">Ecstatic Gospel Dance Hour (for women only)</a></td>
+      <td>Cindi Fisher<br>
+      </td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=cindifisher&amp;subject=Ecstatic+Gospel+Dance"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a>
+      </td>
+    </tr -->
+
+    <tr>
+      <td class="dayofweekcol">MON</td>
+      <td>Mar 23, 7:30-9:30pm</td>
+      <td><a target="_blank" href="https://www.facebook.com/events/623827624384278">Wild Spirit Dance: Deep Container</a></td>
+      <td>Toby Joy Zelt<br>
+      </td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=tobyjoyzelt&amp;subject=Wild+Spirit+Dance"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="dayofweekcol">MON</td>
+      <td>Mar 30, 7:30-9:30pm</td>
+      <td><a target="_blank" href="https://www.facebook.com/events/1580704365480694">Wild Spirit Dance: Embodied Presence and Joy!</a></td>
+      <td>Toby Joy Zelt<br>
+      </td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=tobyjoyzelt&amp;subject=Wild+Spirit+Dance"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a>
+      </td>
+    </tr>
+
+    <!-- tr>
+      <td class="dayofweekcol">THU</td>
+      <td>Jan 1, 2014, 11AM-1PM</td>
+      <td><a target="_blank" href="http://ecstaticdancers.com/newyears.php">New Years Day ~ Begin Again</a><br>
+      </td>
+      <td>Meshi & Winky</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=918+SW+Yamhill+St+Portland+OR">CONDUIT</a></td>
+      <td style="font-style: italic;" ><a target="_blank" href="contactform.php?recipient=momentum&amp;realname=Winky+and+Meshi&amp;subject=New+Years+Day+Begin+Again"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">THU</td>
+      <td>Jan 1, 2014, 4-6PM</td>
+      <td><a target="_blank" href="https://www.facebook.com/events/652729748171186">Inspire Truth - NYD Ecstatic Dance w/Polish Ambassador, Wildlight, Ayla Nereo</a><br>
+      </td>
+      <td>Beloved Presents</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=1219+SW+Park+Ave+Portland+OR">PORTLAND ART MUSEUM</a></td>
+      <td style="font-style: italic;" ><a target="_blank" href="http://nye-inspire.me/#!/contact"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">THU</td>
+      <td>Jan 1, 2015, 7-10pm<br><span style="color: rgb(255, 0, 0); font-weight: bold;">(Extended dance)</span></td>
+      <td><a target="_blank" href="http://sacredcircledance.org/dances.html">Dance Temple - New Year's Day</a></td>
+      <td>Sacred Circle Dance<br>
+      </td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td><a target="_blank" href="contactform_scdc.php?recipient=sacredcircle&amp;subject=Sacred+Circle+Dance"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a>
+      </td>
+    </tr -->
+
+   <!-- tr>
+      <td><b>THU</b>
+      </td>
+      <td>Jan 15, 2015, 10-11:30am
+      </td>
+      <td style="width: 197px;"><a target="_blank" href="https://www.facebook.com/WaggleNFlap">Waggle and Flap
+</a></td>
+      <td style="width: 122px;">Mary Rose</td>
+      <td style="font-style: italic; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=700+NE+Dekum+St+Portland+OR">VILLAGE
+BALLROOM</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=maryrose&amp;subject=Waggle+and+Flap"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+
+    <!-- tr>
+      <td class="dayofweekcol">&nbsp;</td>
+      <td class="datetimecol">Jan 16-19, 2015</td>
+      <td style="width: 198px;"><a target="_blank" href="http://somaspace.us/retreats.html#wildgrace">Wild Grace</a></td>
+      <td style="width: 122px;">Paula Byrne</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=Detroit+OR">BREITENBUSH</a></td>
+      <td style="width: 17px;"><a target="_blank" href="contactform.php?recipient=paula&amp;subject=Wild+Grace"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td><span style="font-weight: bold;">SAT</span><br>
+      </td>
+      <td>Jan 24, 2015, 6pm-midnight<br>ALL AGES<br>$15 <a target="_blank" href="http://scd11.bpt.me">presale</a>, $20 at door <br> </td>
+      <td><a target="_blank" href="https://www.facebook.com/events/1525235497754930">Sacred Circle Dance 11th Anniversary with Speakeasy Electro Swing / DJ Eliazar (BC)</a><br>
+      </td>
+      <td>Sacred Circle Dance<br>
+      </td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td><a target="_blank" href="contactform_scdc.php?recipient=sacredcircle&amp;subject=Sacred+Circle+Dance"><img src="mail-icon.gif" title="Email" alt="Email" class="emailicon"></a>
+      </td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">SUN</td>
+      <td class="datetimecol">Jun 16, 2013, 2pm</td>
+      <td style="width: 198px;"><a target="_blank" href="http://www.facebook.com/events/147007055475853">9th Annual Strawberry Party<br><small>at Edie and Brian's Farm</small></a></td>
+      <td style="width: 122px;">Edie Reid</td>
+      <td style="font-style: italic; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=18300+NW+Green+Mountain+Rd,+Banks+OR">MAP</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=edie&amp;subject=Strawberry+Party"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a> </td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">SUN</td>
+      <td class="datetimecol">Aug 4, 2013, 11am-1pm</td>
+      <td style="width: 198px;"><a target="_blank" href="https://www.facebook.com/events/606355726064706">Soul Motion with Vinn Marti</a></td>
+      <td style="width: 122px;">Anna Marti</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=918+SW+Yamhill+St+Portland+OR">NIASPACE</a>
+      </td>
+      <td style="width: 17px;"><a target="_blank" href="contactform.php?recipient=annamarti&amp;subject=Soul+Motion+with+Vinn+Marti"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">MON-FRI</td>
+      <td class="datetimecol">Aug 26-30, 2013</td>
+      <td style="width: 198px;"><a target="_blank" href="https://www.facebook.com/events/291310767670964/">Dance Camp Northwest 2013</a></td>
+      <td style="width: 122px;"><a target="_blank" href="http://dancecampnorthwest.net">DanceCampNW</a></td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=Fort+Flagler+State+Park,+Nordland,+WA">Fort Flagler, WA</a></td>
+      <td style="width: 17px;"><a target="_blank" href="contactform.php?recipient=dancecampnw&amp;subject=Dance+Camp+NW"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">FRI</td>
+      <td class="datetimecol">June 20, 2014, 7-10pm</td>
+      <td style="width: 198px;"><a target="_blank" href="http://somaspace.us/events.html#blindfold">Dancing in the Dark<br><small>a blindfolded trance dance</small></a></td>
+      <td style="width: 122px;">Paula Byrne</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a></td>
+      <td style="width: 17px;"><a target="_blank" href="contactform.php?recipient=paula&amp;subject=Dancing+in+the+Dark"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+   <!-- tr>
+      <td><span style="font-weight: bold;">MON</span></td>
+      <td>Jun 2, Jul 7, Aug 4 2014, 6:45-8:45pm</td>
+      <td><a target="_blank" href="http://www.facebook.com/events/639207572824995/">Divinity: Dance Series For Women</a></td>
+      <td>Lisa Hillyard<br>Anna Dale</td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td class="emailcol"><a target="_blank" href="contactform.php?recipient=annadale&amp;realname=Anna+Dale&amp;subject=Divinity"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+
+   <!-- tr>
+      <td><span style="font-weight: bold;">SAT</span></td>
+      <td>Nov 1, 2014, 1-4pm</td>
+      <td><a target="_blank" href="http://www.spiritweaves.com/soul-motion-ritual-portraits-of-prayer">Soul motion ritual: portraits of prayer special class</a></td>
+      <td>Michael Skelton</td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td class="emailcol"><a target="_blank" href="contactform.php?recipient=michaelskelton&amp;realname=Michael+Skelton&amp;subject=Soul+Motion"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+   </tr -->
+   <!-- tr>
+      <td><span style="font-weight: bold;">FRI</span><br>
+      </td>
+      <td>Aug 22, 2013, 7:30-9:30pm
+      </td>
+      <td><a target="_blank" href="http://www.facebook.com/events/403952146355735">Metatron's Groove</a><br>
+      </td>
+      <td>Bibi McGill<br>
+      </td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=1401+SE+Morrison+St+Portland+OR">SHAKTI HOUSE</a>
+      </td>
+      <td><a target="_blank" href="contactform.php?recipient=bibi&amp;subject=Metatrons+Groove"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">&nbsp;</td>
+      <td class="datetimecol">Oct 9-12, 2014</td>
+      <td style="width: 198px;"><a target="_blank" href="http://somaspace.us/retreats.html#dancequest">DanceQuest Women's Retreat</a></td>
+      <td style="width: 122px;">Paula Byrne</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=Detroit+OR">BREITENBUSH</a></td>
+      <td style="width: 17px;"><a target="_blank" href="contactform.php?recipient=paula&amp;subject=DanceQuest"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">SAT</td>
+      <td class="datetimecol">Nov 8, 2014<br>8pm-late</td>
+      <td style="width: 198px;"><a target="_blank" href="http://somaspace.us/events.html#latenightcontact">Late Night Contact<br><small>
+~ a contact improvisation jam & potluck ~</small></a></td>
+      <td style="width: 122px;">Jacqueline Rubinstein</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a></td>
+      <td style="width: 17px;"><a target="_blank" href="contactform.php?recipient=somaspace&amp;subject=Late+Night+Contact"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td><b>THU</b>
+      </td>
+      <td>Oct 24, 2012, 7:30-9pm
+      </td>
+      <td><a target="_blank" href="http://www.facebook.com/WompTribe">Womp Stomp</a><br>
+      </td>
+      <td>Kristi Parson<br>
+      </td>
+      <td style="font-style: italic; width: 156px;"><a target="_blank" href="http://maps.google.com/maps?q=116+SE+Yamhill+St+Portland+OR">THE REFUGE</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=kristiparson&amp;realname=Kristi+Parson&amp;subject=Womp+Stomp"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+   <!-- tr>
+      <td><span style="font-weight: bold;">SAT</span></td>
+      <td>Jan 24, 2015, 7-midnight</td>
+      <td><a target="_blank" href="sensuocity.htm">Sensuocity</a></td>
+      <td>Sam Bean      </td>
+      <td style="font-style: italic;"><a target="_blank" href="http://maps.google.com/maps?q=45.459995,-122.700774">SAM AND BOB'S</a><br><small>Registration required </small></td>
+      <td><a target="_blank" href="contactform.php?recipient=sam&amp;subject=Sensuocity"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+    <!-- tr>
+      <td class="dayofweekcol">SAT</td>
+      <td class="datetimecol">December 7, 2013, 8pm</td>
+      <td style="width: 198px;"><a target="_blank" href="http://somaspace.us/events.html#swank">Swank Soiree - 5th Anniversary</a></td>
+      <td style="width: 122px;">Paula Byrne</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">SOMASPACE</a></td>
+      <td style="width: 17px;"><a target="_blank" href="contactform.php?recipient=paula&amp;subject=Swank+Soiree"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+    <tr>
+      <td class="dayofweekcol">SUN-WED</td>
+      <td class="datetimecol">Apr 19-22</td>
+      <td style="width: 197px;"><a target="_blank" href="http://www.heatherstraube.com/voices-love-voices-power">Voices of Love, Voices of Power: Dance, Connect, Purge</a></td>
+      <td style="width: 122px;">Heather Straube</td>
+      <td style="font-style: italic; vertical-align: middle; width: 156px;"><a target="_blank" href="http://www.google.com/maps/place/Breitenbush+Hot+Springs+Retreat+and+Conference+Center/@44.781603,-121.975855,17z/data=!3m1!4b1!4m2!3m1!1s0x54bfaf12763919cd:0xe74d6736a2e2b854">BREITENBUSH</a></td>
+      <td><a target="_blank" href="contactform.php?recipient=heather_straube&amp;subject=Voices+of+Love"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a>
+      </td>
+    </tr>
+
+    <!-- tr>
+      <td class="dayofweekcol">FRI-MON</td>
+      <td class="datetimecol">February 14-17, 2014</td>
+      <td style="width: 198px;"><a target="_blank" href="https://www.facebook.com/events/353917764742143">Portland Contact Improv Regional Jam</a></td>
+      <td style="width: 122px;">Christine Maxwell</td>
+      <td class="locations"><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">RED ROSE BALLROOM</a></td>
+      <td class="emailcol"><a target="_blank" href="contactform.php?recipient=tuesdaycontact&amp;realname=Christine+Maxwell&amp;subject=Contact+Improv"><img class="emailicon" alt="Email" title="Email" src="mail-icon.gif"></a></td>
+    </tr -->
+
+  </tbody>
+</table>
+<br>
+<br>
+<font style="font-style: italic;" size="4">LOCATIONS</font>
+<table style="height: 202px; width: 728px;" border="1" cellpadding="2" cellspacing="0">
+  <tbody>
+    <!-- tr>
+      <td><a target="_blank" href="http://www.bamboogrovesalon.com">BAMBOO GROVE SALON</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=134+SE+Taylor+St+Portland+OR">134 SE Taylor St</a></td>
+    </tr -->
+
+    <!-- tr>
+      <td><a target="_blank" href="http://www.be-space.org">BE SPACE</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=211+SE+11th+Avenue+Portland+OR">211 SE 11th Ave</a></td>
+    </tr -->
+
+    <tr>
+      <td><a target="_blank" href="http://www.breitenbush.com">BREITENBUSH
+HOT SPRINGS RETREAT</a></td>
+      <td><a target="_blank" href="http://www.google.com/maps/place/Breitenbush+Hot+Springs+Retreat+and+Conference+Center/@44.781603,-121.975855,17z/data=!3m1!4b1!4m2!3m1!1s0x54bfaf12763919cd:0xe74d6736a2e2b854">Breitenbush,
+OR</a></td>
+    </tr>
+
+    <!-- tr>
+      <td><a target="_blank" href="http://conduit-pdx.org/">CONDUIT</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=918+SW+Yamhill+St+Portland+OR">918
+SW Yamhill (Pythian Bldg), 4th fl</a></td>
+    </tr -->
+    <tr>
+      <td>GRACEWOOD STUDIO</td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=4920+NE+55th+Ave+Portland+OR+(behind+yellow+house)">4920
+NE 55th Ave (behind yellow house)</a></td>
+    </tr>
+    <tr>
+      <td><a target="_blank" href="http://www.yelp.com/biz/lenoras-room-portland">LENORA'S BALLROOM</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=615+SE+Alder+St+Portland+OR">615 SE Alder St</a></td>
+    </tr>
+    <tr>
+      <td><a target="_blank" href="http://ecstaticdancers.com">MOMENTUM STUDIO</a><br>
+      </td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=1028+SE+Water+Ave+Portland+OR">1028
+SE Water Ave, Suite 250</a><br>
+      </td>
+    </tr>
+    <!-- tr>
+      <td><a target="_blank" href="http://www.niaspace.com">NIASPACE</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=918+SW+Yamhill+St+Portland+OR">918
+SW Yamhill (Pythian Bldg), 4th fl</a></td>
+    </tr -->
+    <!-- tr>
+      <td><a target="_blank" href="http://moxiestudioportland.com">MOXIE STUDIO</a><br>
+      </td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=5010+NE+9th+Ave+Portland+OR">5010 NE 9th Avenue, UNIT B
+</a><br>
+      </td>
+    </tr -->
+
+
+    <tr>
+      <td><a target="_blank" href="http://redroseballroom.com">RED ROSE BALLROOM</a><br>
+      </td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=1829+NE+Alberta+St+Portland+OR">1829 NE Alberta St</a><br>
+      </td>
+    </tr>
+
+    <tr>
+      <td><a target="_blank" href="http://samandbob.webs.com">SAM + BOB'S</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=45.459995,-122.700774">2227
+SW Primrose St. </a>&nbsp;(ph.&nbsp;503-752-3415)</td>
+    </tr>
+    <!-- tr>
+      <td>SHAKTI HOUSE</td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=1401+SE+Morrison+St+Portland+OR">1401 SE Morrison St.</td>
+    </tr -->
+    <tr>
+      <td><a target="_blank" href="http://www.somaspace.us">SOMASPACE</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=4050+NE+Broadway+St+Portland+OR">4050
+NE Broadway St.</a></td>
+    </tr>
+    <tr>
+      <td><a target="_blank" href="http://studiotwozoomtopia.com/about-us">STUDIO 2@ZOOMTOPIA</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=810+SE+Belmont+St+Portland+OR">810 SE Belmont St.</a></td>
+    </tr>
+    <!-- tr>
+      <td><a target="_blank" href="http://www.refugepdx.com">THE REFUGE</a><br>
+      </td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=116+SE+Yamhill+St+Portland+OR">116
+SE Yamhill St.</a><br>
+      </td>
+    </tr -->
+    <tr>
+      <td><a target="_blank" href="http://sacredcircledance.com/location.html">TIFFANY
+CENTER</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=1410+SW+Morrison+St+Portland+OR">1410
+SW Morrison St.</a></td>
+    </tr>
+
+    <!-- tr>
+      <td><a target="_blank" href="http://vibrant-studios.com/">VIBRANT STUDIOS</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=1532+SW+Jefferson+St+Portland+OR">1532 SW Jefferson St.</a></td>
+    </tr -->
+
+    <tr>
+      <td><a target="_blank" href="http://villageballroom.com/">VILLAGE
+BALLROOM</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=700+NE+Dekum+St+Portland+OR">700
+NE Dekum St.</a></td>
+    </tr>
+    <!-- tr>
+      <td><a target="_blank" href="http://villageballroom.com/">YOGA SHALA NORTHEAST</a></td>
+      <td><a target="_blank" href="http://maps.google.com/maps?q=3808+N+Williams+Ave+Portland+OR">3808 N Williams Ave, Suite F, Portland, OR</a></td>
+    </tr -->
+  </tbody>
+</table>
+<br>
+<br>
+
+      <div> Copyright © 2006-2015 PDXEcstaticDance.com<br></div>
+      <div><a target="_blank" href="contactform.php?recipient=pdxdance&amp;subject=PDXEcstaticDance.com">Contact
+us</a></div>
+</div>
+</center>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3563072-1");
+pageTracker._initData();
+pageTracker._trackPageview();</script>
+</body></html>

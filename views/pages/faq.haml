@@ -7,11 +7,15 @@
   = haml :_nav, locals: locals
   .question What is Daily Dancer?
   .answer
-    Daily Dancer helps to answer the question, "What's going on today in the dance community?" It is a a computer program that pulls events from the
-    %a{href: 'http://pdxecstaticdance.com/subscribe/', target: '_blank'} Sacred Circle email list
-    and groups them by date. Most of the time it does this correctly without any human intervention.
+    Daily Dancer helps to answer the question, "What's going on today in the dance community?"
+  .answer
+    Daily Dancer is a computer program that pulls events from two sources: from the
+    %a{href: 'http://pdxecstaticdance.com/subscribe/', target: '_blank'} Sacred Circle mailing list
+    and from the dance calendar at
+    <a href='http://pdxecstaticdance.com/', target='_blank'>pdxecstaticdtance.com</a>.
+    All the events found are grouped by date of occurrence.
 
-  .question What does it look for?
+  .question How does it identify events from the mailing list?
   .answer
     First, it looks for one of these patterns in the subject:
     .example This Coming Thursday

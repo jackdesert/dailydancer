@@ -124,7 +124,7 @@ class Event < Sequel::Model
   def self.load_if_its_been_a_while
     # TODO wrap this in a semaphore since multiple actors access the same class instance var
 
-    return false if klass_last_loaded_at && klass_last_loaded_at < 1.hour.ago
+    return false if klass_last_loaded_at && klass_last_loaded_at > 1.hour.ago
 
     # Explicit self because 'load' has other meanings
     self.load
@@ -152,7 +152,7 @@ class Event < Sequel::Model
 
     delete_all_with_id_less_than(previous_last_id)
 
-    log_message = "events loaded at #{Time.now}\n"
+    log_message = "events loaded at #{Time.now}. klass_last_loaded_at: #{klass_last_loaded_at}\n"
     File.open(EVENT_LOAD_LOG, 'a') { |file| file.write(log_message) }
   end
 

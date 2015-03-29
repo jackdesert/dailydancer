@@ -113,6 +113,10 @@ class Event < Sequel::Model
 
         # File presence means something went wrong
         File.open(ERROR_FILE_FROM_THREAD, 'w') { |file| file.write(data) }
+
+        # Also append to the event load log.
+        # Now there are two chances to notice the error
+        File.open(EVENT_LOAD_LOG, 'a') { |file| file.write(data) }
       end
     end
   end

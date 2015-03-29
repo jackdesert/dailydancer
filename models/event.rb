@@ -54,6 +54,11 @@ class Event < Sequel::Model
     end
   end
 
+  def location_formatted
+    return 'SomaSpace' if location.downcase == 'somaspace'
+    location.titleize
+  end
+
   def self.by_date(num_days)
     output = {}
     Util.range_of_date_strings(num_days).each do |date_string|
@@ -71,7 +76,7 @@ class Event < Sequel::Model
     events = where(day_of_week: day_of_week).all
 
     events.select do |event|
-      event.occurs_on == 'all' || event.occurs_on.split(COMMA).include?(occurrence)
+      event.occurs_on == 'all' || event.occurs_on.split(COMMA).map(&:to_i).include?(occurrence)
     end
   end
 

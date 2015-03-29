@@ -51,3 +51,26 @@ strategy is to use Message.where('received_at > 1.month.ago') because
      with "January 3", Chronic will know that to mean next year.)
 
 
+Why is Event.load called in a thread?
+-------------------------------------
+
+The idea is the Event.load only gets called at most once per hour
+and it does not need to be called inline. That is, any web traffic
+will kick off the method call, but there is no need for the one who kicked
+the job to reap its benefit. The next user will get the updated content, if any.
+
+
+Why does Event.load delete all previous instances from the database?
+--------------------------------------------------------------------
+
+It is simpler to delete them than to compare them.
+
+
+Why does DailyDancer pull from two sources?
+-------------------------------------------
+
+The dance community in Portland, Oregon has multiple streams of activities:
+  * Mailing list
+  * Web Site
+  * Facebook
+Some would love the facebook events shown here too. But it has not happened yet.

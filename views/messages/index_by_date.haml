@@ -29,7 +29,7 @@
             = event.hostess
           .location
             Location:
-            %a{href: event.location_url, target: '_blank'}= event.location
+            %a{href: event.location_url, target: '_blank'}= event.location_formatted
 
     - messages.each do |message|
       - klass = message.marked_as_duplicate? ? 'duplicate' : ''

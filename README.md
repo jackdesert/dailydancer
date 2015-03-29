@@ -6,6 +6,9 @@ provider such as http://cloudmailin.com, stores them in an sqlite database,
 decides which emails represent *events*, and displays those events on a
 calendar.
 
+Daily Dancer also uses nokogiri to pull recurring events from a website
+and incorporates them with slightly different styling into the calendar.
+
 
 Working Example
 ---------------
@@ -25,7 +28,7 @@ Manually Firing Emails via HTTP
 You can use `bin/http_agent.rb` to fire emails at your server using the expected format.
 
 
-Pry Conole
+Pry Console
 --------------
 
 This script will load models for you and give you a pry console
@@ -58,6 +61,12 @@ Running the server in Production Mode
 -------------------------------------
 
     nohup script/run_dancer_indefinitely.sh &
+
+
+Viewing Logs
+------------
+
+Check log/event_load.log to make sure recurring events are being pulled correctly.
 
 
 Setting up your mailing list

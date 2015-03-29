@@ -22,14 +22,20 @@
         .details.hidden
           .source (Recurring Event from pdxecstaticdance.com)
           .website
+            .label Website:
             %a{href: event.url_formatted, target: '_blank'}= event.name_formatted
-          .time= event.time_formatted
+          .time
+            .label When:
+            = event.time_formatted
           .hostess
-            Hosted by
+            .label Host:
             = event.hostess
           .location
-            Location:
-            %a{href: event.location_url, target: '_blank'}= event.location_formatted
+            .label Location:
+            .venue-and-address
+              .venue= event.location_formatted
+              .address
+                %a{href: event.location_url, target: '_blank'}= event.address
 
     - messages.each do |message|
       - klass = message.marked_as_duplicate? ? 'duplicate' : ''

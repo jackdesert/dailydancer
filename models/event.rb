@@ -67,6 +67,12 @@ class Event < Sequel::Model
     location.titleize
   end
 
+  def address
+    match = location_url.match(/\?q=([^&]+)/)
+    return '' unless match
+    match[1].gsub('+', SPACE)
+  end
+
   def self.by_date(num_days)
     output = {}
     Util.range_of_date_strings(num_days).each do |date_string|

@@ -104,4 +104,11 @@ describe Event do
       end
     end
   end
+
+  describe '#address' do
+    it 'pulls from location_url' do
+      event = described_class.new(location_url: 'http://maps.google.com/maps?q=4920+NE+55th+Ave+Portland+OR+(behind+yellow+house)')
+      event.address.should == '4920 NE 55th Ave Portland OR (behind yellow house)'
+    end
+  end
 end

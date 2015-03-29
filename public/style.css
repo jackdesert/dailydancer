@@ -34,7 +34,7 @@ body.admin{
 #nav{
   position: absolute;
   right: -1px;
-  top: -1.55rem;
+  top: -1.5rem;
 }
 .nav-item{
   background-color: #ccc;
@@ -191,6 +191,10 @@ a:hover{
 
   body{
     padding: 2rem !important;
+  }
+
+  #nav{
+    top: -1.55rem;
   }
 
   .date-holder{

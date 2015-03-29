@@ -188,6 +188,8 @@ NEEDS PRIORITIZATION
   * Do not show "register by April 1"
   * Search in subject + plain for date
   * Link to pdxecstaticdance.com
+  * Make sure digital ocean is set for automatic backups
+  * Instead of hyperlinking the venue name, use plain text but show a hyperlinked version of the actual address.
 
 
 Notes from my Sweetheart:

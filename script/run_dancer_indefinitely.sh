@@ -14,7 +14,7 @@ while true; do
   cd /home/dev/dancer
   bundle install
   RACK_ENV=production bundle exec rackup config-dancer.ru -p 8852
-  sleep 10
+  sleep 2
   echo "dancer restarted `date`" >> log/dancer_restart.log
 done
 

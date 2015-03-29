@@ -11,6 +11,8 @@ class Event < Sequel::Model
   MIN_EXPECTED_SIZE = 10_000
   URL_BASE = 'http://pdxecstaticdance.com/'
 
+  ONE_OR_MORE_WHITESPACES_REGEX = /\s+/
+  SPACE = ' '
   COMMA = ','
 
   class << self
@@ -36,6 +38,12 @@ class Event < Sequel::Model
     return if occurrences.empty?
 
     self.occurs_on = occurrences.join(COMMA)
+  end
+
+  def name_formatted
+    # This makes things sort correctly because
+    # some names have newlines in them instead of spaces
+    name.gsub(ONE_OR_MORE_WHITESPACES_REGEX, SPACE)
   end
 
   def url_formatted
@@ -73,7 +81,7 @@ class Event < Sequel::Model
     occurrence = which_occurrence(date)
 
     day_of_week = date.strftime('%A').downcase
-    events = where(day_of_week: day_of_week).all
+    events = where(day_of_week: day_of_week).all.sort_by(&:name_formatted)
 
     events.select do |event|
       event.occurs_on == 'all' || event.occurs_on.split(COMMA).map(&:to_i).include?(occurrence)

@@ -18,7 +18,7 @@
     - events.each do |event|
       .message-or-event{id: "event-#{event.id}"}
         .event-marker
-        %h3.subject= event.name
+        %h3.subject= event.name_formatted
         .details.hidden
           .source (Recurring Event from pdxecstaticdance.com)
           .website

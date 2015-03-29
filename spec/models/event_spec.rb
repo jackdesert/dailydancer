@@ -1,7 +1,13 @@
 require 'spec_helper'
 
 describe Event do
+  before do
+    # Make sure this is not set so that all tests actually fire
+    described_class.klass_last_loaded_at = nil
+  end
+
   describe '.load' do
+
     let(:minimum_to_create) { 15 }
     it 'loads events' do
       described_class.all.map(&:delete)
@@ -18,6 +24,28 @@ describe Event do
 
       # This makes sure that events still exist
       (described_class.count > minimum_to_create).should == true
+    end
+  end
+
+  describe '.load_in_thread_if_its_been_a_while' do
+    it 'creates a file' do
+      FileUtils.rm_f(described_class::SAVED_WEB_PAGE)
+      FileUtils.rm_f(described_class::SAVED_WEB_PAGE_TEMP)
+
+      File.exist?(described_class::SAVED_WEB_PAGE_TEMP).should == false
+      File.exist?(described_class::SAVED_WEB_PAGE).should == false
+
+      described_class.load_in_thread_if_its_been_a_while
+      counter = 10
+
+      # Give it 20 seconds to return
+      while counter > 0
+        sleep 1
+        counter = 0 if File.exist?(described_class::SAVED_WEB_PAGE)
+        counter -= 1
+      end
+      File.exist?(described_class::SAVED_WEB_PAGE_TEMP).should == true
+      File.exist?(described_class::SAVED_WEB_PAGE).should == true
     end
   end
 

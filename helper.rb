@@ -10,7 +10,7 @@ require 'nokogiri'
 # Note you must connect to Sequel before requiring any models that inherit from Sequel::Model
 unless settings.test?
   DB_FILE = "./db/#{settings.environment}.db"
-  DB = Sequel.connect("sqlite://#{DB_FILE}")
+  DB = Sequel.connect("sqlite://#{DB_FILE}", max_connections: 8)
 end
 
 require './models/util'

@@ -15,8 +15,16 @@ require 'nokogiri'
 require 'time-warp'
 
 
-# DB must be defined before models are required
-DB = Sequel.sqlite
+
+# Remove the old database file
+DB_FILE = './db/test.db'
+FileUtils.rm_f(DB_FILE)
+
+# Not using an in-memory database is because it gives a
+# Sequel::PoolConnectionError when doing something in a separate thread
+# Which we do in Event.load_in_thread_if_its_been_a_while
+DB = Sequel.connect("sqlite://#{DB_FILE}")
+
 # DB migrations must happen before models are loaded
 # in order for the accessors to be automagically added
 # (one for each database column)

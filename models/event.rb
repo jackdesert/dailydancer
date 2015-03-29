@@ -6,10 +6,16 @@ class Event < Sequel::Model
 
   SAVED_WEB_PAGE = 'data/pdxecstaticdance.com.html'
   SAVED_WEB_PAGE_TEMP = "#{SAVED_WEB_PAGE}_TEMP"
+  ERROR_FILE_FROM_THREAD = 'error_from_thread.txt'
+  EVENT_LOAD_LOG = 'log/events_loaded.log'
   MIN_EXPECTED_SIZE = 10_000
   URL_BASE = 'http://pdxecstaticdance.com/'
 
   COMMA = ','
+
+  class << self
+    attr_accessor :klass_day_of_week, :klass_last_loaded_at
+  end
 
   # These now come from Sequel, as they are defined in the database
   # attr_accessor :day_of_week, :time, :name, :url, :hostess,  :location, :location_url
@@ -46,10 +52,6 @@ class Event < Sequel::Model
     else
       "#{day_of_week.capitalize}s #{time}"
     end
-  end
-
-  class << self
-    attr_accessor :klass_day_of_week, :klass_last_fetched_at
   end
 
   def self.by_date(num_days)
@@ -100,7 +102,19 @@ class Event < Sequel::Model
   end
 
   def self.load_in_thread_if_its_been_a_while
-    Thread.new { load_if_its_been_a_while }
+    Thread.new do
+      begin
+        load_if_its_been_a_while
+
+        # No file means no errors
+        FileUtils.rm_f(ERROR_FILE_FROM_THREAD)
+      rescue Exception => e
+        data = "#{e.message}\n#{e.backtrace.join("\n")}"
+
+        # File presence means something went wrong
+        File.open(ERROR_FILE_FROM_THREAD, 'w') { |file| file.write(data) }
+      end
+    end
   end
 
   def self.load_if_its_been_a_while
@@ -133,6 +147,9 @@ class Event < Sequel::Model
     end
 
     delete_all_with_id_less_than(previous_last_id)
+
+    log_message = "events loaded at #{Time.now}\n"
+    File.open(EVENT_LOAD_LOG, 'a') { |file| file.write(log_message) }
   end
 
   def self.delete_all_with_id_less_than(previous_last_id)

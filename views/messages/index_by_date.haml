@@ -8,7 +8,7 @@
   - events = date_range_with_events[date_string]
   - odd = !odd
   - odd_class = odd ? 'odd' : 'even'
-  - display_date_class = messages.empty? ? 'empty' : 'full'
+  - display_date_class = (messages | events).empty? ? 'empty' : 'full'
 
   .date-holder{class: odd_class}
     - if first_time

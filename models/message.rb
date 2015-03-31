@@ -42,11 +42,11 @@ class Message < Sequel::Model
   end
 
   def parsed_date_from_plain
-    DateParser.new(plain).parse
+    DateParser.new(plain, received_at).parse
   end
 
   def parsed_relative_date_from_subject_and_received_at
-    DateParser.new(subject).parse_relative(received_at)
+    DateParser.new(subject, received_at).parse_relative
   end
 
   def not_an_event?

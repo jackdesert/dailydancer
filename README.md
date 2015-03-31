@@ -188,6 +188,8 @@ NEEDS PRIORITIZATION
   * Do not show "register by April 1"
   * Search in subject + plain for date
   * Make sure digital ocean is set for automatic backups
+  * Fix bug where when in UTC time it is a new month, but in Portland it is still the old month, and daily dancer
+    assigns events to *Next Year* when it should assign them to this year
 
 
 Notes from my Sweetheart:

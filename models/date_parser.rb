@@ -27,10 +27,12 @@ class DateParser
   RELATIVE_DATE_REGEX = /this#{ONE_OR_MORE_SPACES}(coming#{ONE_OR_MORE_SPACES})?(#{DAYS_OF_WEEK_OPTIONS})/
   DAY_OF_WEEK_REGEX = /(#{DAYS_OF_WEEK_OPTIONS})/
 
-  attr_reader :text
+  attr_reader :text, :now
 
-  def initialize(text)
+  def initialize(text, now)
     @text = text.downcase
+    # now is the time from which chronic sees the world
+    @now = now
   end
 
   def parse
@@ -40,23 +42,23 @@ class DateParser
     # Replace periods found in date snippet with spaces because Chronic does not understand 'march.2'
     date_snippet.gsub!('.', ' ')
 
-    time = Chronic.parse(date_snippet)
+    time = Chronic.parse(date_snippet, chronic_options)
 
     return if time.nil?
     time.to_date.to_s[0..9]
   end
 
-  def parse_relative(received_at)
+  def parse_relative
     # This method looks for things like "This Friday"
     date_snippet = text.match(RELATIVE_DATE_REGEX).to_s
     return if date_snippet.empty?
 
     day_of_week_in_text = date_snippet.match(DAY_OF_WEEK_REGEX).to_s
 
-    return if received_at.to_date.strftime('%A').downcase == day_of_week_in_text
+    return if now.to_date.strftime('%A').downcase == day_of_week_in_text
 
     # First date to try is the day after received
-    date = received_at.to_date + 1
+    date = now.to_date + 1
     6.times do
       attempted_day_of_week = date.strftime('%A').downcase
       return date.to_s if attempted_day_of_week == day_of_week_in_text
@@ -65,5 +67,9 @@ class DateParser
     end
 
     nil
+  end
+
+  def chronic_options
+    { now: now }
   end
 end

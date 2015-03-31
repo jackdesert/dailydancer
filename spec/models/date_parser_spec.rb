@@ -18,10 +18,8 @@ describe DateParser do
     hash.each do |text, expected_date|
       context "when text is #{text}" do
         it "returns #{expected_date}" do
-          pretend_now_is(march_15)  do
-            parser = described_class.new(text)
-            parser.parse.should == expected_date
-          end
+          parser = described_class.new(text, march_15)
+          parser.parse.should == expected_date
         end
       end
     end
@@ -44,11 +42,11 @@ describe DateParser do
       hash.each do |text, expected_date|
         context "when text is #{text}" do
           it "returns #{expected_date}" do
-            received_at = Date.new(2015, 3, 16)
-            received_at.strftime('%A').should == 'Monday'
+            march_16 = Date.new(2015, 3, 16)
+            march_16.strftime('%A').should == 'Monday'
 
-            parser = described_class.new(text)
-            parser.parse_relative(received_at).should == expected_date
+            parser = described_class.new(text, march_16)
+            parser.parse_relative.should == expected_date
           end
         end
       end

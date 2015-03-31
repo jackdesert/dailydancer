@@ -82,7 +82,7 @@ describe Message do
 
   # Note this is at noon so that regardless of which time zone you are actually in the
   # date still comes out right
-  let(:valentines_day_at_noon) { Time.new(2015, 2, 14, 12) }
+  let(:valentines_day_2015_at_noon) { Time.new(2015, 2, 14, 12) }
 
   describe '#not_an_event?' do
     { 'apartment for rent' => true,
@@ -121,8 +121,17 @@ describe Message do
       context 'but date is in plain' do
         it 'returns date found' do
           # Note received at is on a monday
-          message = create(:message, plain: 'December 20', subject: 'fantastic evening', received_at: Time.new(2015, 3, 2))
-          message.parsed_date.should == '2015-12-20'
+          message = create(:message, plain: 'February 15', subject: 'fantastic evening', received_at: Time.new(2015, 2, 2))
+
+          message.parsed_date.should == '2015-02-15'
+
+          pretend_now_is(Date.new(1900, 1, 1)) do
+            # The test inside this "pretend_now_is" block ensures that
+            # message.received_at is passed in the options hash to Chronic.
+            # Otherwise this spec will fail because it will get the year wrong
+            message.parsed_date.should == '2015-02-15'
+          end
+
         end
 
         context 'but plain includes "room for rent" which triggers not_an_event?' do
@@ -160,7 +169,7 @@ describe Message do
       let!(:message_5) { create(:message, plain: 'Feb 15') }
       it 'returns messages that have present or future parsed_date' do
 
-        pretend_now_is(valentines_day_at_noon) do
+        pretend_now_is(valentines_day_2015_at_noon) do
           described_class.future.should =~ [message_2, message_3, message_4, message_5]
         end
       end
@@ -172,7 +181,7 @@ describe Message do
       end
 
       it 'returns an empty Array' do
-        pretend_now_is(valentines_day_at_noon) do
+        pretend_now_is(valentines_day_2015_at_noon) do
           described_class.future.should be_empty
         end
       end
@@ -191,7 +200,7 @@ describe Message do
       it 'returns them in order' do
         expected  = { '2015-02-14' => [message_2, message_4],
                       '2015-02-15' => [message_3, message_5] }
-        pretend_now_is(valentines_day_at_noon) do
+        pretend_now_is(valentines_day_2015_at_noon) do
           described_class.by_date(2).should == expected
         end
       end
@@ -203,7 +212,7 @@ describe Message do
       end
 
       it 'returns a Hash with values that are empty arrays' do
-        pretend_now_is(valentines_day_at_noon) do
+        pretend_now_is(valentines_day_2015_at_noon) do
           described_class.by_date(2).should == { '2015-02-14' => [], '2015-02-15' => [] }
         end
       end

@@ -1,6 +1,8 @@
 Subject: Daily Dancer: A Magic Calendar
 Note: bold "today"
 Note: Hyperlink all occurrences of Daily Dancer
+Note: You may want a different example than Naked Bliss
+Note: Send every week for four weeks, then monthly
 
 
 

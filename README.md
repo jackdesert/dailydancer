@@ -191,6 +191,8 @@ NEEDS PRIORITIZATION
   * Fix bug where when in UTC time it is a new month, but in Portland it is still the old month, and daily dancer
     assigns events to *Next Year* when it should assign them to this year
   * Get double line breaks from plain to display correctly. Use dailydancer promo as an example.
+  * Add to FAQ: How do I post an event on DAily Dancer? "Post to sacredcircle listserve, and spell out the month when you list the event's date, like this: "There's a great party at my house on March 15th"
+  * Canonical site---redirect anything that uses a subdomain to pdxdailydancer.com
 
 
 Notes from my Sweetheart:

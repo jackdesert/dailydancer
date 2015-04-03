@@ -21,23 +21,45 @@ end
 describe 'the controller' do
   #let(:browser) { Rack::Test::Session.new(Rack::MockSession.new(Sinatra::Application)) }
   let(:browser) { Rack::Test::Session.new(Rack::MockSession.new(Dancer)) }
-  context 'with valid params' do
-    it 'returns 201' do
-      response = browser.post '/messages', valid_params
-      response.status.should == 201
-    end
-
-    it 'creates a Message' do
-      expect {
+  context 'POST /messages' do
+    context 'with valid params' do
+      it 'returns 201' do
         response = browser.post '/messages', valid_params
-      }.to change { Message.count }.by(1)
+        response.status.should == 201
+      end
+
+      it 'creates a Message' do
+        expect {
+          response = browser.post '/messages', valid_params
+        }.to change { Message.count }.by(1)
+      end
+    end
+
+    context 'with invalid params' do
+      it 'returns 400' do
+        response = browser.post '/messages', invalid_params
+        response.status.should == 400
+      end
     end
   end
 
-  context 'with invalid params' do
-    it 'returns 400' do
-      response = browser.post '/messages', invalid_params
-      response.status.should == 400
+  context 'GET /' do
+    context 'when not xhr' do
+      it 'returns 200' do
+        response = browser.get '/'
+        response.status.should == 200
+      end
+    end
+
+    context 'when xhr' do
+      it 'returns 200' do
+        # Set it to be an XHR request
+        # browser.header('X-Requested-With', 'XMLHttpRequest')
+
+        response = browser.get '/?xhr=true'
+        response.status.should == 200
+      end
     end
   end
+
 end

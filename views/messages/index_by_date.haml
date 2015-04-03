@@ -1,5 +1,8 @@
-%h1#title= page_title
-#subtitle Events from Sacred Circle Mailing List
+- if !xhr
+  %h1#title= page_title
+  /#subtitle Events from Sacred Circle Mailing List
+  /#subtitle Portland Ecstatic Dance Community Events
+  #subtitle Events in the Portland Ecstatic Dance Community
 - odd = true
 - first_time = true
 - date_strings = date_range_with_messages.keys
@@ -7,12 +10,13 @@
   - messages = date_range_with_messages[date_string]
   - events = date_range_with_events[date_string]
   - odd = !odd
-  - odd_class = odd ? 'odd' : 'even'
+  - date_holder_class = odd ? 'odd' : 'even'
+  - date_holder_class += ' additional' if xhr
   - display_date_class = (messages | events).empty? ? 'empty' : 'full'
 
-  .date-holder{class: odd_class}
+  .date-holder{class: date_holder_class}
     - if first_time
-      = haml :_nav, locals: locals
+      = haml :_nav, locals: locals unless xhr
       - first_time = false
     %h2.date{class: display_date_class}= display_date(date_string)
     - events.each do |event|
@@ -45,3 +49,10 @@
           .source= "(Posted by #{message.author} on #{message.received_at})"
           - details_as_array(message).each do |line|
             .line= line
+
+
+%center
+  / Note the text for this button comes from a css :before selector
+  / Which makes it so the JavaScript only has to change the class
+  %button.toggle-additional-dates{class: xhr ? '' : 'show'}
+#more.hidden

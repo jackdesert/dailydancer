@@ -16,6 +16,9 @@ end
 class Dancer < Sinatra::Base
   include ApplicationHelper
 
+  BASELINE_DAYS = 7
+  ADDITIONAL_DAYS = 24
+
   LOG_FILE = settings.root + "/log/#{settings.environment}.log"
   error_logger = File.new(LOG_FILE, 'a')
   error_logger.sync = true
@@ -41,9 +44,19 @@ class Dancer < Sinatra::Base
 
   get '/' do
 
+
     show_duplicates = admin = !!params[:admin]
-    num_days = 7
-    date_range_with_messages = Message.by_date(num_days)
+
+    xhr = !!params[:xhr]
+    if xhr
+      num_days = ADDITIONAL_DAYS
+      offset = BASELINE_DAYS
+    else
+      num_days = BASELINE_DAYS
+      offset = 0
+    end
+
+    date_range_with_messages = Message.by_date(num_days, offset)
 
     date_range_with_messages.each do |date, messages|
       # Cloning messages because deduplicate shifts from the array
@@ -58,7 +71,7 @@ class Dancer < Sinatra::Base
       date_range_with_messages[date] = messages_to_display.sort_by(&:subject)
     end
 
-    date_range_with_events = Event.by_date(num_days)
+    date_range_with_events = Event.by_date(num_days, offset)
 
     # For next time
     Event.load_in_thread_if_its_been_a_while
@@ -67,10 +80,11 @@ class Dancer < Sinatra::Base
                 date_range_with_events: date_range_with_events,
                 page_title: 'Daily Dancer',
                 nav_class: :home,
-                admin: admin
+                admin: admin,
+                xhr: xhr
               }
 
-    haml :'messages/index_by_date', locals: locals
+    haml :'messages/index_by_date', locals: locals, layout: !xhr
   end
 
   get '/faq' do

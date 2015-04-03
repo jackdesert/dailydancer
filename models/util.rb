@@ -22,9 +22,9 @@ module Util
       Digest::SHA1.hexdigest(text)
     end
 
-    def range_of_date_strings(num_days)
-      today = Util.current_date_in_portland
-      dates = (today..today + num_days - 1).to_a
+    def range_of_date_strings(num_days, offset=0)
+      start_date = Util.current_date_in_portland + offset
+      dates = (start_date..start_date + num_days - 1).to_a
       dates.map(&:to_s)
     end
 

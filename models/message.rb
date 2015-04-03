@@ -120,18 +120,18 @@ class Message < Sequel::Model
     where(hidden: false)
   end
 
-  def self.future
+  def self.future_with_parsed_date(offset_in_days=0)
     messages = visible.all.select do |message|
-      message.parsed_date && message.parsed_date >= Util.current_date_in_portland.to_s
+      message.parsed_date && message.parsed_date >= (Util.current_date_in_portland + offset_in_days).to_s
     end
   end
 
-  def self.by_date(num_days)
+  def self.by_date(num_days, offset)
     return {} if num_days == 0
     output = {}
-    messages = future.sort_by{|m| "#{m.parsed_date} #{m.subject}"}
+    messages = future_with_parsed_date(offset).sort_by{|m| "#{m.parsed_date} #{m.subject}"}
 
-    Util.range_of_date_strings(num_days).each do |date_string|
+    Util.range_of_date_strings(num_days, offset).each do |date_string|
       output[date_string] = []
       while date_string == messages.first.try(:parsed_date)
         output[date_string] << messages.shift

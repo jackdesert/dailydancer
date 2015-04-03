@@ -74,3 +74,17 @@ The dance community in Portland, Oregon has multiple streams of activities:
   * Web Site
   * Facebook
 Some would love the facebook events shown here too. But it has not happened yet.
+
+
+Why is the parameter xhr=true passed in with ajax requests?
+-----------------------------------------------------------
+
+The reason is twofold, but the first one is the clincher:
+  * jQlite does not pass the appropriate header to tell Sinatra that request.xhr? is true
+  * It makes is clear in the nxing logs which requests are xhr, since it uses the same controller
+
+
+Why the switch to jQuery?
+-------------------------
+
+Because jQlite did not offer a way to unbind events.

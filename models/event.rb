@@ -73,9 +73,9 @@ class Event < Sequel::Model
     match[1].gsub('+', SPACE)
   end
 
-  def self.by_date(num_days)
+  def self.by_date(num_days, offset)
     output = {}
-    Util.range_of_date_strings(num_days).each do |date_string|
+    Util.range_of_date_strings(num_days, offset).each do |date_string|
       output[date_string] = for_date_string(date_string)
     end
 
@@ -165,11 +165,16 @@ class Event < Sequel::Model
 
     # Remove the header row
     rows.shift
-    rows.each do |row|
-      create_event_from_row(row)
-    end
 
-    delete_all_with_id_less_than(previous_last_id)
+    # create new events and delete old ones within a transaction
+    # so we always end up with correct number of events
+    DB.transaction do
+      rows.each do |row|
+        create_event_from_row(row)
+      end
+
+      delete_all_with_id_less_than(previous_last_id)
+    end
 
     log_message = "events loaded at #{Time.now}. klass_last_loaded_at: #{klass_last_loaded_at}\n"
     File.open(EVENT_LOAD_LOG, 'a') { |file| file.write(log_message) }

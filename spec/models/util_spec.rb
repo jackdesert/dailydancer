@@ -2,6 +2,28 @@ require 'spec_helper'
 
 describe Util do
 
+  describe '.range_of_date_strings' do
+    let(:july_15_2006_at_noon) { Time.new(2006, 7, 15, 12) }
+
+    context 'when offset is not passed in' do
+      it 'returns dates starting "today"' do
+        pretend_now_is(july_15_2006_at_noon) do
+          array = described_class.range_of_date_strings(2)
+          array.should == ['2006-07-15', '2006-07-16']
+        end
+      end
+    end
+
+    context 'when offset is passed in' do
+      it 'returns dates starting in the future' do
+        pretend_now_is(july_15_2006_at_noon) do
+          array = described_class.range_of_date_strings(2, 1)
+          array.should == ['2006-07-16', '2006-07-17']
+        end
+      end
+    end
+  end
+
   describe '.sha1' do
     context 'when text is nil' do
       it 'raises an error' do

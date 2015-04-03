@@ -129,6 +129,9 @@ COMPLETED:
   * Manual hiding of messages using the :hidden database colum
   * Pulling recurring events from pdxecstaticdance.com
   * Displaying author's name
+  * Now using a CDN to host jQuery for faster download times and re-use
+  * Link for "More Events" that shows three additional weeks
+  * Now using pdxdailydancer.com
 
 
 PASSIONATE ABOUT:
@@ -138,7 +141,7 @@ PASSIONATE ABOUT:
 
 PRETTY WARM ABOUT:
 
-  * Link for "show me more" that shows lots of events
+  * Better posting guidelines: Nicholas suggests "put the date at the top". Jack suggests: "Spell out the date, and put it near the top"
   * If two dates in body, choose the first one AFTER received-at
   * Do not display "Move in as soon as May 1st." as an event
   * Advertise it among friends
@@ -152,7 +155,6 @@ SEEMS LIKE A GOOD IDEA:
 
   * Blacklist the AstrologyNow Forecast
   * Ask HEBA to design the FAQ page for me
-  * Fix so can pull down latest database
   * Redirect from www to naked domain (sinatra does not see the www)
   * Return the id when creating a message so cloudin can see it
   * Cache assets so they do not need requesting again
@@ -167,8 +169,6 @@ NOT SO SURE ABOUT:
   * Inline scripts and stylesheets in production mode so only one network hit
   * Make a /jack page that tells about the author, and link to it instead of giving a mailto
   * Make sure received-at is converted to the correct day (Pacific time) when used to parse relative dates in subjects
-  * (Jennifer, Nicholas) What about putting posting guidelines in the FAQ how to make sure the event is found?
-  * register pdxdailydancer.com
   * Staging site
   * Build an interactive thing that displays a message and asks if the correct date has been found, then saves
     the "confirmed_date" so it is easy to test whether they are all correctly identified.
@@ -193,15 +193,21 @@ NEEDS PRIORITIZATION
   * Get double line breaks from plain to display correctly. Use dailydancer promo as an example.
   * Add to FAQ: How do I post an event on DAily Dancer? "Post to sacredcircle listserve, and spell out the month when you list the event's date, like this: "There's a great party at my house on March 15th"
   * Canonical site---redirect anything that uses a subdomain to pdxdailydancer.com
+  * 2" x 3.5" cards artfully designed (or not) with pdxdailydancer.com on it (and my name as creator/webmaster)
+  * Disable button which fetching AJAX (at least for two seconds)
+  * put scraping of pdxecstaticdance.com into transaction so dupes cannot happen
+  * Find out how to get author email address
+  * remove event-id column from Message since we don't link to it
+  * nginx caching of dancer.js and style.css and reset.css
 
 
 Notes from my Sweetheart:
+  * ctrl-z to hide additional messages
   * Can it bring in things from the facebook list too?
   * Can we put the first four lines of the body?
   * Location, time? Are those hard?
   * I notice that a four-day event only shows up on the first day of that event...
   * Votes for ten days' worth
-  * If button for "show more", then can it be a big button?
   * What about really juicy events that are announced six weeks ahead and that will fill up fast? Do
     I want that to show up in DD?
   * When show-more button opens, can it go ALL THE WAY into the future.

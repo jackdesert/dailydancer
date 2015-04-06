@@ -199,6 +199,10 @@ NEEDS PRIORITIZATION
   * Find out how to get author email address
   * remove event-id column from Message since we don't link to it
   * nginx caching of dancer.js and style.css and reset.css
+  * Supply an etag for '/' and '/?xhr=true' so users can refresh without downloading code
+  * negative lookbehind for "until <date>" and "before <date>"
+  * Get email addresses to show up in "from" above body. (now we have name)
+  * Get better formatting of "from" when it's one of those weird ones
 
 
 Notes from my Sweetheart:

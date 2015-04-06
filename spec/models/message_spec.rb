@@ -102,6 +102,7 @@ describe Message do
       'sublet my office' => true,
       'month to month available' => true,
       'go to kickstarter.com' => true,
+      'looking for therapy space' => true,
       'dogs are fun' => false}.each do |text, response|
       context "When plain is #{text}" do
         it "returns #{response}" do

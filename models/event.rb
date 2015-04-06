@@ -15,8 +15,11 @@ class Event < Sequel::Model
   SPACE = ' '
   COMMA = ','
 
+  KLASS_LAST_LOADED_SEMAPHORE = Mutex.new
+  CURRENTLY_LOADING_SEMAPHORE = Mutex.new
+
   class << self
-    attr_accessor :klass_day_of_week, :klass_last_loaded_at
+    attr_accessor :klass_day_of_week
   end
 
   # These now come from Sequel, as they are defined in the database
@@ -112,50 +115,72 @@ class Event < Sequel::Model
     command = "curl #{url} > #{SAVED_WEB_PAGE_TEMP}"
     success = system(command)
 
-    return unless success == true
+    unless success == true
+      log("02 not loaded because return value from curl is false")
+      return false
+    end
 
     if File.stat(SAVED_WEB_PAGE_TEMP).size > MIN_EXPECTED_SIZE
       # Only copy if curl successfully grabbed a large enough file to appear reasonable
       FileUtils.cp(SAVED_WEB_PAGE_TEMP, SAVED_WEB_PAGE)
+      true
+    else
+      log("03 not loaded because results from curl too small")
+      false
     end
   end
 
   def self.load_in_thread_if_its_been_a_while
-    Thread.new do
-      begin
-        load_if_its_been_a_while
 
-        # No file means no errors
-        FileUtils.rm_f(ERROR_FILE_FROM_THREAD)
+    unless been_a_while?
+      log("00 not loaded because last loaded at #{klass_last_loaded_at}")
+      return false
+    end
+
+    if currently_loading?
+      log("01 not loaded because currently_loading")
+      return false
+    end
+
+    self.currently_loading = true
+
+    # Set last_loaded_at before thread starts instead of when thread finishes so that
+    # with high traffic, still only one thread gets loaded
+    self.klass_last_loaded_at = Time.now
+
+    Thread.new do
+
+      # This sleep is to allow the server request to be serviced before loading,
+      # because during the load there is a short window where each event will
+      # show up twice
+      sleep 2
+
+      begin
+        # calling explicitly on self because load means other things too
+        self.load
+
       rescue Exception => e
         data = "#{e.message}\n#{e.backtrace.join("\n")}"
 
-        # File presence means something went wrong
-        File.open(ERROR_FILE_FROM_THREAD, 'w') { |file| file.write(data) }
-
-        # Also append to the event load log.
-        # Now there are two chances to notice the error
-        File.open(EVENT_LOAD_LOG, 'a') { |file| file.write(data) }
+        log("09 not loaded because exception raised: #{data}")
+      ensure
+        self.currently_loading = false
       end
     end
   end
 
-  def self.load_if_its_been_a_while
-    # TODO wrap this in a semaphore since multiple actors access the same class instance var
-
-    return false if klass_last_loaded_at && klass_last_loaded_at > 1.hour.ago
-
-    # Explicit self because 'load' has other meanings
-    self.load
-    self.klass_last_loaded_at = Time.now
-
-    true
+  def self.been_a_while?
+    return true if klass_last_loaded_at.nil?
+    (Time.now - klass_last_loaded_at).abs > 1.hour
   end
 
   def self.load
     previous_last_id = last.try(:id).to_i
 
-    fetch_events
+    unless fetch_events
+      log("04 not loaded because fetch_events failed")
+      return false
+    end
 
     # Load from file. This will most often be from last time
     file = File.open(SAVED_WEB_PAGE)
@@ -169,15 +194,21 @@ class Event < Sequel::Model
     # create new events and delete old ones within a transaction
     # so we always end up with correct number of events
     DB.transaction do
+      log("05 about to create new events. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
       rows.each do |row|
         create_event_from_row(row)
       end
 
+      log("06 new events created. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
+
       delete_all_with_id_less_than(previous_last_id)
+
+      log("07 old events deleted. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
     end
 
-    log_message = "events loaded at #{Time.now}. klass_last_loaded_at: #{klass_last_loaded_at}\n"
-    File.open(EVENT_LOAD_LOG, 'a') { |file| file.write(log_message) }
+    log("08 load completed. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
+
+    true
   end
 
   def self.delete_all_with_id_less_than(previous_last_id)
@@ -236,6 +267,32 @@ class Event < Sequel::Model
     hash[key]
   end
 
+  def self.log(text)
+    File.open(EVENT_LOAD_LOG, 'a') { |file| file.write("#{Time.now} #{text}\n") }
+  end
 
+  def self.klass_last_loaded_at
+    KLASS_LAST_LOADED_SEMAPHORE.synchronize do
+      @klass_last_loaded_at
+    end
+  end
+
+  def self.klass_last_loaded_at=(time)
+    KLASS_LAST_LOADED_SEMAPHORE.synchronize do
+      @klass_last_loaded_at = time
+    end
+  end
+
+  def self.currently_loading?
+    CURRENTLY_LOADING_SEMAPHORE.synchronize do
+      @currently_loading
+    end
+  end
+
+  def self.currently_loading=(state)
+    CURRENTLY_LOADING_SEMAPHORE.synchronize do
+      @currently_loading = state
+    end
+  end
 
 end

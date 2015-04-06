@@ -80,7 +80,8 @@ Why is the parameter xhr=true passed in with ajax requests?
 -----------------------------------------------------------
 
 The reason is twofold, but the first one is the clincher:
-  * jQlite does not pass the appropriate header to tell Sinatra that request.xhr? is true
+  * (originally) jQlite does not pass the appropriate header to tell Sinatra that request.xhr? is true
+    but this does not apply any more now that it runs on jQuery proper
   * It makes is clear in the nxing logs which requests are xhr, since it uses the same controller
 
 
@@ -88,3 +89,25 @@ Why the switch to jQuery?
 -------------------------
 
 Because jQlite did not offer a way to unbind events.
+
+
+Why is there a semaphore wrapped around Event.klass_last_loaded_at?
+-------------------------------------------------------------------
+
+Multiple server threads will access this data, and if they are out of sync,
+two threads might attempt to Event.load, which means that momentarily there might be
+a lot of events (new ones get created, and old ones get deleted)
+
+
+Why is there not a lock on the Event table to prevent reading from it while new events are created?
+---------------------------------------------------------------------------------------------------
+
+Because the likelihood of a request coming in right at the moment when new events have been created but old
+ones have not been deleted is small.
+
+
+Why is there a sleep in Event.load?
+-----------------------------------
+
+To make sure the events do not get created before the request is serviced. (This is the most likely scenario why
+someone would see duplicate Events)

@@ -111,4 +111,42 @@ describe Event do
       event.address.should == '4920 NE 55th Ave Portland OR (behind yellow house)'
     end
   end
+
+  describe '.been_a_while?' do
+    let(:jan_1_2000_at_noon) { Time.new(2000, 1, 1, 0, 0) }
+
+    context 'when klass_last_loaded_at is not set' do
+      before do
+        described_class.klass_last_loaded_at = nil
+      end
+
+      it 'returns true' do
+        pretend_now_is jan_1_2000_at_noon do
+          described_class.been_a_while?.should == true
+        end
+      end
+    end
+
+    context 'when klass_last_loaded_at is set' do
+      before do
+        described_class.klass_last_loaded_at = jan_1_2000_at_noon
+      end
+
+      context 'when more than an hour later' do
+        it 'returns true' do
+          pretend_now_is jan_1_2000_at_noon + 70.minutes do
+            described_class.been_a_while?.should == true
+          end
+        end
+      end
+
+      context 'when less than an hour later' do
+        it 'returns false' do
+          pretend_now_is jan_1_2000_at_noon + 30.minutes do
+            described_class.been_a_while?.should == false
+          end
+        end
+      end
+    end
+  end
 end

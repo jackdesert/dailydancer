@@ -76,5 +76,22 @@ describe Util do
       it { should be_truthy }
     end
   end
+
+  describe '.is_browser?' do
+    hash = { Opera: true,
+             Aol: true,
+             Firefox: true,
+             nil: false,
+             googlebot: false,
+             yahoo: false }
+
+    hash.each do |user_agent, expected_response|
+      context "when user-agent is #{user_agent}" do
+        it "returns #{expected_response}" do
+          described_class.is_browser?(user_agent).should == expected_response
+        end
+      end
+    end
+  end
 end
 

@@ -76,5 +76,87 @@ describe Util do
       it { should be_truthy }
     end
   end
+
+  describe '.is_browser?' do
+    subject { described_class.is_browser?(user_agent) }
+
+    context 'known browsers' do
+      context 'when AOL 9.7' do
+        let (:user_agent) { 'Mozilla/5.0 (compatible; MSIE 9.0; AOL 9.7; AOLBuild 4343.19; Windows NT 6.1; WOW64; Trident/5.0; FunWebProducts)' }
+        it { should == true }
+      end
+
+      context 'when Opera 12.16' do
+        let (:user_agent) { 'Opera/9.80 (X11; Linux i686; Ubuntu/14.10) Presto/2.12.388 Version/12.16' }
+        it { should == true }
+      end
+
+      context 'when iPhone 5' do
+        let (:user_agent) { 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3' }
+        it { should == true }
+      end
+
+      context 'when Android WebKit' do
+        let (:user_agent) { 'Mozilla/5.0 (Linux; U; Android 4.0.3; ko-kr; LG-L160L Build/IML74K) AppleWebkit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30' }
+        it { should == true }
+      end
+
+      context 'when Chrome' do
+        let (:user_agent) { 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2228.0 Safari/537.36' }
+        it { should == true }
+      end
+
+      context 'when Safari 7' do
+        let (:user_agent) { 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/7046A194A' }
+        it { should == true }
+      end
+
+      context 'when dolphin' do
+        let (:user_agent) { '"Mozilla/5.0 (Linux; U; Android 5.0.1; en-us; Nexus 4 Build/LRX22C) AppleWebKit/537.16 (KHTML, like Gecko) Version/4.0 Mobile Safari/537.16"' }
+        it { should == true }
+      end
+
+      context 'when puffin' do
+        let (:user_agent) { 'Mozilla/5.0 (X11; U; Linux x86_64; zh-TW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.114 Safari/537.36 Puffin/3.7.0IT' }
+        it { should == true }
+      end
+
+      context 'when mercury' do
+        let (:user_agent) { 'Mozilla/5.0 (iPhone; CPU iPhone OS 5_1_1 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Mercury/7.2 Mobile/9B206 Safari/7534.48.3' }
+        it { should == true }
+      end
+    end
+
+
+    context 'known bots' do
+      # Note that many browsers and bots reference Mozilla/x.0
+      # Note that many bots use the word 'compatible'
+      context 'when GoogleBot 2.1' do
+        let (:user_agent) { 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }
+        it { should == false }
+      end
+
+      context 'when Bing' do
+        let (:user_agent) { 'Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)' }
+        it { should == false }
+      end
+
+      context 'when Yahoo Slurp' do
+        let (:user_agent) { 'Mozilla/5.0 (compatible; Yahoo! Slurp; http://help.yahoo.com/help/us/ysearch/slurp)' }
+        it { should == false }
+      end
+
+      context 'when Speedy Spider' do
+        let (:user_agent) { 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) Speedy Spider (http://www.entireweb.com/about/search_tech/speedy_spider/)' }
+        it { should == false }
+      end
+
+      context 'when Seekbot' do
+        let (:user_agent) { 'Seekbot/1.0 (http://www.seekbot.net/bot.html) RobotsTxtFetcher/1.2' }
+        it { should == false }
+      end
+    end
+
+  end
 end
 

@@ -229,6 +229,14 @@ describe Message do
     end
   end
 
+  describe '.by_date_empty' do
+    it 'returns empty arrays for values' do
+      pretend_now_is(valentines_day_2015_at_noon) do
+        described_class.by_date_empty(2).should == { '2015-02-14' => [], '2015-02-15' => [] }
+      end
+    end
+  end
+
   describe '#duplicate_of?' do
     context 'when content is exactly the same' do
       let(:plain) { "June 14 there is.something playing.at the fair.that might interest.you." }

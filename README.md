@@ -132,6 +132,7 @@ COMPLETED:
   * Now using a CDN to host jQuery for faster download times and re-use
   * Link for "More Events" that shows three additional weeks
   * Now using pdxdailydancer.com
+  * All user-agents see Events; Only browsers see Messages. This means we can be indexed by Google
 
 
 PASSIONATE ABOUT:

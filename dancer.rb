@@ -56,19 +56,23 @@ class Dancer < Sinatra::Base
       offset = 0
     end
 
-    date_range_with_messages = Message.by_date(num_days, offset)
+    if Util.is_browser?(env['HTTP_USER_AGENT'])
+      date_range_with_messages = Message.by_date(num_days, offset)
 
-    date_range_with_messages.each do |date, messages|
-      # Cloning messages because deduplicate shifts from the array
-      uniques = deduplicate(messages.clone)
-      if show_duplicates
-        duplicates = messages - uniques
-        duplicates.each(&:mark_as_duplicate)
-        messages_to_display = messages
-      else
-        messages_to_display = uniques
+      date_range_with_messages.each do |date, messages|
+        # Cloning messages because deduplicate shifts from the array
+        uniques = deduplicate(messages.clone)
+        if show_duplicates
+          duplicates = messages - uniques
+          duplicates.each(&:mark_as_duplicate)
+          messages_to_display = messages
+        else
+          messages_to_display = uniques
+        end
+        date_range_with_messages[date] = messages_to_display.sort_by(&:subject)
       end
-      date_range_with_messages[date] = messages_to_display.sort_by(&:subject)
+    else
+      date_range_with_messages = Message.by_date_empty(num_days)
     end
 
     date_range_with_events = Event.by_date(num_days, offset)

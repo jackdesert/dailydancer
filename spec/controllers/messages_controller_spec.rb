@@ -44,6 +44,11 @@ describe 'the controller' do
   end
 
   context 'GET /' do
+    before do
+      # Set the user-agent
+      browser.header "User-Agent", "Firefox"
+    end
+
     context 'when not xhr' do
       it 'returns 200' do
         response = browser.get '/'

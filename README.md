@@ -203,6 +203,7 @@ NEEDS PRIORITIZATION
   * negative lookbehind for "until <date>" and "before <date>"
   * Get email addresses to show up in "from" above body. (now we have name)
   * Get better formatting of "from" when it's one of those weird ones
+  * CTRL-z
 
 
 Notes from my Sweetheart:

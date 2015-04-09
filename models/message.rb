@@ -141,11 +141,10 @@ class Message < Sequel::Model
     output
   end
 
-  def self.by_date_empty(num_days)
+  def self.by_date_empty(num_days, offset)
     # this is the version that gets sent to bots
     return {} if num_days == 0
     output = {}
-    offset = 0
 
     Util.range_of_date_strings(num_days, offset).each do |date_string|
       output[date_string] = []

@@ -230,9 +230,11 @@ describe Message do
   end
 
   describe '.by_date_empty' do
-    it 'returns empty arrays for values' do
-      pretend_now_is(valentines_day_2015_at_noon) do
-        described_class.by_date_empty(2).should == { '2015-02-14' => [], '2015-02-15' => [] }
+    context 'when num_days is 2 and offset is 1' do
+      it 'returns empty arrays for tomorrow and the next day' do
+        pretend_now_is(valentines_day_2015_at_noon) do
+          described_class.by_date_empty(2, 1).should == { '2015-02-15' => [], '2015-02-16' => [] }
+        end
       end
     end
   end

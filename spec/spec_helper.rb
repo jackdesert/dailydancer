@@ -35,6 +35,7 @@ require_relative '../models/message'
 require_relative '../models/event'
 require_relative '../models/date_parser'
 require_relative '../helpers/application_helper'
+require_relative '../presenters/message_presenter'
 require_relative './support/helper_methods'
 
 RSpec.configure do |config|

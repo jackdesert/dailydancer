@@ -18,4 +18,5 @@ require './models/date_parser'
 require './models/message'
 require './models/event'
 require './helpers/application_helper'
+require './presenters/message_presenter'
 

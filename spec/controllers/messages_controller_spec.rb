@@ -44,25 +44,50 @@ describe 'the controller' do
   end
 
   context 'GET /' do
-    before do
-      # Set the user-agent
-      browser.header "User-Agent", "Firefox"
-    end
 
-    context 'when not xhr' do
-      it 'returns 200' do
-        response = browser.get '/'
-        response.status.should == 200
+    context 'when request is from a browser' do
+      before do
+        # Set the user-agent
+        browser.header "User-Agent", "Firefox"
+      end
+
+      context 'when not xhr' do
+        it 'returns 200' do
+          response = browser.get '/'
+          response.status.should == 200
+        end
+      end
+
+      context 'when xhr' do
+        it 'returns 200' do
+          # Set it to be an XHR request
+          # browser.header('X-Requested-With', 'XMLHttpRequest')
+
+          response = browser.get '/?xhr=true'
+          response.status.should == 200
+        end
       end
     end
 
-    context 'when xhr' do
-      it 'returns 200' do
-        # Set it to be an XHR request
-        # browser.header('X-Requested-With', 'XMLHttpRequest')
+    context 'when request is not a browser' do
 
-        response = browser.get '/?xhr=true'
-        response.status.should == 200
+      # Note user agent is not set in this context
+
+      context 'when not xhr' do
+        it 'returns 200' do
+          response = browser.get '/'
+          response.status.should == 200
+        end
+      end
+
+      context 'when xhr' do
+        it 'returns 200' do
+          # Set it to be an XHR request
+          # browser.header('X-Requested-With', 'XMLHttpRequest')
+
+          response = browser.get '/?xhr=true'
+          response.status.should == 200
+        end
       end
     end
   end

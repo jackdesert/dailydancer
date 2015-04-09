@@ -111,3 +111,10 @@ Why is there a sleep in Event.load?
 
 To make sure the events do not get created before the request is serviced. (This is the most likely scenario why
 someone would see duplicate Events)
+
+
+Why is class << self used in MessagePresenter
+---------------------------------------------
+
+2015-04-09
+Because it allows a class method to be defined that is actually private

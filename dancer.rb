@@ -40,7 +40,7 @@ class Dancer < Sinatra::Base
   end
 
   before do
-    redirect_to_canonical_url
+    redirect_if_www
   end
 
   get '/' do
@@ -124,14 +124,13 @@ class Dancer < Sinatra::Base
     log("params: #{hash}")
   end
 
-  def redirect_to_canonical_url
-    return unless settings.production?
+  def redirect_if_www
+    www_regex = /\Awww\./
+    http_host = env['HTTP_HOST']
 
-    expected_url = 'http://pdxdailydancer.com'
-    actual_url = env['HTTP_HOST']
-
-    unless expected_url == actual_url
-      redirect expected_url
+    if http_host.match www_regex
+      naked_http_host = http_host.sub(www_regex, '')
+      redirect "http://#{naked_http_host}"
     end
   end
 

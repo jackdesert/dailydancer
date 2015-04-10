@@ -205,6 +205,7 @@ NEEDS PRIORITIZATION
   * Get email addresses to show up in "from" above body. (now we have name)
   * Get better formatting of "from" when it's one of those weird ones
   * CTRL-z
+  * Offer a way to send people "perma"links to events
 
 
 Notes from my Sweetheart:

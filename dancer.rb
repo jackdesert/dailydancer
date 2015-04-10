@@ -15,6 +15,7 @@ end
 
 class Dancer < Sinatra::Base
   include ApplicationHelper
+  helpers Sinatra::ContentFor
 
   BASELINE_DAYS = 7
   ADDITIONAL_DAYS = 24

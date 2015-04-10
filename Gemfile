@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 
 gem 'sinatra'
+gem 'sinatra-contrib'
 gem 'sequel'
 gem 'rack-test'
 gem 'sqlite3' # `apt-get install libsqlite3-dev` is required on ubuntu

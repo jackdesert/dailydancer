@@ -127,11 +127,11 @@ class Dancer < Sinatra::Base
   def redirect_to_canonical_url
     return unless settings.production?
 
-    expected_url = 'http://pdxdailydancer.com'
-    actual_url = env['HTTP_HOST']
+    expected_host = 'pdxdailydancer.com'
+    actual_host = env['HTTP_HOST']
 
-    unless expected_url == actual_url
-      redirect expected_url
+    unless expected_host == actual_host
+      redirect "http://#{expected_host}"
     end
   end
 

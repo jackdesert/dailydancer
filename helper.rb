@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'sinatra/content_for'
+require 'rack/cache'
 require 'pry'
 require 'sequel'
 require 'json'

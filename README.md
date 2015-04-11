@@ -52,7 +52,7 @@ To run a specific migration against a particular environment:
 Running the server in Development Mode
 --------------------------------------
 
-    bundle exec rerun 'rackup config-dancer.ru -o 0.0.0.0' --background
+    bundle exec rerun 'rackup config-dancer.ru -o 0.0.0.0' --background --pattern '*.rb'
 
 Note the -o 0.0.0.0 is only necessary if you are running inside a VM
 

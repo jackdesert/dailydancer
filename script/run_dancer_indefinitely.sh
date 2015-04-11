@@ -12,6 +12,7 @@ echo "REMINDER: call this with 'nohup' and a trailing '&'"
 
 while true; do
   cd /home/dev/dancer
+  rm -r cache
   bundle install
   RACK_ENV=production bundle exec rackup config-dancer.ru -p 8852
   sleep 2

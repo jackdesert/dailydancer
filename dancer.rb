@@ -46,7 +46,20 @@ class Dancer < Sinatra::Base
   get '/' do
 
 
+    browser = Util.is_browser?(env['HTTP_USER_AGENT'])
     show_duplicates = admin = !!params[:admin]
+    force_cache = !!params[:force_cache]
+
+    text = 'no cache'
+    if (browser && settings.production? && !admin) || force_cache
+      # Only cache things for browsers, since we don't care as much about response time for crawlers
+      # and crawlers don't request any messages so they don't take that long
+      cache_control :public
+      the_etag = build_etag
+      etag the_etag
+      text = "cache: #{Time.now}, etag: #{the_etag}"
+    end
+
 
     xhr = !!params[:xhr]
     if xhr
@@ -57,7 +70,7 @@ class Dancer < Sinatra::Base
       offset = 0
     end
 
-    if Util.is_browser?(env['HTTP_USER_AGENT'])
+    if browser
       date_range_with_messages = MessagePresenter.by_date_deduplicated(num_days, offset, show_duplicates)
     else
       date_range_with_messages = Message.by_date_empty(num_days, offset)
@@ -66,7 +79,8 @@ class Dancer < Sinatra::Base
     date_range_with_events = Event.by_date(num_days, offset)
 
     # For next time
-    Event.load_in_thread_if_its_been_a_while
+    # TODO reenable
+    #Event.load_in_thread_if_its_been_a_while
 
     locals  = { date_range_with_messages: date_range_with_messages,
                 date_range_with_events: date_range_with_events,
@@ -77,6 +91,7 @@ class Dancer < Sinatra::Base
               }
 
     haml :'messages/index_by_date', locals: locals, layout: !xhr
+    text
   end
 
   get '/faq' do
@@ -125,6 +140,7 @@ class Dancer < Sinatra::Base
   end
 
   def redirect_to_canonical_url
+
     return unless settings.production?
 
     expected_host = 'pdxdailydancer.com'

@@ -51,5 +51,11 @@ module ApplicationHelper
     "mailto:Jack%20Desert<jackdesert@gmail.com>?subject=Daily%20Dancer%20#{last_word}"
   end
 
+  def build_etag
+    # Note this does not have any commas in it, because rack-cache will not
+    # cache anything if there are commas
+    "last_message_id:#{Message.last.try(:id)}/last_event_id:#{Event.last.try(:id)}"
+  end
+
 end
 

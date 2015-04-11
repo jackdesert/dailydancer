@@ -118,3 +118,15 @@ Why is class << self used in MessagePresenter
 
 2015-04-09
 Because it allows a class method to be defined that is actually private
+
+Why is rack-cache used?
+-----------------------
+2015-04-11
+To make responses faster
+
+Why is disk being used to store rack-cache meta and data?
+---------------------------------------------------------
+2015-04-11
+It was easier to use on disk than to start a memcached server
+
+

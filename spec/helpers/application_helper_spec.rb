@@ -53,5 +53,15 @@ describe ApplicationHelper do
       end
     end
   end
+
+  describe '#build_etag' do
+    it 'returns a string' do
+      build_etag.class.should == String
+    end
+
+    it 'does not contain a comma' do
+      build_etag.match(',').should be_nil
+    end
+  end
 end
 

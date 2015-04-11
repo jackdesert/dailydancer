@@ -118,3 +118,28 @@ Why is class << self used in MessagePresenter
 
 2015-04-09
 Because it allows a class method to be defined that is actually private
+
+Why is rack-cache used?
+-----------------------
+2015-04-11
+To make responses faster
+
+Why is disk being used to store rack-cache meta and data?
+---------------------------------------------------------
+2015-04-11
+It was easier to use on disk than to start a memcached server
+
+
+Why is 302 not set for cached responses?
+----------------------------------------
+
+2015-04-11
+Could not figure out why rack-cache is not setting 302.
+And when I attempt to force it by declaring a status_code,
+the caching stops working
+
+Why is the location of cache on disk in dancer/cache ?
+------------------------------------------------------
+
+2015-04-11
+Because read/write access is known

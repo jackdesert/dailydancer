@@ -12,4 +12,12 @@ logger = Logger.new(Dancer::LOG_FILE)
 
 use Rack::CommonLogger, logger
 
+# rack/cache is available in all environments
+# because it makes it easy to test cache in development
+# by passing the allow_cache parameter
+use Rack::Cache,
+  metastore:   'file:cache/rack/meta',
+  entitystore: 'file:cache/rack/body'
+
+
 run Dancer

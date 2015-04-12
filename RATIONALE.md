@@ -130,16 +130,15 @@ Why is disk being used to store rack-cache meta and data?
 It was easier to use on disk than to start a memcached server
 
 
-Why is 302 not set for cached responses?
-----------------------------------------
-
-2015-04-11
-Could not figure out why rack-cache is not setting 302.
-And when I attempt to force it by declaring a status_code,
-the caching stops working
-
 Why is the location of cache on disk in dancer/cache ?
 ------------------------------------------------------
 
 2015-04-11
 Because read/write access is known
+
+Why is max_age set to 0?
+------------------------
+
+2015-04-11
+It seems to be required in order to ever get a 304 back from the server.
+Not setting it at all, the server always returns 200

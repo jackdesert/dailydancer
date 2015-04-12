@@ -54,7 +54,7 @@ class Dancer < Sinatra::Base
     if (browser && settings.production? && !admin) || allow_cache
       # Only cache things for browsers, since we don't care as much about response time for crawlers
       # and crawlers don't request any messages so they don't take that long
-      cache_control :public
+      cache_control :public, max_age: 0
       the_etag = build_etag
       etag the_etag
       cache_text = "cache: #{Time.now}, etag: #{the_etag}"

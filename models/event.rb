@@ -4,6 +4,9 @@ class Event < Sequel::Model
 
   class ParseException < Exception;end
 
+  EQUALITY_FIELDS = [:day_of_week, :time, :name, :url, :hostess,  :location, :location_url, :occurs_on]
+  ALL_WEEKS = 'all'
+
   SAVED_WEB_PAGE = 'data/pdxecstaticdance.com.html'
   SAVED_WEB_PAGE_TEMP = "#{SAVED_WEB_PAGE}_TEMP"
   ERROR_FILE_FROM_THREAD = 'error_from_thread.txt'
@@ -24,6 +27,8 @@ class Event < Sequel::Model
 
   # These now come from Sequel, as they are defined in the database
   # attr_accessor :day_of_week, :time, :name, :url, :hostess,  :location, :location_url
+  #
+
 
   def before_create
     self.scraped_at ||= DateTime.now
@@ -38,9 +43,12 @@ class Event < Sequel::Model
     occurrences << '4' if time.include?('4th')
     occurrences << '5' if time.include?('5th')
 
-    return if occurrences.empty?
+    self.occurs_on = if occurrences.empty?
+      ALL_WEEKS
+    else
+      occurrences.join(COMMA)
+    end
 
-    self.occurs_on = occurrences.join(COMMA)
   end
 
   def name_formatted
@@ -76,6 +84,15 @@ class Event < Sequel::Model
     match[1].gsub('+', SPACE)
   end
 
+  # Redefine the equality operator to only check particular fields
+  def ==(other_event)
+    EQUALITY_FIELDS.each do |field|
+      return false unless send(field) == other_event.send(field)
+    end
+
+    true
+  end
+
   def self.by_date(num_days, offset)
     output = {}
     Util.range_of_date_strings(num_days, offset).each do |date_string|
@@ -93,7 +110,7 @@ class Event < Sequel::Model
     events = where(day_of_week: day_of_week).all.sort_by(&:name_formatted)
 
     events.select do |event|
-      event.occurs_on == 'all' || event.occurs_on.split(COMMA).map(&:to_i).include?(occurrence)
+      event.occurs_on == ALL_WEEKS || event.occurs_on.split(COMMA).map(&:to_i).include?(occurrence)
     end
   end
 
@@ -195,15 +212,24 @@ class Event < Sequel::Model
     # so we always end up with correct number of events
     DB.transaction do
       log("05 about to create new events. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
-      rows.each do |row|
-        create_event_from_row(row)
+      new_events = rows.map do |row|
+        new_event_from_row(row)
       end
 
-      log("06 new events created. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
+      # Note `new_events` will have some nil values because new_event_from_row
+      # returns nil when the row does not represent an event
+      new_events.compact!
 
-      delete_all_with_id_less_than(previous_last_id)
+      if at_least_one_event_changed?(new_events)
+        new_events.each {|e| e.save}
+        log("06 new events created. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
 
-      log("07 old events deleted. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
+        delete_all_with_id_less_than(previous_last_id)
+        log("07 old events deleted. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
+      else
+        log("07 events not loaded because new events match what is in database. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
+      end
+
     end
 
     log("08 load completed. There are now #{Event.count} events. Last id is #{Event.last.try(:id)}")
@@ -215,7 +241,7 @@ class Event < Sequel::Model
     where("id <= #{previous_last_id}").each(&:delete)
   end
 
-  def self.create_event_from_row(row)
+  def self.new_event_from_row(row)
     cells = row.css('td')
 
     # If only one cell, this cell is for formatting only
@@ -244,7 +270,7 @@ class Event < Sequel::Model
     event.location     = text_from_cell(location_cell)
     event.location_url = url_from_cell(location_cell)
 
-    event.save
+    event
   end
 
   def self.text_from_cell(cell)
@@ -265,6 +291,12 @@ class Event < Sequel::Model
               sat: 'saturday',
               sun: 'sunday' }
     hash[key]
+  end
+
+  def self.at_least_one_event_changed?(new_events)
+    # Note this calls our customized '==' operator that
+    # only compares certain fields
+    all != new_events
   end
 
   def self.log(text)

@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<head>
+  <meta content='PDX Daily Dancer' name='title'>
+  <meta content="What's going on today in the Portland, Oregon Ecstatic Dance Community? Daily Dancer pulls events from two sources: from the Sacred Circle mailing list and from the dance calendar at pdxecstaticdtance.com. All events are grouped by date of occurrence." name='description'>
+  <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+  <title>PDX Daily Dancer</title>
+  <style>
+
+
+    /*
+     * html5doctor.com Reset Stylesheet
+     * v1.6.1
+     * Last Updated: 2010-09-17
+     * Author: Richard Clark - http://richclarkdesign.com
+     * Twitter: @rich_clark
+     * */
+
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure,
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+      margin:0;
+      padding:0;
+      border:0;
+      outline:0;
+      font-size:16px;
+      vertical-align:baseline;
+      background:transparent;
+    }
+
+    body {
+      line-height:1.3;
+      font-family: arial;
+    }
+
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section {
+      display:block;
+    }
+
+    nav ul {
+      list-style:none;
+    }
+
+    blockquote, q {
+      quotes:none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+      content:'';
+      content:none;
+    }
+
+    a {
+      margin:0;
+      padding:0;
+      font-size:100%;
+      vertical-align:baseline;
+      background:transparent;
+    }
+
+    /* change colours to suit your needs */
+    ins {
+      background-color:#ff9;
+      color:#000;
+      text-decoration:none;
+    }
+
+    /* change colours to suit your needs */
+    mark {
+      background-color:#ff9;
+      color:#000;
+      font-style:italic;
+      font-weight:bold;
+    }
+
+    del {
+      text-decoration: line-through;
+    }
+
+    abbr[title], dfn[title] {
+      border-bottom:1px dotted;
+      cursor:help;
+    }
+
+    table {
+      border-collapse:collapse;
+      border-spacing:0;
+    }
+
+    /* change border colour to suit your needs */
+    hr {
+      display:block;
+      height:1px;
+      border:0;
+      border-top:1px solid #cccccc;
+      margin:1em 0;
+      padding:0;
+    }
+
+    input, select {
+      vertical-align:middle;
+    }
+    div{
+      color: #222;
+    }
+
+    .bold{
+      font-weight: bold;
+    }
+
+    .italic{
+      font-style: italic;
+    }
+
+    .inline{
+      display: inline;
+    }
+
+    .inline-block{
+      display: inline-block;
+    }
+
+    body{
+      padding: 2rem 0.1rem;
+      background-color: #222;
+    }
+
+    body.admin{
+      background-color: #600;
+    }
+
+    .hidden{
+      display: none;
+    }
+
+    #content{
+      padding: 0.1rem;
+    }
+
+    #nav{
+      position: absolute;
+      right: -1px;
+      top: -1.5rem;
+    }
+    .nav-item{
+      background-color: #ccc;
+      float: right;
+      padding: 0.1rem 0.7rem;
+      border-radius: 0.3rem 0.3rem 0 0;
+    }
+
+    .nav-item.faq{
+      margin-left: 0.15rem;
+    }
+
+    .nav-item.active{
+      background-color: #888;
+    }
+
+    #title{
+      font-size: 200%;
+      text-align: center;
+      margin-top: -0.7rem;
+      color: #999;
+    }
+    #subtitle{
+      text-align: center;
+      color: #999;
+      font-style: italic;
+      padding-bottom: 1.6rem;
+    }
+
+
+    .date{
+      font-size: 230%;
+      color: #555;
+      padding: 1rem 0 2rem 0.2rem;
+    }
+
+
+    h2.empty{
+      color: #aaa;
+    }
+
+    .subject{
+      font-size: 120%;
+    }
+
+    .details{
+      padding-top: 0.1rem;
+    }
+
+    .date-holder{
+      background-color: #ccc;
+      position: relative; /* This is so the nav can exist in absolute space */
+    }
+    .date-holder.odd{
+      background-color: #bbb;
+    }
+
+    .date-holder.additional{
+      border-left: 5px solid #c00;
+      border-right: 5px solid #c00;
+    }
+    .date-holder.additional:first-of-type{
+      border-top: 5px solid #c00;
+    }
+
+
+
+
+
+    .message-or-event{
+      position: relative;
+      padding: 0.5rem;
+      border: 1px solid #aaa;
+      background-color: #fafafa;
+      overflow: hidden;
+      box-shadow: 0.2rem 0.15rem 0.1rem #888;
+      margin: 0.3rem;
+      border-radius: 0.5rem;
+    }
+
+    .message-or-event.odd.duplicate, .message-or-event.even.duplicate{
+      background-color: #800;
+    }
+
+    .message-or-event.odd{
+      /* background-color: #e0e0e0; */
+    }
+
+    .event-marker{
+      position: absolute;
+      background-color: #ccc;
+      width: 0.7rem;
+      height: 100%;
+      border-radius: 0 0.5rem 0.5rem 0;
+      top: 0;
+      right: 0;
+    }
+
+    .source{
+      color: #bbb;
+    }
+
+    .website a{
+      font-size: 140%;
+      padding-top: 0.2rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .website .label{
+      display: inline-block;
+    }
+
+    .website .label, .location .label, .hostess .label, .time .label{
+      min-width: 5.5rem;
+      display: inline-block;
+      padding-top: 0.5rem;
+      text-align: right;
+      padding-right: 0.8rem;
+    }
+
+
+    .location{
+      padding-top: 0.6rem;
+    }
+
+    .location .label{
+      vertical-align: top;
+      padding-top: 0.7rem;
+    }
+
+    .location .venue-and-address{
+      display: inline-block;
+    }
+
+    .location .venue{
+      font-size: 110%;
+    }
+
+
+    .date-holder{
+      border: 1px solid #ccc;
+    }
+
+    .footer{
+      text-align: center;
+      color: #888;
+      /* The long padding at the bottom of the footer is so that when
+       * items are collapsed the page will (hopefully) not scroll
+       * too much padding and a page refresh is weird if you are at the
+       * bottom */
+      padding: 2rem 2rem 1rem;
+    }
+
+    .date{
+      padding-bottom: 0.5rem;
+    }
+
+    a{
+      /* text-decoration: none; */
+      color: inherit;
+    }
+    a:hover{
+      font-weight: bold;
+    }
+
+    .question, .answer{
+      color: #222;
+      padding: 0 3%;
+    }
+
+    .question{
+      margin-top: 2rem;
+      font-size: 130%;
+      font-weight: bold;
+      font-size: 110%;
+    }
+
+    .answer + .answer{
+      padding-top: 0.5rem;
+    }
+
+    .example{
+      font-weight: bold;
+      font-style: italic;
+      padding: 0 1rem;
+      color: #777;
+    }
+
+    #faq-spacer{
+      height: 2.5rem;
+    }
+
+    button.toggle-additional-dates{
+      font-size: 130%;
+      margin: 2rem;
+      border-radius: 0.3rem;
+      /*border-width: 0;*/
+      cursor: pointer;
+      background-color: #ccc;
+      padding: 0.4rem 2rem;
+    }
+
+    button.toggle-additional-dates:hover{
+      background-color: #fff;
+    }
+
+    button.toggle-additional-dates.working{
+      background-color: #888;
+    }
+
+    button.toggle-additional-dates.show:before{
+      content: 'Show More';
+    }
+
+    button.toggle-additional-dates:before{
+      content: 'Show Less';
+    }
+
+    #more{
+      overflow: hidden; /* this is so that gravity() can control it's apparent height using max-height css property */
+    }
+
+
+
+
+
+
+
+    /* Medium and large screens */
+    @media screen and (min-width: 700px) {
+
+      body{
+        padding: 2rem !important;
+      }
+
+      #nav{
+        top: -1.55rem;
+      }
+
+      .date-holder{
+        /* margin: 0.5rem 1rem; */
+        padding: 1rem;
+      }
+
+      .date-holder + .date-holder{
+      }
+
+      .message-or-event{
+        padding: 1rem;
+        /* margin: 1rem 3rem; */
+        box-shadow: 0.3rem 0.2rem 0.1rem #888;
+        border-radius: 0.8rem;
+      }
+
+      /* Note that hover only applies to desktops */
+      .message-or-event:hover{
+        background-color: #fff;
+        cursor: pointer;
+        border-color: #888;
+      }
+
+      .event-marker{
+        width: 0.8rem;
+        border-radius: 0 0.8rem 0.8rem 0;
+      }
+
+      .footer{
+        margin: 1rem;
+      }
+
+      /* From reset */
+      html, body, div, span, object, iframe,
+      h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+      abbr, address, cite, code,
+      del, dfn, em, img, ins, kbd, q, samp,
+      small, strong, sub, sup, var,
+      b, i,
+      dl, dt, dd, ol, ul, li,
+      fieldset, form, label, legend,
+      table, caption, tbody, tfoot, thead, tr, th, td,
+      article, aside, canvas, details, figcaption, figure,
+      footer, header, hgroup, menu, nav, section, summary,
+      time, mark, audio, video {
+        font-size:20px;
+      }
+
+    }
+
+    /* Large screens */
+    @media screen and (min-width: 1000px) {
+      .date-holder{
+        /* On wide screens, keep content narrow but centered */
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #subtitle{
+        padding-bottom: 0.5rem;
+      }
+    }
+  </style>
+  <meta charset='utf-8'>
+</head>
+<body class=''>
+  <div id='content'>
+    <h1 id='title'>PDX Daily Dancer</h1>
+    <!-- #subtitle Events from Sacred Circle Mailing List -->
+    <!-- #subtitle Portland Ecstatic Dance Community Events -->
+    <div id='subtitle'>Events in the Portland Ecstatic Dance Community</div>
+    <div class='date-holder even'>
+      <div id='nav'>
+          <div class='active faq nav-item'>FAQ</div>
+        <div class='nav-item'>Events</div>
+      </div>
+
+
+
+      <center><h2 class='date full' style='color: #c00;'>Oops--Server pulled a muscle!</h2></center>
+      <div class='message-or-event' id='event-5910'>
+        <h2 style='color: #c00; font-size: 130%;'> Please Refresh the Page</h2>
+        <p>And if that doesn't fix it, please send a text to Jack at (208) 366-6059 so he can see what the trouble is.</p>
+        <p style='padding-top: 1rem;'>Thanks, Dancers!!</p>
+      </div>
+    </div>
+    <center>
+      <!-- Note the text for this button comes from a css :before selector -->
+      <!-- Which makes it so the JavaScript only has to change the class -->
+    </center>
+  </div>
+  <div class='footer'>
+    created by
+    <a href='mailto:Jack%20Desert&lt;jackdesert@gmail.com&gt;?subject=Daily%20Dancer%20'>Jack Desert</a>
+  </div>
+  <!-- Use CDN -->
+</body>

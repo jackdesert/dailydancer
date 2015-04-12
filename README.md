@@ -13,7 +13,7 @@ and incorporates them with slightly different styling into the calendar.
 Working Example
 ---------------
 
-The original site is in use at http://dailydancer.jackdesert.com.
+The original site is in use at http://pdxdailydancer.com
 
 
 Running the Tests

@@ -142,3 +142,13 @@ Why is max_age set to 0?
 2015-04-11
 It seems to be required in order to ever get a 304 back from the server.
 Not setting it at all, the server always returns 200
+
+Why does public/500.html have stylesheets inline?
+-------------------------------------------------
+
+Because if sinatra is down, the stylesheets are not available as files.
+
+Why does public/500.html have no javascript files?
+--------------------------------------------------
+
+No AJAX requests are being made, and no animations need to happen

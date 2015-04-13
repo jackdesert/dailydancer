@@ -54,7 +54,7 @@ module ApplicationHelper
   def build_etag
     # Note this does not have any commas in it, because rack-cache will not
     # cache anything if there are commas
-    "last_message_id:#{Message.last.try(:id)}/last_event_id:#{Event.last.try(:id)}"
+    "last_message_id:#{Message.last.try(:id)}/last_event_id:#{Event.last.try(:id)}/date:#{Util.current_date_in_portland}"
   end
 
 end

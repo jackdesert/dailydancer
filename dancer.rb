@@ -56,7 +56,7 @@ class Dancer < Sinatra::Base
       # and crawlers don't request any messages so they don't take that long
       cache_control :public
       the_etag = build_etag
-      etag the_etag
+      etag the_etag, :weak # Using a weak etag so our patched version of nginx does not strip it out
       cache_text = "cache: #{Time.now}, etag: #{the_etag}"
     end
 

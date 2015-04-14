@@ -136,12 +136,6 @@ Why is the location of cache on disk in dancer/cache ?
 2015-04-11
 Because read/write access is known
 
-Why is max_age set to 0?
-------------------------
-
-2015-04-11
-It seems to be required in order to ever get a 304 back from the server.
-Not setting it at all, the server always returns 200
 
 Why does public/500.html have stylesheets inline?
 -------------------------------------------------
@@ -152,3 +146,11 @@ Why does public/500.html have no javascript files?
 --------------------------------------------------
 
 No AJAX requests are being made, and no animations need to happen
+
+Why is a weak etag being used?
+------------------------------
+
+When nginx gzips the content, it removes strong etags.
+The custom version of nginx being used has been patched to not remove
+weak etags. 
+See http://forum.nginx.org/read.php?2,240120,243846#msg-243846

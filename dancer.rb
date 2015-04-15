@@ -20,6 +20,10 @@ class Dancer < Sinatra::Base
   BASELINE_DAYS = 7
   ADDITIONAL_DAYS = 24
 
+  PRODUCTION = 'pdxdailydancer.com'
+  STAGING = 'pdxdailydancer-staging.com'
+  CANONICAL_SERVER_NAMES = [PRODUCTION, STAGING]
+
   LOG_FILE = settings.root + "/log/#{settings.environment}.log"
   error_logger = File.new(LOG_FILE, 'a')
   error_logger.sync = true
@@ -142,11 +146,10 @@ class Dancer < Sinatra::Base
 
     return unless settings.production?
 
-    expected_host = 'pdxdailydancer.com'
-    actual_host = env['HTTP_HOST']
+    server_name = env['SERVER_NAME']
 
-    unless expected_host == actual_host
-      redirect "http://#{expected_host}"
+    unless CANONICAL_SERVER_NAMES.include?(server_name)
+      redirect "http://#{PRODUCTION}"
     end
   end
 

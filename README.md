@@ -60,7 +60,36 @@ Note the -o 0.0.0.0 is only necessary if you are running inside a VM
 Running the server in Production Mode
 -------------------------------------
 
+First, install this patched version of nginx, which leaves weak etags intact:
+
+  http://github.com/jackdesert/nginx
+
+Add a symlink in nginx' sites-enabled directory that points to config/dancer-nginx.conf
+
+    cd /path/to/sites-enabled
+    sudo ln -s /home/<user>/dancer/config/dancer-nginx.conf
+    sudo nginx -s reload
+
+Then migrate a database with rack env set to production (see above)
+
+Test that is starts
+ 
+    RACK_ENV=production bundle exec rackup config-dancer.ru
+
+Then shut if off and start it with this long-running script that will restart it if it 
+stops for any reason:
+
     nohup script/run_dancer_indefinitely.sh &
+
+
+Deployments
+-----------
+
+* ssh into the production server
+* cd to the dancer/ directory
+* fetch new content from github
+* `ps aux | grep dancer` to find the current sinatra (thin) process
+* `kill <pid>` to kill that process. The long-running script will start another in two seconds
 
 
 Viewing Logs

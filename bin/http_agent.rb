@@ -5,7 +5,7 @@ class Agent
 
   #DEFAULT_URI = 'http://localhost:4567/messages'
   LOCAL_URI = 'http://localhost:9292/messages'
-  REMOTE_URI = 'http://dancer.jackdesert.com/messages'
+  REMOTE_URI = 'http://pdxdailydancer.com/messages'
   attr_reader :uri, :from, :subject, :plain, :html
   attr_accessor :body, :phone
 

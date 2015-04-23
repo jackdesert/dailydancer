@@ -1,0 +1,282 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp840986wjc;
+        Sun, 19 Apr 2015 05:14:31 -0700 (PDT)
+X-Received: by 10.180.104.225 with SMTP id gh1mr8135862wib.65.1429445665699;
+        Sun, 19 Apr 2015 05:14:25 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id it2si11334819wid.123.2015.04.19.05.14.25
+        for <jackdesert556@gmail.com>;
+        Sun, 19 Apr 2015 05:14:25 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 7658568FC049
+	for <jackdesert556@gmail.com>; Sun, 19 Apr 2015 12:14:25 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id CAB5663A600E
+	for <sacredcircledance@simplelists.com>; Sun, 19 Apr 2015 12:13:15 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id A24CABE06D; Sun, 19 Apr 2015 12:13:15 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.51])
+	by outbound.simplelists.com (Postfix) with ESMTP id 469D563A600B
+	for <sacredcircledance@simplelists.com>; Sun, 19 Apr 2015 09:13:27 +0000 (UTC)
+X-ASG-Debug-ID: 1429434798-0798da42da41e9d0001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id HzSasD6tG0XLb41m for <sacredcircledance@simplelists.com>; Sun, 19 Apr 2015 05:13:18 -0400 (EDT)
+X-Barracuda-Envelope-From: albertkaufman@gmail.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from mail-qk0-f178.google.com ([209.85.220.178]:36643)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <albertkaufman@gmail.com>)
+	id 1YjYQt-000uXa-In
+	for list@sacredcircledance.org; Sat, 18 Apr 2015 15:29:39 -0400
+Received: by qku63 with SMTP id 63so171317300qku.3
+        for <list@sacredcircledance.org>; Sat, 18 Apr 2015 12:29:39 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=Ervk//oyh4lNUjHVT6PShjALrOdTMG9I70yZjg8bWLc=;
+        b=dMqAf6wq2Wp3eo74MMLzLqWM1+oFU/fcMT73hRs2bJgaLlacvrB3FDWsxnwEH4RFlD
+         bQ4WqdZDbsP58ljIENBAvoTBDRwvGq5NOn3M35qsUJgXkNOn9qieE8gGKNemvXcfG5r3
+         s4qEh4l/5uOVxEVAdw3OfcqgKM9UuYpNP8Dee4nR6V4RQca5Q58gNiJshnTx3pdA9F74
+         fPKxxhdJPZTFDlFFzzK7XwuOaetdzowityf3YSg7voVwJ8IXJDSvGApis3stpeny+wka
+         dvGZumxqlTpnOjc6DknPjgXqyTcjzaDq4uIBTu/r7wJQRDrJJJ25bjqoXuQekmHfacHL
+         vCkA==
+MIME-Version: 1.0
+X-Received: by 10.140.95.208 with SMTP id i74mr9917987qge.51.1429385379057;
+ Sat, 18 Apr 2015 12:29:39 -0700 (PDT)
+Received: by 10.229.86.195 with HTTP; Sat, 18 Apr 2015 12:29:38 -0700 (PDT)
+Date: Sat, 18 Apr 2015 13:29:38 -0600
+Message-ID: <CADdv-oN=OtGQACeQGGO6d-5pF+C4Emf+3-snqQsrusQb1nbCJA@mail.gmail.com>
+From: Albert Kaufman <albertkaufman@gmail.com>
+X-ASG-Orig-Subj: Earth Day Movie showing
+To: Sacred Circle e-list <list@sacredcircledance.org>
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429434798
+X-Barracuda-URL: https://216.234.124.51:443/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of albertkaufman@gmail.com designates 209.85.220.178 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.01
+X-Barracuda-Spam-Status: No, SCORE=0.01 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC2_SA022a, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18107
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.01 BSF_SC2_SA022a         Custom Rule SA022a
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=unavailable
+	autolearn_force=no version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150419-09:13:30-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150419-12:13:16-001
+Subject: [SacredCircleDance] Earth Day Movie showing
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Albert Kaufman <albertkaufman@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="001a11c16244c44126051404b764"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429445665;
+	bh=8/MSIPv0wJakZUMrD/d39kitbjehKb95E2zuwN5HBL0=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=N6GnPTv4UXi8VTAjfrjSrxNJLQnxkoOAvWlqS2rE/v5J9YFT/68Scrsrklown7QzB
+	 MsABlr52tjFHSQQYiZ84Xp5CwEvj7ADq4wW0DQ4OOoAIeWj4FlZUK3WwCUSU+2In4i
+	 OGkB+Mw1IQzNze5n0NjSDLYDAQr8/g3fama3xY3k=
+
+--001a11c16244c44126051404b764
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+From: Matthew Bibeau <gardenlearning@gmail.com>
+Date: Sat, Apr 18, 2015 at 12:49 PM
+Subject: Earth Day Movie showing
+To:
+
+
+I would like to invite you to a very special movie showing on Earth Day,
+Wednesday April 22.
+
+April Blair, Mother Earth School co-founder, and I are featured in the
+film, *Dancing with Thoreau*. It's about the need and value of nature
+connection, and my part in it specifically talks about garden-based
+learning and the responsibility we have as creative thinkers to employ
+effective solutions to the global challenges we're facing.
+
+We're asking for a $10-20 donation at the door and proceeds benefit Mother
+Earth School, which, as you know, directly addresses the epidemic of
+"nature deficit disorder" as author Richard Louv describes it. To connect
+deeply with nature is to know how you are a part of it. What one does from
+there in life is informed by this embodied knowing that everything we do to
+nature we're also doing to ourselves.
+
+Please take a look at (and share!) the event information below.
+
+Thanks!
+
+Matt
+
+* * *
+
+Nature and our modern world. What's the next step?
+
+Dancing with Thoreau is Chris Korrow's new feature film about our
+connection with nature, and specifically the benefits of a connection with
+nature. The film explores how and why we, as a Western society, can and
+should reconnect with our environment.
+
+Climate scientists tell us we might be heading toward irreversible climate
+change, and so many of us do our best to =E2=80=9Cgo green.=E2=80=9D The fi=
+lm defines a
+different kind of environmental activism, chronicling our need for nature
+connection and its innumerable benefits, including perception, awareness,
+and the importance of children spending time in nature.
+
+Portland's own Matt Bibeau and April Blair of Mother Earth School
+<http://www.motherearthschool.org> are featured in this film, along with
+some very notable cast, including Jon Young, Richard Louv, David Suzuki,
+His Holiness the Dalai Lama and more!
+
+Dancing with Thoreau is showing on Earth Day, Wednesday April 22, at
+Taborspace, 5441 SE Belmont Street. Doors open at 6pm. Movie begins at
+6:30. Matt, April, and the film director, Chris Korrow, will be there to
+talk about the film's message and answer questions from the audience. Cost
+of attendance is $10-20 sliding scale at the door and the proceeds benefit
+Mother Earth School's efforts to provide access to nature-based education.
+
+This event is on Facebook HERE
+<https://www.facebook.com/events/1589762524636027/>.
+
+View the movie trailer HERE! <http://tinyurl.com/l8thz89>
+
+
+=E2=80=8B
+
+https://www.youtube.com/watch?v=3DKbN9msrh3P0
+
+
+--=20
+www.motherearthschool.org
+Mother Earth School News
+<http://us5.campaign-archive1.com/?u=3D4abeea9ae33082e4ecccc0870&id=3D75b4e=
+0ae5b&e=3D[UNIQID]>
+MES on Facebook <https://www.facebook.com/MotherEarthSchool>
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--001a11c16244c44126051404b764
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr">From: <b class=3D"gmail_sendername">Matthew Bibeau</b> <sp=
+an dir=3D"ltr">&lt;<a href=3D"mailto:gardenlearning@gmail.com">gardenlearni=
+ng@gmail.com</a>&gt;</span><br><div class=3D"gmail_quote">Date: Sat, Apr 18=
+, 2015 at 12:49 PM<br>Subject: Earth Day Movie showing<br>To: <br><br><br><=
+div dir=3D"ltr"><div dir=3D"ltr"><div>I would like to invite you to a very =
+special movie showing on Earth Day, Wednesday April 22. =C2=A0</div><div><b=
+r></div><div>April Blair, Mother Earth School co-founder, and I are feature=
+d in the film, <i>Dancing with Thoreau</i>. It&#39;s about the need and val=
+ue of nature connection, and my part in it specifically talks about garden-=
+based learning and the responsibility we have as creative thinkers to emplo=
+y effective solutions to the global challenges we&#39;re facing.</div><div>=
+<br></div><div>We&#39;re asking for a $10-20 donation at the door and proce=
+eds benefit Mother Earth School, which, as you know, directly addresses the=
+ epidemic of &quot;nature deficit disorder&quot; as author Richard Louv des=
+cribes it. To connect deeply with nature is to know how you are a part of i=
+t. What one does from there in life is informed by this embodied knowing th=
+at everything we do to nature we&#39;re also doing to ourselves.</div><div>=
+<br></div><div>Please take a look at (and share!) the event information bel=
+ow.</div><div><br></div><div>Thanks!</div><div><br></div><div>Matt
+</div><div><br></div><div>* * *</div><div><br></div>Nature and our modern w=
+orld. What&#39;s the next step?<br><br>Dancing with Thoreau is Chris Korrow=
+&#39;s new feature film about our connection with nature, and specifically =
+the benefits of a connection with nature. The film explores how and why we,=
+ as a Western society, can and should reconnect with our environment. <br><=
+br>Climate scientists tell us we might be heading toward irreversible clima=
+te change, and so many of us do our best to =E2=80=9Cgo green.=E2=80=9D=C2=
+=A0The film defines a different kind of environmental activism, chronicling=
+ our need for nature connection and its innumerable benefits, including per=
+ception, awareness, and the importance of children spending time in nature.=
+=C2=A0<div><br></div><div>Portland&#39;s own Matt Bibeau and April Blair of=
+ <a href=3D"http://www.motherearthschool.org" target=3D"_blank">Mother Eart=
+h School</a> are featured in this film, along with some very notable cast, =
+including=C2=A0Jon Young, Richard Louv, David Suzuki, His Holiness the Dala=
+i Lama and more!=C2=A0</div><div><br></div><div>Dancing with Thoreau is sho=
+wing on Earth Day, Wednesday April 22, at Taborspace, 5441 SE Belmont Stree=
+t. Doors open at 6pm. Movie begins at 6:30. Matt, April, and the film direc=
+tor, Chris Korrow, will be there to talk about the film&#39;s message and a=
+nswer questions from the audience. Cost of attendance is $10-20 sliding sca=
+le at the door and the proceeds benefit Mother Earth School&#39;s efforts t=
+o provide access to nature-based education.</div><div><br></div><div>This e=
+vent is on Facebook <a href=3D"https://www.facebook.com/events/158976252463=
+6027/" target=3D"_blank">HERE</a>.</div><div><br></div><div>View the movie =
+trailer <a href=3D"http://tinyurl.com/l8thz89" target=3D"_blank">HERE!</a><=
+/div><div><br></div><div><img src=3D"cid:ii_i8nb8n8y0_14ccd9dd0860545d" wid=
+th=3D"352" height=3D"455"><br>=E2=80=8B<br></div><div><br></div><div><a hre=
+f=3D"https://www.youtube.com/watch?v=3DKbN9msrh3P0" target=3D"_blank">https=
+://www.youtube.com/watch?v=3DKbN9msrh3P0</a><span class=3D"HOEnZb"><font co=
+lor=3D"#888888"><br></font></span></div></div><span class=3D"HOEnZb"><font =
+color=3D"#888888">
+<br clear=3D"all"><div><br></div>-- <br><div><div dir=3D"ltr"><a href=3D"ht=
+tp://www.motherearthschool.org/" target=3D"_blank">www.motherearthschool.or=
+g</a><br><a href=3D"http://us5.campaign-archive1.com/?u=3D4abeea9ae33082e4e=
+cccc0870&amp;id=3D75b4e0ae5b&amp;e=3D[UNIQID]" target=3D"_blank">Mother Ear=
+th School News</a><div><a href=3D"https://www.facebook.com/MotherEarthSchoo=
+l" target=3D"_blank">MES on Facebook</a></div></div></div>
+</font></span></div>
+</div><br><br></div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--001a11c16244c44126051404b764--

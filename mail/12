@@ -1,0 +1,180 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp855755wjc;
+        Tue, 21 Apr 2015 15:16:10 -0700 (PDT)
+X-Received: by 10.194.171.36 with SMTP id ar4mr44062762wjc.7.1429654570646;
+        Tue, 21 Apr 2015 15:16:10 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id pa2si5399979wjb.137.2015.04.21.15.16.10
+        for <jackdesert556@gmail.com>;
+        Tue, 21 Apr 2015 15:16:10 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 5F83668FC0F8
+	for <jackdesert556@gmail.com>; Tue, 21 Apr 2015 22:16:10 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 6B02363A60B8
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 22:15:12 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 0E12FC26002; Tue, 21 Apr 2015 22:15:11 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from mail-la0-f50.google.com (mail-la0-f50.google.com [209.85.215.50])
+	by outbound.simplelists.com (Postfix) with ESMTPS id 0F62463A6017
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 21:39:25 +0000 (UTC)
+Received: by layy10 with SMTP id y10so161160809lay.0
+        for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 14:39:24 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=A3xRO3owRw8Napkql1LyL4rSnVRiZgv2vHM+gcJV1KA=;
+        b=zMQokkCiuFrXHIdCEk5F1KmVo6o+ufjvC1wkOsj6UNUxkk/qTAe1mKeOKbCPlUxIg0
+         XQ+LCX9fI1FCuFVTldUbopSie6FUXJfhpz2yGX09iVdi524TXgMGIDeEYcn2LrBTyhwY
+         o/OhEBqKdajFPqgdHKACSWsxHObVCNEcyDV2bEGy3yJg8E+IGw5R205oJEKxrti7ZJCb
+         0J3/zPEY6y1h13FPZwh5sCLHkvdqDGFqqyPBzdCa7ijztlvttQ3Socz7wU6Mj4ArV5N0
+         O8fuUAFrOOdQOl4EGlistxztt9w4o4JAg+0jGtErfmRURTtT6qdKtMT02oakelBj7tXz
+         Y6ag==
+MIME-Version: 1.0
+X-Received: by 10.112.57.197 with SMTP id k5mr22550355lbq.102.1429652364084;
+ Tue, 21 Apr 2015 14:39:24 -0700 (PDT)
+Received: by 10.152.9.72 with HTTP; Tue, 21 Apr 2015 14:39:24 -0700 (PDT)
+Date: Tue, 21 Apr 2015 14:39:24 -0700
+Message-ID: <CANp2VaW=2Y-8eJeCBop0-4CQBa61yv+BftAa1ypTgWTNew-n1w@mail.gmail.com>
+From: Sabrina Louise <sabbylou@gmail.com>
+To: "sacredcircledance@simplelists.com" <sacredcircledance@simplelists.com>
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=-0.8 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,RCVD_IN_MSPIKE_H3,
+	RCVD_IN_MSPIKE_WL,SPF_PASS autolearn=unavailable autolearn_force=no
+	version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-21:39:26-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-22:15:12-003
+Subject: [SacredCircleDance] City Council Reservoir Review - Thursday!!!
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Sabrina Louise <sabbylou@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="001a113463ba504b07051442e1be"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429654570;
+	bh=IV65cXPsd0kjrcYKJmOHTxvK1CQIV82pUFkg4w0Mf1k=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=Oq2pUSBrJnoagWN+HwLIADPLppK+S29cAmyC9UGG06g/4slMCQCFLxRKRie2Cz0lJ
+	 670yMfmR3MCJhGedDXCP4oBbDdDW6FkrpN+aixv6GOPpYV+hkWEFthnttJObfPyYZr
+	 c+zoreSXkp8CCgTKl3oFSZN5lnsnhuLvOGafMUdc=
+
+--001a113463ba504b07051442e1be
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+Our Open Reservoirs have provided safe and healthy drinking water for over
+100 years. Open reservoirs naturally protect us from toxic and carcinogenic
+gases and chemicals, such as radon, which is particularly prevalent in the
+Pacific Northwest.
+
+Please support keeping our open reservoirs intact by attending this
+meeting;
+
+Portland City Council will review demolition of Washington Park reservoirs
+- FAST TRACK.
+
+Thursday, April 23 @ 2 PM
+Council Chambers, Portland City Hall.
+
+Thank you for caring!
+
+Sabby Lou
+
+PS. EPA will be soon reviewing the LT2 Ruling that City Council is using to
+FAST TRACK this decommissioning project so that corporations such as
+CH2MHill and others can follow through with their promised contracts. There
+is NO REASON the city shouldn't ask for a deferral, or waiver such as the
+one gotten by New York state for their open-air reservoirs. They claim they
+have, and were denied. They have not tried hard enough. They'd rather just
+raise our rates!
+
+--=20
+Sabrina Louise
+Sustainable Foods Advocate
+
+"One cannot think well, love well, sleep well, if one has not
+dined well." - Virginia Woolf
+
+=E2=80=9CThe animals of the world exist for their own reasons. They were no=
+t made
+for humans any more than black people were made for white, or women created
+for men.=E2=80=9D - Alice Walker
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--001a113463ba504b07051442e1be
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr">Our Open Reservoirs have provided safe and healthy drinkin=
+g water for over 100 years. Open reservoirs naturally protect us from toxic=
+ and carcinogenic gases and chemicals, such as radon, which is particularly=
+ prevalent in the Pacific Northwest.<div><br>Please support keeping our ope=
+n reservoirs intact by attending this meeting;=C2=A0</div><div><br></div><d=
+iv>Portland City Council will review demolition of Washington Park reservoi=
+rs - FAST TRACK.</div><div><br>Thursday, April 23 @ 2 PM=C2=A0</div><div>Co=
+uncil Chambers, Portland City Hall.=C2=A0</div><div><br></div><div>Thank yo=
+u for caring!</div><div><br></div><div>Sabby Lou</div><div><br></div><div>P=
+S. EPA will be soon reviewing the LT2 Ruling that City Council is using to =
+FAST TRACK this decommissioning project so that corporations such as CH2MHi=
+ll and others can follow through with their promised contracts. There is NO=
+ REASON the city shouldn&#39;t ask for a deferral, or waiver such as the on=
+e gotten by New York state for their open-air reservoirs. They claim they h=
+ave, and were denied. They have not tried hard enough. They&#39;d rather ju=
+st raise our rates!<br clear=3D"all"><div><br></div>-- <br><div class=3D"gm=
+ail_signature"><div dir=3D"ltr"><font face=3D"comic sans ms, sans-serif">Sa=
+brina Louise<br>Sustainable Foods Advocate<br><br>&quot;One cannot think we=
+ll, love well, sleep well, if one has not<br>dined well.&quot; - Virginia W=
+oolf<br><br>=E2=80=9CThe animals of the world exist for their own reasons. =
+They were not made for humans any more than black people were made for whit=
+e, or women created for men.=E2=80=9D -=C2=A0Alice Walker</font></div></div>
+</div></div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--001a113463ba504b07051442e1be--

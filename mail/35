@@ -1,0 +1,235 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp840965wjc;
+        Sun, 19 Apr 2015 05:14:28 -0700 (PDT)
+X-Received: by 10.194.236.33 with SMTP id ur1mr21656449wjc.77.1429445664892;
+        Sun, 19 Apr 2015 05:14:24 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id w13si6716884wjq.111.2015.04.19.05.14.24
+        for <jackdesert556@gmail.com>;
+        Sun, 19 Apr 2015 05:14:24 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 8B15168FC100
+	for <jackdesert556@gmail.com>; Sun, 19 Apr 2015 12:14:24 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 9DA3D321C002
+	for <sacredcircledance@simplelists.com>; Sun, 19 Apr 2015 12:13:15 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 4D8C0C1A031; Sun, 19 Apr 2015 12:13:15 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.50])
+	by outbound.simplelists.com (Postfix) with ESMTP id E68FE63A600B
+	for <sacredcircledance@simplelists.com>; Sun, 19 Apr 2015 09:09:07 +0000 (UTC)
+X-ASG-Debug-ID: 1429434540-08c1cb5a67420aa0001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id pAxLHrmBp6lyHW94 for <sacredcircledance@simplelists.com>; Sun, 19 Apr 2015 05:09:00 -0400 (EDT)
+X-Barracuda-Envelope-From: lightseed@gmail.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from mail-pa0-f45.google.com ([209.85.220.45]:36355)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <lightseed@gmail.com>)
+	id 1Yjiv2-000nG5-2c
+	for list@sacredcircledance.org; Sun, 19 Apr 2015 02:41:29 -0400
+Received: by pabsx10 with SMTP id sx10so172526183pab.3
+        for <list@sacredcircledance.org>; Sat, 18 Apr 2015 23:41:27 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to:content-type;
+        bh=C4GuNahkW90BSKYdbjvR/aWOFW0xXquEAjenEqKXoh0=;
+        b=Jmbjabw2zo9JkTotsy6YbxO2DgJptiIg+g1+uxIvW/4YxnjOgm8drdF+qxpKEzkaGN
+         8FStNJECUUAc4mwTYnjF98ivn/dWM0xo1vgXmj3HXVJYbTyYPNRDEPQ9fxoT37J6Skvu
+         BYD+6jIPETL13oNBRUSYKhKtDh3Nk8fEfSGncMqB7Kf9J/Clqutk9NER90vv7DYREX/J
+         1S1he1kurh0lgEsJki8+LxtpgRZ1F9VZEmbn45mvwqaGWETuIn8lKvdHEDjohUsivIrs
+         IkW2sS4L2GssNJ0KaDiyXuaDgTTzkVN+jT9ntzruk/02eXLh39d8JLsW34zMRWAoteRK
+         4Igw==
+X-Received: by 10.66.119.136 with SMTP id ku8mr18885951pab.29.1429425687097;
+ Sat, 18 Apr 2015 23:41:27 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 10.70.46.101 with HTTP; Sat, 18 Apr 2015 23:41:06 -0700 (PDT)
+From: Niema Lightseed <lightseed@gmail.com>
+Date: Sat, 18 Apr 2015 23:41:06 -0700
+Message-ID: <CAFRPCF0BenOSZ1ktAQwXBc=RVE7Ly5oL=cAV8YY_=jk2ty_yhQ@mail.gmail.com>
+To: list@sacredcircledance.org
+X-ASG-Orig-Subj: Jaya Lakshmi and Ananda Kirtan Sunday night
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,T_KAM_HTML_FONT_INVALID
+	autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Score: -41
+X-Spam-Bar: ----
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429434540
+X-Barracuda-URL: https://216.234.124.50:443/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of lightseed@gmail.com designates 209.85.220.45 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.20
+X-Barracuda-Spam-Status: No, SCORE=0.20 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, BSF_SC0_SA074b, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18108
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC0_SA074b         Custom Rule SA074b
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150419-09:09:09-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150419-12:13:15-006
+Subject: [SacredCircleDance] Jaya Lakshmi and Ananda Kirtan Sunday night
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Niema Lightseed <lightseed@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="e89a8ffbacdf4ff6ad05140e1abd"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429445664;
+	bh=Ij7jaW11g9Q1/HYvYqZx/jP3QW9hEjXR0SP9iVkb0O8=;
+	h=From:Date:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=ToQrhBeQwOKaqsRJ1hOUw7nllN3Q0kUqIUyVqWaUkwodRRb1cKj2stgZtx/H/xO0a
+	 Ykma2BQGd0iH6zS4e0EMjsXHVqNLzqrA7N+X2JswH4QkJKnKxtLl1y4q2ujDY4rOiv
+	 rTAShK3LD6zFgklKEVZOWkdlkPuxWtEN2N1K9pYs=
+
+--e89a8ffbacdf4ff6ad05140e1abd
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+Hello Lovelies,
+
+Jaya Lakshmi <https://www.facebook.com/jlakshmi> and Ananda Yogiji
+<https://www.facebook.com/Anandaji> create such a sweet, potent space for
+devotional bliss. Their kirtans usually make me laugh, cry, and dance,
+often at the same time. I am so excited to celebrate spring with these
+Beloveds. They are playing tonight (Sunday the 19th) at Yoga Union with the
+Saraswati Dream Band to celebrate the official release of their album "As
+the Lotus Blossoms," and I thought some of you might like to dance there.
+
+www.JayaLakshmiAndAnanda.com.
+<http://l.facebook.com/l.php?u=http%3A%2F%2Fwww.JayaLakshmiAndAnanda.com%2F&h=cAQG7JU0f&enc=AZOu0bADlCfZAk3kJLjyPPqa5PGb_JFdDRBOPJOOG4JSYqneJDtu3i4vXx8yFjG3F7w&s=1>
+
+Sunday April 19 7pm
+Yoga Union 2043 SE 50th
+ $15 Adv/$25@Door
+No charge for kids/teens
+Tickets here: http://tickets.brightstarevents.com/events/18378
+
+     -:-  Niema Lightseed -:-
+
+Movement and words to deepen physical and emotional presence, to inspire
+clear connection to one's true essence and embodied authenticity as we
+navigate the world.
+
+*you are a poem...*
+www.niemalightseed.com
+*www.mydoterra.com/lightseed <http://www.mydoterra.com/lightseed>*
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com
+--e89a8ffbacdf4ff6ad05140e1abd
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><div class=3D"gmail_default"><font face=3D"georgia, serif"=
+ color=3D"#000000">Hello Lovelies,</font></div><div class=3D"gmail_default"=
+><font face=3D"georgia, serif" color=3D"#000000"><br></font></div><div clas=
+s=3D"gmail_default"><font face=3D"georgia, serif" color=3D"#000000"><a clas=
+s=3D"" href=3D"https://www.facebook.com/jlakshmi" style=3D"text-decoration:=
+none;font-size:14px;line-height:19.3199996948242px"><font color=3D"#000000"=
+>Jaya Lakshmi</font></a><span style=3D"font-size:14px;line-height:19.319999=
+6948242px">=C2=A0and=C2=A0</span><a class=3D"" href=3D"https://www.facebook=
+.com/Anandaji" style=3D"text-decoration:none;font-size:14px;line-height:19.=
+3199996948242px"><font color=3D"#000000">Ananda Yogiji</font></a><span styl=
+e=3D"font-size:14px;line-height:19.3199996948242px">=C2=A0create such a swe=
+et, potent space for devotional bliss. Their kirtans usually make me laugh,=
+ cry, and dance, often at the same time. I am so excited to celebrate sprin=
+g with these Beloveds.</span><span style=3D"font-size:14px;line-height:18.7=
+600002288818px">=C2=A0They are playing tonight (Sunday the 19th) at Yoga Un=
+ion with the Saraswati Dream Band to celebrate the official release of thei=
+r album &quot;As the Lotus Blossoms,&quot; and I thought some of you might =
+like to dance there.</span></font></div><div class=3D"gmail_default"><span =
+style=3D"font-size:14px;line-height:18.7600002288818px"><font face=3D"georg=
+ia, serif" color=3D"#000000"><br></font></span></div><div class=3D"gmail_de=
+fault"><font face=3D"georgia, serif" color=3D"#000000"><a href=3D"http://l.=
+facebook.com/l.php?u=3Dhttp%3A%2F%2Fwww.JayaLakshmiAndAnanda.com%2F&amp;h=
+=3DcAQG7JU0f&amp;enc=3DAZOu0bADlCfZAk3kJLjyPPqa5PGb_JFdDRBOPJOOG4JSYqneJDtu=
+3i4vXx8yFjG3F7w&amp;s=3D1" rel=3D"nofollow nofollow" target=3D"_blank" styl=
+e=3D"text-decoration:none;font-size:14px;line-height:18.7600002288818px">ww=
+w.JayaLakshmiAndAnanda.c<span class=3D"" style=3D"display:inline-block"></s=
+pan>om.</a><br style=3D"font-size:14px;line-height:18.7600002288818px"><br>=
+Sunday April 19 7pm</font></div><div class=3D"gmail_default"><font face=3D"=
+georgia, serif" color=3D"#000000">Yoga Union 2043 SE 50th<br><span style=3D=
+"font-size:14px;line-height:18.7600002288818px">=C2=A0$15 Adv/$25@Door</spa=
+n><br style=3D"font-size:14px;line-height:18.7600002288818px"><span style=
+=3D"font-size:14px;line-height:18.7600002288818px">No charge for kids/teens=
+=C2=A0</span><br style=3D"font-size:14px;line-height:18.7600002288818px">Ti=
+ckets here:=C2=A0<a href=3D"http://tickets.brightstarevents.com/events/1837=
+8" rel=3D"nofollow nofollow" target=3D"_blank" style=3D"text-decoration:non=
+e;font-size:14px;line-height:18.7600002288818px">http://<span class=3D"" st=
+yle=3D"display:inline-block"></span>tickets.brightstarevents.co<span class=
+=3D"" style=3D"display:inline-block"></span>m/events/18378</a></font><br></=
+div><div class=3D"gmail_default" style=3D"font-family:georgia,serif"><br></=
+div><div><div class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D"l=
+tr">=C2=A0<font size=3D"1"> =C2=A0=C2=A0 -:-=C2=A0 Niema Lightseed -:-<br><=
+br><span><span style=3D"font-family:Calibri;color:rgb(0,0,0);font-style:ita=
+lic;vertical-align:baseline;white-space:pre-wrap;background-color:transpare=
+nt">Movement and words to deepen physical and emotional presence, to inspir=
+e clear connection to one&#39;s true essence and embodied authenticity as w=
+e navigate the world.</span></span></font><div><font color=3D"#000000" face=
+=3D"Calibri" size=3D"1"><span style=3D"white-space:pre-wrap"><b><i><br></i>=
+</b></span></font><div><div><i><font size=3D"1">you are a poem...</font></i=
+></div><div><a href=3D"http://www.niemalightseed.com" target=3D"_blank"><fo=
+nt size=3D"1">www.niemalightseed.com</font></a></div><div><font color=3D"#0=
+000ee" size=3D"1"><u><a href=3D"http://www.mydoterra.com/lightseed" target=
+=3D"_blank">www.mydoterra.com/lightseed</a></u></font><br></div><div><br><b=
+r></div></div></div></div></div></div></div></div>
+</div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--e89a8ffbacdf4ff6ad05140e1abd--

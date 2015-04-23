@@ -56,7 +56,10 @@ GEM
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     lumberjack (1.0.9)
+    mail (2.6.1)
+      mime-types (>= 1.16, < 3)
     method_source (0.8.2)
+    mime-types (2.3)
     mini_portile (0.6.2)
     minitest (5.5.1)
     multi_json (1.11.0)
@@ -139,6 +142,7 @@ DEPENDENCIES
   guard-livereload
   guard-rspec
   haml
+  mail
   nokogiri
   pry-byebug
   rack-cache

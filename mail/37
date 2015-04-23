@@ -1,0 +1,323 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp67254wjc;
+        Fri, 17 Apr 2015 10:44:57 -0700 (PDT)
+X-Received: by 10.194.110.233 with SMTP id id9mr8173204wjb.136.1429292697228;
+        Fri, 17 Apr 2015 10:44:57 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id e7si3996548wib.9.2015.04.17.10.44.57
+        for <jackdesert556@gmail.com>;
+        Fri, 17 Apr 2015 10:44:57 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id E186F68FC120
+	for <jackdesert556@gmail.com>; Fri, 17 Apr 2015 17:44:56 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 6D9E463A60B7
+	for <sacredcircledance@simplelists.com>; Fri, 17 Apr 2015 17:43:54 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 99AF5C1A030; Fri, 17 Apr 2015 17:43:54 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.52])
+	by outbound.simplelists.com (Postfix) with ESMTP id E432963A60B7
+	for <sacredcircledance@simplelists.com>; Fri, 17 Apr 2015 17:42:57 +0000 (UTC)
+X-ASG-Debug-ID: 1429292575-089ef71e392c2b50001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id qIBQZ1QGzB84iUbV for <sacredcircledance@simplelists.com>; Fri, 17 Apr 2015 13:42:55 -0400 (EDT)
+X-Barracuda-Envelope-From: ediereid.e@gmail.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from mail-pd0-f175.google.com ([209.85.192.175]:36009)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <ediereid.e@gmail.com>)
+	id 1YjAI1-0049Be-HR
+	for list@sacredcircledance.org; Fri, 17 Apr 2015 13:42:54 -0400
+Received: by pdea3 with SMTP id a3so134746921pde.3
+        for <list@sacredcircledance.org>; Fri, 17 Apr 2015 10:42:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=sender:from:content-type:date:subject:to:message-id:mime-version;
+        bh=xdS3Tp8HQNWRik2yRYQ9/4qdOJXx3NwPGEwU9VC+YlE=;
+        b=U0+YA69hotBSTLWMzARURiWWhKnmywG68JMtGUhxCTXibVe92ysJ2qwG6Pkx2EnhEx
+         TyGv+TkxQWns52ALIHeM4HeTw0Z4K0ASx+1L7h8lnzKxSIBYHVPD7HoCopoONoDbJoiS
+         wlo1+2d852UKjpFalJXuux4UHotLASsXNuzPhMddO9r8+TG54GKvyoZXPjWm3euoSuJY
+         KCRexfTskiEyCwcGCXIuYgMavqEaCOvW6cYUEbI3sMEaz6hDGPcMCZbdMEKbbm/O9cHj
+         SLmhK0UPVRlwVqsEQY3dYkCgifLSTJi7g5sQ7YQYqlqc3lCDofAz69Idxc3Vgx7YQYjN
+         rt9g==
+X-Received: by 10.66.139.109 with SMTP id qx13mr7339904pab.110.1429292572515;
+        Fri, 17 Apr 2015 10:42:52 -0700 (PDT)
+Received: from [192.168.254.15] ([50.38.83.181])
+        by mx.google.com with ESMTPSA id y16sm10741300pdk.43.2015.04.17.10.42.51
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Fri, 17 Apr 2015 10:42:51 -0700 (PDT)
+From: Edie Reid <edie@ediereid.com>
+Date: Fri, 17 Apr 2015 10:42:49 -0700
+To: Sacred Circle <list@sacredcircledance.org>
+X-ASG-Orig-Subj: Sacred Tantra events - 4/25 Sweet Medicine IV + 5/9 The Art of Embodied Seduction with Isis
+Message-Id: <5B3E914E-4463-49B0-B813-F30911D2CAD1@ediereid.com>
+Mime-Version: 1.0 (Apple Message framework v1085)
+X-Mailer: Apple Mail (2.1085)
+X-Spam-Status: No, score=0.3 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	FREEMAIL_FORGED_FROMDOMAIN,FREEMAIL_FROM,HEADER_FROM_DIFFERENT_DOMAINS,
+	HTML_MESSAGE,T_FILL_THIS_FORM_SHORT autolearn=no autolearn_force=no
+	version=3.4.0
+X-Spam-Score: -33
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429292575
+X-Barracuda-URL: http://barracuda.supercp.com:8000/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of ediereid.e@gmail.com designates 209.85.192.175 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-BRTS-Evidence: sacredtantra-club.com
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18045
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150417-17:43:00-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150417-17:43:56-001
+Subject: [SacredCircleDance] Sacred Tantra events - 4/25 Sweet Medicine IV +
+ 5/9 The Art of Embodied Seduction with Isis
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Edie Reid <edie@ediereid.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="Apple-Mail-56-13803995"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429292696;
+	bh=hfijONMvGCIOGtcYCM6LW9jIu8QoReUcLc8WFYSVf7c=;
+	h=From:Date:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=SdWL5NbspWx/9SqiW9WuudZXeeVTy9OL/YfbAYgvVACSp0C9YAGm9Gil6sMimG7f1
+	 lpEB9Z+cuSumKRSRTC2cwo+eb+GUp8OvommIvFBCV+1/IXMjVAJ/rClAWUXb0B9yCN
+	 BiVXNw/xteD6/qKojz9oqmUEVQE7d/i2HbeXt7hU=
+
+--Apple-Mail-56-13803995
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+Hi Dancing friends,
+Two events to tantalize you. Sweet Medicine IV and The Art of Embodied Sedu=
+ction with Isis
+
+Please create a profile to access the calendar
+http://www.sacredtantra-club.com
+For registration please go to
+http://www.sacredtantra-club.com/Members/Calendar
+
+Sacred Tantra - Sweet Medicine IV - I'd Like More
+an entry level BDSM event
+Sat April 25th
+7:00pm~1:00am
+In NW Portland in a private home
+location given with registration
+
+$30 per person
+tickets through Eventbrite
+password given with registration
+SM IV - Eventbrite
+$35 cash only at the door
+
+Have you ever wanted to&#8232;
+get an erotic spanking&#8232;
+learn new moves or more about flogging&#8232;
+demystify the cultural rules of dungeon play&#8232;
+discover the intersection between kink and sacred sexuality&#8232;
+grasp a way to use quick-tie wrist restraint&#8232;
+ask a pro Dom about their role&#8232;
+learn about the roles of submissive and how they interact with the Dominant
+&#8232;
+Demos&#8232;
+Galen - "live" BDSM negotiation
+Nancy Wiggley - Erotic spanking and paddling
+Guy - flogging
+Fredrick - electrical play
+Stella Harris - Erotic bondage and restraint with rope
+
+Demonstrations followed by tastings
+Tastings are opportunities to experience an aspect of BDSM at your level of=
+ preference.
+
+Bring your toys, floggers, ropes and imagination&#8232;
+and other items that interest you=20
+
+AND
+
+Sacred Tantra - The Art of Embodied Seduction with Isis
+May 9, 2015
+7:00-10:00
+$20 payable at the door
+some partial scholarships available
+
+
+puja details
+Imagine your lover standing across from you. You can feel the breath moving=
+ through their body. Deep, and guttural. The moment slows. All that exists =
+is the light and dark in their eyes. The heat of their skin. You ache for t=
+hem in a way that is both carnal and sacred.
+
+Languidly their fingers move to an item of their clothing=E2=88=91and tug=
+=E2=88=91.
+
+Would you like to learn how to Strip in a way that is more than a tease, it=
+=E2=80=9As an invitation? In the =E2=80=9EArt of Embodied Seduction=E2=80=
+=B0 we will be playing with the eroticism of presence, breath, and polarity=
+. We will also be learning nitty gritty stripping techniques! Please wear l=
+ayers of clothing, bring your nervous excitement, and be ready to play.
+
+Isis Leeor, founder of Bjuicy and Feral Female, has studied holistic healin=
+g techniques for over 17 years. Her unique journey, including a Kundalini a=
+wakening at 19, has led her to create unique and joyful methods of reconnec=
+ting people with their bodies. Isis has been trained in Body Psychotherapy,=
+ Tantra, dance, and is certified in Thought Pattern Management, Thai Massag=
+e, Quantum Touch, is a Reiki Master and a graduate of the Knightsbridge Ins=
+titute of Hypnotherapy & NLP.
+All Ways Love,
+Edie
+edie@sacredtantra-club.com
+http://www.sacredtantra-club.com/
+
+2015 Sacred Tantra events
+Jan 10 - Teri Ciacchi
+Feb 14 - Bob and Maggie
+Mar 14 - Torch
+April 11~ Evan & Carola
+April 25 ~ Sweet Medicine IV I'd Like More
+May 9 - Isis
+June 13 - Fredrick
+Sacred Tantra pujas are open to all expressions of relationships and are no=
+ longer gender specific or gender balanced.=20
+
+A puja (ceremony) is a safe place to awaken and explore the
+sacred connection between our sensuality and spirituality.=20
+
+Facilitators will lead us through a series of guided exercises with differe=
+nt participants.
+These may be playful, erotic, or tender and they are often transforming.
+Couples have the option of remaining with each other for the entire evening=
+.=20
+
+Sacred Tantra pujas are open to all levels of experience. The exercises can=
+ be sensual, intimate and deeply moving but are not sexual and are designed=
+ to see the divine in each other. Everyone is encouraged to know and commun=
+icate their personal boundaries at all times.
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--Apple-Mail-56-13803995
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode:=
+ space; -webkit-line-break: after-white-space; "><div>Hi Dancing friends,</=
+div>Two events to tantalize you. Sweet Medicine IV and The Art of Embodied =
+Seduction with Isis<br><br>Please create a profile to access the calendar<d=
+iv><a href=3D"http://www.sacredtantra-club.com/">http://www.sacredtantra-cl=
+ub.com</a><br>For registration please go to<br><a href=3D"http://www.sacred=
+tantra-club.com/Members/Calendar">http://www.sacredtantra-club.com/Members/=
+Calendar</a></div><br>Sacred Tantra - Sweet Medicine IV - I'd Like More<br>=
+an entry level BDSM event<br>Sat April 25th<br>7:00pm~1:00am<br>In NW Portl=
+and in a private home<br>location given with registration<br><br>$30 per pe=
+rson<br>tickets through Eventbrite<br>password given with registration<br>S=
+M IV - Eventbrite<br>$35 cash only at the door<br><br>Have you ever wanted =
+to&amp;#8232;<br>get an erotic spanking&amp;#8232;<br>learn new moves or mo=
+re about flogging&amp;#8232;<br>demystify the cultural rules of dungeon pla=
+y&amp;#8232;<br>discover the intersection between kink and sacred sexuality=
+&amp;#8232;<br>grasp a way to use quick-tie wrist restraint&amp;#8232;<br>a=
+sk a pro Dom about their role&amp;#8232;<br>learn about the roles of submis=
+sive and how they interact with the Dominant<br>&amp;#8232;<br>Demos&amp;#8=
+232;<br>Galen - "live" BDSM negotiation<br>Nancy Wiggley - Erotic spanking =
+and paddling<br>Guy - flogging<br>Fredrick - electrical play<br>Stella Harr=
+is - Erotic bondage and restraint with rope<br><br>Demonstrations followed =
+by tastings<br>Tastings are opportunities to experience an aspect of BDSM a=
+t your level of preference.<br><br>Bring your toys, floggers, ropes and ima=
+gination&amp;#8232;<br>and other items that interest you&nbsp;<br><br>AND<b=
+r><br>Sacred Tantra - The Art of Embodied Seduction with Isis<br>May 9, 201=
+5<br>7:00-10:00<br>$20 payable at the door<br>some partial scholarships ava=
+ilable<br><br><br>puja details<br>Imagine your lover standing across from y=
+ou. You can feel the breath moving through their body. Deep, and guttural. =
+The moment slows. All that exists is the light and dark in their eyes. The =
+heat of their skin. You ache for them in a way that is both carnal and sacr=
+ed.<br><br>Languidly their fingers move to an item of their clothing=E2=88=
+=91and tug=E2=88=91.<br><br>Would you like to learn how to Strip in a way t=
+hat is more than a tease, it=E2=80=9As an invitation? In the =E2=80=9EArt o=
+f Embodied Seduction=E2=80=B0 we will be playing with the eroticism of pres=
+ence, breath, and polarity. We will also be learning nitty gritty stripping=
+ techniques! Please wear layers of clothing, bring your nervous excitement,=
+ and be ready to play.<br><br>Isis Leeor, founder of Bjuicy and Feral Femal=
+e, has studied holistic healing techniques for over 17 years. Her unique jo=
+urney, including a Kundalini awakening at 19, has led her to create unique =
+and joyful methods of reconnecting people with their bodies. Isis has been =
+trained in Body Psychotherapy, Tantra, dance, and is certified in Thought P=
+attern Management, Thai Massage, Quantum Touch, is a Reiki Master and a gra=
+duate of the Knightsbridge Institute of Hypnotherapy &amp; NLP.<br>All Ways=
+ Love,<br>Edie<br><a href=3D"mailto:edie@sacredtantra-club.com">edie@sacred=
+tantra-club.com</a><br><a href=3D"http://www.sacredtantra-club.com/">http:/=
+/www.sacredtantra-club.com/</a><br><br>2015 Sacred Tantra events<br>Jan 10 =
+- Teri Ciacchi<br>Feb 14 - Bob and Maggie<br>Mar 14 - Torch<br>April 11~ Ev=
+an &amp; Carola<br>April 25 ~ Sweet Medicine IV I'd Like More<br>May 9 - Is=
+is<br>June 13 - Fredrick<br>Sacred Tantra pujas are open to all expressions=
+ of relationships and are no longer gender specific or gender balanced.&nbs=
+p;<br><br>A puja (ceremony) is a safe place to awaken and explore the<br>sa=
+cred connection between our sensuality and spirituality.&nbsp;<br><br>Facil=
+itators will lead us through a series of guided exercises with different pa=
+rticipants.<br>These may be playful, erotic, or tender and they are often t=
+ransforming.<br>Couples have the option of remaining with each other for th=
+e entire evening.&nbsp;<br><br>Sacred Tantra pujas are open to all levels o=
+f experience. The exercises can be sensual, intimate and deeply moving but =
+are not sexual and are designed to see the divine in each other. Everyone i=
+s encouraged to know and communicate their personal boundaries at all times=
+.<br></body></html>
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--Apple-Mail-56-13803995--

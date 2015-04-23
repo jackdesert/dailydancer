@@ -1,0 +1,1332 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp70353wjc;
+        Wed, 22 Apr 2015 11:16:28 -0700 (PDT)
+X-Received: by 10.180.77.170 with SMTP id t10mr8179428wiw.5.1429726588022;
+        Wed, 22 Apr 2015 11:16:28 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id bn2si10314364wib.0.2015.04.22.11.16.27
+        for <jackdesert556@gmail.com>;
+        Wed, 22 Apr 2015 11:16:28 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 95AFE9CC004
+	for <jackdesert556@gmail.com>; Wed, 22 Apr 2015 18:16:27 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 1602A63A60B2
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 18:15:21 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 84142C1A031; Wed, 22 Apr 2015 18:15:20 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.50])
+	by outbound.simplelists.com (Postfix) with ESMTP id A01F363A60B2
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 17:53:38 +0000 (UTC)
+X-ASG-Debug-ID: 1429725216-08c1cb5a6e813580001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id gR44FGCMmQoQnwTy for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 13:53:36 -0400 (EDT)
+X-Barracuda-Envelope-From: albertkaufman@gmail.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from mail-qk0-f180.google.com ([209.85.220.180]:35530)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <albertkaufman@gmail.com>)
+	id 1Ykyq6-000Wdw-T1
+	for list@sacredcircledance.org; Wed, 22 Apr 2015 13:53:36 -0400
+Received: by qkhg7 with SMTP id g7so234944874qkh.2
+        for <list@sacredcircledance.org>; Wed, 22 Apr 2015 10:53:34 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=GfH4Mx0Ys/5vWDZ/MSP3gGh7i9m+c4q0MQzxyUwK3PM=;
+        b=kRRtY7DJU7KfTgUqqNpwwp2PiOzEzYEtMkWQ1/NLhnrDprkEq0XfMuE1q87Klhd91b
+         HLnUNbWfdJzKbqUuHpOygYa1tuVXpoLhOB5RjwHzhifiQob0yBjUXbnyNGAZoKjpyxc/
+         JAgPidmtKBeuMmZwfTSEqP5ZbinIqsq/S2mzxPKrQnwcypAwbpgf++yF9ZHcokPEWTsQ
+         hRU5POItXMmG4F6ihArnf/7ZKs+Qd3gtakhGy1B27bea3jEEXNtl1daP93JroUt6xbNR
+         mmqvUCu88WuBb+M/uLTK+ljHvR8misCijS78BEKgIHOI2DpZceyQ7mheML0WrVmRWQ3t
+         +kbg==
+MIME-Version: 1.0
+X-Received: by 10.55.49.147 with SMTP id x141mr45674815qkx.23.1429725213907;
+ Wed, 22 Apr 2015 10:53:33 -0700 (PDT)
+Received: by 10.229.221.65 with HTTP; Wed, 22 Apr 2015 10:53:33 -0700 (PDT)
+Date: Wed, 22 Apr 2015 11:53:33 -0600
+Message-ID: <CADdv-oNQv9LufBf6T2FtRtbZQ5+czsY_4e6yxuQ4kDsAUSufvw@mail.gmail.com>
+From: Albert Kaufman <albertkaufman@gmail.com>
+X-ASG-Orig-Subj: Earth Day Festivities and VBC Entertainment Preview [VBC Spring
+ Newsletter #6]
+To: Sacred Circle e-list <list@sacredcircledance.org>
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_FONT_LOW_CONTRAST,HTML_MESSAGE,
+	T_KAM_HTML_FONT_INVALID autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Score: -30
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429725216
+X-Barracuda-URL: https://216.234.124.50:443/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of albertkaufman@gmail.com designates 209.85.220.180 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18244
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-17:53:41-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-18:15:21-001
+Subject: [SacredCircleDance] Earth Day Festivities and VBC Entertainment
+ Preview [VBC Spring Newsletter #6]
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Albert Kaufman <albertkaufman@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="001a11471b648060b9051453d752"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429726587;
+	bh=HHtJtllL6S8DoEFByYi3+uGrBW8V8IyHS/tfWd0Kn20=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=M8e+sIbyY8nxVIdo60QLgKwpeSk3a4WjYaoUvq3CsQdCjupRun2YDuxdU2ceHmrJp
+	 siyGcQ4ctQJLmr0n5gY/9GImFKauuioKMcYFhEDwi9XeV1PWNHcjw/Nhg6PmegGwZT
+	 jYkZs/3nVBSrtf1Z3JoNbA2qui4Cax4PS2Lm0RZU=
+
+--001a11471b648060b9051453d752
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+Earth Day is always a great time to see friends.
+
+From: Nicole & the City Repair Team <theword@cityrepair.org>
+Date: Wed, Apr 22, 2015 at 10:51 AM
+Subject: Earth Day Festivities and VBC Entertainment Preview [VBC Spring
+Newsletter #6]
+To: "Albert 2012-12-06 13:57:30" <albertkaufman@gmail.com>
+
+
+  Happy Earth Day! Read this week's newsletter to learn how you can
+celebrate, as well as volunteer opportunities and the latest goings-on with
+VBC. Sp
+
+  [image: VBC15- Like us on FB]
+
+Happy Earth Day! Read this week's newsletter to learn how you can
+celebrate, as well as volunteer opportunities and the latest goings-on with
+VBC.
+[image: ***]
+Spread the Word!
+1. Share this newsletter on your social media channels (Facebook, Twitter,
+etc.).
+2. "Like" our Facebook pages: The City Repair Project
+<https://go.madmimi.com/redirects/1429721459-b1ad1121bf69ad35c9227605b90fb3=
+ec-2220a77?pa=3D29799311227>
+and Village Building Convergence Portland
+<https://go.madmimi.com/redirects/1429721459-2e71de3f50d3b948f0fc706b6150fa=
+3d-2220a77?pa=3D29799311227>
+.
+3. RSVP for VBC 15: Thrive it UP! on Facebook.
+<https://go.madmimi.com/redirects/1429721459-19cdcdcbea74a7c9bf477c200ff456=
+96-2220a77?pa=3D29799311227>
+
+[image: ***]
+In this newsletter...
+
+*Volunteer Opportunities*
+* Spring Volunteer Program Sign-up
+* Earth Day Volunteer Sign-up
+
+*City Repair Events*
+* CR @ EarthDay, Saturday April 25
+
+*VBC*
+=E2=96=AA=E2=96=AA VBC Music Preview
+
+*Partner Events*
+* Earth Day at Portland State University -- TODAY
+* Dancing with Thoreau Earth Day Eco Film Screening -- ALSO TODAY
+* PDX Earth Day -- Saturday
+[image: ***]
+Spring Volunteer Program Sign-up
+[image: CR JoinUs 1]
+
+If you're new to us, and haven't yet plugged in, please take a moment to
+check out our Spring 2015 Volunteer Program Packet here
+<https://go.madmimi.com/redirects/1429721459-387d41e11236c76620123992db1384=
+39-2220a77?pa=3D29799311227>
+and sign up using this form
+<https://go.madmimi.com/redirects/1429721459-36cf5f85db28b99c969b08d5cb4599=
+de-2220a77?pa=3D29799311227>
+.
+
+In these busy times, it really helps us if we have your interest and
+availability documented in one place! Thanks to all those who have already
+signed up!
+Work-Trade Form coming soon!
+
+Also, we=E2=80=99ll be launching our Work-trade form in the next couple of =
+weeks.
+[image: ***]
+EarthDay Volunteer Sign-up
+[image: CityRepairEarthday]
+Sat, April 25, @ Normandale Park ~7 am - ~7 pm
+
+(set up and tear down timings to be confirmed)
+
+*Description:* City Repair will be coordinating numerous activities at PDX
+EarthDay including giving out free tea and snacks from the "T-Horse"!=E2=80=
+=8B
+
+*Interested? Available?*
+Sign up for a shift here
+<https://go.madmimi.com/redirects/1429721459-01d592b4d2d8c18a59dfd04ce75db6=
+c2-2220a77?pa=3D29799311227>
+.
+[image: ***]
+CR @ EarthDay, Saturday April 25
+[image: earthday-slider1]
+10 am - 5 pm @ Normandale Park (NE 57 & Halsey)
+
+City Repair will be at EarthDay PDX. We=E2=80=99re dreaming into manifestat=
+ion
+exciting activities including a special visit from the Village Singers,
+Tea-Time @ 3 with Placemakers, etc. So come visit us!
+[image: ***]
+VBC Music Preview
+VBC Music Performances Teaser =E2=96=AA=E2=96=AA *Opening night: Friday May=
+ 29th* Music by
+SaraTone, The Max Ribner Band, and LoveBomb Go-Go
+=E2=96=AA=E2=96=AA *Saturday May 30th : Joe and Sekou*: The collaboration b=
+etween a
+rapper/beatboxer/singer-songwriter from Syracuse, NY and an electrifying
+African kora sensation from Guinea pushes genre boundaries and earns raves
+across the globe. Joe Driscoll and Sekou Kouyate blend hip-hop, spoken
+word, funk, and soulful, accessible rock with Afrobeat, reggae and
+irresistible African grooves.
+=E2=96=AA=E2=96=AA *Weds. June 3rd Clinton Fearon
+<https://go.madmimi.com/redirects/1429721459-7f8253f92d8df5cbc238fff8a10d06=
+8f-2220a77?pa=3D29799311227>*
+=E2=96=AA=E2=96=AA *Sat. June 6th:* Opening by Yaima
+<https://go.madmimi.com/redirects/1429721459-69bae1d67d5e5fdbb2fb7fbb60b371=
+28-2220a77?pa=3D29799311227>.
+Bibi Mcgill, Lynx , and Wala will be headlining this night featuring a new
+collaboration between 3 masterful artists. Sol Nectar will be closing out
+this night with their beautiful heart music.
+
+[image: ***]
+Partner Events
+TODAY: Earth Day at Portland State University
+11 am - 3 pm in the Park Blocks Free Food | Clothing Exchange | Craft
+Market | Live Music
+
+Join PSU's Environmental Club to celebrate Earth Day 2015 with campus
+groups and community partners. Free and open to the public!
+[image: ***]
+ALSO TODAY: Dancing with Thoreau Earth Day Eco Film Screening
+
+*Time:* Doors open @ 6 pm, Movie begins @ 6:30 pm.
+*Venue:* Taborspace, 5441 SE Belmont Street.
+*Cost:* $10 - $20.
+
+Buy your tickets online
+<https://go.madmimi.com/redirects/1429721459-338de37d46b4e4d3db9f43d14b6556=
+5b-2220a77?pa=3D29799311227>
+or at the door!
+
+Dancing with Thoreau is Chris Korrow's new feature film about our
+connection with nature, and specifically the benefits of a connection with
+nature. The film explores how and why we, as a Western society, can and
+should reconnect with our environment.
+
+Portland's own Matt Bibeau and April Blair of Mother Earth School
+<https://go.madmimi.com/redirects/1429721459-ac826703fc28ea00a619da77ca8e39=
+48-2220a77?pa=3D29799311227>
+are featured in this film, along with some very notable cast, including Jon
+Young, Richard Louv, David Suzuki, His Holiness the Dalai Lama and more!
+
+*Youtube Trailer*
+<https://go.madmimi.com/redirects/1429721459-8ae45425abaa42ea71d152aa687d4c=
+89-2220a77?pa=3D29799311227>
+[image: ***]
+Sat, April 25: PDX EarthDay
+
+City Repair is a proud co-sponsor of *PDX Earth Day 2015 celebration*
+taking place on *Saturday, April 25 (10AM to 5PM)* at *Normandale Park*
+(located at intersection of NE 57 Ave/Halsey Street). The 2015 theme is =E2=
+=80=9CWe
+are the Future=E2=80=9D.
+1. Booths
+<https://go.madmimi.com/redirects/1429721459-ec7a53838a9651c28ffa6c17b1be21=
+fe-2220a77?pa=3D29799311227>
+2. DONATE
+<https://go.madmimi.com/redirects/1429721459-4911d46d03a6cbc1309f12b9bf7ec6=
+c7-2220a77?pa=3D29799311227>
+3. Volunteer
+<https://go.madmimi.com/redirects/1429721459-373b73a28fcacb834f05e1a635e794=
+3e-2220a77?pa=3D29799311227>
+
+ [image: 1px]
+    =C2=A92015 City Repair | PO Box 42615 | Portland, OR 97242
+   Web Version
+<https://go.madmimi.com/redirects/1429721459-7d697265ae36f943f1fded4f42fbb2=
+3e-2220a77?pa=3D29799311227&amx=3D539540835>
+Forward
+<https://go.madmimi.com/redirects/1429721459-bfca24eb042c8efcd83ae001b4bf0f=
+c5-2220a77?pa=3D29799311227&amx=3D539540835>
+Unsubscribe
+<https://go.madmimi.com/opt_out?fe=3D1&pact=3D29799311227&amx=3D539540835>
+
+Powered by *Mad Mimi*=C2=AEA GoDaddy=C2=AE company
+<https://go.madmimi.com/redirects/1429721459-43d33c2ab4b59e7e2070b38b48b838=
+65-2220a77?pa=3D29799311227&amx=3D539540835>
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--001a11471b648060b9051453d752
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><div>Earth Day is always a great time to see friends.=C2=
+=A0</div><div><br></div>From: <b class=3D"gmail_sendername">Nicole &amp; th=
+e City Repair Team</b> <span dir=3D"ltr">&lt;<a href=3D"mailto:theword@city=
+repair.org">theword@cityrepair.org</a>&gt;</span><br><div class=3D"gmail_qu=
+ote">Date: Wed, Apr 22, 2015 at 10:51 AM<br>Subject: Earth Day Festivities =
+and VBC Entertainment Preview [VBC Spring Newsletter #6]<br>To: &quot;Alber=
+t 2012-12-06 13:57:30&quot; &lt;<a href=3D"mailto:albertkaufman@gmail.com">=
+albertkaufman@gmail.com</a>&gt;<br><br><br><u></u><div bgcolor=3D"#000000" =
+style=3D"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-=
+top:0;padding-right:0;padding-bottom:0;padding-left:0;background-color:#000=
+000">
+  <div style=3D"min-width:630px;background-color:#000000">
+=20=20=20=20
+    <table height=3D"100%" width=3D"100%" cellpadding=3D"0" cellspacing=3D"=
+0" border=3D"0"><tbody><tr><td valign=3D"top" align=3D"left">
+          <p style=3D"font-size:0px;color:transparent">Happy Earth Day! Rea=
+d this week&#39;s newsletter to learn how you can celebrate, as well as vol=
+unteer opportunities and the latest goings-on with VBC.
+
+Sp</p>
+          <p style=3D"font-size:0px;background-color:transparent;min-height=
+:1px"><img src=3D"https://madmimi.com/images/29799311227/beacon.gif?" alt=
+=3D"" border=3D"0" width=3D"0" height=3D"0"></p>
+          <div style=3D"margin-top:0;margin-right:auto;margin-bottom:0;marg=
+in-left:auto;padding-top:20px;padding-right:0;padding-bottom:0;padding-left=
+:0">
+=20=20
+  <table cellspacing=3D"0" cellpadding=3D"0" align=3D"center" width=3D"590"=
+ style=3D"border-collapse:separate;border-spacing:0;border-radius:5px;margi=
+n-top:0;margin-right:auto;margin-bottom:0;margin-left:auto;border-top-style=
+:none;border-right-style:none;border-bottom-style:none;border-left-style:no=
+ne;border-top-width:0;border-right-width:0;border-bottom-width:0;border-lef=
+t-width:0;background-image:none"><tbody><tr><td style=3D"border-radius:5px =
+5px 0 0;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-t=
+op:0;padding-right:0;padding-bottom:0;padding-left:0;background-color:#fdf2=
+e4" bgcolor=3D"#FDF2E4">
+        <table cellspacing=3D"0" cellpadding=3D"0" align=3D"center" width=
+=3D"590" style=3D"border-collapse:separate;border-spacing:0;border-radius:5=
+px;margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;border=
+-top-style:none;border-right-style:none;border-bottom-style:none;border-lef=
+t-style:none;border-top-width:0;border-right-width:0;border-bottom-width:0;=
+border-left-width:0"><tbody><tr><td style=3D"margin-top:0;margin-right:0;ma=
+rgin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;=
+padding-left:0">
+                  <table cellspacing=3D"0" cellpadding=3D"0" align=3D"cente=
+r" width=3D"590" bgcolor=3D"#FDF2E4" style=3D"border-collapse:collapse;bord=
+er-spacing:0;border-radius:5px 5px 0 0;margin-top:0;margin-right:0;margin-b=
+ottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;paddin=
+g-left:0;border-top-style:none;border-right-style:none;border-bottom-style:=
+none;border-left-style:none;border-top-width:0;border-right-width:0;border-=
+bottom-width:0;border-left-width:0;background-image:none;background-color:#=
+fdf2e4"><tbody><tr><td width=3D"590" style=3D"border-radius:5px 5px 0 0;mar=
+gin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;paddin=
+g-right:0;padding-bottom:0;padding-left:0">
+                            <img alt=3D"VBC15- Like us on FB" height=3D"332=
+" src=3D"https://cascade.madmimi.com/promotion_images/0898/6515/original/VB=
+C15-_Like_us_on_FB.jpg?1426565461" width=3D"590" style=3D"border-radius:4px=
+ 4px 0 0;border-top-width:0;border-right-width:0;border-bottom-width:0;bord=
+er-left-width:0"></td>
+                    </tr></tbody></table></td>
+              </tr><tr><td style=3D"margin-top:0;margin-right:0;margin-bott=
+om:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-l=
+eft:0">
+              <table cellspacing=3D"0" cellpadding=3D"0" align=3D"left" wid=
+th=3D"590" bgcolor=3D"#FDF2E4" style=3D"border-collapse:collapse;border-spa=
+cing:0;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-to=
+p:0;padding-right:0;padding-bottom:0;padding-left:0;border-top-style:none;b=
+order-right-style:none;border-bottom-style:none;border-left-style:none;bord=
+er-top-width:0;border-right-width:0;border-bottom-width:0;border-left-width=
+:0;background-image:none;background-color:#fdf2e4"><tbody><tr valign=3D"top=
+"><td style=3D"max-width:100%;margin-top:0;margin-right:0;margin-bottom:0;m=
+argin-left:0;padding-top:25px;padding-right:30px;padding-bottom:20px;paddin=
+g-left:30px">
+                    <div style=3D"clear:both;margin-top:0;margin-right:0;ma=
+rgin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;=
+padding-left:0"><table width=3D"100%" style=3D"border-collapse:collapse;bor=
+der-spacing:0;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-l=
+eft:auto;border-top-style:none;border-right-style:none;border-bottom-style:=
+none;border-left-style:none;border-top-width:0;border-right-width:0;border-=
+bottom-width:0;border-left-width:0"><tbody><tr><td width=3D"530" align=3D"l=
+eft" style=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div=
+ style=3D"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding=
+-top:0;padding-right:0;padding-bottom:0;padding-left:0"><p style=3D"line-he=
+ight:1.5em;color:#645234;font-family:Georgia,Times,&#39;Times New Roman&#39=
+;,serif;font-size:14px;text-align:left;direction:ltr;vertical-align:baselin=
+e;margin-top:0;margin-right:0;margin-bottom:1.3em;margin-left:0;padding-top=
+:0;padding-right:0;padding-bottom:0;padding-left:0" align=3D"left">Happy Ea=
+rth Day! Read this week&#39;s newsletter to learn how you can celebrate, as=
+ well as volunteer opportunities and the latest goings-on with VBC.</p></di=
+v></td></tr></tbody></table></div><div style=3D"clear:both;margin-top:0;mar=
+gin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;pad=
+ding-bottom:0;padding-left:0"><table width=3D"100%" style=3D"border-collaps=
+e:collapse;border-spacing:0;margin-top:auto;margin-right:auto;margin-bottom=
+:auto;margin-left:auto;border-top-style:none;border-right-style:none;border=
+-bottom-style:none;border-left-style:none;border-top-width:0;border-right-w=
+idth:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td width=3D"5=
+30" align=3D"left" style=3D"clear:both;margin-top:0;margin-right:0;margin-b=
+ottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;paddin=
+g-left:0"><div align=3D"center" style=3D"text-align:center;margin-top:0;mar=
+gin-right:auto;margin-bottom:1.1em;margin-left:auto;padding-top:0px;padding=
+-right:0;padding-bottom:0;padding-left:0"><img alt=3D"***" src=3D"https://m=
+admimi.com/assets/divider.png" style=3D"border-top-width:0;border-right-wid=
+th:0;border-bottom-width:0;border-left-width:0"></div></td></tr></tbody></t=
+able></div><div style=3D"clear:both;margin-top:0;margin-right:0;margin-bott=
+om:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-l=
+eft:0"><table width=3D"100%" style=3D"border-collapse:collapse;border-spaci=
+ng:0;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-left:auto;=
+border-top-style:none;border-right-style:none;border-bottom-style:none;bord=
+er-left-style:none;border-top-width:0;border-right-width:0;border-bottom-wi=
+dth:0;border-left-width:0"><tbody><tr><td width=3D"530" align=3D"left" styl=
+e=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;p=
+adding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div style=3D=
+"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;pa=
+dding-right:0;padding-bottom:0;padding-left:0"><h2 align=3D"left" style=3D"=
+font-weight:bold;line-height:1.2em;color:#412c0a;font-family:&#39;Helvetica=
+ Neue&#39;,Helvetica,Arial,sans-serif;font-size:20px;text-align:left;direct=
+ion:ltr;margin-top:10px;margin-right:0;margin-bottom:10px;margin-left:0;pad=
+ding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span style=3D"=
+color:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-ser=
+if;font-size:20px;text-align:left;direction:ltr;font-weight:bold" dir=3D"lt=
+r">Spread the Word!</span></h2></div></td></tr></tbody></table></div><div s=
+tyle=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:=
+0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><table wid=
+th=3D"100%" style=3D"border-collapse:collapse;border-spacing:0;margin-top:a=
+uto;margin-right:auto;margin-bottom:auto;margin-left:auto;border-top-style:=
+none;border-right-style:none;border-bottom-style:none;border-left-style:non=
+e;border-top-width:0;border-right-width:0;border-bottom-width:0;border-left=
+-width:0"><tbody><tr><td width=3D"530" align=3D"left" style=3D"clear:both;m=
+argin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padd=
+ing-right:0;padding-bottom:0;padding-left:0"><div style=3D"margin-top:0;mar=
+gin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;pad=
+ding-bottom:0;padding-left:0"><span dir=3D"ltr" style=3D"line-height:1.5em;=
+color:#645234;font-family:Georgia,Times,&#39;Times New Roman&#39;,serif;fon=
+t-size:14px;text-align:left;direction:ltr;margin-top:0;margin-right:0;margi=
+n-bottom:1.5em;margin-left:0">1. Share this newsletter on your social media=
+ channels (Facebook, Twitter, etc.).<br>2. &quot;Like&quot; our Facebook pa=
+ges: <a style=3D"color:#a51515;text-decoration:none;word-break:break-word" =
+href=3D"https://go.madmimi.com/redirects/1429721459-b1ad1121bf69ad35c922760=
+5b90fb3ec-2220a77?pa=3D29799311227" target=3D"_blank">The City Repair Proje=
+ct</a> and <a style=3D"color:#a51515;text-decoration:none;word-break:break-=
+word" href=3D"https://go.madmimi.com/redirects/1429721459-2e71de3f50d3b948f=
+0fc706b6150fa3d-2220a77?pa=3D29799311227" target=3D"_blank">Village Buildin=
+g Convergence Portland</a>.<br>3. RSVP for <a style=3D"color:#a51515;text-d=
+ecoration:none;word-break:break-word" href=3D"https://go.madmimi.com/redire=
+cts/1429721459-19cdcdcbea74a7c9bf477c200ff45696-2220a77?pa=3D29799311227" t=
+arget=3D"_blank">VBC 15: Thrive it UP! on Facebook.</a><br></span><br></div=
+></td></tr></tbody></table></div><div style=3D"clear:both;margin-top:0;marg=
+in-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padd=
+ing-bottom:0;padding-left:0"><table width=3D"100%" style=3D"border-collapse=
+:collapse;border-spacing:0;margin-top:auto;margin-right:auto;margin-bottom:=
+auto;margin-left:auto;border-top-style:none;border-right-style:none;border-=
+bottom-style:none;border-left-style:none;border-top-width:0;border-right-wi=
+dth:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td width=3D"53=
+0" align=3D"left" style=3D"clear:both;margin-top:0;margin-right:0;margin-bo=
+ttom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding=
+-left:0"><div align=3D"center" style=3D"text-align:center;margin-top:0;marg=
+in-right:auto;margin-bottom:1.1em;margin-left:auto;padding-top:0px;padding-=
+right:0;padding-bottom:0;padding-left:0"><img alt=3D"***" src=3D"https://ma=
+dmimi.com/assets/divider.png" style=3D"border-top-width:0;border-right-widt=
+h:0;border-bottom-width:0;border-left-width:0"></div></td></tr></tbody></ta=
+ble></div><div style=3D"clear:both;margin-top:0;margin-right:0;margin-botto=
+m:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-le=
+ft:0"><table width=3D"100%" style=3D"border-collapse:collapse;border-spacin=
+g:0;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-left:auto;b=
+order-top-style:none;border-right-style:none;border-bottom-style:none;borde=
+r-left-style:none;border-top-width:0;border-right-width:0;border-bottom-wid=
+th:0;border-left-width:0"><tbody><tr><td width=3D"530" align=3D"left" style=
+=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;pa=
+dding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div style=3D"=
+margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;pad=
+ding-right:0;padding-bottom:0;padding-left:0"><h2 align=3D"left" style=3D"f=
+ont-weight:bold;line-height:1.2em;color:#412c0a;font-family:&#39;Helvetica =
+Neue&#39;,Helvetica,Arial,sans-serif;font-size:20px;text-align:left;directi=
+on:ltr;margin-top:10px;margin-right:0;margin-bottom:10px;margin-left:0;padd=
+ing-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span style=3D"c=
+olor:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-seri=
+f;font-size:20px;text-align:left;direction:ltr;font-weight:bold" dir=3D"ltr=
+">In this newsletter...</span></h2></div></td></tr></tbody></table></div><d=
+iv style=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-l=
+eft:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><table=
+ width=3D"100%" style=3D"border-collapse:collapse;border-spacing:0;margin-t=
+op:auto;margin-right:auto;margin-bottom:auto;margin-left:auto;border-top-st=
+yle:none;border-right-style:none;border-bottom-style:none;border-left-style=
+:none;border-top-width:0;border-right-width:0;border-bottom-width:0;border-=
+left-width:0"><tbody><tr><td width=3D"530" align=3D"left" style=3D"clear:bo=
+th;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;=
+padding-right:0;padding-bottom:0;padding-left:0"><div style=3D"margin-top:0=
+;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0=
+;padding-bottom:0;padding-left:0"><p style=3D"line-height:1.5em;color:#6452=
+34;font-family:Georgia,Times,&#39;Times New Roman&#39;,serif;font-size:14px=
+;text-align:left;direction:ltr;vertical-align:baseline;margin-top:0;margin-=
+right:0;margin-bottom:1.3em;margin-left:0;padding-top:0;padding-right:0;pad=
+ding-bottom:0;padding-left:0" align=3D"left"><strong style=3D"font-weight:b=
+old;vertical-align:baseline">Volunteer Opportunities</strong>
+<br>
+* Spring Volunteer Program Sign-up
+<br>
+* Earth Day Volunteer Sign-up</p>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left"><strong style=3D"font-weight:bold;vertical-align:baseline">City =
+Repair Events</strong>
+<br>
+* CR @ EarthDay, Saturday April 25</p>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left"><strong style=3D"font-weight:bold;vertical-align:baseline">VBC</=
+strong></p>
+
+<span dir=3D"ltr" style=3D"line-height:1.5em;color:#645234;font-family:Geor=
+gia,Times,&#39;Times New Roman&#39;,serif;font-size:14px;text-align:left;di=
+rection:ltr;margin-top:0;margin-right:0;margin-bottom:1.5em;margin-left:0">=
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:collaps=
+e;border-spacing:0;float:left;margin-top:auto;margin-right:auto;margin-bott=
+om:auto;margin-left:auto;border-top-style:none;border-right-style:none;bord=
+er-bottom-style:none;border-left-style:none;border-top-width:0;border-right=
+-width:0;border-bottom-width:0;border-left-width:0" width=3D"12" align=3D"l=
+eft"><tbody><tr><td width=3D"12" style=3D"color:#645234;font-family:Georgia=
+,Times,&#39;Times New Roman&#39;,serif;font-size:0;text-align:left;directio=
+n:ltr;clear:both;max-height:0;line-height:0;width:0;overflow:hidden;margin-=
+top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-ri=
+ght:0;padding-bottom:0;padding-left:0" align=3D"left">=E2=96=AA</td></tr></=
+tbody></table><span>=E2=96=AA </span>VBC Music Preview<br></span><br><p sty=
+le=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;Times =
+New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;vertical-=
+align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin-left:=
+0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" align=3D"l=
+eft"><strong style=3D"font-weight:bold;vertical-align:baseline">Partner Eve=
+nts</strong>
+<br>
+* Earth Day at Portland State University -- TODAY
+<br>
+* Dancing with Thoreau Earth Day Eco Film Screening -- ALSO TODAY
+<br>
+* PDX Earth Day -- Saturday</p></div></td></tr></tbody></table></div><div s=
+tyle=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:=
+0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><table wid=
+th=3D"100%" style=3D"border-collapse:collapse;border-spacing:0;margin-top:a=
+uto;margin-right:auto;margin-bottom:auto;margin-left:auto;border-top-style:=
+none;border-right-style:none;border-bottom-style:none;border-left-style:non=
+e;border-top-width:0;border-right-width:0;border-bottom-width:0;border-left=
+-width:0"><tbody><tr><td width=3D"530" align=3D"left" style=3D"clear:both;m=
+argin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padd=
+ing-right:0;padding-bottom:0;padding-left:0"><div align=3D"center" style=3D=
+"text-align:center;margin-top:0;margin-right:auto;margin-bottom:1.1em;margi=
+n-left:auto;padding-top:0px;padding-right:0;padding-bottom:0;padding-left:0=
+"><img alt=3D"***" src=3D"https://madmimi.com/assets/divider.png" style=3D"=
+border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-w=
+idth:0"></div></td></tr></tbody></table></div><div style=3D"clear:both;marg=
+in-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding=
+-right:0;padding-bottom:0;padding-left:0"><table width=3D"100%" style=3D"bo=
+rder-collapse:collapse;border-spacing:0;margin-top:auto;margin-right:auto;m=
+argin-bottom:auto;margin-left:auto;border-top-style:none;border-right-style=
+:none;border-bottom-style:none;border-left-style:none;border-top-width:0;bo=
+rder-right-width:0;border-bottom-width:0;border-left-width:0"><tbody><tr><t=
+d width=3D"530" align=3D"left" style=3D"clear:both;margin-top:0;margin-righ=
+t:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bot=
+tom:0;padding-left:0"><div style=3D"margin-top:0;margin-right:0;margin-bott=
+om:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-l=
+eft:0"><h2 align=3D"left" style=3D"font-weight:bold;line-height:1.2em;color=
+:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;fo=
+nt-size:20px;text-align:left;direction:ltr;margin-top:10px;margin-right:0;m=
+argin-bottom:10px;margin-left:0;padding-top:0;padding-right:0;padding-botto=
+m:0;padding-left:0"><span style=3D"color:#412c0a;font-family:&#39;Helvetica=
+ Neue&#39;,Helvetica,Arial,sans-serif;font-size:20px;text-align:left;direct=
+ion:ltr;font-weight:bold" dir=3D"ltr">Spring Volunteer Program Sign-up</spa=
+n></h2></div></td></tr></tbody></table></div><div style=3D"clear:both;margi=
+n-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-=
+right:0;padding-bottom:0;padding-left:0"><table width=3D"100%" style=3D"bor=
+der-collapse:collapse;border-spacing:0;margin-top:auto;margin-right:auto;ma=
+rgin-bottom:auto;margin-left:auto;border-top-style:none;border-right-style:=
+none;border-bottom-style:none;border-left-style:none;border-top-width:0;bor=
+der-right-width:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td=
+ width=3D"530" align=3D"left" style=3D"clear:both;margin-top:0;margin-right=
+:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bott=
+om:0;padding-left:0"><table align=3D"left" height=3D"120" style=3D"border-c=
+ollapse:collapse;border-spacing:0;float:left;margin-top:0;margin-right:0;ma=
+rgin-bottom:0;margin-left:0;border-top-color:#fdf2e4;border-right-color:#fd=
+f2e4;border-bottom-color:#fdf2e4;border-left-color:#fdf2e4;border-top-style=
+:solid;border-right-style:solid;border-bottom-style:solid;border-left-style=
+:solid;border-top-width:1px;border-right-width:1px;border-bottom-width:1px;=
+border-left-width:1px" width=3D"190"><tbody><tr><td align=3D"left" style=3D=
+"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;paddi=
+ng-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div style=3D"flo=
+at:left;margin-top:3px;margin-right:30px;margin-bottom:15px;margin-left:0;p=
+adding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><img alt=3D"C=
+R JoinUs  1 " height=3D"120" src=3D"https://cascade.madmimi.com/promotion_i=
+mages/0924/4124/original/CR_JoinUs__1_.jpg?1429677739" width=3D"160" style=
+=3D"border-top-width:0;border-right-width:0;border-bottom-width:0;border-le=
+ft-width:0"></div></td></tr></tbody></table><div style=3D"margin-top:0;marg=
+in-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padd=
+ing-bottom:0;padding-left:0"><p style=3D"line-height:1.5em;color:#645234;fo=
+nt-family:Georgia,Times,&#39;Times New Roman&#39;,serif;font-size:14px;text=
+-align:left;direction:ltr;vertical-align:baseline;margin-top:0;margin-right=
+:0;margin-bottom:1.3em;margin-left:0;padding-top:0;padding-right:0;padding-=
+bottom:0;padding-left:0" align=3D"left">If you&#39;re new to us, and haven&=
+#39;t yet plugged in, please take a moment to check out our Spring 2015 Vol=
+unteer Program Packet <a style=3D"color:#a51515;text-decoration:none;word-b=
+reak:break-word" href=3D"https://go.madmimi.com/redirects/1429721459-387d41=
+e11236c76620123992db138439-2220a77?pa=3D29799311227" target=3D"_blank">here=
+</a> and <a style=3D"color:#a51515;text-decoration:none;word-break:break-wo=
+rd" href=3D"https://go.madmimi.com/redirects/1429721459-36cf5f85db28b99c969=
+b08d5cb4599de-2220a77?pa=3D29799311227" target=3D"_blank">sign up using thi=
+s form</a>.</p>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left">In these busy times, it really helps us if we have your interest=
+ and availability documented in one place! Thanks to all those who have alr=
+eady signed up!</p>
+
+<h2 align=3D"left" style=3D"line-height:1.2em;color:#412c0a;font-family:&#3=
+9;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;font-size:14px;text-align:=
+left;direction:ltr;margin-top:0;margin-right:0;margin-bottom:10px;margin-le=
+ft:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Work-Tr=
+ade Form coming soon!</h2>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left">Also, we=E2=80=99ll be launching our Work-trade form in the next=
+ couple of weeks.</p></div></td></tr></tbody></table></div><div style=3D"cl=
+ear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-=
+top:0;padding-right:0;padding-bottom:0;padding-left:0"><table width=3D"100%=
+" style=3D"border-collapse:collapse;border-spacing:0;margin-top:auto;margin=
+-right:auto;margin-bottom:auto;margin-left:auto;border-top-style:none;borde=
+r-right-style:none;border-bottom-style:none;border-left-style:none;border-t=
+op-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0">=
+<tbody><tr><td width=3D"530" align=3D"left" style=3D"clear:both;margin-top:=
+0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:=
+0;padding-bottom:0;padding-left:0"><div align=3D"center" style=3D"text-alig=
+n:center;margin-top:0;margin-right:auto;margin-bottom:1.1em;margin-left:aut=
+o;padding-top:0px;padding-right:0;padding-bottom:0;padding-left:0"><img alt=
+=3D"***" src=3D"https://madmimi.com/assets/divider.png" style=3D"border-top=
+-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0"></=
+div></td></tr></tbody></table></div><div style=3D"clear:both;margin-top:0;m=
+argin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;p=
+adding-bottom:0;padding-left:0"><table width=3D"100%" style=3D"border-colla=
+pse:collapse;border-spacing:0;margin-top:auto;margin-right:auto;margin-bott=
+om:auto;margin-left:auto;border-top-style:none;border-right-style:none;bord=
+er-bottom-style:none;border-left-style:none;border-top-width:0;border-right=
+-width:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td width=3D=
+"530" align=3D"left" style=3D"clear:both;margin-top:0;margin-right:0;margin=
+-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padd=
+ing-left:0"><div style=3D"margin-top:0;margin-right:0;margin-bottom:0;margi=
+n-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><h2=
+ align=3D"left" style=3D"font-weight:bold;line-height:1.2em;color:#412c0a;f=
+ont-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;font-size:20=
+px;text-align:left;direction:ltr;margin-top:10px;margin-right:0;margin-bott=
+om:10px;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;paddin=
+g-left:0"><span style=3D"color:#412c0a;font-family:&#39;Helvetica Neue&#39;=
+,Helvetica,Arial,sans-serif;font-size:20px;text-align:left;direction:ltr;fo=
+nt-weight:bold" dir=3D"ltr">EarthDay Volunteer Sign-up</span></h2></div></t=
+d></tr></tbody></table></div><div style=3D"clear:both;margin-top:0;margin-r=
+ight:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-=
+bottom:0;padding-left:0"><table width=3D"100%" style=3D"border-collapse:col=
+lapse;border-spacing:0;margin-top:auto;margin-right:auto;margin-bottom:auto=
+;margin-left:auto;border-top-style:none;border-right-style:none;border-bott=
+om-style:none;border-left-style:none;border-top-width:0;border-right-width:=
+0;border-bottom-width:0;border-left-width:0"><tbody><tr><td width=3D"530" a=
+lign=3D"left" style=3D"clear:both;margin-top:0;margin-right:0;margin-bottom=
+:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-lef=
+t:0"><table align=3D"right" height=3D"192" style=3D"border-collapse:collaps=
+e;border-spacing:0;float:right;margin-top:0;margin-right:0;margin-bottom:0;=
+margin-left:0;border-top-color:#fdf2e4;border-right-color:#fdf2e4;border-bo=
+ttom-color:#fdf2e4;border-left-color:#fdf2e4;border-top-style:solid;border-=
+right-style:solid;border-bottom-style:solid;border-left-style:solid;border-=
+top-width:1px;border-right-width:1px;border-bottom-width:1px;border-left-wi=
+dth:1px" width=3D"190"><tbody><tr><td align=3D"right" style=3D"clear:both;m=
+argin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padd=
+ing-right:0;padding-bottom:0;padding-left:0"><div style=3D"float:right;marg=
+in-top:3px;margin-right:0;margin-bottom:15px;margin-left:30px;padding-top:0=
+;padding-right:0;padding-bottom:0;padding-left:0"><img alt=3D"CityRepairEar=
+thday" height=3D"192" src=3D"https://cascade.madmimi.com/promotion_images/0=
+924/4126/original/CityRepairEarthday.png?1429677793" width=3D"160" style=3D=
+"border-top-width:0;border-right-width:0;border-bottom-width:0;border-left-=
+width:0"></div></td></tr></tbody></table><div style=3D"margin-top:0;margin-=
+right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding=
+-bottom:0;padding-left:0"><h2 align=3D"left" style=3D"line-height:1.2em;col=
+or:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;=
+font-size:14px;text-align:left;direction:ltr;margin-top:0;margin-right:0;ma=
+rgin-bottom:10px;margin-left:0;padding-top:0;padding-right:0;padding-bottom=
+:0;padding-left:0">Sat, April 25, @ Normandale Park ~7 am - ~7 pm</h2>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left">(set up and tear down timings to be confirmed)</p>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left"><strong style=3D"font-weight:bold;vertical-align:baseline">Descr=
+iption:</strong> City Repair will be coordinating numerous activities at PD=
+X EarthDay including giving out free tea and snacks from the &quot;T-Horse&=
+quot;!=E2=80=8B</p>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left"><strong style=3D"font-weight:bold;vertical-align:baseline">Inter=
+ested? Available?</strong>
+<br>
+Sign up for a shift <a style=3D"color:#a51515;text-decoration:none;word-bre=
+ak:break-word" href=3D"https://go.madmimi.com/redirects/1429721459-01d592b4=
+d2d8c18a59dfd04ce75db6c2-2220a77?pa=3D29799311227" target=3D"_blank">here</=
+a>.</p></div></td></tr></tbody></table></div><div style=3D"clear:both;margi=
+n-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-=
+right:0;padding-bottom:0;padding-left:0"><table width=3D"100%" style=3D"bor=
+der-collapse:collapse;border-spacing:0;margin-top:auto;margin-right:auto;ma=
+rgin-bottom:auto;margin-left:auto;border-top-style:none;border-right-style:=
+none;border-bottom-style:none;border-left-style:none;border-top-width:0;bor=
+der-right-width:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td=
+ width=3D"530" align=3D"left" style=3D"clear:both;margin-top:0;margin-right=
+:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bott=
+om:0;padding-left:0"><div align=3D"center" style=3D"text-align:center;margi=
+n-top:0;margin-right:auto;margin-bottom:1.1em;margin-left:auto;padding-top:=
+0px;padding-right:0;padding-bottom:0;padding-left:0"><img alt=3D"***" src=
+=3D"https://madmimi.com/assets/divider.png" style=3D"border-top-width:0;bor=
+der-right-width:0;border-bottom-width:0;border-left-width:0"></div></td></t=
+r></tbody></table></div><div style=3D"clear:both;margin-top:0;margin-right:=
+0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-botto=
+m:0;padding-left:0"><table width=3D"100%" style=3D"border-collapse:collapse=
+;border-spacing:0;margin-top:auto;margin-right:auto;margin-bottom:auto;marg=
+in-left:auto;border-top-style:none;border-right-style:none;border-bottom-st=
+yle:none;border-left-style:none;border-top-width:0;border-right-width:0;bor=
+der-bottom-width:0;border-left-width:0"><tbody><tr><td width=3D"530" align=
+=3D"left" style=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;m=
+argin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"=
+><div style=3D"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;pa=
+dding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><h2 align=3D"l=
+eft" style=3D"font-weight:bold;line-height:1.2em;color:#412c0a;font-family:=
+&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;font-size:20px;text-ali=
+gn:left;direction:ltr;margin-top:10px;margin-right:0;margin-bottom:10px;mar=
+gin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><=
+span style=3D"color:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,=
+Arial,sans-serif;font-size:20px;text-align:left;direction:ltr;font-weight:b=
+old" dir=3D"ltr">CR @ EarthDay, Saturday April 25</span></h2></div></td></t=
+r></tbody></table></div><div style=3D"clear:both;margin-top:0;margin-right:=
+0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-botto=
+m:0;padding-left:0"><table width=3D"100%" style=3D"border-collapse:collapse=
+;border-spacing:0;margin-top:auto;margin-right:auto;margin-bottom:auto;marg=
+in-left:auto;border-top-style:none;border-right-style:none;border-bottom-st=
+yle:none;border-left-style:none;border-top-width:0;border-right-width:0;bor=
+der-bottom-width:0;border-left-width:0"><tbody><tr><td width=3D"530" align=
+=3D"left" style=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;m=
+argin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"=
+><table align=3D"left" height=3D"117" style=3D"border-collapse:collapse;bor=
+der-spacing:0;float:left;margin-top:0;margin-right:0;margin-bottom:0;margin=
+-left:0;border-top-color:#fdf2e4;border-right-color:#fdf2e4;border-bottom-c=
+olor:#fdf2e4;border-left-color:#fdf2e4;border-top-style:solid;border-right-=
+style:solid;border-bottom-style:solid;border-left-style:solid;border-top-wi=
+dth:1px;border-right-width:1px;border-bottom-width:1px;border-left-width:1p=
+x" width=3D"189"><tbody><tr><td align=3D"left" style=3D"clear:both;margin-t=
+op:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-rig=
+ht:0;padding-bottom:0;padding-left:0"><div style=3D"float:left;margin-top:3=
+px;margin-right:30px;margin-bottom:15px;margin-left:0;padding-top:0;padding=
+-right:0;padding-bottom:0;padding-left:0"><img alt=3D"earthday-slider1" hei=
+ght=3D"117" src=3D"https://cascade.madmimi.com/promotion_images/0924/4132/o=
+riginal/earthday-slider1.jpg?1429678010" width=3D"159" style=3D"border-top-=
+width:0;border-right-width:0;border-bottom-width:0;border-left-width:0"></d=
+iv></td></tr></tbody></table><div style=3D"margin-top:0;margin-right:0;marg=
+in-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;pa=
+dding-left:0"><h2 align=3D"left" style=3D"line-height:1.2em;color:#412c0a;f=
+ont-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;font-size:14=
+px;text-align:left;direction:ltr;margin-top:0;margin-right:0;margin-bottom:=
+10px;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-l=
+eft:0">10 am - 5 pm @ Normandale Park (NE 57 &amp; Halsey)</h2>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left">City Repair will be at EarthDay PDX. We=E2=80=99re dreaming into=
+ manifestation exciting activities including a special visit from the Villa=
+ge Singers, Tea-Time @ 3 with Placemakers, etc. So come visit us!</p></div>=
+</td></tr></tbody></table></div><div style=3D"clear:both;margin-top:0;margi=
+n-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;paddi=
+ng-bottom:0;padding-left:0"><table width=3D"100%" style=3D"border-collapse:=
+collapse;border-spacing:0;margin-top:auto;margin-right:auto;margin-bottom:a=
+uto;margin-left:auto;border-top-style:none;border-right-style:none;border-b=
+ottom-style:none;border-left-style:none;border-top-width:0;border-right-wid=
+th:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td width=3D"530=
+" align=3D"left" style=3D"clear:both;margin-top:0;margin-right:0;margin-bot=
+tom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-=
+left:0"><div align=3D"center" style=3D"text-align:center;margin-top:0;margi=
+n-right:auto;margin-bottom:1.1em;margin-left:auto;padding-top:0px;padding-r=
+ight:0;padding-bottom:0;padding-left:0"><img alt=3D"***" src=3D"https://mad=
+mimi.com/assets/divider.png" style=3D"border-top-width:0;border-right-width=
+:0;border-bottom-width:0;border-left-width:0"></div></td></tr></tbody></tab=
+le></div><div style=3D"clear:both;margin-top:0;margin-right:0;margin-bottom=
+:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-lef=
+t:0"><table width=3D"100%" style=3D"border-collapse:collapse;border-spacing=
+:0;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-left:auto;bo=
+rder-top-style:none;border-right-style:none;border-bottom-style:none;border=
+-left-style:none;border-top-width:0;border-right-width:0;border-bottom-widt=
+h:0;border-left-width:0"><tbody><tr><td width=3D"530" align=3D"left" style=
+=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;pa=
+dding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div style=3D"=
+margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;pad=
+ding-right:0;padding-bottom:0;padding-left:0"><h2 align=3D"left" style=3D"f=
+ont-weight:bold;line-height:1.2em;color:#412c0a;font-family:&#39;Helvetica =
+Neue&#39;,Helvetica,Arial,sans-serif;font-size:20px;text-align:left;directi=
+on:ltr;margin-top:10px;margin-right:0;margin-bottom:10px;margin-left:0;padd=
+ing-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span style=3D"c=
+olor:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-seri=
+f;font-size:20px;text-align:left;direction:ltr;font-weight:bold" dir=3D"ltr=
+">VBC Music Preview</span></h2></div></td></tr></tbody></table></div><div s=
+tyle=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:=
+0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><table wid=
+th=3D"100%" style=3D"border-collapse:collapse;border-spacing:0;margin-top:a=
+uto;margin-right:auto;margin-bottom:auto;margin-left:auto;border-top-style:=
+none;border-right-style:none;border-bottom-style:none;border-left-style:non=
+e;border-top-width:0;border-right-width:0;border-bottom-width:0;border-left=
+-width:0"><tbody><tr><td width=3D"530" align=3D"left" style=3D"clear:both;m=
+argin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padd=
+ing-right:0;padding-bottom:0;padding-left:0"><div style=3D"margin-top:0;mar=
+gin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;pad=
+ding-bottom:0;padding-left:0"><h2 align=3D"left" style=3D"line-height:1.2em=
+;color:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-se=
+rif;font-size:14px;text-align:left;direction:ltr;margin-top:0;margin-right:=
+0;margin-bottom:10px;margin-left:0;padding-top:0;padding-right:0;padding-bo=
+ttom:0;padding-left:0">VBC Music Performances Teaser</h2>
+
+<span dir=3D"ltr" style=3D"line-height:1.5em;color:#645234;font-family:Geor=
+gia,Times,&#39;Times New Roman&#39;,serif;font-size:14px;text-align:left;di=
+rection:ltr;margin-top:0;margin-right:0;margin-bottom:1.5em;margin-left:0">=
+<table cellspacing=3D"0" cellpadding=3D"0" style=3D"border-collapse:collaps=
+e;border-spacing:0;float:left;margin-top:auto;margin-right:auto;margin-bott=
+om:auto;margin-left:auto;border-top-style:none;border-right-style:none;bord=
+er-bottom-style:none;border-left-style:none;border-top-width:0;border-right=
+-width:0;border-bottom-width:0;border-left-width:0" width=3D"12" align=3D"l=
+eft"><tbody><tr><td width=3D"12" style=3D"color:#645234;font-family:Georgia=
+,Times,&#39;Times New Roman&#39;,serif;font-size:0;text-align:left;directio=
+n:ltr;clear:both;max-height:0;line-height:0;width:0;overflow:hidden;margin-=
+top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-ri=
+ght:0;padding-bottom:0;padding-left:0" align=3D"left">=E2=96=AA</td></tr></=
+tbody></table><span>=E2=96=AA </span><strong style=3D"font-weight:bold;vert=
+ical-align:baseline">Opening night: Friday May 29th</strong>  Music by Sara=
+Tone, The Max Ribner Band, and LoveBomb Go-Go<br><table cellspacing=3D"0" c=
+ellpadding=3D"0" style=3D"border-collapse:collapse;border-spacing:0;float:l=
+eft;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-left:auto;b=
+order-top-style:none;border-right-style:none;border-bottom-style:none;borde=
+r-left-style:none;border-top-width:0;border-right-width:0;border-bottom-wid=
+th:0;border-left-width:0" width=3D"12" align=3D"left"><tbody><tr><td width=
+=3D"12" style=3D"color:#645234;font-family:Georgia,Times,&#39;Times New Rom=
+an&#39;,serif;font-size:0;text-align:left;direction:ltr;clear:both;max-heig=
+ht:0;line-height:0;width:0;overflow:hidden;margin-top:0;margin-right:0;marg=
+in-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;pa=
+dding-left:0" align=3D"left">=E2=96=AA</td></tr></tbody></table><span>=E2=
+=96=AA </span><strong style=3D"font-weight:bold;vertical-align:baseline">Sa=
+turday May 30th : Joe and Sekou</strong>: The collaboration between a rappe=
+r/beatboxer/singer-songwriter from Syracuse, NY and an electrifying African=
+ kora sensation from Guinea pushes genre boundaries and earns raves across =
+the globe. Joe Driscoll and Sekou Kouyate blend hip-hop, spoken word, funk,=
+ and soulful, accessible rock with Afrobeat, reggae and irresistible Africa=
+n grooves.<br><table cellspacing=3D"0" cellpadding=3D"0" style=3D"border-co=
+llapse:collapse;border-spacing:0;float:left;margin-top:auto;margin-right:au=
+to;margin-bottom:auto;margin-left:auto;border-top-style:none;border-right-s=
+tyle:none;border-bottom-style:none;border-left-style:none;border-top-width:=
+0;border-right-width:0;border-bottom-width:0;border-left-width:0" width=3D"=
+12" align=3D"left"><tbody><tr><td width=3D"12" style=3D"color:#645234;font-=
+family:Georgia,Times,&#39;Times New Roman&#39;,serif;font-size:0;text-align=
+:left;direction:ltr;clear:both;max-height:0;line-height:0;width:0;overflow:=
+hidden;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-to=
+p:0;padding-right:0;padding-bottom:0;padding-left:0" align=3D"left">=E2=96=
+=AA</td></tr></tbody></table><span>=E2=96=AA </span><strong style=3D"font-w=
+eight:bold;vertical-align:baseline">Weds. June 3rd <a style=3D"color:#a5151=
+5;text-decoration:none;word-break:break-word" href=3D"https://go.madmimi.co=
+m/redirects/1429721459-7f8253f92d8df5cbc238fff8a10d068f-2220a77?pa=3D297993=
+11227" target=3D"_blank">Clinton Fearon</a></strong><br><table cellspacing=
+=3D"0" cellpadding=3D"0" style=3D"border-collapse:collapse;border-spacing:0=
+;float:left;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-lef=
+t:auto;border-top-style:none;border-right-style:none;border-bottom-style:no=
+ne;border-left-style:none;border-top-width:0;border-right-width:0;border-bo=
+ttom-width:0;border-left-width:0" width=3D"12" align=3D"left"><tbody><tr><t=
+d width=3D"12" style=3D"color:#645234;font-family:Georgia,Times,&#39;Times =
+New Roman&#39;,serif;font-size:0;text-align:left;direction:ltr;clear:both;m=
+ax-height:0;line-height:0;width:0;overflow:hidden;margin-top:0;margin-right=
+:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bott=
+om:0;padding-left:0" align=3D"left">=E2=96=AA</td></tr></tbody></table><spa=
+n>=E2=96=AA </span><strong style=3D"font-weight:bold;vertical-align:baselin=
+e">Sat. June 6th:</strong> Opening by <a style=3D"color:#a51515;text-decora=
+tion:none;word-break:break-word" href=3D"https://go.madmimi.com/redirects/1=
+429721459-69bae1d67d5e5fdbb2fb7fbb60b37128-2220a77?pa=3D29799311227" target=
+=3D"_blank">Yaima</a>. Bibi Mcgill, Lynx , and Wala will be headlining this=
+ night featuring a new collaboration between 3 masterful artists. Sol Necta=
+r will be closing out this night with their beautiful heart music.<br></spa=
+n><br></div></td></tr></tbody></table></div><div style=3D"clear:both;margin=
+-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-r=
+ight:0;padding-bottom:0;padding-left:0"><table width=3D"100%" style=3D"bord=
+er-collapse:collapse;border-spacing:0;margin-top:auto;margin-right:auto;mar=
+gin-bottom:auto;margin-left:auto;border-top-style:none;border-right-style:n=
+one;border-bottom-style:none;border-left-style:none;border-top-width:0;bord=
+er-right-width:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td =
+width=3D"530" align=3D"left" style=3D"clear:both;margin-top:0;margin-right:=
+0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-botto=
+m:0;padding-left:0"><div align=3D"center" style=3D"text-align:center;margin=
+-top:0;margin-right:auto;margin-bottom:1.1em;margin-left:auto;padding-top:0=
+px;padding-right:0;padding-bottom:0;padding-left:0"><img alt=3D"***" src=3D=
+"https://madmimi.com/assets/divider.png" style=3D"border-top-width:0;border=
+-right-width:0;border-bottom-width:0;border-left-width:0"></div></td></tr><=
+/tbody></table></div><div style=3D"clear:both;margin-top:0;margin-right:0;m=
+argin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0=
+;padding-left:0"><table width=3D"100%" style=3D"border-collapse:collapse;bo=
+rder-spacing:0;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-=
+left:auto;border-top-style:none;border-right-style:none;border-bottom-style=
+:none;border-left-style:none;border-top-width:0;border-right-width:0;border=
+-bottom-width:0;border-left-width:0"><tbody><tr><td width=3D"530" align=3D"=
+left" style=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margi=
+n-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><di=
+v style=3D"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;paddin=
+g-top:0;padding-right:0;padding-bottom:0;padding-left:0"><h2 align=3D"left"=
+ style=3D"font-weight:bold;line-height:1.2em;color:#412c0a;font-family:&#39=
+;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;font-size:20px;text-align:l=
+eft;direction:ltr;margin-top:10px;margin-right:0;margin-bottom:10px;margin-=
+left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span=
+ style=3D"color:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Aria=
+l,sans-serif;font-size:20px;text-align:left;direction:ltr;font-weight:bold"=
+ dir=3D"ltr">Partner Events</span></h2></div></td></tr></tbody></table></di=
+v><div style=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;marg=
+in-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><t=
+able width=3D"100%" style=3D"border-collapse:collapse;border-spacing:0;marg=
+in-top:auto;margin-right:auto;margin-bottom:auto;margin-left:auto;border-to=
+p-style:none;border-right-style:none;border-bottom-style:none;border-left-s=
+tyle:none;border-top-width:0;border-right-width:0;border-bottom-width:0;bor=
+der-left-width:0"><tbody><tr><td width=3D"530" align=3D"left" style=3D"clea=
+r:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-to=
+p:0;padding-right:0;padding-bottom:0;padding-left:0"><div style=3D"margin-t=
+op:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-rig=
+ht:0;padding-bottom:0;padding-left:0"><h2 align=3D"left" style=3D"font-weig=
+ht:bold;line-height:1.2em;color:#412c0a;font-family:&#39;Helvetica Neue&#39=
+;,Helvetica,Arial,sans-serif;font-size:20px;text-align:left;direction:ltr;m=
+argin-top:10px;margin-right:0;margin-bottom:10px;margin-left:0;padding-top:=
+0;padding-right:0;padding-bottom:0;padding-left:0"><span style=3D"color:#41=
+2c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;font-s=
+ize:20px;text-align:left;direction:ltr;font-weight:bold" dir=3D"ltr">TODAY:=
+ Earth Day at Portland State University</span></h2></div></td></tr></tbody>=
+</table></div><div style=3D"clear:both;margin-top:0;margin-right:0;margin-b=
+ottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;paddin=
+g-left:0"><table width=3D"100%" style=3D"border-collapse:collapse;border-sp=
+acing:0;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-left:au=
+to;border-top-style:none;border-right-style:none;border-bottom-style:none;b=
+order-left-style:none;border-top-width:0;border-right-width:0;border-bottom=
+-width:0;border-left-width:0"><tbody><tr><td width=3D"530" align=3D"left" s=
+tyle=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:=
+0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div style=
+=3D"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0=
+;padding-right:0;padding-bottom:0;padding-left:0"><h2 align=3D"left" style=
+=3D"line-height:1.2em;color:#412c0a;font-family:&#39;Helvetica Neue&#39;,He=
+lvetica,Arial,sans-serif;font-size:14px;text-align:left;direction:ltr;margi=
+n-top:0;margin-right:0;margin-bottom:10px;margin-left:0;padding-top:0;paddi=
+ng-right:0;padding-bottom:0;padding-left:0">11 am - 3 pm in the Park Blocks=
+</h2>
+
+<h2 align=3D"left" style=3D"line-height:1.2em;color:#412c0a;font-family:&#3=
+9;Helvetica Neue&#39;,Helvetica,Arial,sans-serif;font-size:14px;text-align:=
+left;direction:ltr;margin-top:0;margin-right:0;margin-bottom:10px;margin-le=
+ft:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Free Fo=
+od | Clothing Exchange | Craft Market | Live Music</h2>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left">Join PSU&#39;s Environmental Club to celebrate Earth Day 2015 wi=
+th campus groups and community partners. Free and open to the public!</p></=
+div></td></tr></tbody></table></div><div style=3D"clear:both;margin-top:0;m=
+argin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;p=
+adding-bottom:0;padding-left:0"><table width=3D"100%" style=3D"border-colla=
+pse:collapse;border-spacing:0;margin-top:auto;margin-right:auto;margin-bott=
+om:auto;margin-left:auto;border-top-style:none;border-right-style:none;bord=
+er-bottom-style:none;border-left-style:none;border-top-width:0;border-right=
+-width:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td width=3D=
+"530" align=3D"left" style=3D"clear:both;margin-top:0;margin-right:0;margin=
+-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padd=
+ing-left:0"><div align=3D"center" style=3D"text-align:center;margin-top:0;m=
+argin-right:auto;margin-bottom:1.1em;margin-left:auto;padding-top:0px;paddi=
+ng-right:0;padding-bottom:0;padding-left:0"><img alt=3D"***" src=3D"https:/=
+/madmimi.com/assets/divider.png" style=3D"border-top-width:0;border-right-w=
+idth:0;border-bottom-width:0;border-left-width:0"></div></td></tr></tbody><=
+/table></div><div style=3D"clear:both;margin-top:0;margin-right:0;margin-bo=
+ttom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding=
+-left:0"><table width=3D"100%" style=3D"border-collapse:collapse;border-spa=
+cing:0;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-left:aut=
+o;border-top-style:none;border-right-style:none;border-bottom-style:none;bo=
+rder-left-style:none;border-top-width:0;border-right-width:0;border-bottom-=
+width:0;border-left-width:0"><tbody><tr><td width=3D"530" align=3D"left" st=
+yle=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0=
+;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div style=
+=3D"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0=
+;padding-right:0;padding-bottom:0;padding-left:0"><h2 align=3D"left" style=
+=3D"font-weight:bold;line-height:1.2em;color:#412c0a;font-family:&#39;Helve=
+tica Neue&#39;,Helvetica,Arial,sans-serif;font-size:20px;text-align:left;di=
+rection:ltr;margin-top:10px;margin-right:0;margin-bottom:10px;margin-left:0=
+;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span style=
+=3D"color:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,sans=
+-serif;font-size:20px;text-align:left;direction:ltr;font-weight:bold" dir=
+=3D"ltr">ALSO TODAY: Dancing with Thoreau Earth Day Eco Film Screening</spa=
+n></h2></div></td></tr></tbody></table></div><div style=3D"clear:both;margi=
+n-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-=
+right:0;padding-bottom:0;padding-left:0"><table width=3D"100%" style=3D"bor=
+der-collapse:collapse;border-spacing:0;margin-top:auto;margin-right:auto;ma=
+rgin-bottom:auto;margin-left:auto;border-top-style:none;border-right-style:=
+none;border-bottom-style:none;border-left-style:none;border-top-width:0;bor=
+der-right-width:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td=
+ width=3D"530" align=3D"left" style=3D"clear:both;margin-top:0;margin-right=
+:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bott=
+om:0;padding-left:0"><div style=3D"margin-top:0;margin-right:0;margin-botto=
+m:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-le=
+ft:0"><p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times=
+,&#39;Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:l=
+tr;vertical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;=
+margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0=
+" align=3D"left"><strong style=3D"font-weight:bold;vertical-align:baseline"=
+>Time:</strong> Doors open @ 6 pm, Movie begins @ 6:30 pm.
+<br><strong style=3D"font-weight:bold;vertical-align:baseline">Venue:</stro=
+ng> Taborspace, 5441 SE Belmont Street.
+<br><strong style=3D"font-weight:bold;vertical-align:baseline">Cost:</stron=
+g> $10 - $20.</p>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left">Buy your tickets <a style=3D"color:#a51515;text-decoration:none;=
+word-break:break-word" href=3D"https://go.madmimi.com/redirects/1429721459-=
+338de37d46b4e4d3db9f43d14b65565b-2220a77?pa=3D29799311227" target=3D"_blank=
+">online</a> or at the door!</p>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left">Dancing with Thoreau is Chris Korrow&#39;s new feature film abou=
+t our connection with nature, and specifically the benefits of a connection=
+ with nature. The film explores how and why we, as a Western society, can a=
+nd should reconnect with our environment.</p>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left">Portland&#39;s own Matt Bibeau and April Blair of <a style=3D"co=
+lor:#a51515;text-decoration:none;word-break:break-word" href=3D"https://go.=
+madmimi.com/redirects/1429721459-ac826703fc28ea00a619da77ca8e3948-2220a77?p=
+a=3D29799311227" target=3D"_blank">Mother Earth School</a> are featured in =
+this film, along with some very notable cast, including Jon Young, Richard =
+Louv, David Suzuki, His Holiness the Dalai Lama and more!</p>
+
+<p style=3D"line-height:1.5em;color:#645234;font-family:Georgia,Times,&#39;=
+Times New Roman&#39;,serif;font-size:14px;text-align:left;direction:ltr;ver=
+tical-align:baseline;margin-top:0;margin-right:0;margin-bottom:1.3em;margin=
+-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0" alig=
+n=3D"left"><a style=3D"color:#a51515;text-decoration:none;word-break:break-=
+word" href=3D"https://go.madmimi.com/redirects/1429721459-8ae45425abaa42ea7=
+1d152aa687d4c89-2220a77?pa=3D29799311227" target=3D"_blank"><strong style=
+=3D"font-weight:bold;vertical-align:baseline">Youtube Trailer</strong></a><=
+/p></div></td></tr></tbody></table></div><div style=3D"clear:both;margin-to=
+p:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-righ=
+t:0;padding-bottom:0;padding-left:0"><table width=3D"100%" style=3D"border-=
+collapse:collapse;border-spacing:0;margin-top:auto;margin-right:auto;margin=
+-bottom:auto;margin-left:auto;border-top-style:none;border-right-style:none=
+;border-bottom-style:none;border-left-style:none;border-top-width:0;border-=
+right-width:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td wid=
+th=3D"530" align=3D"left" style=3D"clear:both;margin-top:0;margin-right:0;m=
+argin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0=
+;padding-left:0"><div align=3D"center" style=3D"text-align:center;margin-to=
+p:0;margin-right:auto;margin-bottom:1.1em;margin-left:auto;padding-top:0px;=
+padding-right:0;padding-bottom:0;padding-left:0"><img alt=3D"***" src=3D"ht=
+tps://madmimi.com/assets/divider.png" style=3D"border-top-width:0;border-ri=
+ght-width:0;border-bottom-width:0;border-left-width:0"></div></td></tr></tb=
+ody></table></div><div style=3D"clear:both;margin-top:0;margin-right:0;marg=
+in-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;pa=
+dding-left:0"><table width=3D"100%" style=3D"border-collapse:collapse;borde=
+r-spacing:0;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-lef=
+t:auto;border-top-style:none;border-right-style:none;border-bottom-style:no=
+ne;border-left-style:none;border-top-width:0;border-right-width:0;border-bo=
+ttom-width:0;border-left-width:0"><tbody><tr><td width=3D"530" align=3D"lef=
+t" style=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-l=
+eft:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div s=
+tyle=3D"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-t=
+op:0;padding-right:0;padding-bottom:0;padding-left:0"><h2 align=3D"left" st=
+yle=3D"font-weight:bold;line-height:1.2em;color:#412c0a;font-family:&#39;He=
+lvetica Neue&#39;,Helvetica,Arial,sans-serif;font-size:20px;text-align:left=
+;direction:ltr;margin-top:10px;margin-right:0;margin-bottom:10px;margin-lef=
+t:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><span st=
+yle=3D"color:#412c0a;font-family:&#39;Helvetica Neue&#39;,Helvetica,Arial,s=
+ans-serif;font-size:20px;text-align:left;direction:ltr;font-weight:bold" di=
+r=3D"ltr">Sat, April 25: PDX EarthDay</span></h2></div></td></tr></tbody></=
+table></div><div style=3D"clear:both;margin-top:0;margin-right:0;margin-bot=
+tom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-=
+left:0"><table width=3D"100%" style=3D"border-collapse:collapse;border-spac=
+ing:0;margin-top:auto;margin-right:auto;margin-bottom:auto;margin-left:auto=
+;border-top-style:none;border-right-style:none;border-bottom-style:none;bor=
+der-left-style:none;border-top-width:0;border-right-width:0;border-bottom-w=
+idth:0;border-left-width:0"><tbody><tr><td width=3D"530" align=3D"left" sty=
+le=3D"clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;=
+padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><div style=
+=3D"margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0=
+;padding-right:0;padding-bottom:0;padding-left:0"><p style=3D"line-height:1=
+.5em;color:#645234;font-family:Georgia,Times,&#39;Times New Roman&#39;,seri=
+f;font-size:14px;text-align:left;direction:ltr;vertical-align:baseline;marg=
+in-top:0;margin-right:0;margin-bottom:1.3em;margin-left:0;padding-top:0;pad=
+ding-right:0;padding-bottom:0;padding-left:0" align=3D"left">City Repair is=
+ a proud co-sponsor of <strong style=3D"font-weight:bold;vertical-align:bas=
+eline">PDX Earth Day 2015 celebration</strong> taking place on <strong styl=
+e=3D"font-weight:bold;vertical-align:baseline">Saturday, April 25 (10AM to =
+5PM)</strong> at <strong style=3D"font-weight:bold;vertical-align:baseline"=
+>Normandale Park</strong> (located at intersection of NE 57 Ave/Halsey Stre=
+et). The 2015  theme is =E2=80=9CWe are the Future=E2=80=9D.</p>
+
+<span dir=3D"ltr" style=3D"line-height:1.5em;color:#645234;font-family:Geor=
+gia,Times,&#39;Times New Roman&#39;,serif;font-size:14px;text-align:left;di=
+rection:ltr;margin-top:0;margin-right:0;margin-bottom:1.5em;margin-left:0">=
+1. <a style=3D"color:#a51515;text-decoration:none;word-break:break-word" hr=
+ef=3D"https://go.madmimi.com/redirects/1429721459-ec7a53838a9651c28ffa6c17b=
+1be21fe-2220a77?pa=3D29799311227" target=3D"_blank">Booths</a><br>2. <a sty=
+le=3D"color:#a51515;text-decoration:none;word-break:break-word" href=3D"htt=
+ps://go.madmimi.com/redirects/1429721459-4911d46d03a6cbc1309f12b9bf7ec6c7-2=
+220a77?pa=3D29799311227" target=3D"_blank">DONATE</a><br>3. <a style=3D"col=
+or:#a51515;text-decoration:none;word-break:break-word" href=3D"https://go.m=
+admimi.com/redirects/1429721459-373b73a28fcacb834f05e1a635e7943e-2220a77?pa=
+=3D29799311227" target=3D"_blank">Volunteer</a><br></span><br></div></td></=
+tr></tbody></table></div>
+                    <div style=3D"clear:both;margin-top:0;margin-right:0;ma=
+rgin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;=
+padding-left:0">
+  <table style=3D"border-collapse:collapse;border-spacing:0;margin-top:0;ma=
+rgin-right:0;margin-bottom:0;margin-left:0;border-top-style:none;border-rig=
+ht-style:none;border-bottom-style:none;border-left-style:none;border-top-wi=
+dth:0;border-right-width:0;border-bottom-width:0;border-left-width:0" width=
+=3D"100%"><tbody><tr><td align=3D"left" style=3D"font-size:1px;line-height:=
+0;clear:both;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padd=
+ing-top:0;padding-right:0;padding-bottom:0;padding-left:0" width=3D"530" he=
+ight=3D"1">
+        <img src=3D"https://go.madmimi.com/assets/outlook_fixer.gif" height=
+=3D"1" alt=3D"1px" style=3D"border-top-width:0;border-right-width:0;border-=
+bottom-width:0;border-left-width:0" width=3D"530"></td>
+    </tr></tbody></table></div>
+
+
+                  </td>
+                </tr></tbody></table></td>
+          </tr></tbody></table></td>
+    </tr><tr><td style=3D"border-radius:0 0 5px 5px;margin-top:0;margin-rig=
+ht:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bo=
+ttom:0;padding-left:0;background-color:#fdf2e4" bgcolor=3D"#FDF2E4">
+        <table border=3D"0" cellspacing=3D"0" cellpadding=3D"0" style=3D"bo=
+rder-collapse:collapse;border-spacing:0;border-radius:0 0 4px 4px;width:100=
+%;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;p=
+adding-right:0;padding-bottom:0;padding-left:0;border-top-style:none;border=
+-right-style:none;border-bottom-style:none;border-left-style:none;border-to=
+p-width:0;border-right-width:0;border-bottom-width:0;border-left-width:0;ba=
+ckground-image:none"><tbody><tr><td bgcolor=3D"#1C1C1C" style=3D"color:#222=
+;font-family:Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;border-radiu=
+s:0 0 4px 4px;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;pad=
+ding-top:20px;padding-right:30px;padding-bottom:30px;padding-left:30px;back=
+ground-color:#1c1c1c">
+              <table style=3D"width:100%!important;border-collapse:collapse=
+;border-spacing:0;border-top-style:none;border-right-style:none;border-bott=
+om-style:none;border-left-style:none;border-top-width:0;border-right-width:=
+0;border-bottom-width:0;border-left-width:0"><tbody><tr><td style=3D"text-a=
+lign:center;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;paddi=
+ng-top:10px;padding-right:0;padding-bottom:0;padding-left:0;background-colo=
+r:#1c1c1c" align=3D"center" bgcolor=3D"#1C1C1C">
+                    <div style=3D"color:#999999;font-family:Georgia,Times,&=
+#39;Times New Roman&#39;,serif;font-size:12px;margin-top:0;margin-right:0;m=
+argin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0=
+;padding-left:0">
+                      =C2=A92015
+                      City Repair | PO Box 42615 | Portland, OR 97242
+                    </div>
+                  </td>
+                </tr></tbody></table></td>
+          </tr></tbody></table></td>
+    </tr></tbody></table><table cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"center" style=3D"border-collapse:collapse;border-spacing:0;min-height:5=
+px;width:100%!important;text-align:center;margin-top:0;margin-right:auto;ma=
+rgin-bottom:0;margin-left:auto;border-top-style:none;border-right-style:non=
+e;border-bottom-style:none;border-left-style:none;border-top-width:0;border=
+-right-width:0;border-bottom-width:0;border-left-width:0"><tbody><tr><td al=
+ign=3D"center" style=3D"margin-top:0;margin-right:0;margin-bottom:0;margin-=
+left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">
+        <table style=3D"width:100%!important;border-collapse:collapse;borde=
+r-spacing:0;border-top-style:none;border-right-style:none;border-bottom-sty=
+le:none;border-left-style:none;border-top-width:0;border-right-width:0;bord=
+er-bottom-width:0;border-left-width:0"><tbody><tr><td align=3D"center !impo=
+rtant" style=3D"text-align:center!important;font-family:Helvetica Neue,Helv=
+etica,Arial,Verdana,sans-serif;width:100%!important;margin-top:0;margin-rig=
+ht:0;margin-bottom:0;margin-left:0;padding-top:20px;padding-right:0;padding=
+-bottom:0;padding-left:0">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20
+      <span style=3D"display:inline-block;font-size:13px">
+=20=20=20=20=20=20=20=20
+        <span><a style=3D"color:#fff;margin-right:2px;display:inline-block;=
+text-decoration:none;white-space:nowrap;border-radius:12px;margin-bottom:10=
+px;font-family:Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;font-size:=
+13px;font-weight:normal;line-height:165%;width:auto;text-align:left;directi=
+on:ltr;padding-top:0;padding-right:7px;padding-bottom:0;padding-left:7px;ba=
+ckground-color:#555555" title=3D"Web Version" href=3D"https://go.madmimi.co=
+m/redirects/1429721459-7d697265ae36f943f1fded4f42fbb23e-2220a77?pa=3D297993=
+11227&amp;amx=3D539540835" target=3D"_blank"><span style=3D"color:#fff;font=
+-size:13px">Web Version</span></a></span>
+      </span>=C2=A0
+=20=20=20=20
+
+=20=20
+
+=20=20=20=20
+      <span style=3D"display:inline-block;font-size:13px">
+=20=20=20=20=20=20=20=20
+        <span><a style=3D"color:#fff;margin-right:2px;display:inline-block;=
+text-decoration:none;white-space:nowrap;border-radius:12px;margin-bottom:10=
+px;font-family:Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;font-size:=
+13px;font-weight:normal;line-height:165%;width:auto;text-align:left;directi=
+on:ltr;padding-top:0;padding-right:7px;padding-bottom:0;padding-left:7px;ba=
+ckground-color:#555555" title=3D"Forward" href=3D"https://go.madmimi.com/re=
+directs/1429721459-bfca24eb042c8efcd83ae001b4bf0fc5-2220a77?pa=3D2979931122=
+7&amp;amx=3D539540835" target=3D"_blank"><span style=3D"color:#fff;font-siz=
+e:13px">Forward</span></a></span>
+      </span>=C2=A0
+=20=20=20=20
+
+=20=20=20=20
+      <span style=3D"display:inline-block;font-size:13px">
+=20=20=20=20=20=20=20=20
+        <span><a style=3D"color:#fff;margin-right:2px;display:inline-block;=
+text-decoration:none;white-space:nowrap;border-radius:12px;margin-bottom:10=
+px;font-family:Helvetica Neue,Helvetica,Arial,Verdana,sans-serif;font-size:=
+13px;font-weight:normal;line-height:165%;width:auto;text-align:left;directi=
+on:ltr;padding-top:0;padding-right:7px;padding-bottom:0;padding-left:7px;ba=
+ckground-color:#555555" title=3D"Unsubscribe" href=3D"https://go.madmimi.co=
+m/opt_out?fe=3D1&amp;pact=3D29799311227&amp;amx=3D539540835" target=3D"_bla=
+nk"><span style=3D"color:#fff;font-size:13px">Unsubscribe</span></a></span>
+      </span>=C2=A0
+=20=20=20=20
+
+            </td>
+          </tr></tbody></table></td>
+    </tr></tbody></table></div>
+
+
+          <div align=3D"center" style=3D"text-align:center;min-width:630px">
+	<table align=3D"center" width=3D"590" cellspacing=3D"0" cellpadding=3D"0" =
+style=3D"margin-left:auto;margin-right:auto"><tbody><tr><td width=3D"590" a=
+lign=3D"center" style=3D"color:#999999;font-family:Georgia,Times,&#39;Times=
+ New Roman&#39;,serif;font-size:12px;text-align:center">
+				<table width=3D"590" cellspacing=3D"0" cellpadding=3D"0" align=3D"cente=
+r" style=3D"text-align:center;font-size:11px;font-weight:normal;white-space=
+:nowrap;background-image:none!important"><tbody><tr><td style=3D"color:#999=
+999;font-family:Georgia,Times,&#39;Times New Roman&#39;,serif;font-size:12p=
+x;text-align:center" width=3D"590" align=3D"center">
+            	<span style=3D"line-height:10px">=C2=A0</span><br><a style=3D"=
+color:#999999;font-family:Georgia,Times,&#39;Times New Roman&#39;,serif;fon=
+t-size:12px;text-decoration:none;display:block;padding-bottom:20px" href=3D=
+"https://go.madmimi.com/redirects/1429721459-43d33c2ab4b59e7e2070b38b48b838=
+65-2220a77?pa=3D29799311227&amp;amx=3D539540835" target=3D"_blank">
+                <span style=3D"font-family:Helvetica Neue,Helvetica,Arial,V=
+erdana,sans-serif;font-size:12px;color:#eeeeee">Powered by <em style=3D"fon=
+t-style:normal;text-decoration:underline;font-weight:bold">Mad Mimi</em>=C2=
+=AE</span><span style=3D"font-family:Helvetica Neue,Helvetica,Arial,Verdana=
+,sans-serif;font-size:12px;color:#eeeeee;display:block;line-height:1.7">A G=
+oDaddy=C2=AE company</span>
+              </a>
+              <br><span style=3D"line-height:40px">=C2=A0</span>
+            </td>
+          </tr></tbody></table></td>
+		</tr></tbody></table></div>
+
+
+<div align=3D"center" style=3D"text-align:center;min-width:630px">
+  =C2=A0
+</div>
+
+        </td>
+      </tr></tbody></table></div>
+
+
+</div></div><br><br></div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--001a11471b648060b9051453d752--

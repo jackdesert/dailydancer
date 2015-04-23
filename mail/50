@@ -1,0 +1,299 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.55.3 with SMTP id n3csp551572wjp;
+        Sat, 11 Apr 2015 17:16:52 -0700 (PDT)
+X-Received: by 10.194.59.46 with SMTP id w14mr15079973wjq.106.1428797811664;
+        Sat, 11 Apr 2015 17:16:51 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id ei5si715919wib.54.2015.04.11.17.16.51
+        for <jackdesert556@gmail.com>;
+        Sat, 11 Apr 2015 17:16:51 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 791A868FC0BC
+	for <jackdesert556@gmail.com>; Sun, 12 Apr 2015 00:16:51 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id C2D2A63A601D
+	for <sacredcircledance@simplelists.com>; Sun, 12 Apr 2015 00:16:07 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 912A6BE013; Sun, 12 Apr 2015 00:16:07 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.51])
+	by outbound.simplelists.com (Postfix) with ESMTP id 5509763A6018
+	for <sacredcircledance@simplelists.com>; Sat, 11 Apr 2015 23:32:11 +0000 (UTC)
+X-ASG-Debug-ID: 1428795123-0798da7e9358ebe0001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id siyOZSCaNGXInhP9 for <sacredcircledance@simplelists.com>; Sat, 11 Apr 2015 19:32:03 -0400 (EDT)
+X-Barracuda-Envelope-From: movingwithin@gmail.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from mail-wi0-f178.google.com ([209.85.212.178]:34447)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <movingwithin@gmail.com>)
+	id 1Yh4sU-002aiy-JS
+	for list@sacredcircledance.org; Sat, 11 Apr 2015 19:32:02 -0400
+Received: by widjs5 with SMTP id js5so39175812wid.1
+        for <list@sacredcircledance.org>; Sat, 11 Apr 2015 16:31:53 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=lvidKvSI1ichER3XxKeKkf4K/JAMJiGpet1wFbCYQII=;
+        b=e0shXbpe8OZlW7iER9LDACmyLBSTr9yTLxdpYSRkB1X91QFHVuSxZORBbIgHqVoPsH
+         ZgJ8udmNj0AtLSh+sA+Y2lecI5DIdQtj03lNmmGAn2KlFLeWf/XWOCSPQ/1HI/e6R3Us
+         6NJBfBpJnSR3yMMj0/saln22wmzm9dujFR5aVBU3Rm1auEzp7AuN/s5YZR6yHrp6UDl3
+         CKRil03NydM0OUhPCLjMou8siWIqZNxe14ZkhFdapcwTVznoeOEZa7kfHFgBRo9qEDoC
+         V6dXb4X2QzWBixyIg/zMeJ0h370nPlfHbcJEpfftz/2uUQV8UXfDxal5xBoRmXlu9G/v
+         ancw==
+MIME-Version: 1.0
+X-Received: by 10.180.83.130 with SMTP id q2mr8812783wiy.89.1428795113024;
+ Sat, 11 Apr 2015 16:31:53 -0700 (PDT)
+Received: by 10.27.32.19 with HTTP; Sat, 11 Apr 2015 16:31:52 -0700 (PDT)
+Date: Sat, 11 Apr 2015 16:31:52 -0700
+Message-ID: <CAGjGpPs63sW8y-TTo3Yn90LZzdK1qow1E9iiazOZjdYTaB8YPA@mail.gmail.com>
+From: "Mary L. Seereiter" <movingwithin@gmail.com>
+X-ASG-Orig-Subj: date correction: Authentic Movement Workshop, Mary
+To: undisclosed-recipients:;
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=unavailable
+	autolearn_force=no version=3.4.0
+X-Spam-Score: -34
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1428795123
+X-Barracuda-URL: https://216.234.124.51:443/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of movingwithin@gmail.com designates 209.85.212.178 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.17805
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150411-23:32:13-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150412-00:16:08-001
+Subject: [SacredCircleDance] date correction: Authentic Movement Workshop,
+ Mary
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: "Mary L. Seereiter" <movingwithin@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="14dae9cc92a42b37a205137b49a1"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1428797811;
+	bh=Yr+hKpXIIOKu33vCNSxLzH48F4wcNLi6XFJMLKO4rdI=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=RkvNJA/Sh/n51F2HaMF1j7k3Ckdve7tChoKSFEGnREhdG8KIRK6+Q6Dtl3JOD52bb
+	 4h5vAVbHXeTyVzfWYSj2mtGf499eD2ChQ+RGqxLxXbL0Lom4S/u9filUd/jQIEvBl+
+	 9pgITDC/anGVx8UO7gj1fWF2485zzDZTizxCwE/4=
+
+--14dae9cc92a42b37a205137b49a1
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+*Authentic Movement  Workshops*
+
+*Introducing *
+
+*a Body-Mind Centering**=C3=92** Approach*
+
+*with Mary Lou Seereiter*
+
+
+
+Limited to 12 participants
+
+
+
+To Register: call Mary Lou: 541 767-2697
+
+or email mary@movingwithin.com
+
+
+
+2 Day Non-Residential Workshops:
+
+Saturday & Sunday 9:30am to 5:00pm
+
+May 30 & 31, 2015
+
+Workshop Fee: $200.
+
+(Residential Optional with additional fee of $60. per night, includes all
+meals.)
+
+
+
+To Learn More About the content of these workshops or about Mary Lou,
+
+go to Mary=E2=80=99s website: MovingWithin.com and click on Authentic Movem=
+ent,
+and/or Body-Mind Centering=C3=92 and/or Mary=E2=80=99s Bio.
+
+
+
+Oregon Massage CEU=E2=80=99s available
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://dailydancer.jackdesert.com=
+
+--14dae9cc92a42b37a205137b49a1
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:18pt;text-transform:uppercase">Authentic Movement=C2=
+=A0 Workshops</span></b></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:18pt;text-transform:uppercase">Introducing </span></b>=
+</p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:18pt;text-transform:uppercase">a Body-Mind Centering</=
+span></b><b><span style=3D"font-size:18pt;font-family:Symbol;text-transform=
+:uppercase">=C3=92</span></b><b><span style=3D"font-size:18pt;text-transfor=
+m:uppercase"> Approach</span></b></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:18pt;text-transform:uppercase">with Mary Lou Seereiter=
+</span></b></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><b><spa=
+n style=3D"font-size:18pt;text-transform:uppercase">=C2=A0</span></b></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:14pt;color:rgb(95,73,122)">Limited to 12 participants</sp=
+an></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:18pt;color:rgb(95,73,122)">=C2=A0</span></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:14pt;color:rgb(95,73,122)">To Register: call Mary Lou: 54=
+1 767-2697 </span></p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:14pt;color:rgb(95,73,122)">or email </span><a href=3D"mai=
+lto:mary@movingwithin.com"><span style=3D"font-size:14pt">mary@movingwithin=
+.com</span></a><span style=3D"font-size:14pt;color:rgb(95,73,122)"></span><=
+/p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:14pt;color:rgb(95,73,122)">=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:14pt;color:rgb(152,72,6)">2=
+ Day Non-Residential Workshops: </span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:14pt;color:rgb(152,72,6)">S=
+aturday &amp; Sunday 9:30am to 5:00pm</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:14pt;color:rgb(152,72,6)">M=
+ay 30 &amp; 31, 2015 </span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:14pt;color:rgb(152,72,6)">W=
+orkshop Fee: $200.</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:14pt;color:rgb(152,72,6)">(=
+Residential Optional with additional fee of $60.
+per night, includes all meals.)</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:14pt;color:rgb(152,72,6)">=
+=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:14pt;color:rgb(152,72,6)">T=
+o Learn More About the content of these workshops
+or about Mary Lou,</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:14pt;color:rgb(152,72,6)">g=
+o to Mary=E2=80=99s website: MovingWithin.com and click on
+Authentic Movement, and/or Body-Mind Centering</span><span style=3D"font-si=
+ze:14pt;font-family:Symbol;color:rgb(152,72,6)">=C3=92</span><span style=3D=
+"font-size:14pt;color:rgb(152,72,6)"> and/or Mary=E2=80=99s Bio. </span></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">Oregon Massage CEU=E2=80=99s available</p>
+
+<p class=3D"MsoNormal" align=3D"center" style=3D"text-align:center"><span s=
+tyle=3D"font-size:14pt;color:rgb(64,49,82)">=C2=A0</span></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal"><span style=3D"font-size:18pt">=C2=A0</span></p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+<p class=3D"MsoNormal">=C2=A0</p>
+
+</div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://dailydancer.jackdesert.com</pre></tt>=
+
+--14dae9cc92a42b37a205137b49a1--

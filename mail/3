@@ -1,0 +1,265 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp146776wjc;
+        Wed, 22 Apr 2015 14:02:11 -0700 (PDT)
+X-Received: by 10.180.97.164 with SMTP id eb4mr9598601wib.3.1429736531856;
+        Wed, 22 Apr 2015 14:02:11 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id e8si28690693wib.65.2015.04.22.14.02.11
+        for <jackdesert556@gmail.com>;
+        Wed, 22 Apr 2015 14:02:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id A91109CC02E
+	for <jackdesert556@gmail.com>; Wed, 22 Apr 2015 21:02:11 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 10B1D63A60C1
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 21:01:06 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id C9A08C1A031; Wed, 22 Apr 2015 21:01:05 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.51])
+	by outbound.simplelists.com (Postfix) with ESMTP id 804FA63A60BC
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 20:45:23 +0000 (UTC)
+X-ASG-Debug-ID: 1429735521-0798da42d4835330001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id 7HciqLsxqJ9G2gxW for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 16:45:21 -0400 (EDT)
+X-Barracuda-Envelope-From: info@among-friends.org
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from p3plsmtpa09-01.prod.phx3.secureserver.net ([173.201.193.230]:49271)
+	by a2s71.a2hosting.com with esmtps (TLSv1:DHE-RSA-AES128-SHA:128)
+	(Exim 4.85)
+	(envelope-from <info@among-friends.org>)
+	id 1Yl1WK-002Tht-8f
+	for list@sacredcircledance.org; Wed, 22 Apr 2015 16:45:21 -0400
+Received: from [10.0.0.2] ([98.246.217.218])
+	by p3plsmtpa09-01.prod.phx3.secureserver.net with 
+	id K8lJ1q0024jJhXE018lJfN; Wed, 22 Apr 2015 13:45:18 -0700
+User-Agent: Microsoft-MacOutlook/14.0.0.100825
+Date: Wed, 22 Apr 2015 13:45:16 -0700
+From: Among Friends <info@among-friends.org>
+X-ASG-Orig-Subj: THIS WEEKEND! Learn how to host successful touch-positive events!
+To: "list@sacredcircledance.org" <list@sacredcircledance.org>
+Message-ID: <D15D566C.70F%info@among-friends.org>
+Thread-Topic: THIS WEEKEND! Learn how to host successful touch-positive
+ events!
+Mime-version: 1.0
+X-Spam-Status: No, score=0.0 required=5.0 tests=HTML_MESSAGE,MIME_QP_LONG_LINE
+	autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Score: -22
+X-Spam-Bar: --
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - among-friends.org
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429735521
+X-Barracuda-URL: https://216.234.124.51:443/cgi-mod/mark.cgi
+Received-SPF: none (supercp.com: info@among-friends.org does not designate permitted sender hosts)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.82
+X-Barracuda-Spam-Status: No, SCORE=0.82 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, HTML_MESSAGE, MIME_QP_LONG_LINE, MIME_QP_LONG_LINE_2
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18248
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.00 MIME_QP_LONG_LINE      RAW: Quoted-printable line longer than 76 chars
+	0.82 MIME_QP_LONG_LINE_2    RAW: Quoted-printable line longer than 76 chars
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-20:45:25-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-21:01:06-002
+Subject: [SacredCircleDance] THIS WEEKEND! Learn how to host successful
+ touch-positive events!
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Among Friends <info@among-friends.org>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-type: multipart/alternative;	boundary="B_3512555118_74568"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429736531;
+	bh=H5VXCz5ffPYsalivqTYPI2oz4Tif/GwqOZ2he1L2QBE=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=s0OWSbXatJHOz0fEtcuiN1gC225N6RAg9TjjJ/b4AM8c3hkA16aBVce5qCsjmhHYT
+	 v/6LfgdjqPMn7MXXQESEDYM7h65P1ravehRELvWgZkrGTJlfAS5IOerbBjBhcpoV6P
+	 ZtpT4N6BtuTRXkGqVpK6c5Eo4ZDIUEBKJsulxkKA=
+
+> This message is in MIME format. Since your mail reader does not understand
+this format, some or all of this message may not be legible.
+
+--B_3512555118_74568
+X-SL-Modified: truncated_text
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+Content-type: text/plain; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+ONLY A FEW SPOTS LEFT!!!!!
+
+This weekend, April 25-26, is the first ever LoveGuild Certification
+workshop, hosted by Torch!! Be a part of the snuggle movement!
+
+WHAT IS IT?...
+
+LoveGuild Event Planner Certification =AD Level 1 (Foundation and Framework=
+):
+Become certified to host official LoveTribe events
+
+WHY WOULD YOU WANT TO DO IT?...
+
+Want to host official LoveTribe Events?
+Want to become a Snuggle Facilitator?
+Want to become a Snuggle Activist?
+
+LoveGuild, through their LoveTribe Events, has long helped to create a more
+heart-conscious, touch positive world.
+
+Now Shanya Luther (aka Torch), one of the LoveGuild founders and host of
+LoveTribe Events for years, is sharing her knowledge and offering this first
+ever LoveGuild Event Planner Certification class.
+
+LEARN HOW TO...
+
+Help spread the benefits of healthy, nurturing touch!
+Help fight skin hunger!
+Teach the world to snuggle!
+Host successful touch-positive events!
+Don't just put on a party, learn how to create real community!
+
+SPECIFICS...
+
+April 25 - 26
+9am =AD 4pm each day
+Location: West Portland =AD the exact address will be given to registrants
+
+Cost: $50 per person; some financial assistance is available to those with
+financial hardship
+
+This is the first certification, so it is at a savings of over $200!
+
+For more information, questions and to REGISTER please
+email=8Ainfo@among-friends.org
+
+
+
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--B_3512555118_74568
+X-SL-Modified: truncated_html
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+Content-type: text/html; charset="ISO-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode:=
+ space; -webkit-line-break: after-white-space; color: rgb(0, 0, 0); font-si=
+ze: 14px; font-family: Calibri, sans-serif; "><div>ONLY A FEW SPOTS LEFT!!!=
+!!</div><div><br></div><div>This weekend, April 25-26, is the first ever Lo=
+veGuild Certification workshop, hosted by Torch!! Be a part of the snuggle =
+movement!</div><div><span style=3D"color: rgb(20, 24, 35); font-family: hel=
+vetica, arial, 'lucida grande', sans-serif; line-height: 18px; text-align: =
+left; background-color: rgb(255, 255, 255); "><br></span></div><div><span s=
+tyle=3D"color: rgb(20, 24, 35); font-family: helvetica, arial, 'lucida gran=
+de', sans-serif; line-height: 18px; text-align: left; background-color: rgb=
+(255, 255, 255); ">WHAT IS IT?...</span><br style=3D"color: rgb(20, 24, 35)=
+; font-family: helvetica, arial, 'lucida grande', sans-serif; line-height: =
+18px; text-align: left; "><br style=3D"color: rgb(20, 24, 35); font-family:=
+ helvetica, arial, 'lucida grande', sans-serif; line-height: 18px; text-ali=
+gn: left; "><span style=3D"color: rgb(20, 24, 35); font-family: helvetica, =
+arial, 'lucida grande', sans-serif; line-height: 18px; text-align: left; ba=
+ckground-color: rgb(255, 255, 255); ">LoveGuild Event Planner Certification=
+ &#8211; Level 1 (Foundation and Framework): Become certified to host offic=
+ial LoveTribe events</span><br style=3D"color: rgb(20, 24, 35); font-family=
+: helvetica, arial, 'lucida grande', sans-serif; line-height: 18px; text-al=
+ign: left; "><br style=3D"color: rgb(20, 24, 35); font-family: helvetica, a=
+rial, 'lucida grande', sans-serif; line-height: 18px; text-align: left; "><=
+span style=3D"color: rgb(20, 24, 35); font-family: helvetica, arial, 'lucid=
+a grande', sans-serif; line-height: 18px; text-align: left; background-colo=
+r: rgb(255, 255, 255); ">WHY WOULD YOU WANT TO DO IT?...</span><br style=3D=
+"color: rgb(20, 24, 35); font-family: helvetica, arial, 'lucida grande', sa=
+ns-serif; line-height: 18px; text-align: left; "><br style=3D"color: rgb(20=
+, 24, 35); font-family: helvetica, arial, 'lucida grande', sans-serif; line=
+-height: 18px; text-align: left; "><span style=3D"color: rgb(20, 24, 35); f=
+ont-family: helvetica, arial, 'lucida grande', sans-serif; line-height: 18p=
+x; text-align: left; background-color: rgb(255, 255, 255); ">Want to host o=
+fficial LoveTribe Events?</span><br style=3D"color: rgb(20, 24, 35); font-f=
+amily: helvetica, arial, 'lucida grande', sans-serif; line-height: 18px; te=
+xt-align: left; "><span style=3D"color: rgb(20, 24, 35); font-family: helve=
+tica, arial, 'lucida grande', sans-serif; line-height: 18px; text-align: le=
+ft; background-color: rgb(255, 255, 255); ">Want to become a Snuggle Facili=
+tator?</span><br style=3D"color: rgb(20, 24, 35); font-family: helvetica, a=
+rial, 'lucida grande', sans-serif; line-height: 18px; text-align: left; "><=
+span style=3D"color: rgb(20, 24, 35); font-family: helvetica, arial, 'lucid=
+a grande', sans-serif; line-height: 18px; text-align: left; background-colo=
+r: rgb(255, 255, 255); ">Want to become a Snuggle Activist?</span><br style=
+=3D"color: rgb(20, 24, 35); font-family: helvetica, arial, 'lucida grande',=
+ sans-serif; line-height: 18px; text-align: left; "><br style=3D"color: rgb=
+(20, 24, 35); font-family: helvetica, arial, 'lucida grande', sans-serif; l=
+ine-height: 18px; text-align: left; "><span style=3D"color: rgb(20, 24, 35)=
+; font-family: helvetica, arial, 'lucida grande', sans-serif; line-height: =
+18px; text-align: left; background-color: rgb(255, 255, 255); ">LoveGuild, =
+through their LoveTribe Events, has long helped to create a more heart-cons=
+cious, touch positive world.</span><br style=3D"color: rgb(20, 24, 35); fon=
+t-family: helvetica, arial, 'lucida grande', sans-serif; line-height: 18px;=
+ text-align: left; "><span class=3D"text_exposed_show" style=3D"display: in=
+line; color: rgb(20, 24, 35); font-family: helvetica, arial, 'lucida grande=
+', sans-serif; line-height: 18px; text-align: left; "><br>Now Shanya Luther=
+ (aka Torch), one of the LoveGuild founders and host of LoveTribe Events fo=
+r years, is sharing her knowledge and offering this first ever LoveGuild Ev=
+ent Planner Certification class.<br><br>LEARN HOW TO...<br><br>Help spread =
+the benefits of healthy, nurturing touch!<br>Help fight skin hunger!<br>Tea=
+ch the world to snuggle!<br>Host successful touch-positive events!<br>Don't=
+ just put on a party, learn how to create real community!<br><br>SPECIFICS.=
+..<br><br>April 25 - 26<br>9am &#8211; 4pm each day<br>Location: West Portl=
+and &#8211; the exact address will be given to registrants<br><br>Cost: $50=
+ per person; some financial assistance is available to those with financial=
+ hardship<br><br>This is the first certification, so it is at a savings of =
+over $200!<br><br>For more information, questions and to REGISTER please em=
+ail&#8230;info@among-friends.o<wbr><span class=3D"word_break" style=3D"disp=
+lay: inline-block;"></span>rg<br></span></div><br></body></html>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--B_3512555118_74568--
+
+

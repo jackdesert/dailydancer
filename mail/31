@@ -1,0 +1,348 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp1049717wjc;
+        Sun, 19 Apr 2015 16:57:08 -0700 (PDT)
+X-Received: by 10.180.89.231 with SMTP id br7mr20306965wib.60.1429487826385;
+        Sun, 19 Apr 2015 16:57:06 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id vp5si29444147wjc.127.2015.04.19.16.57.06
+        for <jackdesert556@gmail.com>;
+        Sun, 19 Apr 2015 16:57:06 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 36E2968FC0C0
+	for <jackdesert556@gmail.com>; Sun, 19 Apr 2015 23:57:06 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 4B4D3321C001
+	for <sacredcircledance@simplelists.com>; Sun, 19 Apr 2015 23:56:16 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 1871FC1A030; Sun, 19 Apr 2015 23:56:16 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from mail-ie0-f177.google.com (mail-ie0-f177.google.com [209.85.223.177])
+	by outbound.simplelists.com (Postfix) with ESMTPS id B1A4363A600B
+	for <sacredcircledance@simplelists.com>; Sun, 19 Apr 2015 21:32:16 +0000 (UTC)
+Received: by iedfl3 with SMTP id fl3so118054174ied.1
+        for <sacredcircledance@simplelists.com>; Sun, 19 Apr 2015 14:32:15 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=9p9vhu5Pl0zGn3vOYmyk4BWWgrXR1/OXaV4r6pAAKYU=;
+        b=nq485hYOIYZqRTAPTS8sS7LMoQmB3PCxNIENHF3Oxbcv29XKhxI876S3CI6KXtT6hs
+         3ehW/MRRYudYU8yHIwWjpwiv7AxlyMP2JOATChKBbctRXxlEvVliLBMXctwvcQAEeMKr
+         LO3aYvKf54uCcoON89/YZIRsBYQ+Z/FWr2icaXhC3pFMNythluDlHZV2xgN0tvPCP33x
+         a0p/iH1WkOIlP+jnv5u09pDXDzv7baMzGRIIpe/gjVkS8UriAN157R/6+Y6cKaOSCAl4
+         9kxgiSTFTOvS+UQ4quKozcnA6nOstsLyT2wWUO1tbC/in4dWh8G+yOKbC1OfMiv+wnYg
+         FyzA==
+MIME-Version: 1.0
+X-Received: by 10.50.138.232 with SMTP id qt8mr16888006igb.28.1429479135160;
+ Sun, 19 Apr 2015 14:32:15 -0700 (PDT)
+Received: by 10.50.135.37 with HTTP; Sun, 19 Apr 2015 14:32:15 -0700 (PDT)
+Date: Sun, 19 Apr 2015 14:32:15 -0700
+Message-ID: <CAAnRO54oDFY94_3U844Aa=PFMh-u2k8H4qQ2gv5aJUm5zT2dTA@mail.gmail.com>
+From: Star Gazer <magicalheartadventures@gmail.com>
+To: sacredcircledance@simplelists.com
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=unavailable
+	autolearn_force=no version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150419-21:32:18-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150419-23:56:16-003
+Subject: [SacredCircleDance] Maypole Spring Festival/Beltane Magical Heart
+ Celtic Adventure/Farewell Drumming
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Star Gazer <magicalheartadventures@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="089e01184cba10af6005141a8cad"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429487826;
+	bh=wlV6iAFVdYxPDZrf+O3hEwvAEHQLY6fPnmr4seupitQ=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=GEG9NYNVBq7JpVt25HGfxelf8nzT8gKlpncgW3dstFLvFiVHsjRYnJEoPpwtND0QG
+	 kFFMmUIYB9zNt3Ul0YZ8hkHIouOtuwQiTwuDscIPYnWUEbQDd7GvWiU3KrL3CYQc2z
+	 4LCpxGD3I3jksHWZOqHf86A6R7sC/1OxDf0xz320=
+
+--089e01184cba10af6005141a8cad
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+Hello everyone. It's been such a wonderful experience living here in Oregon
+for the last 6 years. But it's time for my new adventure to begin. I am
+relocating overseas, and this will be my last offering in Portland. I hope
+you can join us.
+
+Sincerely,
+Star Gazer
+
+P.S. You're welcomed to stop by any time/portion of this event, except
+during ceremonial/exploration time frame as listed below.
+
+We look forward to celebrating a fun and joyful Maypole festival, and then
+sharing a wonderful magical Beltane adventure together, finishing the
+evening with a drum circle.
+
+
+http://www.meetup.com/MagicalHeartAdventures/events/221025974/
+
+
+https://www.facebook.com/events/1567956926818908/
+
+
+*Date/Time: *May 2 (Sat) 4:30 pm
+
+- See the evening *Schedule* below
+
+- Please arrive on time.
+
+- If you're available to help out in preparation, or setting up a table to
+offer your goods or service, please arrive at 4:00 pm.
+
+
+
+*Location*: the White Oak Center in NW Portland. Please RSVP to get the
+address/protocol info.
+
+Reply to: magicalheartadventures@gmail.com
+
+
+
+*Schedule: (subject to adjustment) *
+
+4:30 pm - Meet and Greet, lay out your potluck dish.
+
+5:00 pm - Opening Circle. Wreath making and Maypole Dancing.
+
+6:30 pm - Potluck.
+
+7:30 pm =E2=80=93 9:00 pm Beltane ceremony (indoor).
+
+9:00 pm - Farewell Drumming Circle for Star Gazer.
+
+
+
+*Things to bring are:*
+
+
+*Cash Investment for yourself and to your inner travel guides: *
+
+Your donation will support our expenses to create this event.
+
+*$15 + *a potluck dish. (See below *Potluck*)
+
+*Vendors* selling your goods/service: *$20 + potluck dish*.
+
+*Youth/students under age 18: $10*
+
+*Children (under 12, old enough to watch TV movie without a baby sitter
+present.) are free. *
+
+*No checks please.*
+
+
+Bring your drum/rattle if you'd like to join us at the Farewell Drumming at
+the end of this event.
+
+
+*Potluck dish:* Bring =E2=80=9Creal food=E2=80=9D: what you would normally =
+eat to share
+with the group. While many of us are not vegetarians, gluten-free, low
+sugar, non-dairy foods, and organic foods are requested if possible.
+
+
+
+*Drinks: *Brings any beverage you desire and plan to share some.
+
+
+*No alcohol* *(and any mind altering substance) until the end of the
+ceremony/magical adventure*, as it requires your full attention and focus.
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--089e01184cba10af6005141a8cad
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-size:small">Hel=
+lo everyone. It&#39;s been such a wonderful experience living here in Orego=
+n for the last 6 years. But it&#39;s time for my new adventure to begin. I =
+am relocating overseas, and this will be my last offering in Portland. I ho=
+pe you can join us.<br><br>Sincerely,<br>Star Gazer<br>=C2=A0<br>P.S. You&#=
+39;re welcomed to stop by any time/portion of this event, except during cer=
+emonial/exploration time frame as listed below.<br><br><p class=3D"MsoNorma=
+l"><span style=3D"font-family:Verdana;color:black">We look forward to celeb=
+rating=C2=A0a fun and
+joyful Maypole festival, and then sharing a wonderful magical Beltane adven=
+ture
+together, finishing the evening with a drum circle.</span></p><p class=3D"M=
+soNormal"><br><span style=3D"font-family:Verdana;color:black"></span></p><p=
+ class=3D"MsoNormal"><a href=3D"http://www.meetup.com/MagicalHeartAdventure=
+s/events/221025974/"><span style=3D"font-family:Verdana;color:black">http:/=
+/www.meetup.com/MagicalHeartAdventures/events/221025974/</span></a></p><p c=
+lass=3D"MsoNormal"><br><span style=3D"font-family:Verdana;color:black"></sp=
+an></p><p class=3D"MsoNormal"><a href=3D"https://www.facebook.com/events/15=
+67956926818908/"><span style=3D"font-family:Verdana;color:black">https://ww=
+w.facebook.com/events/1567956926818908/</span></a></p><p class=3D"MsoNormal=
+"><span style=3D"font-family:Verdana;color:black"><br></span></p>
+
+
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">D=
+ate/Time:=C2=A0</span></b><span style=3D"font-family:Verdana;color:black">M=
+ay 2 (Sat)=C2=A04:30 pm</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">- See
+the evening <b>Schedule</b> below</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">- Pl=
+ease arrive on time.</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">- If=
+ you&#39;re available to help out in
+preparation, or setting up a table to offer your goods or service, please
+arrive at=C2=A04:00 pm.=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">=C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">L=
+ocation</span></b><span style=3D"font-family:Verdana;color:black">: the Whi=
+te Oak Center in NW Portland. Please RSVP to get the address/protocol info.=
+ <br></span></p><p class=3D"MsoNormal"><span style=3D"font-family:Verdana;c=
+olor:black">Reply to: <a href=3D"mailto:magicalheartadventures@gmail.com">m=
+agicalheartadventures@gmail.com </a><br></span></p><p class=3D"MsoNormal"><=
+span style=3D"font-family:Verdana;color:black"><br></span></p><br><p class=
+=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">Schedule:=
+ (subject to adjustment)=C2=A0</span></b><span style=3D"font-family:Verdana=
+;color:black"></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">4:30=
+ pm=C2=A0- Meet and Greet, lay out your
+potluck dish.</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">5:00=
+=C2=A0pm=C2=A0- Opening Circle. Wreath
+making and Maypole Dancing.=C2=A0=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">6:30=
+ pm=C2=A0- Potluck.</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">7:30=
+ pm =E2=80=93 9:00 pm=C2=A0Beltane ceremony
+(indoor).=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">9:00=
+ pm - Farewell Drumming Circle for Star
+Gazer.</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">=C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">T=
+hings to bring are:</span></b><span style=3D"font-family:Verdana;color:blac=
+k"></span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black"><br>
+<b>Cash Investment for yourself and to your inner travel guides:=C2=A0</b><=
+/span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">Your=
+ donation will support our expenses to
+create this event.</span></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">$=
+15 +=C2=A0</span></b><span style=3D"font-family:Verdana;color:black">a potl=
+uck dish.=C2=A0(See
+below=C2=A0<b>Potluck</b>)=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">V=
+endors</span></b><span style=3D"font-family:Verdana;color:black"> selling y=
+our
+goods/service:=C2=A0<b>$20 + potluck dish</b>.=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">Y=
+outh/students under age 18: $10</span></b><span style=3D"font-family:Verdan=
+a;color:black"></span></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">C=
+hildren (under 12, old enough to watch TV movie
+without a baby sitter present.) are free.=C2=A0</span></b><span style=3D"fo=
+nt-family:Verdana;color:black"></span></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">N=
+o checks please.</span></b><span style=3D"font-family:Verdana;color:black">=
+=C2=A0</span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black"><br>=
+</span></p><p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:=
+black">Bring your drum/rattle if you&#39;d like to join us at the Farewell =
+Drumming at the end of this event. <br></span></p><p class=3D"MsoNormal"><s=
+pan style=3D"font-family:Verdana;color:black"><br></span></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">P=
+otluck dish:</span></b><span style=3D"font-family:Verdana;color:black">=C2=
+=A0Bring =E2=80=9Creal food=E2=80=9D: what
+you would normally eat to share with the group. While many of us are not
+vegetarians, gluten-free, low sugar, non-dairy foods, and organic foods are=
+ requested
+if possible. </span></p>
+
+<p class=3D"MsoNormal"><span style=3D"font-family:Verdana;color:black">=C2=
+=A0</span></p>
+
+<p class=3D"MsoNormal"><b><span style=3D"font-family:Verdana;color:black">D=
+rinks:=C2=A0</span></b><span style=3D"font-family:Verdana;color:black">Brin=
+gs any beverage you
+desire and plan to share some. <br></span></p><p class=3D"MsoNormal"><span =
+style=3D"font-family:Verdana;color:black"><br></span></p><p class=3D"MsoNor=
+mal"><b><span style=3D"font-family:Verdana;color:black">No alcohol</span></=
+b><span style=3D"font-family:Verdana;color:black">=C2=A0<b>(and any mind
+altering substance) until the end of the ceremony/magical adventure</b>, as=
+ it
+requires your full attention and focus. <br></span></p><p class=3D"MsoNorma=
+l"><br><span style=3D"font-family:Verdana;color:black"></span></p></div></d=
+iv>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--089e01184cba10af6005141a8cad--

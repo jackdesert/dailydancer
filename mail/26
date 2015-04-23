@@ -1,0 +1,346 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp267869wjc;
+        Mon, 20 Apr 2015 15:09:28 -0700 (PDT)
+X-Received: by 10.194.200.194 with SMTP id ju2mr31823106wjc.61.1429567761416;
+        Mon, 20 Apr 2015 15:09:21 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id mm8si34237345wjc.36.2015.04.20.15.09.21
+        for <jackdesert556@gmail.com>;
+        Mon, 20 Apr 2015 15:09:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=comcast.net
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 33A329CC008
+	for <jackdesert556@gmail.com>; Mon, 20 Apr 2015 22:09:21 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id E568463A6030
+	for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 22:07:54 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id B0B0FC1A030; Mon, 20 Apr 2015 22:07:53 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.51])
+	by outbound.simplelists.com (Postfix) with ESMTP id 2225163A601A
+	for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 16:20:26 +0000 (UTC)
+X-ASG-Debug-ID: 1429546824-0798da42da566560001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id 4m1VbmBE9gpuAl0T for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 12:20:24 -0400 (EDT)
+X-Barracuda-Envelope-From: anetris@comcast.net
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from resqmta-po-11v.sys.comcast.net ([96.114.154.170]:43392)
+	by a2s71.a2hosting.com with esmtps (TLSv1:DHE-RSA-AES128-SHA:128)
+	(Exim 4.85)
+	(envelope-from <anetris@comcast.net>)
+	id 1YkEQo-003elB-JF
+	for list@sacredcircledance.org; Mon, 20 Apr 2015 12:20:23 -0400
+Received: from resomta-po-07v.sys.comcast.net ([96.114.154.231])
+	by resqmta-po-11v.sys.comcast.net with comcast
+	id JGKU1q0054zp9eg01GLLni; Mon, 20 Apr 2015 16:20:20 +0000
+Received: from [192.168.1.104] ([76.27.210.50])
+	by resomta-po-07v.sys.comcast.net with comcast
+	id JGLK1q00Y15nMlo01GLLp3; Mon, 20 Apr 2015 16:20:20 +0000
+From: Anet Margot Ris <anetris@comcast.net>
+Message-Id: <CB4E5C70-BDF3-424C-AB9B-0F5D10B8E8D9@comcast.net>
+X-ASG-Orig-Subj: Free Introductory Workshop & Five Week Course: Radical Performance
+Date: Mon, 20 Apr 2015 09:20:19 -0700
+To: list@sacredcircledance.org
+Mime-Version: 1.0 (Mac OS X Mail 8.1 \(1993\))
+X-Mailer: Apple Mail (2.1993)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=comcast.net;
+	s=q20140121; t=1429546820;
+	bh=JO8F0XJG4OnRNScCuWalciZe22vQFnKyX0Zzw7FUnrg=;
+	h=Received:Received:From:Content-Type:Subject:Message-Id:Date:To:
+	 Mime-Version;
+	b=VQdImKbUu+qAu5udC+DXaK9ZGWqQ21qC1gCCxlOX6SXeBVGywuNyK8F1A7Wyevrkh
+	 V3qfoovtOWtvZYgQUu0qwi/c/AQrOOxkyzZMbt6Gubs1ZRhGPJYcjwjGo6NOgwFDzK
+	 DCCBCtLkv0euGcif+QpFfXoT2crvo4mW0LOzdEpeHcd5LzQbGHiBvTD0pB6cy2KddT
+	 p7ERcnr5XopktP8sqkcGcfGxImGXrNg06jcNtfHqkJmPxEYeTVgyjrHjWs2fOb6OoK
+	 Q1O/I7ibKQTLuaS4xvAnvlqyNCIeVzWGAdcKWcQj0XqGevCi02JNrd8Uf6yooCjnED
+	 fPpxjyCqIz3Iw==
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=unavailable
+	autolearn_force=no version=3.4.0
+X-Spam-Score: -19
+X-Spam-Bar: --
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - comcast.net
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429546824
+X-Barracuda-URL: https://216.234.124.51:443/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of anetris@comcast.net designates 96.114.154.170 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-BRTS-Evidence: anetrisperformance.com
+X-Barracuda-Spam-Score: 0.60
+X-Barracuda-Spam-Status: No, SCORE=0.60 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, HTML_MESSAGE, MARKETING_SUBJECT
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18161
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.60 MARKETING_SUBJECT      Subject contains popular marketing words
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150420-16:20:28-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150420-22:07:55-001
+Subject: [SacredCircleDance] Free Introductory Workshop & Five Week Course:
+ Radical Performance
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Anet Margot Ris <anetris@comcast.net>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_0B28A52A-04F7-4366-9E8C-3B5F8B4732E8"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429567761;
+	bh=PtmZiOFbasMnzza7ofshtd9psPQO9YR13hthCmxE+a0=;
+	h=From:Date:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=IsICXvB4uiMZSqF7LOUiRN1SROYLwmSCUS/PPJGFqRqzfqgAZkfUuTMUgZwtET6ng
+	 87gRnKKDKZr+fCvTYUKA0Qtwb0tBkHOG+uqfEudnFE5RHuzetOvU8MKI3nQaSHMgpc
+	 1iyxYmVTkOKecPyHTbTnPBuOhLgXWclvBQ3vFLng=
+
+--Apple-Mail=_0B28A52A-04F7-4366-9E8C-3B5F8B4732E8
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+
+Exploring the Language of Presence, Embodiment, and Compositional Improvisa=
+tion
+
+This work is designed to develop the performer's body/mind/psyche as an ins=
+trument, develop the art of playing in space and time, and to experience th=
+e joy of creating.=20
+It is appropriate for anyone interested in connecting with their authentic =
+movement, expanding their palette, developing specificity and phrasing, and=
+ exploring the art of performance.
+
+INTRODUCTION is FREE:
+Taught by: Anet Margot Ris
+When: Tues. May 5, 7:00-9:30pm
+Where: Headwaters=E2=80=99 Waterline Studio (upstairs)
+	55 N. Farragut #4
+	Portland, OR 97203
+To Register and for more info: anetris@comcast.net <mailto:anetris@comcast.=
+net> or 503-810-0446
+ 	www.anetrisperformance.com <http://www.anetrisperformance.com/>,=20
+FIVE WEEK COURSE:
+Tuesdays, May 12 thru June 9, 7:00-9:30pm
+sliding scale=E2=80=94$75-$100
+
+Workshops will train:
+=E2=80=A2 Presence
+=E2=80=A2 Engagement with Audience
+=E2=80=A2 Focus and Centering
+=E2=80=A2 Imagination
+=E2=80=A2 Embodiment of Character/States of Being
+=E2=80=A2 Compositional Improvisation
+
+In this workshop we will investigate connecting with and embodying states o=
+f being generated from:
+	=E2=80=A2  the 4 Elemental Movement Qualities (Earth-Density, Water-Flow, =
+Air-spatiousness, Fire-radiation)
+	=E2=80=A2  the Archetypal Statements of Action: I want/I reject, I give/I =
+take, I yield/I stand my ground
+
+Then, through exploring presence (being moment to moment) and a common voca=
+bulary of playing in time and space, we will create compositional improvisa=
+tions and discuss them.
+
+There will be a focus on the development of psycho-physical centering, phra=
+sing of energy & movement, and exploring how movement reads to an audience.
+
+Anet Ris has taught and performed for over thirty years. Radical Performanc=
+e is an amalgamation of her life study in =E2=80=98kelmanworks=E2=80=99, ex=
+periential anatomy, experimental theater, Michael Chekov Technique, improvi=
+sation, composition, modern and classical dance, martial arts, and teaching=
+s from the Sweet Medicine SunDance Shamanic Path. Anet holds a BFA in Dance=
+ from NYU and an MFA in Dance/Theater from the University of Wisconsin. She=
+ was a member of The Rudy Perez Performance Ensemble in Los Angeles, and Da=
+niel Nagrin=E2=80=99s Improvisation group, The Workgroup in New York City, =
+among others. More recently she has performed the lead character in Ed Alle=
+tto=E2=80=99s Slumming Angel, and devised and performed a series of short f=
+orm solo character pieces and foyer installations. She teaches Devised Perf=
+ormance at MacLaren Youth Correctional Facility----------------------------=
+---------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--Apple-Mail=_0B28A52A-04F7-4366-9E8C-3B5F8B4732E8
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<html><body style=3D"word-wrap: break-word; -webkit-nbsp-mode: space; -webk=
+it-line-break: after-white-space;" class=3D""><div style=3D"margin: 0px; fo=
+nt-size: 13px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke=
+-width: initial;" class=3D""><br class=3D""></div><div style=3D"margin: 0px=
+; font-size: 13px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-st=
+roke-width: initial;" class=3D""><i class=3D""><b class=3D"">Exploring the =
+Language of Presence, Embodiment, and Compositional Improvisation</b></i></=
+div><div style=3D"margin: 0px; font-size: 13px; -webkit-text-stroke-color: =
+rgb(0, 0, 0); -webkit-text-stroke-width: initial; min-height: 16px;" class=
+=3D""><br class=3D""></div><div style=3D"margin: 0px; text-align: center; f=
+ont-size: 13px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-strok=
+e-width: initial;" class=3D"">This work is designed to develop the performe=
+r's body/mind/psyche as an instrument, develop the art of playing in&nbsp;s=
+pace and time, and to experience the joy of creating.&nbsp;</div><div style=
+=3D"margin: 0px; text-align: center; font-size: 13px; -webkit-text-stroke-c=
+olor: rgb(0, 0, 0); -webkit-text-stroke-width: initial;" class=3D"">It is a=
+ppropriate for anyone interested in connecting with their authentic movemen=
+t, expanding their palette, developing specificity and phrasing, and explor=
+ing the art of performance.</div><div style=3D"margin: 0px; text-align: cen=
+ter; font-size: 13px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text=
+-stroke-width: initial; min-height: 16px;" class=3D""><br class=3D""></div>=
+<div style=3D"margin: 0px; font-size: 13px; -webkit-text-stroke-color: rgb(=
+0, 0, 0); -webkit-text-stroke-width: initial;" class=3D""><b class=3D"">INT=
+RODUCTION is FREE:</b></div><div style=3D"margin: 0px; font-size: 13px; -we=
+bkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;" =
+class=3D"">Taught by: Anet Margot Ris</div><div style=3D"margin: 0px; font-=
+size: 13px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-wi=
+dth: initial;" class=3D"">When: Tues. May 5, 7:00-9:30pm</div><div style=3D=
+"margin: 0px; font-size: 13px; -webkit-text-stroke-color: rgb(0, 0, 0); -we=
+bkit-text-stroke-width: initial;" class=3D"">Where: Headwaters=E2=80=99 Wat=
+erline Studio (upstairs)</div><div style=3D"margin: 0px; font-size: 13px; -=
+webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;=
+" class=3D""><span class=3D"Apple-tab-span" style=3D"white-space:pre">	</sp=
+an>55 N. Farragut #4</div><div style=3D"margin: 0px; font-size: 13px; -webk=
+it-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;" cl=
+ass=3D""><span class=3D"Apple-tab-span" style=3D"white-space:pre">	</span>P=
+ortland, OR 97203</div><div style=3D"margin: 0px; font-size: 13px; -webkit-=
+text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;" class=
+=3D"">To Register and for more info: <a href=3D"mailto:anetris@comcast.net"=
+ class=3D"">anetris@comcast.net</a> or 503-810-0446</div><div style=3D"marg=
+in: 0px; font-size: 13px; color: rgb(1, 26, 153); -webkit-text-stroke-color=
+: rgb(1, 26, 153); -webkit-text-stroke-width: initial;" class=3D""><span st=
+yle=3D"color: rgb(0, 0, 0); -webkit-text-stroke-color: rgb(0, 0, 0);" class=
+=3D"">&nbsp;<span class=3D"Apple-tab-span" style=3D"white-space:pre">	</spa=
+n><a href=3D"http://www.anetrisperformance.com" class=3D""><span style=3D"-=
+webkit-text-stroke-color: rgb(1, 26, 153);" class=3D"">www.anetrisperforman=
+ce.com</span></a>,&nbsp;</span></div><div style=3D"margin: 0px; font-size: =
+13px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: i=
+nitial;" class=3D""><b class=3D"">FIVE WEEK COURSE:</b></div><div style=3D"=
+margin: 0px; font-size: 13px; -webkit-text-stroke-color: rgb(0, 0, 0); -web=
+kit-text-stroke-width: initial;" class=3D"">Tuesdays, May 12 thru June 9, 7=
+:00-9:30pm</div><div style=3D"margin: 0px; font-size: 13px; -webkit-text-st=
+roke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;" class=3D"">s=
+liding scale=E2=80=94$75-$100</div><div style=3D"margin: 0px; font-size: 13=
+px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: ini=
+tial; min-height: 16px;" class=3D""><br class=3D""></div><div style=3D"marg=
+in: 0px; font-size: 13px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-=
+text-stroke-width: initial;" class=3D""><span style=3D"text-decoration: und=
+erline ; font-kerning: none" class=3D"">Workshops will train:</span></div><=
+div style=3D"margin: 0px 0px 0px 8.5px; font-size: 13px; -webkit-text-strok=
+e-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;" class=3D"">=E2=
+=80=A2 Presence</div><div style=3D"margin: 0px 0px 0px 8.5px; font-size: 13=
+px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: ini=
+tial;" class=3D"">=E2=80=A2 Engagement with Audience</div><div style=3D"mar=
+gin: 0px 0px 0px 8.5px; font-size: 13px; -webkit-text-stroke-color: rgb(0, =
+0, 0); -webkit-text-stroke-width: initial;" class=3D"">=E2=80=A2 Focus and =
+Centering</div><div style=3D"margin: 0px 0px 0px 8.5px; font-size: 13px; -w=
+ebkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;"=
+ class=3D"">=E2=80=A2 Imagination</div><div style=3D"margin: 0px 0px 0px 8.=
+5px; font-size: 13px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text=
+-stroke-width: initial;" class=3D"">=E2=80=A2 Embodiment of Character/State=
+s of Being</div><div style=3D"margin: 0px 0px 0px 8.5px; font-size: 13px; -=
+webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;=
+" class=3D"">=E2=80=A2 Compositional Improvisation</div><div style=3D"margi=
+n: 0px 0px 0px 8.5px; font-size: 13px; -webkit-text-stroke-color: rgb(0, 0,=
+ 0); -webkit-text-stroke-width: initial; min-height: 16px;" class=3D""><br =
+class=3D""></div><div style=3D"margin: 0px; -webkit-text-stroke-color: rgb(=
+0, 0, 0); -webkit-text-stroke-width: initial;" class=3D"">In this workshop =
+we will <span style=3D"text-decoration: underline ; font-kerning: none" cla=
+ss=3D"">investigate</span> connecting with and <span style=3D"text-decorati=
+on: underline ; font-kerning: none" class=3D"">embody</span>ing <span style=
+=3D"text-decoration: underline ; font-kerning: none" class=3D"">states of b=
+eing</span> generated from:</div><div style=3D"margin: 0px 0px 0px 18.5px; =
+text-indent: -18.5px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text=
+-stroke-width: initial;" class=3D""><span class=3D"Apple-tab-span" style=3D=
+"white-space:pre">	</span>=E2=80=A2&nbsp; the 4 Elemental Movement Qualitie=
+s (Earth-Density, Water-Flow, Air-spatiousness, Fire-radiation)</div><div s=
+tyle=3D"margin: 0px 0px 0px 18.5px; text-indent: -18.5px; -webkit-text-stro=
+ke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial;" class=3D""><sp=
+an class=3D"Apple-tab-span" style=3D"white-space:pre">	</span>=E2=80=A2&nbs=
+p; the Archetypal Statements of Action: I want/I reject, I give/I take, I y=
+ield/I stand my ground</div><div style=3D"margin: 0px 0px 0px 18.5px; text-=
+indent: -18.5px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stro=
+ke-width: initial; min-height: 17px;" class=3D""><br class=3D""></div><div =
+style=3D"margin: 0px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text=
+-stroke-width: initial;" class=3D"">Then, through exploring <span style=3D"=
+text-decoration: underline ; font-kerning: none" class=3D"">presence</span>=
+ (being moment to moment) and a common vocabulary of playing in <span style=
+=3D"text-decoration: underline ; font-kerning: none" class=3D"">time and sp=
+ace</span>, we will create <span style=3D"text-decoration: underline ; font=
+-kerning: none" class=3D"">compositional improvisations</span> and <span st=
+yle=3D"text-decoration: underline ; font-kerning: none" class=3D"">discuss<=
+/span> them.</div><div style=3D"margin: 0px; -webkit-text-stroke-color: rgb=
+(0, 0, 0); -webkit-text-stroke-width: initial; min-height: 17px;" class=3D"=
+"><br class=3D""></div><div style=3D"margin: 0px; -webkit-text-stroke-color=
+: rgb(0, 0, 0); -webkit-text-stroke-width: initial;" class=3D"">There will =
+be a focus on the development of <span style=3D"text-decoration: underline =
+; font-kerning: none" class=3D"">psycho-physical centering</span>, <span st=
+yle=3D"text-decoration: underline ; font-kerning: none" class=3D"">phrasing=
+</span> of energy &amp; movement, and exploring <span style=3D"text-decorat=
+ion: underline ; font-kerning: none" class=3D"">how movement reads</span> t=
+o an audience.</div><div style=3D"margin: 0px; font-size: 13px; -webkit-tex=
+t-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-width: initial; min-heigh=
+t: 16px;" class=3D""><br class=3D""></div><div style=3D"margin: 0px; font-s=
+ize: 12px; -webkit-text-stroke-color: rgb(0, 0, 0); -webkit-text-stroke-wid=
+th: initial;" class=3D"">Anet Ris has taught and performed for over thirty =
+years. Radical Performance is an amalgamation of her life study in =E2=80=
+=98kelmanworks=E2=80=99, experiential anatomy, experimental theater, Michae=
+l Chekov Technique, improvisation, composition, modern and classical dance,=
+ martial arts, and teachings from the Sweet Medicine SunDance Shamanic Path=
+. Anet holds a BFA in Dance from NYU and an MFA in Dance/Theater from the U=
+niversity of Wisconsin. She was a member of The Rudy Perez Performance Ense=
+mble in Los Angeles, and Daniel Nagrin=E2=80=99s Improvisation group, The W=
+orkgroup in New York City, among others.<i class=3D""> </i>More recently sh=
+e has performed the lead character in Ed Alletto=E2=80=99s <i class=3D"">Sl=
+umming Angel,</i>&nbsp;and devised and performed a series of short form sol=
+o character pieces and foyer installations. She teaches Devised Performance=
+ at MacLaren Youth Correctional Facility</div></body></html>
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--Apple-Mail=_0B28A52A-04F7-4366-9E8C-3B5F8B4732E8--

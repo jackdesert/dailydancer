@@ -1,0 +1,218 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp826635wjc;
+        Fri, 17 Apr 2015 04:02:32 -0700 (PDT)
+X-Received: by 10.112.151.211 with SMTP id us19mr2389413lbb.120.1429268551746;
+        Fri, 17 Apr 2015 04:02:31 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id d2si2405441wib.111.2015.04.17.04.02.31
+        for <jackdesert556@gmail.com>;
+        Fri, 17 Apr 2015 04:02:31 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 7C13368FC098
+	for <jackdesert556@gmail.com>; Fri, 17 Apr 2015 11:02:31 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 8DFD963A60B7
+	for <sacredcircledance@simplelists.com>; Fri, 17 Apr 2015 11:01:43 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 54CFABE013; Fri, 17 Apr 2015 11:01:43 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.52])
+	by outbound.simplelists.com (Postfix) with ESMTP id C336763A60B0
+	for <sacredcircledance@simplelists.com>; Fri, 17 Apr 2015 03:51:21 +0000 (UTC)
+X-ASG-Debug-ID: 1429242679-089ef71e37242720001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id CHsF2oWfChWuCHMP for <sacredcircledance@simplelists.com>; Thu, 16 Apr 2015 23:51:19 -0400 (EDT)
+X-Barracuda-Envelope-From: somadega@gmail.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from mail-wi0-f172.google.com ([209.85.212.172]:38494)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <somadega@gmail.com>)
+	id 1YixJG-004CPN-JW
+	for list@sacredcircledance.org; Thu, 16 Apr 2015 23:51:19 -0400
+Received: by wiun10 with SMTP id n10so6411643wiu.1
+        for <list@sacredcircledance.org>; Thu, 16 Apr 2015 20:51:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=4mRufyqZ5Ge3IVb6C3xNwKQryrBYxw4O3GqNgchhLC4=;
+        b=QNVGc1MDwGTs0X/9hzT5FCqfhUjpYlzZt1YjWNsULr2wn8lJHcFtsIElLGWxEgmBWW
+         vWzxdq4HWA1RfToXVtaT3NlT9hTZrwSPP+hW6VbKOflRypCRIHoE8k3ha5lozi4FrmTe
+         k2RsvEb3tO2r9X3Lz0h2A+3JWvN3RHL6MpIfUwUZ4OxMsSSxD/+GJjipFd7EuzlXt5eS
+         ir8Ba1IUM4X2cY6yAhdpVJYiWaPj9cTM4oEEA4rqeaKu1VhIVW/dOlyBZaoa53T7zDyf
+         3rgef+ki8hNS0FrmHG9Vb1y8gEdnitkCYZdAyt9Y23SiUoBOtvjId2cobzjUTuie/vNH
+         gTNA==
+MIME-Version: 1.0
+X-Received: by 10.180.91.137 with SMTP id ce9mr587025wib.76.1429242677168;
+ Thu, 16 Apr 2015 20:51:17 -0700 (PDT)
+Received: by 10.194.92.11 with HTTP; Thu, 16 Apr 2015 20:51:17 -0700 (PDT)
+Date: Thu, 16 Apr 2015 20:51:17 -0700
+Message-ID: <CAL6ZsrtdZZEPZ=yrBu-g8+DKC8_V2NPO+c9Hy0r9Jxi6D5v4JA@mail.gmail.com>
+From: Terra Soma <somadega@gmail.com>
+X-ASG-Orig-Subj: A collaboration workshop for movers
+To: "list@sacredcircledance.org" <list@sacredcircledance.org>, Saffire Bouchelion <saffireb@icloud.com>, 
+	sophie lippert <sophie.lippert@gmail.com>
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_FONT_LOW_CONTRAST,HTML_IMAGE_ONLY_32,
+	HTML_MESSAGE autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Score: -36
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429242679
+X-Barracuda-URL: http://barracuda.supercp.com:8000/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of somadega@gmail.com designates 209.85.212.172 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=HTML_IMAGE_ONLY_32, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18021
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_IMAGE_ONLY_32     BODY: HTML: images with 2800-3200 bytes of words
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150417-03:51:23-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150417-11:01:43-001
+Subject: [SacredCircleDance] A collaboration workshop for movers
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Terra Soma <somadega@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="f46d043749c5120e1e0513e37e0e"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429268551;
+	bh=kHQwBi5YPGbGK6lY3UWWzyDDGohCCY02JGDv98YmFY8=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=cGIFKvLbeGYtzIf+stOd9EsyuXMJ9DepkfCuO+vRM4X5GC/7lC8kWUmMAl5wtbjGv
+	 QSiEyTBqCQ88zLRVh0aHcSrDCmRyjJLeAY0QFbTe8VLxrFCJXEyc63+mtf4Bguz6y+
+	 J4O8Yj+G4ICowNurwKQzXzyKwrgxrfOQx8PB1FhY=
+
+--f46d043749c5120e1e0513e37e0e
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+I am thrilled to be partnering with Saffire Bouchelion to offer a fun
+collaboration workshop for movers. http://www.somacollaborations.com/move/
+
+We will take you on a rich somatic journey to refine how you communicate
+and improve how you collaborate. Using movement, sound, rhythm and playful
+connection, you will learn:
+
+- Skills to give and receive feedback
+- What your body language communicates
+- How to be more authentic
+
+This will be held at Sophie Lippert's beautiful Vibrant Studios.
+
+We would love to have you join us May 30th from noon-7pm. Register by 5/16
+for a discount.
+
+http://www.somacollaborations.com/move/
+
+
+
+www.somacollaborations.com
+
+https://www.youtube.com/watch?v=MMrNvLkVcwg
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com
+--f46d043749c5120e1e0513e37e0e
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:verdana,=
+sans-serif">I am thrilled to be partnering with Saffire Bouchelion to offer=
+ a fun collaboration workshop for movers. <a href=3D"http://www.somacollabo=
+rations.com/move/">http://www.somacollaborations.com/move/</a>=C2=A0</div><=
+div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><br></=
+div><div class=3D"gmail_default" style=3D"font-family:verdana,sans-serif">W=
+e will take you on a rich somatic journey to refine how you communicate and=
+ improve how you collaborate. Using movement, sound, rhythm and playful con=
+nection, you will learn:=C2=A0</div><div class=3D"gmail_default" style=3D"f=
+ont-family:verdana,sans-serif"><br></div><div class=3D"gmail_default" style=
+=3D"font-family:verdana,sans-serif"><span style=3D"color:rgb(0,0,0);font-fa=
+mily:&#39;Trebuchet MS&#39;,Arial,Verdana;font-size:12px;line-height:20px">=
+- Skills to give and receive feedback</span><br style=3D"color:rgb(0,0,0);f=
+ont-family:&#39;Trebuchet MS&#39;,Arial,Verdana;font-size:12px;line-height:=
+20px"><span style=3D"color:rgb(0,0,0);font-family:&#39;Trebuchet MS&#39;,Ar=
+ial,Verdana;font-size:12px;line-height:20px">- What your body language comm=
+unicates</span><br style=3D"color:rgb(0,0,0);font-family:&#39;Trebuchet MS&=
+#39;,Arial,Verdana;font-size:12px;line-height:20px"><span style=3D"color:rg=
+b(0,0,0);font-family:&#39;Trebuchet MS&#39;,Arial,Verdana;font-size:12px;li=
+ne-height:20px">- How to be more authentic</span><br></div><div class=3D"gm=
+ail_default" style=3D"font-family:verdana,sans-serif"><br></div><div class=
+=3D"gmail_default" style=3D"font-family:verdana,sans-serif">This will be he=
+ld at Sophie Lippert&#39;s beautiful Vibrant Studios.=C2=A0</div><div class=
+=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><br></div><div =
+class=3D"gmail_default" style=3D"font-family:verdana,sans-serif">We would l=
+ove to have you join us May 30th from noon-7pm. Register by 5/16 for a disc=
+ount.=C2=A0</div><div class=3D"gmail_default" style=3D"font-family:verdana,=
+sans-serif"><br></div><div class=3D"gmail_default" style><font face=3D"verd=
+ana, sans-serif"><a href=3D"http://www.somacollaborations.com/move/">http:/=
+/www.somacollaborations.com/move/</a></font><br></div><div class=3D"gmail_d=
+efault" style=3D"font-family:verdana,sans-serif"><br></div><div class=3D"gm=
+ail_default" style=3D"font-family:verdana,sans-serif"><br></div><div class=
+=3D"gmail_default" style=3D"font-family:verdana,sans-serif"><br></div><div>=
+<div class=3D"gmail_signature"><div dir=3D"ltr"><div><img src=3D"http://www=
+.somacollaborations.com/wp-content/uploads/2014/05/logo-for-gmail.gif"></di=
+v><font size=3D"2"><div><font face=3D"verdana,sans-serif" size=3D"2"><a hre=
+f=3D"http://www.somacollaborations.com" target=3D"_blank">www.somacollabora=
+tions.com</a></font></div><div><font face=3D"Verdana"><br></font></div><div=
+><font color=3D"#ffffff" face=3D"Verdana" size=3D"1"><a href=3D"https://www=
+.youtube.com/watch?v=3DMMrNvLkVcwg" target=3D"_blank">https://www.youtube.c=
+om/watch?v=3DMMrNvLkVcwg</a></font></div></font></div></div></div>
+</div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--f46d043749c5120e1e0513e37e0e--

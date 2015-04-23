@@ -1,0 +1,214 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp728245wjc;
+        Tue, 21 Apr 2015 10:15:42 -0700 (PDT)
+X-Received: by 10.194.77.7 with SMTP id o7mr42403891wjw.95.1429636542585;
+        Tue, 21 Apr 2015 10:15:42 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id d7si22445804wij.93.2015.04.21.10.15.42
+        for <jackdesert556@gmail.com>;
+        Tue, 21 Apr 2015 10:15:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 511AF68FC193
+	for <jackdesert556@gmail.com>; Tue, 21 Apr 2015 17:15:42 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id D044163A6030
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 17:14:32 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 8603FC1A031; Tue, 21 Apr 2015 17:14:32 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from mail-wi0-f169.google.com (mail-wi0-f169.google.com [209.85.212.169])
+	by outbound.simplelists.com (Postfix) with ESMTPS id A956C63A600B
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 07:08:36 +0000 (UTC)
+Received: by wiun10 with SMTP id n10so10272342wiu.1
+        for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 00:08:30 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=znmJ9u6Dp8iynuMvIGewUlf89g+53R3qdVAducvc2Xs=;
+        b=jJHFvPSfTVkn1+88M1ngCac79VD3p9Grxn+P2FM9wZRIuNrXpgkY0WWZk5ybiKGgKT
+         ziFKWLcxtpVr2jO4tnP4d+jnt2077TCJCdTHx8jiM/zoBQYR+fQV3EvvsXr8rzJg7xiY
+         wHxgfwbpaCS85qGgRhWZVzsceZvhhjiLYugeqWBncvG6lac+a1VRQD4GlU7Moy1paJaG
+         5Pn2KoocElR/RpMOh8S21vigffs/4UF90kwo7IrZc0TGsMriBjmYRRpGrYLBwx5AvHuK
+         MbvuXLq6l8iloCqrUsMIvs8RTlAQ7F+BOcJJvb3vOl7zF26YQkiYnFbtAy5um0uyZLle
+         5rgw==
+MIME-Version: 1.0
+X-Received: by 10.180.24.65 with SMTP id s1mr2955701wif.66.1429600110664; Tue,
+ 21 Apr 2015 00:08:30 -0700 (PDT)
+Received: by 10.27.85.6 with HTTP; Tue, 21 Apr 2015 00:08:30 -0700 (PDT)
+Date: Tue, 21 Apr 2015 00:08:30 -0700
+Message-ID: <CABgvR8GDhCa+teSWMYaDPeBLnSzZFrU+WVGDZ1LTWrMfgZenFg@mail.gmail.com>
+From: Beth Astarte <cjmenaya@gmail.com>
+To: sacredcircledance@simplelists.com
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=0.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,FREEMAIL_REPLY,HTML_MESSAGE,RCVD_IN_DNSWL_LOW,
+	RCVD_IN_MSPIKE_H3,RCVD_IN_MSPIKE_WL,SPF_PASS autolearn=no autolearn_force=no
+	version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-07:08:38-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-17:14:33-002
+Subject: [SacredCircleDance] Wild Women's Worship Weekend: Beltane Ritual &
+ Celebration! May 1-4
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Beth Astarte <cjmenaya@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="f46d043bdf2ac45ff4051436b6aa"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429636542;
+	bh=zJqsydUxxrMfMwS63Ta6nIOza+32+naq0cSXgopgihs=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=lUx5fA9sXaVl5BgUMCv1qMuX9vMgEPJFHG4S0cmlQGDg+3OqmPpJTzuyK7aS/n4dq
+	 26wI7ZjFHnyZqhGfIeOYkdQSCQsiCuNvGwrJZdM9kYNgLdWKlRL0z64F3r/VSLtpyp
+	 cpI9Sx8kTdSM956KC0+kdhpMMgeq/xsBf+vNNEfQ=
+
+--f46d043bdf2ac45ff4051436b6aa
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+Calling all Wild Women - Come and Join us on the Oregon Coast in a
+beautiful beach house beginning May 1st at 4 pm until May 4th at noon.
+Delight in amazing organic food, Beltane Celebration Ritual, hot tubbing,
+and many juicy surprises!
+
+Come now sisters, be witnessed each one. Adoration is our medicine. We are
+worthy of this! In truth, it is our responsibility to allow ourselves to be
+nourished! Come and lets adorn ourselves and each other in preparation for
+the sacred time of sowing seeds. Let's build a trust in this circle that
+the seeds we sow are of the sweetest dreams imaginable. What heart-dreams
+are you calling to flower, fruit, & harvest?
+
+Together we will build altars, share in deep conversations, engage in daily
+ritual, take time to rest and enjoy nature, soak in the hot tub, thoroughly
+adore one another with luxurious beauty blends made with love, sharing the
+pleasures of ecstatic living! Let's dance, laugh, run, play, and be WILD
+together...
+
+**For this ritual it is very potent to consummate our personal prayers with
+the earth, inseminating her with our intentions. There are no expectations
+attached to how this happens. You are welcome to do this on your own, with
+another person, in a group (always with consent). You are welcome engage in
+any way that is natural to you. They key is to do it with gusto and deepest
+respect for this ancient and sacred rite ;-) **
+
+Hosted by Kriyanna Feyalove & Tricia Radford
+
+Come for three full days starting the evening of May 1st through the
+afternoon of May 4th.
+
+*Love Offering* Sliding Scale $222 ~ $444
+We offer these in hopes that those who can afford to give more will do so,
+as an endowment for others.
+Creative payment options available. Seeking a couple people to help in the
+kitchen, set up, and break down for trade =E2=99=A5
+
+To register or ask any questions contact:
+Kriyanna Feyalove
+alchemystery8@gmail.com
+503-875-1293
+
+"Singing sweet songs of women's mysteries
+Diving deep into our shared blessings
+May we remember the secrets that we keep
+Sharing our wisdom and setting ourselves free"
+~ Kriyanna Feyalove
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--f46d043bdf2ac45ff4051436b6aa
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><span style=3D"color:rgb(20,24,35);font-family:helvetica,a=
+rial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18.76000=
+02288818px">Calling all Wild Women - Come and Join us on the Oregon Coast i=
+n a beautiful beach house beginning May 1st at 4 pm until May 4th at noon. =
+Delight in amazing organic food, Beltane Celebration Ritual, hot tubbing, a=
+nd many juicy surprises!</span><br style=3D"color:rgb(20,24,35);font-family=
+:helvetica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-hei=
+ght:18.7600002288818px"><br style=3D"color:rgb(20,24,35);font-family:helvet=
+ica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18.=
+7600002288818px"><span style=3D"color:rgb(20,24,35);font-family:helvetica,a=
+rial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18.76000=
+02288818px">Come now sisters, be witnessed each one. Adoration is our medic=
+ine. We are worthy of this! In truth, it is our responsibility to allow our=
+selves to be nourished! Come and lets adorn ourselves and each other in pre=
+paration for the sacred time of sowing seeds. Let&#39;s build a trust in th=
+is circle that the seeds we sow are of the sweetest dreams imaginable. What=
+ heart-dreams are you calling to flower, fruit, &amp; harvest?</span><br st=
+yle=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#=
+39;,sans-serif;font-size:14px;line-height:18.7600002288818px"><br style=3D"=
+color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,san=
+s-serif;font-size:14px;line-height:18.7600002288818px"><span style=3D"color=
+:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-ser=
+if;font-size:14px;line-height:18.7600002288818px">Together we will build al=
+tars, share in deep conversations, engage in daily ritual, take time to res=
+t and enjoy nature, soak in the hot tub, th</span><span class=3D"" style=3D=
+"display:inline;color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida=
+ grande&#39;,sans-serif;font-size:14px;line-height:18.7600002288818px">orou=
+ghly adore one another with luxurious beauty blends made with love, sharing=
+ the pleasures of ecstatic living! Let&#39;s dance, laugh, run, play, and b=
+e WILD together...<br><br>**For this ritual it is very potent to consummate=
+ our personal prayers with the earth, inseminating her with our intentions.=
+ There are no expectations attached to how this happens. You are welcome to=
+ do this on your own, with another person, in a group (always with consent)=
+. You are welcome engage in any way that is natural to you. They key is to =
+do it with gusto and deepest respect for this ancient and sacred rite ;-) *=
+*<br><br>Hosted by Kriyanna Feyalove &amp; Tricia Radford=C2=A0<br><br>Come=
+ for three full days starting the evening of May 1st through the afternoon =
+of May 4th.<br><br>*Love Offering* Sliding Scale $222 ~ $444<br>We offer th=
+ese in hopes that those who can afford to give more will do so, as an endow=
+ment for others.<br>Creative payment options available. Seeking a couple pe=
+ople to help in the kitchen, set up, and break down for trade =E2=99=A5<br>=
+<br>To register or ask any questions contact:<br>Kriyanna Feyalove=C2=A0<br=
+><a href=3D"mailto:alchemystery8@gmail.com">alchemystery8@gmail.com</a><br>=
+503-875-1293<br><br>&quot;Singing sweet songs of women&#39;s mysteries<br>D=
+iving deep into our shared blessings<br>May we remember the secrets that we=
+ keep<br>Sharing our wisdom and setting ourselves free&quot;<br>~ Kriyanna =
+Feyalove</span><br></div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--f46d043bdf2ac45ff4051436b6aa--

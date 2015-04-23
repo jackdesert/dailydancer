@@ -14,6 +14,7 @@ gem 'haml'
 gem 'rb-readline' # For some reason this is required on my Digital Ocean box under Ruby 2.1.2
 gem 'chronic'
 gem 'nokogiri'
+gem 'mail'
 
 group :test do
   gem 'time-warp'

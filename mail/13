@@ -1,0 +1,315 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp819087wjc;
+        Tue, 21 Apr 2015 13:36:45 -0700 (PDT)
+X-Received: by 10.194.161.193 with SMTP id xu1mr31676438wjb.48.1429648604934;
+        Tue, 21 Apr 2015 13:36:44 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id k3si5041789wjr.135.2015.04.21.13.36.44
+        for <jackdesert556@gmail.com>;
+        Tue, 21 Apr 2015 13:36:44 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 9FFD368FC095
+	for <jackdesert556@gmail.com>; Tue, 21 Apr 2015 20:36:44 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id AED4163A6017
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 20:36:00 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 572A8C1A030; Tue, 21 Apr 2015 20:36:00 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from mail-la0-f42.google.com (mail-la0-f42.google.com [209.85.215.42])
+	by outbound.simplelists.com (Postfix) with ESMTPS id 4FF9F63A6027
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 20:10:15 +0000 (UTC)
+Received: by labbd9 with SMTP id bd9so159759191lab.2
+        for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 13:10:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=5jvgei30VyQm53ykW2EOx1xJh8KDmub9ykfyDMW5L2c=;
+        b=dgzl1g+/QYcmL7xvF/IEt/wLTp6xFSf+fE/etMJnVvT9/QlibjjvvP74VoIroqubbt
+         FOj/7MUr0xj8mJJHNCdMHO7Hnvqq8+0neU7IxTwDXDXplqRn1a0568Fn0zst8qNJ/wvT
+         MEO/Z5zLkGjDl8X69cE2SLdpJGQbtu6DitbvVvLUcaudrDscEf/g+h/fQZVac0IjfiIN
+         GuNDfw2AMxvEEAo0VprtTjdS6i+sQhHg6AQgG4L7uPPOeF9J21x7UhHmPHMUNd5lnEsF
+         l4/fQmIz2278c1+af81XAi6OU57datxs0N1iO7lyGPyEm6GrnZh62MMNN5OWGQTCexyT
+         Wdhw==
+MIME-Version: 1.0
+X-Received: by 10.152.27.98 with SMTP id s2mr15070621lag.106.1429647008341;
+ Tue, 21 Apr 2015 13:10:08 -0700 (PDT)
+Received: by 10.152.9.72 with HTTP; Tue, 21 Apr 2015 13:10:08 -0700 (PDT)
+Date: Tue, 21 Apr 2015 13:10:08 -0700
+Message-ID: <CANp2VaVObDM2yGJBJNoOP5=rdojOx2MLfX7bvnSH1KnNLhLtgg@mail.gmail.com>
+From: Sabrina Louise <sabbylou@gmail.com>
+To: "sacredcircledance@simplelists.com" <sacredcircledance@simplelists.com>
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=unavailable
+	autolearn_force=no version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-20:10:17-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-20:36:02-001
+Subject: [SacredCircleDance] Our Temple - THIS Friday!
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Sabrina Louise <sabbylou@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="089e0160bca4162482051441a2be"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429648604;
+	bh=we4zNYXTFWEFN4mI2y9RykXLr0YKqhKolHu0FJx5sNw=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=UIjb3520redCxSGA7ADfwkG0yRAcRQIOmWXR+IFByMO1S9MvYIVe9ZvaF4lMc6OI6
+	 NBZ3ok4bx6u/iS8Qy5MRPo7MTgnbzFPG/HNj7oBY4mIYCdYo2RCf1HqyB3IMM45fp1
+	 GM/yhtPFUOT8Qw0SyzIs40w5++3vxcovWWntxi6U=
+
+--089e0160bca4162482051441a2be
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+After getting to hear and meet Tara Brooks on her recent visit to Portland
+to play at the Believe You Me night, I was impressed by the musical
+textures she lays down, the authentic person behind the sounds and her
+commitment and passion for music to be a vehicle for healing.
+
+This inspired the manifestation of another opportunity to have her back in
+a larger venue hosting her on another Funktion One sound system, with LOTS
+of room for dancing!!!
+
+So here we go=E2=80=A6
+
+All Ages welcome - Alcohol Free
+@ Refuge - 116 SE Yamhill
+
+Doors at 9:30pm
+Music begin at 10:00pm
+
+Admission: $10
+
+~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~
+
+~Tara Brooks
+Desert Hearts / Subtract Music
+
+There is a line where the dark fuses with the light, the surreal with the
+sublime, the graceful with the powerful; it is within this line that Tara
+Brooks has carved out her truly distinct sound. Whether playing at an
+intimate club, a packed festival or a magical sunrise deep in the Burning
+Man Playa, Tara's music envelopes the crowd, stirring them with deep
+grooves, hypnotic rhythms and haunting melodies. Behind the decks, her
+passion and love for music is contagious-- Savoring every moment her smile
+beams out to a sea of faces who are right there with her, dancing away and
+smiling right back.
+
+Facebook: https://www.facebook.com/djtarabrooks2?fref=3Dts
+http://soundcloud.com/tarabrooksmusic
+<http://l.facebook.com/l.php?u=3Dhttp%3A%2F%2Fsoundcloud.com%2Ftarabrooksmu=
+sic&h=3D6AQE2Kc0I&enc=3DAZOJZr6-Bi4rasBu8LxEXRvLyD0XJs9LRpPPMmud2b6VxlraPOf=
+H5iV7YxXxuyF0gko&s=3D1>
+
+
+~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~
+
+~Andy Warren
+Believe You Me / Panda Lounge
+
+Conjuror of party magic, and resident DJ @ Believe You Me, Panda Lounge.
+
+https://www.facebook.com/djtarabrooks2?fref=3Dts
+
+~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~
+
+~Manoj
+Inspire Truth / Howl / White Out / Curve / Uplift
+
+DJ Manoj arose from the dancefloor and will always be a dancer at heart. He
+is one of the pioneers in the west coast dance culture emerging circa 1991
+both shaping and being shaped by this amazing adventure. Continually moved
+and changed by the power of music and the many transformational experiences
+he encounters while dancing and performing, he now dedicates his life to
+share with others the inspirations that he has received. Understanding and
+deeply rooted in the legacy of the the most formidable founding dj's, that
+the power of dance music is unleashed through the ability to take dancers
+on a journey, he uses the contemporary technologies available with the vast
+genres of music to weave a limitless musical landscape.
+
+Realizing every opportunity to play music for others is a gift, he does his
+best to stay open, meet people where they are at and then take them to a
+more inspiring, lighter and playful space within themselves as the music
+comes through.
+
+https://www.facebook.com/pages/DJ-Manoj/52712981766
+https://soundcloud.com/dj_manoj_pdx
+<https://www.facebook.com/l.php?u=3Dhttps%3A%2F%2Fsoundcloud.com%2Fdj_manoj=
+_pdx&h=3DdAQHz55ab&enc=3DAZNDYpgNW1ph_6cr6rj-3-G0gyyPltAnkuCtzmqQJmVDH7haIh=
+J3c-9fMlYXtIiTijU&s=3D1>
+
+Hop to see your smiling faces there!
+
+Sabby Lou
+--=20
+Sabrina Louise
+Sustainable Foods Advocate
+
+"One cannot think well, love well, sleep well, if one has not
+dined well." - Virginia Woolf
+
+=E2=80=9CThe animals of the world exist for their own reasons. They were no=
+t made
+for humans any more than black people were made for white, or women created
+for men.=E2=80=9D - Alice Walker
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--089e0160bca4162482051441a2be
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><span style=3D"color:rgb(20,24,35);font-family:helvetica,a=
+rial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18px">Af=
+ter getting to hear and meet Tara Brooks on her recent visit to Portland to=
+ play at the Believe You Me night, I was impressed by the musical textures =
+she lays down, the authentic person behind the sounds and her commitment an=
+d passion for music to be a vehicle for healing.</span><br style=3D"color:r=
+gb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-serif=
+;font-size:14px;line-height:18px"><br style=3D"color:rgb(20,24,35);font-fam=
+ily:helvetica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-=
+height:18px"><span style=3D"color:rgb(20,24,35);font-family:helvetica,arial=
+,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18px">This i=
+nspired the manifestation of another opportunity to have her back in a larg=
+er venue hosting her on another Funktion One sound system, with LOTS of roo=
+m for=C2=A0</span><font color=3D"#141823" face=3D"helvetica, arial, lucida =
+grande, sans-serif"><span style=3D"font-size:14px;line-height:18px">dancing=
+!!!</span></font><br style=3D"color:rgb(20,24,35);font-family:helvetica,ari=
+al,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18px"><br =
+style=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande=
+&#39;,sans-serif;font-size:14px;line-height:18px"><span style=3D"color:rgb(=
+20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-serif;fo=
+nt-size:14px;line-height:18px">So here we go=E2=80=A6</span><br style=3D"co=
+lor:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-=
+serif;font-size:14px;line-height:18px"><br style=3D"color:rgb(20,24,35);fon=
+t-family:helvetica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;=
+line-height:18px"><span style=3D"color:rgb(20,24,35);font-family:helvetica,=
+arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18px">A=
+ll Ages welcome - Alcohol Free</span><br style=3D"color:rgb(20,24,35);font-=
+family:helvetica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;li=
+ne-height:18px"><span style=3D"color:rgb(20,24,35);font-family:helvetica,ar=
+ial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18px">@ R=
+efuge - 116 SE Yamhill</span><br style=3D"color:rgb(20,24,35);font-family:h=
+elvetica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-heigh=
+t:18px"><br style=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;l=
+ucida grande&#39;,sans-serif;font-size:14px;line-height:18px"><span style=
+=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;=
+,sans-serif;font-size:14px;line-height:18px">Doors at 9:30pm</span><br styl=
+e=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39=
+;,sans-serif;font-size:14px;line-height:18px"><span style=3D"color:rgb(20,2=
+4,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-serif;font-s=
+ize:14px;line-height:18px">Music begin at 10:00pm</span><br style=3D"color:=
+rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-seri=
+f;font-size:14px;line-height:18px"><span class=3D"" style=3D"display:inline=
+;color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sa=
+ns-serif;font-size:14px;line-height:18px"><br>Admission: $10<br><br>~=3D~=
+=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~<br><br>~Tara Brooks<br>Desert Hearts /=
+ Subtract Music=C2=A0<br><br>There is a line where the dark fuses with the =
+light, the surreal with the sublime, the graceful with the powerful; it is =
+within this line that Tara Brooks has carved out her truly distinct sound. =
+Whether playing at an intimate club, a packed festival or a magical sunrise=
+ deep in the Burning Man Playa, Tara&#39;s music envelopes the crowd, stirr=
+ing them with deep grooves, hypnotic rhythms and haunting melodies. Behind =
+the decks, her passion and love for music is contagious-- Savoring every mo=
+ment her smile beams out to a sea of faces who are right there with her, da=
+ncing away and smiling right back.<br><br>Facebook:=C2=A0<a href=3D"https:/=
+/www.facebook.com/djtarabrooks2?fref=3Dts" rel=3D"nofollow" style=3D"color:=
+rgb(59,89,152);text-decoration:none">https://www.facebook.com/<span class=
+=3D"" style=3D"display:inline-block"></span>djtarabrooks2?fref=3Dts</a><br>=
+<a href=3D"http://l.facebook.com/l.php?u=3Dhttp%3A%2F%2Fsoundcloud.com%2Fta=
+rabrooksmusic&amp;h=3D6AQE2Kc0I&amp;enc=3DAZOJZr6-Bi4rasBu8LxEXRvLyD0XJs9LR=
+pPPMmud2b6VxlraPOfH5iV7YxXxuyF0gko&amp;s=3D1" rel=3D"nofollow nofollow" tar=
+get=3D"_blank" style=3D"color:rgb(59,89,152);text-decoration:none">http://s=
+oundcloud.com/<span class=3D"" style=3D"display:inline-block"></span>tarabr=
+ooksmusic</a><br><br><br>~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~<br><br>~=
+Andy Warren<br>Believe You Me / Panda Lounge<br><br>Conjuror of party magic=
+, and resident DJ @ Believe You Me, Panda Lounge.<br><br><a href=3D"https:/=
+/www.facebook.com/djtarabrooks2?fref=3Dts" rel=3D"nofollow" style=3D"color:=
+rgb(59,89,152);text-decoration:none">https://www.facebook.com/<span class=
+=3D"" style=3D"display:inline-block"></span>djtarabrooks2?fref=3Dts</a><br>=
+<br>~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~=3D~<br><br>~Manoj<br>Inspire Trut=
+h / Howl / White Out / Curve / Uplift<br><br>DJ Manoj arose from the dancef=
+loor and will always be a dancer at heart. He is one of the pioneers in the=
+ west coast dance culture emerging circa 1991 both shaping and being shaped=
+ by this amazing adventure. Continually moved and changed by the power of m=
+usic and the many transformational experiences he encounters while dancing =
+and performing, he now dedicates his life to share with others the inspirat=
+ions that he has received. Understanding and deeply rooted in the legacy of=
+ the the most formidable founding dj&#39;s, that the power of dance music i=
+s unleashed through the ability to take dancers on a journey, he uses the c=
+ontemporary technologies available with the vast genres of music to weave a=
+ limitless musical landscape.=C2=A0<br><br>Realizing every opportunity to p=
+lay music for others is a gift, he does his best to stay open, meet people =
+where they are at and then take them to a more inspiring, lighter and playf=
+ul space within themselves as the music comes through.<br><br><a href=3D"ht=
+tps://www.facebook.com/pages/DJ-Manoj/52712981766" rel=3D"nofollow" style=
+=3D"color:rgb(59,89,152);text-decoration:none">https://www.facebook.com/<sp=
+an class=3D"" style=3D"display:inline-block"></span>pages/DJ-Manoj/52712981=
+766</a><br><a href=3D"https://www.facebook.com/l.php?u=3Dhttps%3A%2F%2Fsoun=
+dcloud.com%2Fdj_manoj_pdx&amp;h=3DdAQHz55ab&amp;enc=3DAZNDYpgNW1ph_6cr6rj-3=
+-G0gyyPltAnkuCtzmqQJmVDH7haIhJ3c-9fMlYXtIiTijU&amp;s=3D1" rel=3D"nofollow n=
+ofollow" target=3D"_blank" style=3D"color:rgb(59,89,152);text-decoration:no=
+ne">https://soundcloud.com/<span class=3D"" style=3D"display:inline-block">=
+</span>dj_manoj_pdx</a></span><div><span class=3D"" style=3D"display:inline=
+;color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sa=
+ns-serif;font-size:14px;line-height:18px"><br></span></div><div><span class=
+=3D"" style=3D"display:inline;color:rgb(20,24,35);font-family:helvetica,ari=
+al,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18px">Hop =
+to see your smiling faces there!<br></span><div><br></div><div>Sabby Lou</d=
+iv>-- <br><div class=3D"gmail_signature"><div dir=3D"ltr"><font face=3D"com=
+ic sans ms, sans-serif">Sabrina Louise<br>Sustainable Foods Advocate<br><br=
+>&quot;One cannot think well, love well, sleep well, if one has not<br>dine=
+d well.&quot; - Virginia Woolf<br><br>=E2=80=9CThe animals of the world exi=
+st for their own reasons. They were not made for humans any more than black=
+ people were made for white, or women created for men.=E2=80=9D -=C2=A0Alic=
+e Walker</font></div></div>
+</div></div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--089e0160bca4162482051441a2be--

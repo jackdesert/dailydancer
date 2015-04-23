@@ -1,0 +1,131 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp728278wjc;
+        Tue, 21 Apr 2015 10:15:46 -0700 (PDT)
+X-Received: by 10.180.93.193 with SMTP id cw1mr21766953wib.12.1429636546227;
+        Tue, 21 Apr 2015 10:15:46 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id fr8si22503905wib.3.2015.04.21.10.15.46
+        for <jackdesert556@gmail.com>;
+        Tue, 21 Apr 2015 10:15:46 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 1C6C868FC128
+	for <jackdesert556@gmail.com>; Tue, 21 Apr 2015 17:15:46 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 3610E63A6030
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 17:14:33 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 043FCC1A033; Tue, 21 Apr 2015 17:14:32 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.50])
+	by outbound.simplelists.com (Postfix) with ESMTP id CB539321C001
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 16:35:56 +0000 (UTC)
+X-ASG-Debug-ID: 1429634155-08c1cb5a776b0270001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id Wyag1bdrt8WCxp7v for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 12:35:55 -0400 (EDT)
+X-Barracuda-Envelope-From: t1at3k@a2s71.a2hosting.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from t1at3k by a2s71.a2hosting.com with local (Exim 4.85)
+	(envelope-from <t1at3k@a2s71.a2hosting.com>)
+	id 1Ykb9O-003h1i-V9
+	for list@sacredcircledance.org; Tue, 21 Apr 2015 12:35:55 -0400
+To: list@sacredcircledance.org
+From: list@sacredcircledance.org (=?UTF-8?Q?Laureli_Shimayo?=)
+X-ASG-Orig-Subj: =?UTF-8?Q?Discover_Your_Pleasure_and_Purpose=3A_Sage_COMMUNICATION_Wed_April_22=2C_6=3A30-9pm?=
+Reply-To: Laureli@thrive-wise.com
+Message-Id: <E1Ykb9O-003h1i-V9@a2s71.a2hosting.com>
+Date: Tue, 21 Apr 2015 12:35:54 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [785 32008] / [47 12]
+X-AntiAbuse: Sender Address Domain - a2s71.a2hosting.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: authenticated_id: t1at3k/from_h
+X-Source: /usr/bin/php
+X-Source-Args: /usr/bin/php /home/t1at3k/public_html/sacredcircledance/tectite/formmail.php 
+X-Source-Dir: tiatek.com:/public_html/pdxecstaticdance/tectite
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429634155
+X-Barracuda-URL: https://216.234.124.50:443/cgi-mod/mark.cgi
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 1.60
+X-Barracuda-Spam-Status: No, SCORE=1.60 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, BSF_SC0_MV0035, BSF_SC0_SA_TO_FROM_ADDR_MATCH, MARKETING_SUBJECT
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18206
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.60 MARKETING_SUBJECT      Subject contains popular marketing words
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	0.50 BSF_SC0_MV0035         Custom Rule BSF_SC0_MV0035
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=0.0 required=5.0 tests=HEADER_FROM_DIFFERENT_DOMAINS
+	autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-16:35:58-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-17:14:33-004
+Subject: [SacredCircleDance]
+ =?UTF-8?Q?Discover_Your_Pleasure_and_Purpose=3A_Sage_COMMUNICATION_Wed_April_22=2C_6=3A30-9pm?=
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429636546;
+	bh=5RbpjRuDmcAaRT47PSYZJRVTizWMI/l8pjHgbFjkcZ8=;
+	h=To:From:Reply-To:Date:Subject:List-ID:List-Unsubscribe;
+	b=C5OaXSuXxpp65gCI4Y89pqz0e/s/cKXKiIP7KpB112KdLJ5vYTwOQV6betFEyaaMi
+	 vcAVMMX0vRT+Plt40r5Tuc6fEoOxo/AlGiCx26gzff27Q39ystOlECu2KTc6BimxKX
+	 naSUGPkCV90Uos1vx9bXi/a6tR9FoKiekX19NMsY=
+
+From: Laureli@thrive-wise.com
+
+Discover Your Pleasure and Purpose: It’s All in Your Eyes – Sage COMMUNICATION
+
+Sages are playful, fun, engaging and interactive. They lead by being one of the group, loosening things up to flow wherever they need to go. They are often humorous and entertaining.
+
+Eyes bare your soul, and they also reveal your Genius. Explore the 7 Talents, important building blocks of Genius – discover which are yours, appreciate people’s diversity, grow in your lessons and start recognizing the Talents of others. Talents are great for tuning your career direction, juicing up relationships, matchmaking, hiring, and much more.
+
+Wed April 22, 6:30-9pm @ The Genius Place	 2354 SE 59th Ave, Portland, OR
+
+Bring photos of partners, kids, clients and colleagues to class for practice and to get insight.
+
+Class is $35 drop-in or $25 each for a set of 7 (when paid in advance). 
+  
+Wednesday Apr 22: Sage COMMUNICATION  
+(no class Apr 29)  
+Wednesday May 6: Artisan CREATIVITY  
+Wednesday May 13: Priest VISION  
+Wednesday May 20: Server LOVE
+Wednesday May 27: Scholar KNOWLEDGE
+King POWER and Warrior EFFICIENCY coming again soon!
+
+
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com

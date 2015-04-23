@@ -1,0 +1,352 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp267854wjc;
+        Mon, 20 Apr 2015 15:09:26 -0700 (PDT)
+X-Received: by 10.194.185.68 with SMTP id fa4mr34184438wjc.111.1429567761029;
+        Mon, 20 Apr 2015 15:09:21 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id s9si34164444wjs.200.2015.04.20.15.09.20
+        for <jackdesert556@gmail.com>;
+        Mon, 20 Apr 2015 15:09:21 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id B302F9CC008
+	for <jackdesert556@gmail.com>; Mon, 20 Apr 2015 22:09:20 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 88D1763A601C
+	for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 22:07:54 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 3FB28C1A032; Mon, 20 Apr 2015 22:07:54 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from nm12-vm2.bullet.mail.gq1.yahoo.com (nm12-vm2.bullet.mail.gq1.yahoo.com [98.136.218.189])
+	by outbound.simplelists.com (Postfix) with ESMTPS id 30F53321C001
+	for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 19:10:23 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1429557015; bh=l9mC74l25271/NEY6YRNYQQSRWRM39U3odjhslQO4T8=; h=Date:From:Reply-To:To:Subject:From:Subject; b=lK3NFQVx20hV56YZqtmJQ911RYy/UiQC3CmzlatVYsTJgSXNeem+LmtDp08ZxdrIz/fALgwED/4a3bSOKKixcrvlKlNez7SsgQgiik6S77myoRF2NjgaExDsMq1f/I+/TZcZoM8bHJ7uaZ5MoVFOQPaaGI43Rhk4O+0DqPf5akZUu7pCiY23ZLBLsOINE9xUZYaLGWvIFE2DWksfULruEVYSOg8PIY+QNCNGCGv475f8KZQxaj85grFaFrMsECjyknnFt983RFDnSUZzkYV75gbQLKUkMZt4V9iOlnhOtM4IewFHWox0a60epZzaDI/pwNgBCmbL7l8yR0Evihk2dA==
+Received: from [98.137.12.60] by nm12.bullet.mail.gq1.yahoo.com with NNFMP; 20 Apr 2015 19:10:15 -0000
+Received: from [98.137.12.224] by tm5.bullet.mail.gq1.yahoo.com with NNFMP; 20 Apr 2015 19:10:15 -0000
+Received: from [127.0.0.1] by omp1032.mail.gq1.yahoo.com with NNFMP; 20 Apr 2015 19:10:15 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 505666.18568.bm@omp1032.mail.gq1.yahoo.com
+X-YMail-OSG: 4EtM8tgVM1lJKpKAshpojAChgpdGnsCX_Ywl09NLzfubg5IWpwNRTjkOe6L0LnV
+ lw3WrsFARqMs4dvwZ.aUupRMxe3mB8WiJx_UsNoGWNWyNlmrB_.N_SLQUWQySVkb1uFK6BxjZL3h
+ V8lpaPizqXhjFkbV2RDGbMp4OeEOKDfgQYUvIRVah48al2CIjy6fALy6Xpyc1hwt7MK0Di4bFxEf
+ tYJoUDe1H7_giK8khxetuZvk8kO8ez1EpW4e6xPQGvFtBC4fLGbZyP7Rc0Ug207OUw7EcHv_Vnkg
+ ITOkPDPItbWeOhXXLxCdU5ZsksnBX_U.ksTBhADO5JTuLXQ3ouyaEMjYcnNC0_wpHSwmnLOeAuBL
+ YZnx31ZvSIQLuGIXwWnOr03HURmnPtP1JNFOwsufnfDEI.UT1N_wJBjZIkvZYQ.aFvj2nURzbY6Y
+ frNk1A4w5eaRa1ZKyOORYZZBOSXOyR0GkADSz0DpO7Te5Wb3uEfAKGN8wefwj8xvsdHr7O82sJT_
+ pmA5bhw--
+Received: by 216.39.60.205; Mon, 20 Apr 2015 19:10:15 +0000 
+Date: Mon, 20 Apr 2015 19:10:14 +0000 (UTC)
+Reply-To: Nicole Vanderhoff <trinitihealing@yahoo.com>
+To: "sacredcircledance@simplelists.com" <sacredcircledance@simplelists.com>
+Message-ID: <1077154859.284992.1429557014190.JavaMail.yahoo@mail.yahoo.com>
+MIME-Version: 1.0
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,T_RP_MATCHES_RCVD
+	autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150420-19:10:26-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150420-22:07:54-004
+Subject: [SacredCircleDance] 7 Week Chakra Series Intensive!
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+From: "Nicole Vanderhoff (via sacredcircledance list)"
+ <nobody@simplelists.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative;
+ 	boundary="----=_Part_284991_594006285.1429557014182"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429567760;
+	bh=5jmQ6i2jKtS8CDaQYvtQ1yspy/l0TEHUXvVG61HpZvU=;
+	h=Date:Reply-To:To:Subject:From:List-ID:List-Unsubscribe;
+	b=hWZVDdX4k0c7Rq1LPKWBzTDOlPdAk5Lk2lP5ZLax9+5xq8jc514jtAERBP5wgTlms
+	 8252F2zad8+TukkSA3AKyBuB28OifaDxfvTMa4CLQDT4q2PoVQryoU9JKguaeFCltz
+	 +ezymPoTgysKXwt3F89SfCdfbVkOUIsf4Uoq3xmw=
+
+------=_Part_284991_594006285.1429557014182
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+This email was sent from yahoo.com which does not allow forwarding of email=
+s via email lists. Therefore the sender's email address (trinitihealing@yah=
+oo.com) has been replaced with a dummy one. The original message follows:
+
+
+7 Week CHAKRA Intensive Healing Series
+
+with Nicole Alcyon, CHt,
+Founder of Hypno-Chakra Therapy
+Thursdays, April 30-June 11, 7-9pm
+At Awakenings Wellness Center
+1016 SE 12th Ave, PortlandFor personal or professional use, this 7 Week Cha=
+kra Intensive covers a wide variety of ways to=C2=A0cleanse, balance, heal,=
+=C2=A0and=C2=A0activate=C2=A0each of our=C2=A0chakra energy centers.Each we=
+ek we will focus on a specific Chakra through:
+=E2=80=A2 a guided Hypno-Chakra Balancing meditation
+=E2=80=A2 the use of an in-depth workbook
+=E2=80=A2 various experiential exercises and healing modalities
+This fun and unique course will help you achieve a GREATER sense of vibranc=
+y, inner alignment, balance, clarity, peace, and connectedness to your High=
+er Self.
+You will learn:
+=E2=80=A2 all about the mental, emotional, physical, and spiritual aspects =
+of each chakra
+=E2=80=A2 how to work with your chakras for optimal health and well-being
+=E2=80=A2 how to cleanse and balance your chakras as well as for your clien=
+ts
+=E2=80=A2 how to manifest through your chakrasJust receiving the group Hypn=
+o-Chakra Balancing sessions ALONE is valued at $140 for the entire series, =
+but you will receive so much more than that within this course, making the =
+cost of this series AN AMAZING DEAL!
+Entire series only $122 if you Pre-Register by April 20th!
+After April 20th: $144
+Payment options availableTo Register,=C2=A0see payment button below!For tho=
+se that can=E2=80=99t attend the whole series but still wish to benefit fro=
+m the extra chakra knowledge, exercises, and the group Hypno-Chakra Balanci=
+ng session focusing on specific chakras, I=E2=80=99m offering an AMAZING dr=
+op-in deal of just $25/class!Have fun!
+Create community!
+Be around and make friends with like-minded people!
+Treat yourself to this gift while simultaneously achieving your self-improv=
+ement goals!Follow this link to Register at the early-bird pricing:=C2=A0ht=
+tp://trinitihealing.com/events/7-week-chakra-intensive-healing-series/
+=C2=A0*************************************************************Nicole A=
+lcyon received very specific guidance to purchase the Singing Crystal Bowls=
+ back in 2004, shortly after graduating from the Hypnosis Motivation Instit=
+ute. Hypno-Chakra Therapy was then birthed into existence. She has been fac=
+ilitating private and group sessions and workshops ever since within the Lo=
+s Angeles and Portland area.=C2=A0-----------------------------------------=
+--------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+------=_Part_284991_594006285.1429557014182
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<table style=3D"border-width: 1px 1px 1px 1px; border-style: solid;"><tr><t=
+d>This email was sent from yahoo.com which does not allow forwarding of ema=
+ils via email lists. Therefore the sender's email address (trinitihealing@y=
+ahoo.com) has been replaced with a dummy one.</td></tr></table><br><html><b=
+ody><div style=3D"color:#000; background-color:#fff; font-family:HelveticaN=
+eue, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;font-size:=
+13px"><h3 style=3D"margin-top: 0px; margin-bottom: 0px; padding-bottom: 5px=
+; border: 0px; outline: 0px; font-size: 22px; vertical-align: baseline; col=
+or: rgb(17, 17, 17); line-height: 1em; font-weight: normal; letter-spacing:=
+ -1px; font-family: Quintessential, arial, sans-serif; text-align: center; =
+background-image: initial; background-attachment: initial; background-size:=
+ initial; background-origin: initial; background-clip: initial; background-=
+position: initial; background-repeat: initial;" class=3D""><strong style=3D=
+"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: base=
+line; color: rgb(28, 28, 28); background: transparent;" class=3D"">7 Week C=
+HAKRA Intensive Healing Series</strong></h3><h4 style=3D"margin-top: 0px; m=
+argin-bottom: 0px; padding-bottom: 5px; border: 0px; outline: 0px; font-siz=
+e: 18px; vertical-align: baseline; color: rgb(17, 17, 17); line-height: 1em=
+; font-weight: normal; letter-spacing: -1px; font-family: Oxygen, arial, sa=
+ns-serif; text-align: center; background-image: initial; background-attachm=
+ent: initial; background-size: initial; background-origin: initial; backgro=
+und-clip: initial; background-position: initial; background-repeat: initial=
+;" class=3D"" id=3D"yui_3_16_0_1_1429556448935_7790">with Nicole Alcyon, CH=
+t,<br class=3D"" style=3D"">Founder of Hypno-Chakra Therapy<br class=3D"" s=
+tyle=3D"">Thursdays, April 30-June 11, 7-9pm</h4><div style=3D"margin-top: =
+0px; margin-bottom: 0px; padding-bottom: 10px; border: 0px; outline: 0px; f=
+ont-size: 14px; vertical-align: baseline; line-height: 24px; font-family: O=
+xygen, arial, sans-serif; color: rgb(85, 94, 88); text-align: center; backg=
+round-image: initial; background-attachment: initial; background-size: init=
+ial; background-origin: initial; background-clip: initial; background-posit=
+ion: initial; background-repeat: initial;" class=3D"">At Awakenings Wellnes=
+s Center<br class=3D"" style=3D"">1016 SE 12th Ave, Portland</div><div styl=
+e=3D"margin-top: 0px; margin-bottom: 0px; padding-bottom: 10px; border: 0px=
+; outline: 0px; font-size: 14px; vertical-align: baseline; line-height: 24p=
+x; font-family: Oxygen, arial, sans-serif; color: rgb(85, 94, 88); backgrou=
+nd-image: initial; background-attachment: initial; background-size: initial=
+; background-origin: initial; background-clip: initial; background-position=
+: initial; background-repeat: initial;" class=3D"" id=3D"yui_3_16_0_1_14295=
+56448935_7791">For personal or professional use, this 7 Week Chakra Intensi=
+ve covers a wide variety of ways to&nbsp;<em style=3D"margin: 0px; padding:=
+ 0px; border: 0px; outline: 0px; vertical-align: baseline; background: tran=
+sparent;" class=3D"" id=3D"yui_3_16_0_1_1429556448935_7793"><strong style=
+=3D"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: b=
+aseline; color: rgb(28, 28, 28); background: transparent;" class=3D"" id=3D=
+"yui_3_16_0_1_1429556448935_7792">cleanse, balance, heal,</strong></em>&nbs=
+p;and&nbsp;<em style=3D"margin: 0px; padding: 0px; border: 0px; outline: 0p=
+x; vertical-align: baseline; background: transparent;" class=3D""><strong s=
+tyle=3D"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-alig=
+n: baseline; color: rgb(28, 28, 28); background: transparent;" class=3D"">a=
+ctivate</strong></em>&nbsp;each of our&nbsp;chakra energy centers.</div><di=
+v style=3D"margin-top: 0px; margin-bottom: 0px; padding-bottom: 10px; borde=
+r: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; line-heigh=
+t: 24px; font-family: Oxygen, arial, sans-serif; color: rgb(85, 94, 88); ba=
+ckground-image: initial; background-attachment: initial; background-size: i=
+nitial; background-origin: initial; background-clip: initial; background-po=
+sition: initial; background-repeat: initial;" class=3D"" id=3D"yui_3_16_0_1=
+_1429556448935_7841">Each week we will focus on a specific Chakra through:<=
+br class=3D"" style=3D"">=E2=80=A2 a guided Hypno-Chakra Balancing meditati=
+on<br class=3D"" style=3D"">=E2=80=A2 the use of an in-depth workbook<br cl=
+ass=3D"" style=3D"">=E2=80=A2 various experiential exercises and healing mo=
+dalities</div><h4 style=3D"margin-top: 0px; margin-bottom: 0px; padding-bot=
+tom: 5px; border: 0px; outline: 0px; font-size: 18px; vertical-align: basel=
+ine; color: rgb(17, 17, 17); line-height: 1em; font-weight: normal; letter-=
+spacing: -1px; font-family: Oxygen, arial, sans-serif; background-image: in=
+itial; background-attachment: initial; background-size: initial; background=
+-origin: initial; background-clip: initial; background-position: initial; b=
+ackground-repeat: initial;" class=3D"">This fun and unique course will help=
+ you achieve a GREATER sense of vibrancy, inner alignment, balance, clarity=
+, peace, and connectedness to your Higher Self.</h4><div style=3D"margin-to=
+p: 0px; margin-bottom: 0px; padding-bottom: 10px; border: 0px; outline: 0px=
+; font-size: 14px; vertical-align: baseline; line-height: 24px; font-family=
+: Oxygen, arial, sans-serif; color: rgb(85, 94, 88); background-image: init=
+ial; background-attachment: initial; background-size: initial; background-o=
+rigin: initial; background-clip: initial; background-position: initial; bac=
+kground-repeat: initial;" class=3D"">You will learn:<br class=3D"" style=3D=
+"">=E2=80=A2 all about the mental, emotional, physical, and spiritual aspec=
+ts of each chakra<br class=3D"" style=3D"">=E2=80=A2 how to work with your =
+chakras for optimal health and well-being<br class=3D"" style=3D"">=E2=80=
+=A2 how to cleanse and balance your chakras as well as for your clients<br =
+class=3D"" style=3D"">=E2=80=A2 how to manifest through your chakras</div><=
+div style=3D"margin-top: 0px; margin-bottom: 0px; padding-bottom: 10px; bor=
+der: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; line-hei=
+ght: 24px; font-family: Oxygen, arial, sans-serif; color: rgb(85, 94, 88); =
+text-align: center; background-image: initial; background-attachment: initi=
+al; background-size: initial; background-origin: initial; background-clip: =
+initial; background-position: initial; background-repeat: initial;" class=
+=3D"" id=3D"yui_3_16_0_1_1429556448935_7857">Just receiving the group Hypno=
+-Chakra Balancing sessions ALONE is valued at $140 for the entire series, b=
+ut you will receive so much more than that within this course, making the c=
+ost of this series AN AMAZING DEAL!</div><div style=3D"margin-top: 0px; mar=
+gin-bottom: 0px; padding-bottom: 10px; border: 0px; outline: 0px; font-size=
+: 14px; vertical-align: baseline; line-height: 24px; font-family: Oxygen, a=
+rial, sans-serif; color: rgb(85, 94, 88); text-align: center; background-im=
+age: initial; background-attachment: initial; background-size: initial; bac=
+kground-origin: initial; background-clip: initial; background-position: ini=
+tial; background-repeat: initial;" class=3D"" id=3D"yui_3_16_0_1_1429556448=
+935_7857"><br></div><div style=3D"margin-top: 0px; margin-bottom: 0px; padd=
+ing-bottom: 10px; border: 0px; outline: 0px; font-size: 14px; vertical-alig=
+n: baseline; line-height: 24px; font-family: Oxygen, arial, sans-serif; col=
+or: rgb(85, 94, 88); text-align: center; background-image: initial; backgro=
+und-attachment: initial; background-size: initial; background-origin: initi=
+al; background-clip: initial; background-position: initial; background-repe=
+at: initial;" class=3D"" id=3D"yui_3_16_0_1_1429556448935_7862">Entire seri=
+es only $122 if you Pre-Register by April 20th!<br class=3D"" style=3D"">Af=
+ter April 20th: $144<br class=3D"" style=3D"">Payment options available</di=
+v><div style=3D"margin-top: 0px; margin-bottom: 0px; padding-bottom: 10px; =
+border: 0px; outline: 0px; font-size: 14px; vertical-align: baseline; line-=
+height: 24px; font-family: Oxygen, arial, sans-serif; color: rgb(85, 94, 88=
+); text-align: center; background-image: initial; background-attachment: in=
+itial; background-size: initial; background-origin: initial; background-cli=
+p: initial; background-position: initial; background-repeat: initial;" clas=
+s=3D"" id=3D"yui_3_16_0_1_1429556448935_7867"><strong style=3D"margin: 0px;=
+ padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; color: =
+rgb(28, 28, 28); background: transparent;" class=3D"">To Register,&nbsp;see=
+ payment button below!</strong></div><div style=3D"margin-top: 0px; margin-=
+bottom: 0px; padding-bottom: 10px; border: 0px; outline: 0px; font-size: 14=
+px; vertical-align: baseline; line-height: 24px; font-family: Oxygen, arial=
+, sans-serif; color: rgb(85, 94, 88); background-image: initial; background=
+-attachment: initial; background-size: initial; background-origin: initial;=
+ background-clip: initial; background-position: initial; background-repeat:=
+ initial;" class=3D"" id=3D"yui_3_16_0_1_1429556448935_7680">For those that=
+ can=E2=80=99t attend the whole series but still wish to benefit from the e=
+xtra chakra knowledge, exercises, and the group Hypno-Chakra Balancing sess=
+ion focusing on specific chakras, I=E2=80=99m offering an AMAZING drop-in d=
+eal of just $25/class!</div><div style=3D"margin-top: 0px; margin-bottom: 0=
+px; padding-bottom: 10px; border: 0px; outline: 0px; font-size: 14px; verti=
+cal-align: baseline; line-height: 24px; font-family: Oxygen, arial, sans-se=
+rif; color: rgb(85, 94, 88); text-align: center; background-image: initial;=
+ background-attachment: initial; background-size: initial; background-origi=
+n: initial; background-clip: initial; background-position: initial; backgro=
+und-repeat: initial;" class=3D"" id=3D"yui_3_16_0_1_1429556448935_7681"><st=
+rong style=3D"margin: 0px; padding: 0px; border: 0px; outline: 0px; vertica=
+l-align: baseline; color: rgb(28, 28, 28); background: transparent;" class=
+=3D"">Have fun!</strong><br class=3D"" style=3D""><strong style=3D"margin: =
+0px; padding: 0px; border: 0px; outline: 0px; vertical-align: baseline; col=
+or: rgb(28, 28, 28); background: transparent;" class=3D"" id=3D"yui_3_16_0_=
+1_1429556448935_7682">Create community!</strong><br class=3D"" style=3D""><=
+strong style=3D"margin: 0px; padding: 0px; border: 0px; outline: 0px; verti=
+cal-align: baseline; color: rgb(28, 28, 28); background: transparent;" clas=
+s=3D"">Be around and make friends with like-minded people!</strong><br clas=
+s=3D"" style=3D""><strong style=3D"margin: 0px; padding: 0px; border: 0px; =
+outline: 0px; vertical-align: baseline; color: rgb(28, 28, 28); background:=
+ transparent;" class=3D"" id=3D"yui_3_16_0_1_1429556448935_7683">Treat your=
+self to this gift while simultaneously achieving your self-improvement goal=
+s!</strong></div><div style=3D"margin-top: 0px; margin-bottom: 0px; padding=
+-bottom: 10px; border: 0px; outline: 0px; font-size: 14px; vertical-align: =
+baseline; line-height: 24px; font-family: Oxygen, arial, sans-serif; color:=
+ rgb(85, 94, 88); background-image: initial; background-attachment: initial=
+; background-size: initial; background-origin: initial; background-clip: in=
+itial; background-position: initial; background-repeat: initial;" class=3D"=
+" dir=3D"ltr" id=3D"yui_3_16_0_1_1429556448935_7720">Follow this link to Re=
+gister at the early-bird pricing:&nbsp;<a href=3D"http://trinitihealing.com=
+/events/7-week-chakra-intensive-healing-series/" id=3D"yui_3_16_0_1_1429556=
+448935_7719">http://trinitihealing.com/events/7-week-chakra-intensive-heali=
+ng-series/</a></div><div style=3D"margin-top: 0px; margin-bottom: 0px; padd=
+ing-bottom: 10px; border: 0px; outline: 0px; font-size: 14px; vertical-alig=
+n: baseline; line-height: 24px; font-family: Oxygen, arial, sans-serif; col=
+or: rgb(85, 94, 88); background-image: initial; background-attachment: init=
+ial; background-size: initial; background-origin: initial; background-clip:=
+ initial; background-position: initial; background-repeat: initial;" class=
+=3D"" dir=3D"ltr" id=3D"yui_3_16_0_1_1429556448935_7829"><br></div><div sty=
+le=3D"margin-top: 0px; margin-bottom: 0px; padding-bottom: 10px; border: 0p=
+x; outline: 0px; font-size: 14px; vertical-align: baseline; line-height: 24=
+px; font-family: Oxygen, arial, sans-serif; color: rgb(85, 94, 88); backgro=
+und-image: initial; background-attachment: initial; background-size: initia=
+l; background-origin: initial; background-clip: initial; background-positio=
+n: initial; background-repeat: initial;" class=3D"" dir=3D"ltr" id=3D"yui_3=
+_16_0_1_1429556448935_7829">&nbsp;<span style=3D"text-align: center;" class=
+=3D"" id=3D"yui_3_16_0_1_1429556448935_7836">******************************=
+*******************************</span></div><span style=3D"color: rgb(85, 9=
+4, 88); font-family: Oxygen, arial, sans-serif; font-size: 14px; line-heigh=
+t: 24px; text-align: center;" class=3D"" id=3D"yui_3_16_0_1_1429556448935_7=
+835">Nicole Alcyon received very specific guidance to purchase the Singing =
+Crystal Bowls back in 2004, shortly after graduating from the Hypnosis Moti=
+vation Institute. Hypno-Chakra Therapy was then birthed into existence. She=
+ has been facilitating private and group sessions and workshops ever since =
+within the Los Angeles and Portland area.</span><div style=3D"margin-top: 0=
+px; margin-bottom: 0px; padding-bottom: 10px; border: 0px; outline: 0px; fo=
+nt-size: 14px; vertical-align: baseline; line-height: 24px; font-family: Ox=
+ygen, arial, sans-serif; color: rgb(85, 94, 88); background-image: initial;=
+ background-attachment: initial; background-size: initial; background-origi=
+n: initial; background-clip: initial; background-position: initial; backgro=
+und-repeat: initial;" class=3D"" dir=3D"ltr" id=3D"yui_3_16_0_1_14295564489=
+35_7829">&nbsp;</div></div></body></html>
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+------=_Part_284991_594006285.1429557014182--

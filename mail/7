@@ -1,0 +1,128 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp48272wjc;
+        Wed, 22 Apr 2015 10:34:48 -0700 (PDT)
+X-Received: by 10.180.231.4 with SMTP id tc4mr8049453wic.27.1429724087943;
+        Wed, 22 Apr 2015 10:34:47 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id og6si10104426wic.45.2015.04.22.10.34.47
+        for <jackdesert556@gmail.com>;
+        Wed, 22 Apr 2015 10:34:47 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id C50FD9CC036
+	for <jackdesert556@gmail.com>; Wed, 22 Apr 2015 17:34:47 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id BB0F663A6029
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 17:33:38 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 6E13AC1A030; Wed, 22 Apr 2015 17:33:38 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.52])
+	by outbound.simplelists.com (Postfix) with ESMTP id 4563763A604B
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 04:05:10 +0000 (UTC)
+X-ASG-Debug-ID: 1429675509-089ef71e3874a020001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id f4BKVqduPuCwem3K for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 00:05:09 -0400 (EDT)
+X-Barracuda-Envelope-From: t1at3k@a2s71.a2hosting.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from t1at3k by a2s71.a2hosting.com with local (Exim 4.85)
+	(envelope-from <t1at3k@a2s71.a2hosting.com>)
+	id 1YkluP-001E05-HR
+	for list@sacredcircledance.org; Wed, 22 Apr 2015 00:05:09 -0400
+To: list@sacredcircledance.org
+From: list@sacredcircledance.org (=?UTF-8?Q?Robert?=)
+X-ASG-Orig-Subj: =?UTF-8?Q?Sacred_Women=27s_Gathering?=
+Reply-To: sky_dancer1@hotmail.com
+Message-Id: <E1YkluP-001E05-HR@a2s71.a2hosting.com>
+Date: Wed, 22 Apr 2015 00:05:09 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [785 32008] / [47 12]
+X-AntiAbuse: Sender Address Domain - a2s71.a2hosting.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: authenticated_id: t1at3k/from_h
+X-Source: /usr/bin/php
+X-Source-Args: /usr/bin/php /home/t1at3k/public_html/sacredcircledance/tectite/formmail.php 
+X-Source-Dir: tiatek.com:/public_html/pdxecstaticdance/tectite
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429675509
+X-Barracuda-URL: http://barracuda.supercp.com:8000/cgi-mod/mark.cgi
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 1.52
+X-Barracuda-Spam-Status: No, SCORE=1.52 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, BSF_SC0_MV0035, BSF_SC0_SA_TO_FROM_ADDR_MATCH, FUZZY_CREDIT, FUZZY_CREDIT_2
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18227
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.00 FUZZY_CREDIT           BODY: Attempt to obfuscate words in spam
+	0.52 FUZZY_CREDIT_2         Attempt to obfuscate words in spam
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	0.50 BSF_SC0_MV0035         Custom Rule BSF_SC0_MV0035
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=4.9 required=5.0 tests=FREEMAIL_FORGED_REPLYTO,
+	FREEMAIL_REPLYTO,FREEMAIL_REPLYTO_END_DIGIT,FUZZY_CREDIT,
+	HEADER_FROM_DIFFERENT_DOMAINS,RCVD_IN_MSPIKE_H2 autolearn=no
+	autolearn_force=no version=3.4.0
+X-Spam-Level: ****
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-04:05:13-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-17:33:38-001
+Subject: [SacredCircleDance] =?UTF-8?Q?Sacred_Women=27s_Gathering?=
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429724087;
+	bh=nQMuNGckYY0HMN1cB5mfu2BigQoxubDZ6rYhU+Ct3KQ=;
+	h=To:From:Reply-To:Date:Subject:List-ID:List-Unsubscribe;
+	b=eA04XgQhWdgAX/yZp5k//lDSzRKby0BQTJGhbmgDUK3sQP7qD9o6RK9VBheD+wWMz
+	 esLLJOCKqLyOxsK7dt9INXFPlsI3ZpLAMqK4ZVFGaci5DFlZ6hxcFosbmmoxtDkiIl
+	 goFnYO8x7FS5Sa/WFNaoMnDRLk5Gqd6oq4RSCVXA=
+
+From: sky_dancer1@hotmail.com
+
+Wednesday, April 28 2015 
+6:00 PM - 9:00 PM
+Hollywood District
+Portland, Oregon
+Dear beautiful women ! 
+I would like to invite Dear beautiful women! 
+I would like to invite you for sacred woman’s gathering / celebration. 
+It will be a sacred practice time for women only based on ancient northern tradition coming from north of Russia. These practices will help you to find your center, harmonize your body, mind and spirit, balance your Inner waters/fluids, bring joy to your life situations and yourself. It will be an amazing opportunity to drop deep into the feminine, unite our energies in sacred sounding and raise up vibrations. You will go home with amazing tools which will help your daily life to make it more fun easy and magical. Please bring a long skirt with you. Blessings, Marina Fomchenko
+Love exchange : donation 10-20 $ 
+Email:  magicalmarina@yandex.ru 
+347-988-9595 
+Please bring your one sacred item for the altar and something for tea ceremony like cookies or chocolate. 
+Address furnished with registration.
+
+
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com

@@ -1,0 +1,145 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp741341wjc;
+        Tue, 21 Apr 2015 10:44:35 -0700 (PDT)
+X-Received: by 10.180.208.84 with SMTP id mc20mr8030991wic.38.1429638274544;
+        Tue, 21 Apr 2015 10:44:34 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id ms7si4849851wic.86.2015.04.21.10.44.34
+        for <jackdesert556@gmail.com>;
+        Tue, 21 Apr 2015 10:44:34 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 4F1F768FC17C
+	for <jackdesert556@gmail.com>; Tue, 21 Apr 2015 17:44:34 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 66E7463A6030
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 17:43:44 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 10E35C1A031; Tue, 21 Apr 2015 17:43:43 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.50])
+	by outbound.simplelists.com (Postfix) with ESMTP id 8981D63A602A
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 17:43:31 +0000 (UTC)
+X-ASG-Debug-ID: 1429638210-08c1cb5a736c5d90001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id LuV9mfn8d8UpOvvO for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 13:43:30 -0400 (EDT)
+X-Barracuda-Envelope-From: t1at3k@a2s71.a2hosting.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from t1at3k by a2s71.a2hosting.com with local (Exim 4.85)
+	(envelope-from <t1at3k@a2s71.a2hosting.com>)
+	id 1YkcCo-00077S-FT
+	for list@sacredcircledance.org; Tue, 21 Apr 2015 13:43:30 -0400
+To: list@sacredcircledance.org
+From: list@sacredcircledance.org (=?UTF-8?Q?Mikaela_Jones?=)
+X-ASG-Orig-Subj: =?UTF-8?Q?High_Vibration_Studio_Practice-Tues._4=2F28_7=3A30pm?=
+Reply-To: mj@mikaelajones.com
+Message-Id: <E1YkcCo-00077S-FT@a2s71.a2hosting.com>
+Date: Tue, 21 Apr 2015 13:43:30 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [785 32008] / [47 12]
+X-AntiAbuse: Sender Address Domain - a2s71.a2hosting.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: authenticated_id: t1at3k/from_h
+X-Source: /usr/bin/php
+X-Source-Args: /usr/bin/php /home/t1at3k/public_html/sacredcircledance/tectite/formmail.php 
+X-Source-Dir: tiatek.com:/public_html/pdxecstaticdance/tectite
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429638210
+X-Barracuda-URL: https://216.234.124.50:443/cgi-mod/mark.cgi
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-BRTS-Evidence: mikaelajones.com
+X-Barracuda-Spam-Score: 1.00
+X-Barracuda-Spam-Status: No, SCORE=1.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, BSF_SC0_MV0035, BSF_SC0_SA_TO_FROM_ADDR_MATCH
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18208
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	0.50 BSF_SC0_MV0035         Custom Rule BSF_SC0_MV0035
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=0.0 required=5.0 tests=HEADER_FROM_DIFFERENT_DOMAINS
+	autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-17:43:33-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-17:43:44-002
+Subject: [SacredCircleDance]
+ =?UTF-8?Q?High_Vibration_Studio_Practice-Tues._4=2F28_7=3A30pm?=
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429638274;
+	bh=GHeYHkDZh2Eq5bgpaqnr53Q8NygynJt40k7tR4MbRnM=;
+	h=To:From:Reply-To:Date:Subject:List-ID:List-Unsubscribe;
+	b=QB3GY5C84zY/3JUs4hjJij0Q62aqiEc0CxZFTBOVS1MKx7Xh4JCEcg/90iIA2NRY5
+	 OPNHDYA6Sul7uVV6KoWVFGOXYbrbVBdzQWkndrmF4eh9Klcwqob4+iAzz6C4Xwj+jx
+	 rzyGOv6u9fBqYFoK2Pz4UDv/fT13Kk6eGgItO0k8=
+
+From: mj@mikaelajones.com
+
+Hello Dancing Friends, 
+
+I'm still high from our amazing toning/ sound bath circle last Thursday. Will keep the bliss train going with our High Vibration Studio Practice a week from tonight. Read on if you're free... Would love to play with you in the High Vibration Studio! ~Mikaela
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Come springboard your life into greater joy by embodying the Vibrations/Qualities of your Higher Self.
+
+The High Vibration Studio™ Practice is part energy maintenance, part manifestation workshop (from your Higher Self as opposed to your Egoic self) & part spa treatment... for your body, mind, and Soul.
+
+Activities in the High Vibration Practice include but are not limited to: gentle movement, vibrational sound healing & toning, visioning & declaration, virtual reality, laughter, breath work and play... as well as a guided hypnotic induction that will help anchor in all the powerful, high-vibration qualities of your Higher Self.
+
+With the High Vibration Studio™, I’ve taken my 20 years research & experience of both Eastern and Western practices and what I’ve received directly from my Higher Self, and created a fun, one-of-a-kind, step-by-step process that will help you release stress and raise your vibration allowing you to open and better embody the Vibrations of your Higher Self. When you are embodying the qualities of your H.S., your life is filled with more Grace and Synchronicity.
+
+You walk your days knowing you are on path... Confident, free and full of joy.
+
+I guarantee you will leave the Studio in a significantly higher vibration than when you arrived. You’ll feel calm, joyful and excited about the possibilities in your life. If you don't, I'll give you your money back. :-)
+
+
+Where: The beautiful studio at Awakenings Wellness Center. 1012 SE 12th Ave. Please enter via the ramp to the north of the house, next to the mural on the adjacent building wall.
+
+
+When: The 4th Tuesday of the month. (4/28) The doors open at 7:15. Please arrive around 7:15 to be ready to begin promptly at 7:30.
+
+
+Love exchange: $10-15 sliding scale. Cash only please.
+
+
+Please wear comfortable clothing, and bring a notebook or pen & paper and water. **Also, bring a sock or scarf to put over your eyes for the hypnosis part if ya like. The lights do dim, but not completely. 
+
+
+I look forward to seeing you and getting into a High Vibration together so that we can more fully live our lives as we intended for ourselves before we came into the body!
+
+About Mikaela Jones: Mikaela has over twenty years background & training in spiritual healing traditions including meditation, hypnotherapy, Intuitive training, New Thought/affirmative prayer, Theta healing, the Radiance Technique & Reiki, as well as vibrational sound healing aka toning with Steven Halpern and Jonathan Goldman, and expressive arts therapy with Natalie Rogers. Lastly, she is forever grateful for all of the fun, loving influence/guidance she receives from her Guides on the angelic realm. Her book, The Little Book of Light: 111 Ways to Bring Light Into Your Life, released by Red Wheel/Weiser, has sold over 20k copies. Please visit: www.MikaelaJones.com to learn more about her work.
+
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com

@@ -1,0 +1,409 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp942409wjc;
+        Tue, 21 Apr 2015 19:53:42 -0700 (PDT)
+X-Received: by 10.180.72.230 with SMTP id g6mr1729846wiv.39.1429671222063;
+        Tue, 21 Apr 2015 19:53:42 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id wh5si6289490wjb.85.2015.04.21.19.53.41
+        for <jackdesert556@gmail.com>;
+        Tue, 21 Apr 2015 19:53:42 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 4510D68FC098
+	for <jackdesert556@gmail.com>; Wed, 22 Apr 2015 02:53:41 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 5684363A6047
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 02:52:42 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id CF23EC1A030; Wed, 22 Apr 2015 02:52:41 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.51])
+	by outbound.simplelists.com (Postfix) with ESMTP id BE42863A6047
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 02:45:53 +0000 (UTC)
+X-ASG-Debug-ID: 1429670751-0798da42d4745590001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id KoGzDp2PCQtGOKR0 for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 22:45:51 -0400 (EDT)
+X-Barracuda-Envelope-From: webmaster@processpaint-artspace.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from nm10-vm0.bullet.mail.bf1.yahoo.com ([98.139.213.147]:49104)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <webmaster@processpaint-artspace.com>)
+	id 1Ykkfd-000aHM-SX
+	for list@sacredcircledance.org; Tue, 21 Apr 2015 22:45:51 -0400
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048; t=1429670749; bh=Dyqv290PzXWWosvEkj3s9EWfr0tfY5FgmMoqX+deJU4=; h=Date:From:Reply-To:To:Subject:From:Subject; b=JmLb3xcagByg55pu7j3HdY+Df1+KzwWmUyUDGFn6nk8Zy2g0PISpFmREVDJbWxlDKu50bXdv4sV3SnT4JfyUTXHq1rOu2tW23Fg2rS5KQEORrqPee5IWMAzxpeFaQOt3KEpq1Y3P5xpF4mCO++LQs9N8TmCAMhrUV8tr8N/xbU+dybgLQmFW3aJ2G+3goKt5Anm7M5ChpnLTwExX2NMTcRztNvxJ+WgE8pp+PAY+ard2nj3xftIm4Lj2Tes7LpNAfNekST0ixMyrk5iLpJv2iHTX61qrEl1a+/dd+s5CciyucuZEy7fdr3QSjDI8LXi6ZEHMpaJsCHZIvCuEgryOxQ==
+Received: from [66.196.81.171] by nm10.bullet.mail.bf1.yahoo.com with NNFMP; 22 Apr 2015 02:45:49 -0000
+Received: from [98.139.212.216] by tm17.bullet.mail.bf1.yahoo.com with NNFMP; 22 Apr 2015 02:45:49 -0000
+Received: from [127.0.0.1] by omp1025.mail.bf1.yahoo.com with NNFMP; 22 Apr 2015 02:45:49 -0000
+X-Yahoo-Newman-Property: ymail-3
+X-Yahoo-Newman-Id: 342689.82786.bm@omp1025.mail.bf1.yahoo.com
+X-YMail-OSG: zIariKYVM1kxyhm9QTNciJE1FbCRVYlHfaqWWViF9Nnnj103fre2WTDNGyBeAEa
+ J1AsAtNDpFudUT_H5Mr2Ul8zh8.vdJx0vwUazFA1FyGJ_BvW64bXKCHiJixIpqtKglZzGsFF9ORq
+ o.MD3T86oDgBT3wwp11WMlApSPGMWROa68385aSVNQhkYHnhMnT6l7ielb2wzeb1if3KbF2YSsp8
+ eKG.eiimGlv7aDGPmiW0jYttCYcfJo4kbclzGQRliDQzrl1TXSq1cs6k4jKZq7kzwVA7EbpmHd.p
+ 5IHgYlSzB5GRtsbKvNEbm7eYmZ6cQrnez.n0wu.5XIl5dXcxD2zANzZj1dVYXWPRprfjgBNUdxhT
+ kRUVXUKoqO7QRescN_JyauABBsY3HXM5lk1ebyg1s8erObs7ZADIAIkmbGgXotNpT1SoCrHbvHT6
+ ub7JE4sTikBUNy3FWtnPCEBpfshSIpYG_HiQDcEMbVxGyYyqsnaFTYs24m4JsUxX_yKSFYm9WwHK
+ aJR329WeyNAP_zdnyJarDJ9q4rh0XdfIVJ8ckP2Q-
+Received: by 66.196.81.118; Wed, 22 Apr 2015 02:45:48 +0000 
+Date: Wed, 22 Apr 2015 02:45:48 +0000 (UTC)
+From: Kathy Quigley <webmaster@processpaint-artspace.com>
+Reply-To: Kathy Quigley <webmaster@processpaint-artspace.com>
+To: "list@sacredcircledance.org" <list@sacredcircledance.org>
+Message-ID: <307193604.2030382.1429670748227.JavaMail.yahoo@mail.yahoo.com>
+MIME-Version: 1.0
+X-ASG-Orig-Subj: Find Creative Freedom:  Open to Possibilities!   Paint to Explore!
+X-Spam-Status: No, score=0.0 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	HTML_MESSAGE,T_KAM_HTML_FONT_INVALID autolearn=unavailable autolearn_force=no
+	version=3.4.0
+X-Spam-Score: -30
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - processpaint-artspace.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429670751
+X-Barracuda-URL: https://216.234.124.51:443/cgi-mod/mark.cgi
+Received-SPF: none (supercp.com: webmaster@processpaint-artspace.com does not designate permitted sender hosts)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.10
+X-Barracuda-Spam-Status: No, SCORE=0.10 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, HEAD_ILLEGAL_CHARS, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18226
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.10 HEAD_ILLEGAL_CHARS     Headers have too many raw illegal characters
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-02:45:55-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-02:52:42-001
+Subject: [SacredCircleDance] Find Creative Freedom:  Open to Possibilities!  
+ Paint to Explore!
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative;
+ 	boundary="----=_Part_2030381_1079298469.1429670748214"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429671221;
+	bh=SAsfsTUcaMIdYmwuXsg0G0qd9YCTmfPGojAC4YF20ko=;
+	h=Date:From:Reply-To:To:Subject:List-ID:List-Unsubscribe;
+	b=m7Ru4OsgMao/cfs7SzpVA+t8JPiLgLeSllO+hciG9A/5MtkgQEecX3a+MQuSNwF8Z
+	 T+/Z6eNAF/pI2tdTihhLS7s2Z38l+CWYpcIuyc6sc5oV3J49oY9EWQ+Ggw5knmN/6H
+	 hHIDmp4tKA9XhOAVtFPvJIA6FgAV0Hz/rQmmeLhE=
+
+------=_Part_2030381_1079298469.1429670748214
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+Mindfulness in practice as you move moment to moment...
+
+
+"I love that I don't have to know 'how to paint', but find that by trusting=
+ my inner process I'm surprised, delighted, and fascinated by the images th=
+at come through.=C2=A0 It helps me to learn to trust the unknown, which is =
+the way that I want to live my life."=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=
+=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=
+=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0=C2=A0 Andr=
+ea
+Take=C2=A0time for yourself to explore, and come home to your own creative =
+muse.=C2=A0
+Learn=C2=A0to move past judgments and stories with more awareness and compa=
+ssion.
+Paint=C2=A0to explore and find freedom, both creatively and in life.=C2=A0"=
+A journal on canvas using paint and images tapped from my soul." =C2=A0=C2=
+=A0=C2=A0Lisa=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=
+=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =
+=C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0 =C2=A0
+New to the studio, take 20% off cost of a 6 or 8 week class series started =
+in March...special extended for Spring fever!
+
+Ongoing Classes:
+Still space in both Tuesday morning and Wednesday evening classes.=C2=A0 Ad=
+mission occurs through a rolling admission process. You may therefore start=
+ your series as space allows.8 Week Class Series:=C2=A0 $2496 Week Class Se=
+ries:=C2=A0 $2003 Class Package, can be taken over 2 month period from time=
+ of purchase:=C2=A0 $105
+=C2=A0"I see Art differently now. I have come to realize that Art and creat=
+ivity are not always the same thing. I was making Art=C2=A0but not being cr=
+eative. This showed me that not all Art is creative. So I now see that bein=
+g CREATIVE is much more important to me than making Art.
+I don't think the world needs another piece of my Art, but it could use ano=
+ther creative happy soul"=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0=C2=A0Cindi
+
+Upcoming Workshop:May 16th, Saturday, 12:30-4:30=C2=A0Call or email Kathy/A=
+rtspace 503-236-5313www.processpaint-artspace.comKathy@processpaint-artspac=
+e.com
+
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+------=_Part_2030381_1079298469.1429670748214
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<html><body><div style=3D"color:#000; background-color:#fff; font-family:Co=
+urier New, courier, monaco, monospace, sans-serif;font-size:16px"><div id=
+=3D"yiv0006109647yui_3_16_0_1_1420743876318_2427" class=3D"" style=3D"font-=
+family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',=
+ sans-serif;"><span class=3D"" id=3D"yiv0006109647yui_3_16_0_1_142411576372=
+6_5534" style=3D"font-weight: 700;"><span class=3D"" id=3D"yiv0006109647yui=
+_3_16_0_1_1424115763726_5533" style=3D"font-family: georgia, palatino;"><sp=
+an class=3D"" id=3D"yiv0006109647yui_3_16_0_1_1424115763726_5532" style=3D"=
+"><span class=3D"" id=3D"yiv0006109647yui_3_16_0_1_1424115763726_5531" styl=
+e=3D""><em class=3D"" id=3D"yiv0006109647yui_3_16_0_1_1424115763726_5530" s=
+tyle=3D""><em class=3D"" id=3D"yiv0006109647yui_3_16_0_1_1424115744811_2284=
+" style=3D"">Mindfulness in practice as you move moment to moment...</em><b=
+r class=3D"" style=3D""></em></span></span></span></span></div><div id=3D"y=
+iv0006109647yui_3_16_0_1_1420743876318_2427" class=3D"" style=3D"font-famil=
+y: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans=
+-serif;"><span class=3D"" style=3D"font-weight: 700;"><span class=3D"" styl=
+e=3D"font-family: georgia, palatino;"><span class=3D"" style=3D""><span cla=
+ss=3D"" style=3D""><em class=3D"" style=3D""><br class=3D"" style=3D""></em=
+></span></span></span></span></div><div id=3D"yiv0006109647yui_3_16_0_1_142=
+0743876318_2427" class=3D"" style=3D"font-family: HelveticaNeue, 'Helvetica=
+ Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;"><span class=3D"" st=
+yle=3D"font-weight: 700;"><span class=3D"" style=3D"font-family: georgia, p=
+alatino;"><span class=3D"" style=3D""><span class=3D"" style=3D""><em class=
+=3D"" style=3D""><br class=3D"" style=3D""></em></span></span></span></span=
+></div><div id=3D"yiv0006109647yui_3_16_0_1_1420743876318_2427" class=3D"" =
+style=3D"font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'L=
+ucida Grande', sans-serif;"><span id=3D"yiv0006109647yui_3_16_0_1_142074387=
+6318_2426" class=3D"" style=3D"font-weight: 700;"><span id=3D"yiv0006109647=
+yui_3_16_0_1_1420743876318_2425" class=3D"" style=3D"font-family: georgia, =
+palatino;"><span id=3D"yiv0006109647yui_3_16_0_1_1420743876318_2424" class=
+=3D"" style=3D""><span id=3D"yiv0006109647yui_3_16_0_1_1420743876318_2423" =
+class=3D"" style=3D""><em id=3D"yiv0006109647yui_3_16_0_1_1420743876318_242=
+2" class=3D"" style=3D""><span id=3D"yiv0006109647yui_3_16_0_1_142074387631=
+8_2421" class=3D"" style=3D""><span id=3D"yiv0006109647yui_3_16_0_1_1420743=
+876318_2420" class=3D"" style=3D""><span id=3D"yiv0006109647yui_3_16_0_1_14=
+20743876318_2419" class=3D"" style=3D""><span id=3D"yiv0006109647yui_3_16_0=
+_1_1420743876318_2418" class=3D"" style=3D"">"<span id=3D"yiv0006109647yui_=
+3_16_0_1_1420743876318_2417" class=3D"" style=3D"">I love that I don't have=
+ to know 'how to paint', but find that by trusting my inner process I'm sur=
+prised, delighted, and fascinated by the images that come through.&nbsp; It=
+ helps me to learn to trust the unknown, which is the way that I want to li=
+ve my life."</span></span></span></span></span></em></span></span></span></=
+span></div><div class=3D"" id=3D"yiv0006109647yui_3_16_0_1_1420743876318_44=
+743" style=3D"font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Aria=
+l, 'Lucida Grande', sans-serif;"><span id=3D"yiv0006109647yui_3_16_0_1_1420=
+743876318_2416" class=3D"" style=3D"font-weight: 700;"><span id=3D"yiv00061=
+09647yui_3_16_0_1_1420743876318_2415" class=3D"" style=3D"font-family: geor=
+gia, palatino;"><span id=3D"yiv0006109647yui_3_16_0_1_1420743876318_2414" c=
+lass=3D"" style=3D""><span id=3D"yiv0006109647yui_3_16_0_1_1420743876318_24=
+13" class=3D"" style=3D""><em id=3D"yiv0006109647yui_3_16_0_1_1420743876318=
+_2412" class=3D"" style=3D"">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbs=
+p; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; Andrea</em></=
+span></span></span></span></div><div class=3D"" id=3D"yiv0006109647yui_3_16=
+_0_1_1420743876318_44744" style=3D"font-family: HelveticaNeue, 'Helvetica N=
+eue', Helvetica, Arial, 'Lucida Grande', sans-serif;"><br class=3D"" style=
+=3D""><span id=3D"yiv0006109647yui_3_16_0_1_1420743876318_2416" class=3D"" =
+style=3D"font-weight: 700;"><span id=3D"yiv0006109647yui_3_16_0_1_142074387=
+6318_2415" class=3D"" style=3D"font-family: georgia, palatino;"><span id=3D=
+"yiv0006109647yui_3_16_0_1_1420743876318_2414" class=3D"" style=3D""><span =
+id=3D"yiv0006109647yui_3_16_0_1_1420743876318_2413" class=3D"" style=3D""><=
+em id=3D"yiv0006109647yui_3_16_0_1_1420743876318_2412" class=3D"" style=3D"=
+"><span id=3D"yiv0006109647yui_3_16_0_1_1420743876318_2409" class=3D"" styl=
+e=3D""></span></em></span></span></span></span></div><div class=3D"" id=3D"=
+yiv0006109647yui_3_16_0_1_1420743876318_44745" style=3D"font-family: Helvet=
+icaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;">=
+<b id=3D"yiv0006109647yui_3_16_0_1_1420763183772_2166" class=3D"" style=3D"=
+">Take</b><span id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3019" class=
+=3D"" style=3D"font-size: 12pt;">&nbsp;time for yourself to explore, and co=
+me home to your own creative muse.&nbsp;</span><br class=3D"" style=3D""></=
+div><div id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3020" class=3D"" sty=
+le=3D"font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Luci=
+da Grande', sans-serif; margin-bottom: 0.0001pt;"><span id=3D"yiv0006109647=
+yui_3_16_0_1_1417223566924_3019" class=3D"" style=3D"font-size: 12pt;"><b i=
+d=3D"yiv0006109647yui_3_16_0_1_1420763183772_2167" class=3D"" style=3D"">Le=
+arn</b>&nbsp;to move past judgments and stories with more awareness and com=
+passion.<br class=3D"" style=3D""><b id=3D"yiv0006109647yui_3_16_0_1_141926=
+9343245_5418" class=3D"" style=3D"">Paint&nbsp;</b>to explore and find free=
+dom, both creatively and in life.</span></div><div id=3D"yiv0006109647yui_3=
+_16_0_1_1417223566924_3022" class=3D"" style=3D"font-family: HelveticaNeue,=
+ 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; margin-bo=
+ttom: 0.0001pt;"><b class=3D"" style=3D"">&nbsp;</b></div><div id=3D"yiv000=
+6109647yui_3_16_0_1_1417223566924_3025" class=3D"" style=3D"font-family: He=
+lveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-seri=
+f; margin-bottom: 0.0001pt;"><i id=3D"yiv0006109647yui_3_16_0_1_14172235669=
+24_3024" class=3D"" style=3D""><span id=3D"yiv0006109647yui_3_16_0_1_141722=
+3566924_3023" class=3D"" style=3D"font-size: 14pt;">"A journal on canvas us=
+ing paint and images tapped from my soul</span></i><i id=3D"yiv0006109647yu=
+i_3_16_0_1_1417223566924_3127" class=3D"" style=3D"">." &nbsp;&nbsp;&nbsp;<=
+b class=3D"" id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3338" style=3D""=
+>Lisa&nbsp;</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></div><div id=
+=3D"yiv0006109647yui_3_16_0_1_1417223566924_3029" class=3D"" style=3D"font-=
+family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',=
+ sans-serif; margin-bottom: 0.0001pt;"><b id=3D"yiv0006109647yui_3_16_0_1_1=
+417223566924_3028" class=3D"" style=3D""><i id=3D"yiv0006109647yui_3_16_0_1=
+_1417223566924_3027" class=3D"" style=3D""><span id=3D"yiv0006109647yui_3_1=
+6_0_1_1417223566924_3026" class=3D"" style=3D"font-size: 14pt;">&nbsp; &nbs=
+p; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &n=
+bsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; =
+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp=
+;</span></i></b></div><div id=3D"yiv0006109647yui_3_16_0_1_1417223566924_30=
+50" class=3D"" style=3D"font-family: HelveticaNeue, 'Helvetica Neue', Helve=
+tica, Arial, 'Lucida Grande', sans-serif;"><div class=3D"" id=3D"yiv0006109=
+647yui_3_16_0_1_1419269343245_5442" style=3D""><b id=3D"yiv0006109647yui_3_=
+16_0_1_1417223566924_3049" class=3D"" style=3D""><span id=3D"yiv0006109647y=
+ui_3_16_0_1_1417223566924_3048" class=3D"" style=3D"font-size: 12pt;"></spa=
+n></b><span id=3D"yiv0006109647yui_3_16_0_1_1419269343245_5419" class=3D"" =
+style=3D"font-size: 12pt;"></span><span class=3D"" style=3D""></span></div>=
+</div><div id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3035" class=3D"" s=
+tyle=3D"font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lu=
+cida Grande', sans-serif;"><i class=3D"" style=3D""><br class=3D"" style=3D=
+""></i></div><div id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3035" class=
+=3D"" dir=3D"ltr" style=3D"font-family: HelveticaNeue, 'Helvetica Neue', He=
+lvetica, Arial, 'Lucida Grande', sans-serif;"><i class=3D"" id=3D"yiv000610=
+9647yui_3_16_0_1_1422567793618_4518" style=3D""><b id=3D"yiv0006109647yui_3=
+_16_0_1_1422567793618_4516" class=3D"" style=3D"">New to the studio, take 2=
+0% off cost of a 6 or 8 week class series started in March...special extend=
+ed for Spring fever!</b><br class=3D"" style=3D""><br class=3D"" style=3D""=
+></i><span class=3D"" style=3D"font-size: 12pt;"></span></div><div id=3D"yi=
+v0006109647yui_3_16_0_1_1417223566924_3036" class=3D"" style=3D"font-family=
+: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-=
+serif;"><b id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3340" class=3D"" s=
+tyle=3D""><span id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3339" class=
+=3D"" style=3D"font-size: 14pt;">Ongoing Classes:</span></b><b class=3D"" s=
+tyle=3D""><span class=3D"" style=3D""></span></b></div><div id=3D"yiv000610=
+9647yui_3_16_0_1_1417223566924_3036" class=3D"" style=3D"font-family: Helve=
+ticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;"=
+><b class=3D"" style=3D""><span class=3D"" style=3D"font-size: 14pt;"><br c=
+lass=3D"" style=3D""></span></b></div><div id=3D"yiv0006109647yui_3_16_0_1_=
+1417223566924_3038" class=3D"" style=3D"font-family: HelveticaNeue, 'Helvet=
+ica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; margin-bottom: 0.=
+0001pt;"><span id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3037" class=3D=
+"" style=3D"font-size: 12pt;">Still space in both Tuesday morning and Wedne=
+sday evening classes.&nbsp; Admission occurs through a rolling admission pr=
+ocess. You may therefore start your series as space allows.</span></div><di=
+v id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3039" class=3D"" style=3D"f=
+ont-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Gran=
+de', sans-serif; margin-bottom: 0.0001pt;"><span id=3D"yiv0006109647yui_3_1=
+6_0_1_1417223566924_3149" class=3D"" style=3D"font-size: 14pt;">8 Week Clas=
+s Series:&nbsp; $249</span><span class=3D"" style=3D""></span></div><div id=
+=3D"yiv0006109647yui_3_16_0_1_1417223566924_3040" class=3D"" style=3D"font-=
+family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande',=
+ sans-serif; margin-bottom: 0.0001pt;"><div class=3D"" id=3D"yiv0006109647y=
+ui_3_16_0_1_1419269343245_5485" style=3D""><span id=3D"yiv0006109647yui_3_1=
+6_0_1_1417223566924_3150" class=3D"" style=3D"font-size: 14pt;">6 Week Clas=
+s Series:&nbsp; $200</span></div><div class=3D"" id=3D"yiv0006109647yui_3_1=
+6_0_1_1419269343245_5487" dir=3D"ltr" style=3D"">3 Class Package, can be ta=
+ken over 2 month period from time of purchase:&nbsp; $105<br class=3D"" sty=
+le=3D""><span id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3150" class=3D"=
+" style=3D"font-size: 14pt;"></span><span class=3D"" style=3D""></span></di=
+v></div><div id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3041" class=3D""=
+ style=3D"font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, '=
+Lucida Grande', sans-serif; margin-bottom: 0.0001pt;"><span class=3D"" styl=
+e=3D"">&nbsp;</span></div><div id=3D"yiv0006109647yui_3_16_0_1_141722356692=
+4_3044" class=3D"" style=3D"font-family: HelveticaNeue, 'Helvetica Neue', H=
+elvetica, Arial, 'Lucida Grande', sans-serif; margin-bottom: 0.0001pt;"><i =
+id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3043" class=3D"" style=3D"">"=
+I see Art differently now. I have come to realize that Art and creativity a=
+re not always the same thing. I was making Art&nbsp;but not being creative.=
+ This showed me that not all Art is creative. So I now see that being CREAT=
+IVE is much more important to me than making Art.</i><span id=3D"yiv0006109=
+647yui_3_16_0_1_1417223566924_3158" class=3D"" style=3D"font-size: 12pt;"><=
+br class=3D"" style=3D""><i id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3=
+157" class=3D"" style=3D""><span id=3D"yiv0006109647yui_3_16_0_1_1417223566=
+924_3156" class=3D"" style=3D"">I don't think the world needs another piece=
+ of my Art, but it could use another creative happy soul"&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;<font class=3D"" id=3D"yiv0006109647yui_3_16_0_1_14=
+17223566924_3297" size=3D"3" style=3D""><b class=3D"" id=3D"yiv0006109647yu=
+i_3_16_0_1_1417223566924_3296" style=3D"">Cindi</b></font><br class=3D"" st=
+yle=3D""><br class=3D"" style=3D""></span></i></span></div><div id=3D"yiv00=
+06109647yui_3_16_0_1_1417223566924_3160" class=3D"" style=3D"font-family: H=
+elveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-ser=
+if; margin-bottom: 0.0001pt;"><div class=3D"" id=3D"yiv0006109647yui_3_16_0=
+_1_1419269343245_5582" style=3D""><span style=3D"font-size: 18.666666030883=
+8px;" id=3D"yui_3_16_0_1_1429670542914_5654"><b id=3D"yui_3_16_0_1_14296705=
+42914_5653">Upcoming Workshop:</b></span></div><div class=3D"" id=3D"yiv000=
+6109647yui_3_16_0_1_1419269343245_5582" style=3D"" dir=3D"ltr"><span style=
+=3D"font-size: 18.6666660308838px;" id=3D"yui_3_16_0_1_1429670542914_5656">=
+<b id=3D"yui_3_16_0_1_1429670542914_5655">May 16th, Saturday, 12:30-4:30</b=
+></span></div></div><div id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3171=
+" class=3D"" style=3D"font-family: HelveticaNeue, 'Helvetica Neue', Helveti=
+ca, Arial, 'Lucida Grande', sans-serif; margin-bottom: 0.0001pt;"><b class=
+=3D"" style=3D""><i class=3D"" style=3D"">&nbsp;</i></b></div><div id=3D"yi=
+v0006109647yui_3_16_0_1_1417223566924_3173" class=3D"" style=3D"font-family=
+: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-=
+serif; margin-bottom: 0.0001pt;"><span id=3D"yiv0006109647yui_3_16_0_1_1417=
+223566924_3172" class=3D"" style=3D"font-size: 14pt;">Call or email Kathy/A=
+rtspace 503-236-5313</span><span class=3D"" style=3D"font-size: 14pt;"></sp=
+an></div><div id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3177" class=3D"=
+" style=3D"font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, =
+'Lucida Grande', sans-serif; margin-bottom: 0.0001pt;"><span id=3D"yiv00061=
+09647yui_3_16_0_1_1417223566924_3176" class=3D"" style=3D"font-size: 14pt;"=
+><a rel=3D"nofollow" id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3175" cl=
+ass=3D"" target=3D"_blank" href=3D"http://www.processpaint-artspace.com/" s=
+tyle=3D"color: rgb(25, 106, 212);"><span id=3D"yiv0006109647yui_3_16_0_1_14=
+17223566924_3174" class=3D"" style=3D"color: windowtext;">www.processpaint-=
+artspace.com</span></a></span><span class=3D"" style=3D"font-size: 14pt;"><=
+/span></div><div id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3181" class=
+=3D"" style=3D"font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Ari=
+al, 'Lucida Grande', sans-serif; margin-bottom: 0.0001pt;"><span id=3D"yiv0=
+006109647yui_3_16_0_1_1417223566924_3180" class=3D"" style=3D"font-size: 14=
+pt;"><span id=3D"yiv0006109647yui_3_16_0_1_1417223566924_3178" class=3D"" s=
+tyle=3D"color: windowtext;"><a rel=3D"nofollow" id=3D"yiv0006109647yui_3_16=
+_0_1_1417223566924_3179" class=3D"" ymailto=3D"mailto:Kathy@processpaint-ar=
+tspace.com" target=3D"_blank" href=3D"mailto:Kathy@processpaint-artspace.co=
+m" style=3D"color: rgb(25, 106, 212);">Kathy@processpaint-artspace.com</a><=
+/span></span></div><div class=3D"" style=3D""><span class=3D"" style=3D"fon=
+t-size: 14pt;"><br class=3D"" style=3D""></span></div><div id=3D"yui_3_16_0=
+_1_1429670542914_2479" class=3D"" style=3D""><br class=3D"" style=3D""></di=
+v></div></body></html>
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+------=_Part_2030381_1079298469.1429670748214--

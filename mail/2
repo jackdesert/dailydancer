@@ -1,0 +1,219 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp146895wjc;
+        Wed, 22 Apr 2015 14:02:27 -0700 (PDT)
+X-Received: by 10.194.187.16 with SMTP id fo16mr55962717wjc.86.1429736547061;
+        Wed, 22 Apr 2015 14:02:27 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id az10si10955538wib.65.2015.04.22.14.02.27
+        for <jackdesert556@gmail.com>;
+        Wed, 22 Apr 2015 14:02:27 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id C2B969CC01A
+	for <jackdesert556@gmail.com>; Wed, 22 Apr 2015 21:02:26 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 58B1F63A60C1
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 21:01:28 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 25CB0C1A030; Wed, 22 Apr 2015 21:01:28 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from mail-vn0-f41.google.com (mail-vn0-f41.google.com [209.85.216.41])
+	by outbound.simplelists.com (Postfix) with ESMTPS id 339E463A60B2
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 19:18:57 +0000 (UTC)
+Received: by vnbg129 with SMTP id g129so36114654vnb.4
+        for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 12:18:56 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=EI8QIIETlOSt8V8R4icSQCgWmC2/OhGyGQh5CFs/IpM=;
+        b=OIuU9MH4vSrvUkzf16M1ZFVHGOtXeakD34waJAW61jUDYQ/7+ororbqzmbsh63pN1X
+         xutDkMvfX/26ckxoyL3GbubFrFk0ILf3qXNHtinBK6p/u2KggtoSTcRVLhr58fHhUtAQ
+         ECbFomCCubq1a20kYOp3VxZWNp9pFChDNXjn71Ex5KdVCoepYcF07EZx0iThn1rWig7A
+         L41sblFhRhNtJOfw3AruOccv/atUw7D0IK+wQ6ipTixHE2b/kqxMZ83xlD2VjCT3Z0GK
+         eodb2Vh6leCJbgTc8HCreaWn7rvBq+ckeFaISOO4/bm3ZNjZpULx2vBpy3w5MIOXNwmO
+         IWrg==
+MIME-Version: 1.0
+X-Received: by 10.52.24.113 with SMTP id t17mr1015825vdf.89.1429730336377;
+ Wed, 22 Apr 2015 12:18:56 -0700 (PDT)
+Received: by 10.52.6.133 with HTTP; Wed, 22 Apr 2015 12:18:56 -0700 (PDT)
+Date: Wed, 22 Apr 2015 12:18:56 -0700
+Message-ID: <CAFdGMc1XP-KLUqo9DjLfHpdiK9uEFveV51ERDU5BR0k0jv6SBQ@mail.gmail.com>
+From: JoAutumn Brock <joautumnb@gmail.com>
+To: "(Sacred Circle Dance)" <sacredcircledance@simplelists.com>
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=unavailable
+	autolearn_force=no version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-19:18:59-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-21:01:28-001
+Subject: [SacredCircleDance] *Tools for Transition and Transformation:
+ SoulCollage*
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: JoAutumn Brock <joautumnb@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="20cf307c9d9ed31c85051455082a"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429736546;
+	bh=EEPWgea0hdjmcNRAQtbu3Q43CT3K+a50PwwDFfD2vfc=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=N3RtCYf2Lq75ioUk7A5lw60oaWyoATk1Noo9gbKjCpAm17TMcFtNlwaue1zfMQxrX
+	 qjMGJCFA2ONuaXELQtyJ1ZbjYeLLJRSOjTi5VqxJdwSGohmSc0d2Ss4jZ6Lb0Kj0Hn
+	 mzV9QmpseOZDQjz2Z9DYCzgMdpk6pxPLORCANeeo=
+
+--20cf307c9d9ed31c85051455082a
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+*Tools for Transition and Transformation: SoulCollage=C2=AE*
+
+Many of us feel ourselves changing, perhaps slowly, or perhaps too rapidly
+to keep up. SoulCollage=C2=AE can really assist your process, giving voice =
+to
+all of your parts, helping you to uncover your own extraordinary well of
+wisdom. Listening to the parts that embrace movement, those that hinder
+you, what you yearn for, what you envision, where you are now.
+
+Each card in the deck you build (any number) represents a distinct energy,
+emerging through your intuition. What fun it is to allow your soul to speak
+in its native language, and one we can understand; imagery. Then continue
+working and playing at your own pace at home and in Card Making Nights with
+others. Materials are provided.  Absolutely no art or other experience is
+needed.
+
+*Risk to discover that all the answers truly are within you !*
+
+Sunday, May 3, 1:45 to 6:00.  $40 to $55 sliding scale.  Space is limited,
+registration required.
+
+Close in East side, location given to those who register at joautumnb@gmail=
+.com
+
+
+I am a trained SoulCollage=C2=AE Facilitator and a life-long Transformation=
+al
+Artist, Dancer, Writer, Shamanic Energy Healer and Spiritual Coach.  I am
+dedicated to using the intuitive arts to assist others on their personal
+path to embody their Highest Selves.
+
+ JoAutumn Brock
+
+joautumnb@gmail.com
+
+503 723 7467
+
+*"Creativity is intelligence having fun"*-* Albert Einstein*
+Please see my Art That Reminds You How Joyful Life Is !
+www.rising-earth-images.com
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--20cf307c9d9ed31c85051455082a
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><div class=3D"gmail_default" style=3D"font-family:georgia,=
+serif;color:rgb(0,0,0)">
+
+<p class=3D"MsoNormal"><b style>Tools for Transition
+and Transformation: SoulCollage=C2=AE</b></p>
+
+<p class=3D"">Many of us feel
+ourselves changing, perhaps slowly, or perhaps too rapidly to keep up.
+SoulCollage=C2=AE can really assist your process, giving voice to all of yo=
+ur parts,
+helping you to uncover your own extraordinary well of wisdom. Listening to =
+the
+parts that embrace movement, those that hinder you, what you yearn for, what
+you envision, where you are now.=C2=A0<span style></span></p><p class=3D"">=
+<span style></span>Each card in the
+deck you build (any number) represents a distinct energy, emerging through =
+your intuition.
+What fun it is to allow your soul to speak in its native language, and one =
+we
+can understand; imagery. <span style=3D"color:black">Then continue working
+and playing at your own pace at home and in Card Making Nights with others.=
+ </span>Materials are provided.<span style>=C2=A0 </span>Absolutely no art =
+or other experience is
+needed.</p>
+
+<p class=3D""><b>Risk to discover that all the answers truly are within
+you !</b>
+
+</p><p class=3D"">Sunday, May 3, 1:45 to 6:00.<span style>=C2=A0 </span>$40=
+ to $55 sliding scale.=C2=A0 Space is limited, registration required.</p>
+
+<p class=3D"">Close in East side, location given to those who register at <=
+a href=3D"mailto:joautumnb@gmail.com">joautumnb@gmail.com </a><br></p>
+
+<p class=3D"">I am a trained SoulCollage=C2=AE Facilitator and a life-long
+Transformational Artist, Dancer, Writer, Shamanic Energy Healer and Spiritu=
+al
+Coach.<span style>=C2=A0 </span>I am dedicated to using the
+intuitive arts to assist others on their personal path to embody their High=
+est
+Selves.
+
+</p><p class=3D"">=C2=A0JoAutumn Brock</p><p class=3D""><a href=3D"mailto:j=
+oautumnb@gmail.com">joautumnb@gmail.com </a></p>
+
+<p class=3D"">503 723 7467</p>
+
+</div><div><div class=3D"gmail_signature"><div dir=3D"ltr"><div><div dir=3D=
+"ltr"><div><div dir=3D"ltr"><div><span style=3D"color:rgb(166,77,121)"><br>=
+</span><p style=3D"text-align:center">
+											<font size=3D"2"><span style=3D"color:rgb(166,77,121)"><span><sp=
+an style=3D"font-family:tahoma,geneva,sans-serif"><i>"Creativity is intelli=
+gence having fun"</i>-<i> Albert Einstein</i></span></span></span></font></=
+p><span style=3D"color:rgb(11,83,148)"><span style=3D"font-family:georgia,s=
+erif">Please see my Art That Reminds You How Joyful Life Is !</span></span>=
+</div><div><span style=3D"font-family:georgia,serif"><a href=3D"http://www.=
+rising-earth-images.com" target=3D"_blank">www.rising-earth-images.com</a><=
+/span></div></div></div></div></div></div></div></div>
+</div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--20cf307c9d9ed31c85051455082a--

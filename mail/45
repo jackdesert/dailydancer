@@ -1,0 +1,231 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.55.3 with SMTP id n3csp1900813wjp;
+        Tue, 14 Apr 2015 07:10:22 -0700 (PDT)
+X-Received: by 10.180.81.200 with SMTP id c8mr32024804wiy.49.1429020622440;
+        Tue, 14 Apr 2015 07:10:22 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id fq4si2289724wjc.189.2015.04.14.07.10.22
+        for <jackdesert556@gmail.com>;
+        Tue, 14 Apr 2015 07:10:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 279E668FC0F4
+	for <jackdesert556@gmail.com>; Tue, 14 Apr 2015 14:10:22 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id D77B063A6021
+	for <sacredcircledance@simplelists.com>; Tue, 14 Apr 2015 14:09:43 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id AB8C3C1A030; Tue, 14 Apr 2015 14:09:43 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.52])
+	by outbound.simplelists.com (Postfix) with ESMTP id DAB6963A601C
+	for <sacredcircledance@simplelists.com>; Tue, 14 Apr 2015 13:59:18 +0000 (UTC)
+X-ASG-Debug-ID: 1429019950-089ef7341d69e94c0001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id PY1zXIWG59MCDnA6 for <sacredcircledance@simplelists.com>; Tue, 14 Apr 2015 09:59:10 -0400 (EDT)
+X-Barracuda-Envelope-From: albertkaufman@gmail.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from mail-vn0-f48.google.com ([209.85.216.48]:36635)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <albertkaufman@gmail.com>)
+	id 1Yi1Mq-000aK1-Nh
+	for list@sacredcircledance.org; Tue, 14 Apr 2015 09:59:10 -0400
+Received: by vnbf62 with SMTP id f62so3810982vnb.3
+        for <list@sacredcircledance.org>; Tue, 14 Apr 2015 06:59:08 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=Zsv3r6elqs7Nnz7/q4Odz6jG/8RXb1LwJSm9SLanOOU=;
+        b=hX8rknXuhTLoiyJK0JgPRPyMxDQE3L94wv1JIVExKSvRaXvABsiePEuUzk1XMbv6HT
+         FHn82nJqFxbwUN6xmXLmS44Lq0AvTbvA4f810LBxIADkIX5ilgiEgTaR7Dc6IXBdIc7J
+         dgnXuDqGddCN1RQtjurq9hzMPZiBr3O5j+MEmZpqxlU+C+vXpBR5QD1MdL8ukhHUYVXg
+         nf+N8fh3BfIEaNlfKYXe+iVaLpZG5PfIZ5XbM3TazU1CEtbSwxXB1aemsyxCkDBiRJo4
+         /2u7PUXlonfYWXuXBE602uLgR2t8/bJS2FQD5Cef6g+3PIdkBd0mFiJZ+5rYz89CHAkq
+         Wvbw==
+MIME-Version: 1.0
+X-Received: by 10.140.25.197 with SMTP id 63mr25030998qgt.14.1429019948006;
+ Tue, 14 Apr 2015 06:59:08 -0700 (PDT)
+Received: by 10.229.86.195 with HTTP; Tue, 14 Apr 2015 06:59:07 -0700 (PDT)
+Date: Tue, 14 Apr 2015 09:59:07 -0400
+Message-ID: <CADdv-oOwJ18vXjKv3mhufkYuw4buRC7BLU-6r6ozvev6=0OydA@mail.gmail.com>
+From: Albert Kaufman <albertkaufman@gmail.com>
+X-ASG-Orig-Subj: Wild Green Smoothies Class - Sun April 26th 4 - 5:30pm
+To: Sacred Circle e-list <list@sacredcircledance.org>
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=unavailable
+	autolearn_force=no version=3.4.0
+X-Spam-Score: -30
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429019950
+X-Barracuda-URL: http://barracuda.supercp.com:8000/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of albertkaufman@gmail.com designates 209.85.216.48 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-BRTS-Evidence: awakeningtoheal.com
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.17907
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150414-13:59:24-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150414-14:09:44-001
+Subject: [SacredCircleDance] Wild Green Smoothies Class - Sun April 26th 4 -
+ 5:30pm
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Albert Kaufman <albertkaufman@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="001a11c1394660c3bf0513afa285"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429020622;
+	bh=weJh0a1YKrHZVADsFVmJAcfVdGKlKNCVcAFzlk9w0Ng=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=f6DDa4Ct8vIgdmfBdoH1dTZleGi3hDs8vo6ATocDTSPk24kaAp4hDSbYYp2aBRwkf
+	 33qRrhH47V8zlkXQr/tiO+PdPu1lubx1tAFu3ai26B90SDssWr9GwodWXhiJ2l0eYM
+	 +BcNz0akjSrlImCdGz4rJuHYrImJnF91mGhkzubE=
+
+--001a11c1394660c3bf0513afa285
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+https://www.facebook.com/events/463046517177391/
+
+"Eat more greens!" That's what they all say.
+
+Green vegetables are full of vitamins and minerals that our bodies need.
+They are wonderful for cleansing and supporting our livers in the Spring.
+But how do we get them all into our bodies?
+
+Blend them with fruit!
+
+Wild Green Smoothies Class
+
+Sun April 26th 4 - 5:30pm
+2250 SE 44th Ave
+$11
+
+Learn how to make delicious green smoothies for the whole family. Make them
+simple and sweet, tart or bitter. Make them with wild greens that grow in
+your yard and other nutritious ingredients to meet your taste and health
+needs.
+
+Catherine <https://www.facebook.com/cat.klebl> has been making green
+smoothies for decades and loves to share her wild ideas with others.
+
+www.awakeningtoheal.com
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com
+--001a11c1394660c3bf0513afa285
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><a href=3D"https://www.facebook.com/events/463046517177391=
+/">https://www.facebook.com/events/463046517177391/</a><br><div><br></div><=
+div><span style=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;luc=
+ida grande&#39;,sans-serif;font-size:14px;line-height:18.7600002288818px">&=
+quot;Eat more greens!&quot; That&#39;s what they all say.</span><br style=
+=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;=
+,sans-serif;font-size:14px;line-height:18.7600002288818px"><br style=3D"col=
+or:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-s=
+erif;font-size:14px;line-height:18.7600002288818px"><span style=3D"color:rg=
+b(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-serif;=
+font-size:14px;line-height:18.7600002288818px">Green vegetables are full of=
+ vitamins and minerals that our bodies need. They are wonderful for cleansi=
+ng and supporting our livers in the Spring. But how do we get them all into=
+ our bodies?</span><br style=3D"color:rgb(20,24,35);font-family:helvetica,a=
+rial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18.76000=
+02288818px"><br style=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#=
+39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18.760000228881=
+8px"><span style=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;lu=
+cida grande&#39;,sans-serif;font-size:14px;line-height:18.7600002288818px">=
+Blend them with fruit!</span><br style=3D"color:rgb(20,24,35);font-family:h=
+elvetica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-heigh=
+t:18.7600002288818px"><br style=3D"color:rgb(20,24,35);font-family:helvetic=
+a,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18.76=
+00002288818px"><span style=3D"color:rgb(20,24,35);font-family:helvetica,ari=
+al,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18.7600002=
+288818px">Wild Green Smoothies Class</span><br style=3D"color:rgb(20,24,35)=
+;font-family:helvetica,arial,&#39;lucida grande&#39;,sans-serif;font-size:1=
+4px;line-height:18.7600002288818px"><br style=3D"color:rgb(20,24,35);font-f=
+amily:helvetica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;lin=
+e-height:18.7600002288818px"><span style=3D"color:rgb(20,24,35);font-family=
+:helvetica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-hei=
+ght:18.7600002288818px">Sun April 26th 4 - 5:30pm</span><br style=3D"color:=
+rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-seri=
+f;font-size:14px;line-height:18.7600002288818px"><span style=3D"color:rgb(2=
+0,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-serif;fon=
+t-size:14px;line-height:18.7600002288818px">2250 SE 44th Ave</span><br styl=
+e=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39=
+;,sans-serif;font-size:14px;line-height:18.7600002288818px"><span style=3D"=
+color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,san=
+s-serif;font-size:14px;line-height:18.7600002288818px">$11</span><br style=
+=3D"color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;=
+,sans-serif;font-size:14px;line-height:18.7600002288818px"><span class=3D""=
+ style=3D"display:inline;color:rgb(20,24,35);font-family:helvetica,arial,&#=
+39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18.760000228881=
+8px"><br>Learn how to make delicious green smoothies for the whole family. =
+Make them simple and sweet, tart or bitter. Make them with wild greens that=
+ grow in your yard and other nutritious ingredients to meet your taste and =
+health needs.=C2=A0<br><br><a href=3D"https://www.facebook.com/cat.klebl" s=
+tyle=3D"color:rgb(59,89,152);text-decoration:none">Catherine</a>=C2=A0has b=
+een making green smoothies for decades and loves to share her wild ideas wi=
+th others.=C2=A0<br><br><a href=3D"http://www.awakeningtoheal.com/" rel=3D"=
+nofollow nofollow" target=3D"_blank" style=3D"color:rgb(59,89,152);text-dec=
+oration:none">www.awakeningtoheal.com</a></span><br></div></div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--001a11c1394660c3bf0513afa285--

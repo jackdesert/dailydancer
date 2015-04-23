@@ -1,0 +1,118 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp267807wjc;
+        Mon, 20 Apr 2015 15:09:20 -0700 (PDT)
+X-Received: by 10.194.133.133 with SMTP id pc5mr34000989wjb.31.1429567754710;
+        Mon, 20 Apr 2015 15:09:14 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id k3si18221894wiz.5.2015.04.20.15.09.14
+        for <jackdesert556@gmail.com>;
+        Mon, 20 Apr 2015 15:09:14 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 5127368FC0EC
+	for <jackdesert556@gmail.com>; Mon, 20 Apr 2015 22:09:14 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 186A1321C003
+	for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 22:07:54 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id CC624C1A033; Mon, 20 Apr 2015 22:07:53 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.52])
+	by outbound.simplelists.com (Postfix) with ESMTP id 0091763A6022
+	for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 15:04:48 +0000 (UTC)
+X-ASG-Debug-ID: 1429542280-089ef71e3a548310001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id 7c2OX4BUYEgcCGqa for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 11:04:40 -0400 (EDT)
+X-Barracuda-Envelope-From: t1at3k@a2s71.a2hosting.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from t1at3k by a2s71.a2hosting.com with local (Exim 4.85)
+	(envelope-from <t1at3k@a2s71.a2hosting.com>)
+	id 1YkDFY-002fgl-LR
+	for list@sacredcircledance.org; Mon, 20 Apr 2015 11:04:40 -0400
+To: list@sacredcircledance.org
+From: list@sacredcircledance.org (=?UTF-8?Q?The_Raven_Speaks_Lightning_Lodge?=)
+X-ASG-Orig-Subj: =?UTF-8?Q?Vision_Quest_and_Eagle_Dance_Information_Night?=
+Reply-To: lightningravens@comcast.net
+Message-Id: <E1YkDFY-002fgl-LR@a2s71.a2hosting.com>
+Date: Mon, 20 Apr 2015 11:04:40 -0400
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [785 32008] / [47 12]
+X-AntiAbuse: Sender Address Domain - a2s71.a2hosting.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: authenticated_id: t1at3k/from_h
+X-Source: /usr/bin/php
+X-Source-Args: /usr/bin/php /home/t1at3k/public_html/sacredcircledance/tectite/formmail.php 
+X-Source-Dir: tiatek.com:/public_html/pdxecstaticdance/tectite
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429542280
+X-Barracuda-URL: http://barracuda.supercp.com:8000/cgi-mod/mark.cgi
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 1.00
+X-Barracuda-Spam-Status: No, SCORE=1.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, BSF_SC0_MV0035, BSF_SC0_SA_TO_FROM_ADDR_MATCH
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18158
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.50 BSF_SC0_SA_TO_FROM_ADDR_MATCH Sender Address Matches Recipient
+	                           Address
+	0.50 BSF_SC0_MV0035         Custom Rule BSF_SC0_MV0035
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=2.5 required=5.0 tests=FREEMAIL_FORGED_REPLYTO,
+	HEADER_FROM_DIFFERENT_DOMAINS autolearn=no autolearn_force=no version=3.4.0
+X-Spam-Level: **
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150420-15:04:51-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150420-22:07:54-002
+Subject: [SacredCircleDance]
+ =?UTF-8?Q?Vision_Quest_and_Eagle_Dance_Information_Night?=
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429567754;
+	bh=MSfSayZ+xL3y2VY6bmUE+eM/vtRLdUQ6cmiRrrLs0uA=;
+	h=To:From:Reply-To:Date:Subject:List-ID:List-Unsubscribe;
+	b=Xr5W9xcCjVz7xSRxmBw7FxM5knBpajmtPBs0FRaZJxPnuiIjM9ZSc6rGznJjpLwS9
+	 gGMz7k1pDpjImCdPQpDx85fhrkXiZGWPSRHIHn1aXYoyr8FykPX4JYwSGqhxryZU3J
+	 eU4WAM/f02X6dwkWPtZ7H4IH+g5UZ5juD0nRy70I=
+
+From: lightningravens@comcast.net
+
+The Raven Speaks Lightning Lodge will be hosting an information gathering on Tuesday, April 21st from 7 pm to 9 pm about our Summer Vision Quest and Eagle Dance ceremonies being offered in the Pacific NW. 
+If you have always wanted to do your own Vision Quest under the guidance of a deep and spiritual Shamanic tradition, we can provide an alchemical container in which to do so. Our Eagle Dance is a 1 day SunDance that supports anyone in dancing and praying to the sacred tree of life. Our ceremonies are all done in nature on private land so that we can truly learn from the Great teachers of life in a safe and nurturing way. 
+The dates of the Dance: August 1st, 2nd and 3rd. Inclusive
+Vision Quest dates: August 4th thru the 8th.
+You can attend one or both depending on your availability.
+Please join us to learn more about what is required to participate in ceremony. If you are unable to attend the Information Night, please let us know of your interest and we will find a way to provide you with the necessary information.
+Contact us at: 503-747-7330 to RSVP or email: lightningravens@comcast.net and we will provide you with our location. 
+
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com

@@ -1,0 +1,280 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp855758wjc;
+        Tue, 21 Apr 2015 15:16:11 -0700 (PDT)
+X-Received: by 10.194.142.168 with SMTP id rx8mr45864655wjb.43.1429654571064;
+        Tue, 21 Apr 2015 15:16:11 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id n6si5455765wja.2.2015.04.21.15.16.11
+        for <jackdesert556@gmail.com>;
+        Tue, 21 Apr 2015 15:16:11 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id DF09568FC13A
+	for <jackdesert556@gmail.com>; Tue, 21 Apr 2015 22:16:10 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 900EC321C001
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 22:15:12 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 56699C1A030; Tue, 21 Apr 2015 22:15:12 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from mail-la0-f54.google.com (mail-la0-f54.google.com [209.85.215.54])
+	by outbound.simplelists.com (Postfix) with ESMTPS id 3765363A604B
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 22:14:43 +0000 (UTC)
+Received: by layy10 with SMTP id y10so161652025lay.0
+        for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 15:14:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=kHouEw6kfoxwKR0uHnELDcpDU4TUR7PiH/tgZdtrpec=;
+        b=PznpQSuZOO2FzvUVSPHggM6zffdkGYEYZauA2nWhouw52+E4HXPcIA98UJ3zJ2BtXH
+         pePiZtK2tQAEeP+wr2WVpnVgluQbh+up1qryPyX7iN8C0M5iTcAQB3NB9Ysy5Gs9KTGv
+         7R4GJ/YhrpuaVMHPwHSlH7UVCKHB51tH+tzm/DgcscHUVx2Bx8xzs/wuffRRYqHxQknK
+         vOxn8z4OBE9fWbjeqGfWx2zAQBzeJJYeZF7H4zBdZVHFyhJrYq+N7TkPGMlO4JWmPBCp
+         +zHZpzgf89VtVUeVsZxmRfrnKjf+rTFdb7qT/PR5CubnZdWqMnON5kp/rK9/UC7Q9IJS
+         YR2Q==
+MIME-Version: 1.0
+X-Received: by 10.112.218.67 with SMTP id pe3mr20899183lbc.53.1429654482370;
+ Tue, 21 Apr 2015 15:14:42 -0700 (PDT)
+Received: by 10.25.36.214 with HTTP; Tue, 21 Apr 2015 15:14:42 -0700 (PDT)
+Date: Tue, 21 Apr 2015 15:14:42 -0700
+Message-ID: <CAPgJMKgC4Y6CF0p0C2nzhQs9zQ6mYtJJ8+-534C2j=_BihNXKQ@mail.gmail.com>
+From: Amanda Rain <speakrain@gmail.com>
+To: sacredcircledance@simplelists.com
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=unavailable
+	autolearn_force=no version=3.4.0
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-22:14:45-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-22:15:12-002
+Subject: [SacredCircleDance] Sun. 4/26: Stepping Up and Stepping In: Becoming
+ Allies in Action ::: Being the Change Series
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Amanda Rain <speakrain@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="001a11c31d1292c68a0514435f3c"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429654570;
+	bh=jqch79atJVIqTYGwGc0jCe/A1zJ+1pSeV568PhzsMUE=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=P7GtmKo/ptFfugtRu2YfJfCmdZDLas6jxj81hy8Zfw1KmQNOp6/j8P852WG3pRcEw
+	 cXvsEcyIRhjT299L6lrNG94pF1ALKC4jwMH7d4QxN6VEeVYZYV3s+PBWdcAt7BdqAj
+	 tb/zFQqepmXPqkRfbRZ5Fx/KfBsCBOMphcWtqPDk=
+
+--001a11c31d1292c68a0514435f3c
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+Dancers,
+
+So far in the Being the Change series, we=E2=80=99ve talked about our cultu=
+ral
+context, the impact of sexual assault, and practiced tools for engaging
+better consent and care in our relationships.
+
+Now comes an opportunity for an extended dialogue with an expert in the
+field, who works directly with people who show abusive tendencies to help
+them heal. Come with your burning questions, fill in the gaps of your
+understanding, and leave feeling inspired and better equipped to make deep
+changes in the world.
+
+We=E2=80=99ll learn about what abusive patterns of behavior look like in th=
+e real
+world, and how it=E2=80=99s different than many of the common narratives of=
+ abuse
+that we are taught to believe.
+
+With the help and experience of a knowledgeable expert in the field, we=E2=
+=80=99ll
+begin to understand some behavioral patterns and personality qualities that
+are more common among people prone to being abusive.
+
+We will make connections through personal reflection about how these
+personality qualities, behavioral patterns, and belief systems show up in
+our communities.
+
+We=E2=80=99ll also learn about some important resources to help people with=
+ abusive
+patterns of behavior change and heal.
+
+$10 suggested donation, no one turned away for lack of funds. Donations go
+to offset expenses and excess donations go directly to the organizations
+supporting this work and participating in these events. Your support is
+greatly appreciated.
+
+Facilitated by Chris Huffine, Executive Director of Allies in Change
+
+About Chris:
+Chris Huffine, Psy.D., licensed psychologist, is the Executive Director of
+Allies in Change. He offers individual and couples counseling with adults
+on a variety of issues including mood disorders, stress management,
+relationship/intimacy issues, and addictions. Chris is also a facilitator
+in three of our counseling groups. During his career he has worked with
+over a thousand abusive men and hundreds of female and male victims of
+abuse. He is an adjunct faculty member at Portland State University where
+he teaches an anger management class and speaks on domestic violence. He
+also offers a graduate level class on domestic violence at Pacific
+University. He regularly speaks publicly and offers trainings on a variety
+of issue related to domestic violence. He is a member of the advisory group
+to the state attorney general to monitor standards for batterer
+intervention programs.
+
+
+About Allies in Change:
+The mission of Allies in Change is to raise awareness of, educate about,
+and encourage the practice of healthy, loving and respectful relationships
+with oneself, one's partner and family, and the community. As our name
+reflects, Allies in Change intends to promot working with others as allies.
+We acknowledge that some cultural values such as traditional definitions of
+gender roles and power may undermine a person's ability to be fulling
+loving in relationships. We seek to address and change these values on
+individual, familial and societal levels.
+
+As an agency, we seek to practice these values ourselves in both our
+professional and personal lives.
+
+
+--=20
+~~~
+Amanda Rain
+Communication Strategist & Mediator
+Speaking the Unspeakable
+
+Facilitation * Mediation * Public Speaking
+
+(310) 882-1156
+(503) 395-8069
+www.Speaking-the-Unspeakable.com <http://www.speaking-the-unspeakable.com/>
+
+
+We have a glorious opportunity to inject a new dimension of love into the
+veins of our civilization.
+~Martin Luther King
+
+Nothing that I can do will change the structure of the universe. But maybe,
+by raising my voice I can help the greatest of all causes - goodwill among
+men and peace on earth.
+- Albert Einstein
+
+Just as a diamond can only be polished by another diamond, it is only
+through genuine, all-out engagement with others that people can polish
+their character, and help each other to reach greater heights.
+~Daisaku Ikeda
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--001a11c31d1292c68a0514435f3c
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><span><div id=3D"id_5536cb848a41f2578160030">Dancers,</div=
+><div><br></div><div>So far in the Being the Change=C2=A0series, we=E2=80=
+=99ve talked about our cultural context, the impact of sexual assault, and =
+practiced tools for engaging better consent and care in our relationships.<=
+br><br> Now comes an opportunity for an extended dialogue with an expert in=
+ the field, who works directly with people who show abusive tendencies to h=
+elp them heal. Come with your burning questions, fill in the gaps of your u=
+nderstanding, and leave feeling inspired and better equipped to make deep c=
+hanges in the world.<br><br> We=E2=80=99ll learn about what abusive pattern=
+s of behavior look like in the real world, and how it=E2=80=99s different t=
+han many of the common narratives of abuse that we are taught to believe. <=
+br><br> With the help and experience of a knowledgeable exp<span>ert in the=
+ field, we=E2=80=99ll begin to understand some behavioral patterns and pers=
+onality qualities that are more common among people prone to being abusive.=
+ <br><br> We will make connections through personal reflection about how th=
+ese personality qualities, behavioral patterns, and belief systems show up =
+in our communities.<br><br> We=E2=80=99ll also learn about some important r=
+esources to help people with abusive patterns of behavior change and heal.<=
+br><br> $10 suggested donation, no one turned away for lack of funds. Donat=
+ions go to offset expenses and excess donations go directly to the organiza=
+tions supporting this work and participating in these events.  Your support=
+ is greatly appreciated.<br><br> Facilitated by Chris Huffine, Executive Di=
+rector of Allies in Change<br><br> About Chris: <br> Chris Huffine, Psy.D.,=
+ licensed psychologist, is the Executive Director of Allies in Change. He o=
+ffers individual and couples counseling with adults on a variety of issues =
+including mood disorders, stress management, relationship/intimacy issues, =
+and addictions. Chris is also a facilitator in three of our counseling grou=
+ps. During his career he has worked with over a thousand abusive men and hu=
+ndreds of female and male victims of abuse. He is an adjunct faculty member=
+ at Portland State University where he teaches an anger management class an=
+d speaks on domestic violence. He also offers a graduate level class on dom=
+estic violence at Pacific University. He regularly speaks publicly and offe=
+rs trainings on a variety of issue related to domestic violence. He is a me=
+mber of the advisory group to the state attorney general to monitor standar=
+ds for batterer intervention programs.<br><br><br> About Allies in Change: =
+<br> The mission of Allies in Change is to raise awareness of, educate abou=
+t, and encourage the practice of healthy, loving and respectful relationshi=
+ps with oneself, one&#39;s partner and family, and the community. As our na=
+me reflects, Allies in Change intends to promot working with others as alli=
+es. We acknowledge that some cultural values such as traditional definition=
+s of gender roles and power may undermine a person&#39;s ability to be full=
+ing loving in relationships. We seek to address and change these values on =
+individual, familial and societal levels.<br><br> As an agency, we seek to =
+practice these values ourselves in both our professional and personal lives=
+.</span></div></span><div id=3D"id_5536cb848a41f2578160030"><br clear=3D"al=
+l"><br>-- <br></div><div class=3D"gmail_signature"><div dir=3D"ltr"><div><d=
+iv dir=3D"ltr">~~~<br><div>Amanda Rain<br>Communication Strategist &amp; Me=
+diator</div><div>Speaking the Unspeakable</div><div><br></div><div><div sty=
+le=3D"font-size:small">Facilitation * Mediation * Public Speaking</div></di=
+v><div><br></div><div>(310) 882-1156<br>(503) 395-8069<br><a href=3D"http:/=
+/www.speaking-the-unspeakable.com/" target=3D"_blank">www.Speaking-the-Unsp=
+eakable.com</a><span style=3D"width:16px;height:16px;padding-right:16px"></=
+span><span style=3D"width:16px;height:16px;padding-right:16px"></span><span=
+ style=3D"width:16px;height:16px;padding-right:16px"></span><br></div><br><=
+span>  <br>We have a glorious opportunity to inject a new dimension of love=
+ into the veins of our civilization.<br>~Martin Luther King<br><br></span><=
+font face=3D"arial, helvetica, sans-serif" style=3D"font-size:small">Nothin=
+g that I can do will change the structure of the universe. But maybe, by ra=
+ising my voice I can help the greatest of all causes - goodwill among men a=
+nd peace on earth.<br>- Albert Einstein</font><div><br>Just as a diamond ca=
+n only be polished by another diamond, it is only=20
+through genuine, all-out engagement with others that people can polish=20
+their character, and help each other to reach greater heights.<br>~<span>Da=
+isaku Ikeda</span></div></div></div></div></div>
+</div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--001a11c31d1292c68a0514435f3c--

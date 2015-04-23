@@ -1,0 +1,288 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp545945wjc;
+        Thu, 16 Apr 2015 14:22:40 -0700 (PDT)
+X-Received: by 10.194.176.162 with SMTP id cj2mr62984526wjc.93.1429219359965;
+        Thu, 16 Apr 2015 14:22:39 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id u7si15888104wjz.206.2015.04.16.14.22.39
+        for <jackdesert556@gmail.com>;
+        Thu, 16 Apr 2015 14:22:39 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 9AFB968FC0C2
+	for <jackdesert556@gmail.com>; Thu, 16 Apr 2015 21:22:39 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 3B0DB63A6005
+	for <sacredcircledance@simplelists.com>; Thu, 16 Apr 2015 21:21:57 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 138F1C1A030; Thu, 16 Apr 2015 21:21:57 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.51])
+	by outbound.simplelists.com (Postfix) with ESMTP id 2536A63A6005
+	for <sacredcircledance@simplelists.com>; Thu, 16 Apr 2015 21:12:38 +0000 (UTC)
+X-ASG-Debug-ID: 1429218749-0798da42da20eba0001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id eDfFjsxS0kHFKdtH for <sacredcircledance@simplelists.com>; Thu, 16 Apr 2015 17:12:29 -0400 (EDT)
+X-Barracuda-Envelope-From: tobyjoyzelt@gmail.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from mail-la0-f54.google.com ([209.85.215.54]:34045)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <tobyjoyzelt@gmail.com>)
+	id 1Yir5H-000oky-VT
+	for list@sacredcircledance.org; Thu, 16 Apr 2015 17:12:29 -0400
+Received: by laat2 with SMTP id t2so66386726laa.1
+        for <list@sacredcircledance.org>; Thu, 16 Apr 2015 14:12:26 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=SV+PMOB6SUcziKUFvJUml9S1rHh6NddBisuyaffwtp8=;
+        b=PT9jeII+TJ7c095qBx0qoIp+HmbiAQ1oAX0x/aWM/3lv2Qp5/FepcNp+mhmX1OAQjD
+         hQLWWBEpX/SPY8YE5pgkz2k74N1/PGLH0JSMGO3rXFqSgcEIwc/u2s0hrkS3HvmgHOqP
+         RxHIwQE2Hymg3o9ozQ3rQmODsPtF0k1FwEJyOeH9AnBD/QLBvRb2uZFxUrc3IV3OYgou
+         YbJI9SyT9hMLDqU0rPFRIj6V8oA8yYaI5/cZV45ixEokhIeRmH29TkSFjyctsQYYas76
+         mqXJkdFukR79Buc0tg7D08zNYH+Wyvnoje4YCVvcyw3JI9UB6x7F3a8xm6O2fgf+R6Oq
+         bidA==
+MIME-Version: 1.0
+X-Received: by 10.112.166.139 with SMTP id zg11mr29860817lbb.93.1429218745978;
+ Thu, 16 Apr 2015 14:12:25 -0700 (PDT)
+Received: by 10.25.218.1 with HTTP; Thu, 16 Apr 2015 14:12:25 -0700 (PDT)
+Date: Thu, 16 Apr 2015 14:12:25 -0700
+Message-ID: <CADziqKpbgBm=WG40rh-yZs6UZ8SKw=V6UbDXdo3y4Cbz5TGOJA@mail.gmail.com>
+From: Toby Joy Zelt <tobyjoyzelt@gmail.com>
+X-ASG-Orig-Subj: Tea Ceremony and 1-Day Intensive
+To: "list@sacredcircledance.org" <list@sacredcircledance.org>
+X-Spam-Status: No, score=-0.1 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE autolearn=unavailable
+	autolearn_force=no version=3.4.0
+X-Spam-Score: -38
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429218749
+X-Barracuda-URL: https://216.234.124.51:443/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of tobyjoyzelt@gmail.com designates 209.85.215.54 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18010
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150416-21:12:40-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150416-21:21:57-001
+Subject: [SacredCircleDance] Tea Ceremony and 1-Day Intensive
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Toby Joy Zelt <tobyjoyzelt@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429219359;
+	bh=Op73szmNsPaCOab9fj9K9o5y+sKrHqnmXq0JOtB5T9c=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=NrKL4WPkqShoPFJLgHluBBZs5PeKJIS3F2RWXDHo/H25znoc0GzAamtyct2i2dgzF
+	 8thX5pCr6lq/5kviN1jOqJw4rQ/2AIT1cbiF82dtwI64g/o5qa5YrzXE1/LQYuq47j
+	 PDC2PiaJK6OzpytPT4JDwJPDbVFThrFSvbAzUu9k=
+
+<div dir=3D"ltr"><div><span style=3D"color:rgb(0,0,0);font-family:Whitney,h=
+elvetica,arial,sans-serif;font-size:16px;line-height:22.3999996185303px">Yo=
+u&#39;re invited to a couple of <a href=3D"http://t.signauxcinq.com/e1t/c/5=
+/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg2zWQQ8W8q5MpW7fclW6W8qC6LR56dBSrf2hK=
+SF002?t=3Dhttp%3A%2F%2Fwww.wildspiritadventure.com%2F&amp;si=3D626207458328=
+5760&amp;pi=3D843678bf-1085-4bc8-a0d6-be0e493af8f3">Wild Spirit Adventure</=
+a> events!</span></div><div><h2 id=3D"yui_3_17_2_18_1427245465263_46292" cl=
+ass=3D"" style=3D"font-family:proxima-nova;line-height:1em;font-weight:400;=
+color:rgba(5,5,5,0.8);margin:0px;text-align:center;background-color:rgba(23=
+3,231,231,0.8)"><i><font size=3D"4">Wild Spirit Adventure facilitates awe-i=
+nspiring, sacred experiences, with nature, mindfulness, and ritual, to supp=
+ort clients in creating lives of joy, meaning, and deep satisfaction.</font=
+></i></h2></div><div><span style=3D"color:rgb(0,0,0);font-family:Whitney,he=
+lvetica,arial,sans-serif;font-size:16px;line-height:22.3999996185303px"><br=
+></span></div><div><span style=3D"color:rgb(0,0,0);font-family:Whitney,helv=
+etica,arial,sans-serif;font-size:16px;line-height:22.3999996185303px"><a hr=
+ef=3D"http://t.signauxcinq.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5X=
+Yg2zWQQ8W8q5MpW7fclW6W8qC6LR56dBSrf2hKSF002?t=3Dhttp%3A%2F%2Fwww.meetup.com=
+%2FWild-Spirit-Adventure%2Fevents%2F221721888%2F&amp;si=3D6262074583285760&=
+amp;pi=3D843678bf-1085-4bc8-a0d6-be0e493af8f3">MINDFUL TEA</a>: Slow down a=
+nd reconnect with yourself and your moment to moment sensory experience... =
+at the=C2=A0</span><a href=3D"http://t.signauxcinq.com/e1t/c/5/f18dQhb0S7lC=
+8dDMPbW2n0x6l2B9nMJW7t5XYg2zWQQ8W8q5MpW7fclW6W8qC6LR56dBSrf2hKSF002?t=3Dhtt=
+p%3A%2F%2Fwww.meetup.com%2FWild-Spirit-Adventure%2Fevents%2F221721888%2F&am=
+p;si=3D6262074583285760&amp;pi=3D843678bf-1085-4bc8-a0d6-be0e493af8f3" styl=
+e=3D"font-family:Whitney,helvetica,arial,sans-serif;font-size:16px;line-hei=
+ght:22.3999996185303px;display:inline;color:rgb(57,135,203);text-decoration=
+:none">tea ceremony</a><span style=3D"color:rgb(0,0,0);font-family:Whitney,=
+helvetica,arial,sans-serif;font-size:16px;line-height:22.3999996185303px">=
+=C2=A0</span><span style=3D"color:rgb(0,0,0);font-family:Whitney,helvetica,=
+arial,sans-serif;font-size:16px;line-height:22.3999996185303px;font-weight:=
+700">this Saturday</span><span style=3D"color:rgb(0,0,0);font-family:Whitne=
+y,helvetica,arial,sans-serif;font-size:16px;line-height:22.3999996185303px"=
+>, we engage in a 1-1.5 hour experience of mindful ritual.</span></div><div=
+><span style=3D"line-height:1.4;color:rgb(0,0,0);font-family:Whitney,helvet=
+ica,arial,sans-serif;font-size:16px"><br></span></div><div><span style=3D"l=
+ine-height:1.4;color:rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-se=
+rif;font-size:16px"><a href=3D"http://t.signauxcinq.com/e1t/c/5/f18dQhb0S7l=
+C8dDMPbW2n0x6l2B9nMJW7t5XYg2zWQQ8W8q5MpW7fclW6W8qC6LR56dBSrf2hKSF002?t=3Dht=
+tp%3A%2F%2Fwww.tobyjoyzelt.squarespace.com%2Fcoaching-sessions-spiritual-mi=
+ndfulness-retreats-options%2F&amp;si=3D6262074583285760&amp;pi=3D843678bf-1=
+085-4bc8-a0d6-be0e493af8f3">1-DAY INTENSIVE</a>: At the</span><span style=
+=3D"line-height:1.4;color:rgb(0,0,0);font-family:Whitney,helvetica,arial,sa=
+ns-serif;font-size:16px">=C2=A0</span><a href=3D"http://t.signauxcinq.com/e=
+1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg2zWQQ8W8q5MpW7fclW6W8qC6LR56dB=
+Srf2hKSF002?t=3Dhttp%3A%2F%2Fwww.tobyjoyzelt.squarespace.com%2Fcalendar%2F2=
+015%2F5%2F16%2F1-day-wild-spirit-adventure-intensive&amp;si=3D6262074583285=
+760&amp;pi=3D843678bf-1085-4bc8-a0d6-be0e493af8f3" style=3D"line-height:1.4=
+;font-family:Whitney,helvetica,arial,sans-serif;font-size:16px;display:inli=
+ne;color:rgb(57,135,203);text-decoration:none">1-Day Intensive</a><span sty=
+le=3D"line-height:1.4;color:rgb(0,0,0);font-family:Whitney,helvetica,arial,=
+sans-serif;font-size:16px">=C2=A0</span><span style=3D"line-height:1.4;colo=
+r:rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-serif;font-size:16px"=
+>on</span><span style=3D"line-height:1.4;color:rgb(0,0,0);font-family:Whitn=
+ey,helvetica,arial,sans-serif;font-size:16px">=C2=A0</span><span style=3D"l=
+ine-height:1.4;color:rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-se=
+rif;font-size:16px;font-weight:700">May 16th</span><span style=3D"line-heig=
+ht:1.4;color:rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-serif;font=
+-size:16px">, we explore ways of letting go of what no longer serves us, we=
+ reconnect to our bodies, we cultivate mindfulness, and we listen to the wi=
+sdom that nature shares with us. Through these activities, you will find th=
+at healing takes place... and you will return to your life feeling more ins=
+pired, light, and free! RSVP and pay before May 1st and <b>get the &quot;ea=
+rly bird&quot; discount</b>- only $99.</span></div><div><span style=3D"colo=
+r:rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-serif;font-size:16px;=
+line-height:22.3999996185303px"><br></span></div><div><span style=3D"color:=
+rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-serif;font-size:16px;li=
+ne-height:22.3999996185303px"><a href=3D"http://t.signauxcinq.com/e1t/c/5/f=
+18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg2zWQQ8W8q5MpW7fclW6W8qC6LR56dBSrf2hKSF=
+002?t=3Dhttp%3A%2F%2Fwww.tobyjoyzelt.squarespace.com%2Fcoaching-sessions-sp=
+iritual-mindfulness-retreats-options%2F&amp;si=3D6262074583285760&amp;pi=3D=
+843678bf-1085-4bc8-a0d6-be0e493af8f3">SUMMER TRIPS</a>: Of course, there ar=
+e other opportunities to engage and deeply explore your own life and journe=
+y. I am filling the summer calendar with</span><span style=3D"color:rgb(0,0=
+,0);font-family:Whitney,helvetica,arial,sans-serif;font-size:16px;line-heig=
+ht:22.3999996185303px">=C2=A0</span><a href=3D"http://t.signauxcinq.com/e1t=
+/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg2zWQQ8W8q5MpW7fclW6W8qC6LR56dBSr=
+f2hKSF002?t=3Dhttp%3A%2F%2Fwww.tobyjoyzelt.squarespace.com%2Fcoaching-sessi=
+ons-spiritual-mindfulness-retreats-options%2F&amp;si=3D6262074583285760&amp=
+;pi=3D843678bf-1085-4bc8-a0d6-be0e493af8f3" style=3D"font-family:Whitney,he=
+lvetica,arial,sans-serif;font-size:16px;line-height:22.3999996185303px;disp=
+lay:inline;color:rgb(57,135,203);text-decoration:none">individual clients</=
+a><span style=3D"color:rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-=
+serif;font-size:16px;line-height:22.3999996185303px">=C2=A0</span><span sty=
+le=3D"color:rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-serif;font-=
+size:16px;line-height:22.3999996185303px">for custom coaching trips and adv=
+entures. If you would like to learn more, please set up a</span><span style=
+=3D"color:rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-serif;font-si=
+ze:16px;line-height:22.3999996185303px">=C2=A0</span><a href=3D"http://t.si=
+gnauxcinq.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg2zWQQ8W8q5MpW7f=
+clW6W8qC6LR56dBSrf2hKSF002?t=3Dhttp%3A%2F%2Fwww.tobyjoyzelt.squarespace.com=
+%2Fwilderness-healing-retreat-consultation%2F&amp;si=3D6262074583285760&amp=
+;pi=3D843678bf-1085-4bc8-a0d6-be0e493af8f3" style=3D"font-family:Whitney,he=
+lvetica,arial,sans-serif;font-size:16px;line-height:22.3999996185303px;disp=
+lay:inline;color:rgb(57,135,203);text-decoration:none">consultation</a><spa=
+n style=3D"color:rgb(0,0,0);font-family:Whitney,helvetica,arial,sans-serif;=
+font-size:16px;line-height:22.3999996185303px">.=C2=A0</span></div><div><br=
+></div><div><div><div class=3D"gmail_signature"><div dir=3D"ltr"><div><div =
+dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"lt=
+r"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><=
+div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=3D"ltr"><div><div dir=
+=3D"ltr"><p style=3D"margin-bottom:0.0001pt;line-height:normal;text-align:c=
+enter"><span style=3D"color:rgb(0,0,0)"><span style=3D"font-family:&#39;tre=
+buchet ms&#39;,sans-serif"><font size=3D"4"><span style=3D"background-color=
+:rgb(255,229,153)"><font size=3D"1"><span style=3D"background-color:rgb(255=
+,255,255)"><b>Get </b><b><span style=3D"background-color:rgb(255,255,255)">=
+the Newsletter: </span><a href=3D"http://www.WildSpiritAdventure.com" targe=
+t=3D"_blank">www.WildSpiritAdventure.com</a></b></span></font></span></font=
+></span><font size=3D"1"><span style=3D"font-family:&#39;trebuchet ms&#39;,=
+sans-serif"><span style=3D"background-color:rgb(255,229,153)"><span style=
+=3D"background-color:rgb(255,255,255)"><b> and Connect on <a href=3D"http:/=
+/t.signauxcinq.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5XYg2zWQQ8W8q5=
+MpW7fclW6W8qC6LR56dBSrf2hKSF002?t=3Dhttps%3A%2F%2Fwww.facebook.com%2Fpages%=
+2FToby-Joy-Zelt-LLC-home-of-Wild-Spirit-Adventure%2F276230609106465%3Fref%3=
+Dhl&amp;si=3D6262074583285760&amp;pi=3D843678bf-1085-4bc8-a0d6-be0e493af8f3=
+" target=3D"_blank">Facebook</a></b></span></span></span></font></span></p>=
+<p style=3D"margin-bottom:0.0001pt;line-height:normal;text-align:center"><s=
+pan style=3D"font-family:&#39;trebuchet ms&#39;,sans-serif"><span style=3D"=
+color:rgb(0,0,0)"><font size=3D"4"><span style=3D"background-color:rgb(255,=
+229,153)"><span style=3D"background-color:rgb(255,255,255)"><b> =C2=A0 <a h=
+ref=3D"http://t.signauxcinq.com/e1t/c/5/f18dQhb0S7lC8dDMPbW2n0x6l2B9nMJW7t5=
+XYg2zWQQ8W8q5MpW7fclW6W8qC6LR56dBSrf2hKSF002?t=3Dhttp%3A%2F%2Fwww.wildspiri=
+tadventure.com%2F&amp;si=3D6262074583285760&amp;pi=3D843678bf-1085-4bc8-a0d=
+6-be0e493af8f3" target=3D"_blank"><img alt=3D"www.wildspiritadventure.com" =
+src=3D"https://docs.google.com/uc?export=3Ddownload&amp;id=3D0B4EWifyyd2cre=
+HI1U3ZiQTJXNnc&amp;revid=3D0B4EWifyyd2crM09zN2F6TTZwMjVrYUo4cDl1WHBtOHZWZFR=
+jPQ" height=3D"125" width=3D"322"></a> <br></b></span></span></font></span>=
+</span></p><p style=3D"margin-bottom:0.0001pt;line-height:normal;text-align=
+:right"><span style=3D"color:rgb(0,0,0)"><font size=3D"4"><span style=3D"fo=
+nt-family:arial,helvetica,sans-serif"><span style=3D"background-color:rgb(2=
+55,229,153)"><span style=3D"background-color:rgb(255,255,255)"><span style=
+=3D"font-family:tahoma,sans-serif"><b></b></span></span></span></span></fon=
+t></span></p><p style=3D"margin-bottom:0.0001pt;line-height:normal;text-ali=
+gn:center"><font size=3D"4"><span style=3D"font-family:arial,helvetica,sans=
+-serif"><span style=3D"color:rgb(39,78,19)"><span style=3D"background-color=
+:rgb(255,229,153)"><span style=3D"color:rgb(127,96,0)"><span style=3D"backg=
+round-color:rgb(255,255,255)"><span style=3D"font-family:tahoma,sans-serif"=
+><b><span style=3D"color:rgb(39,78,19)"><span style=3D"color:rgb(106,168,79=
+)"></span></span></b></span></span></span></span><span style=3D"color:rgb(5=
+6,118,29)"><span style=3D"font-family:tahoma,sans-serif"><br></span></span>=
+</span></span></font></p><p style=3D"margin-bottom:0.0001pt;line-height:nor=
+mal;text-align:center"></p><p style=3D"margin-bottom:0.0001pt;line-height:n=
+ormal;text-align:center"><font size=3D"2"><span style=3D"font-family:arial,=
+helvetica,sans-serif"><span style=3D"color:rgb(39,78,19)"><span style=3D"ba=
+ckground-color:rgb(120,63,4)"><span style=3D"background-color:rgb(243,243,2=
+43)"></span></span></span></span></font></p><p style=3D"margin-bottom:0.000=
+1pt;line-height:normal;text-align:center"><font size=3D"2"><span style=3D"f=
+ont-family:arial,helvetica,sans-serif"><span style=3D"color:rgb(39,78,19)">=
+<span style=3D"background-color:rgb(243,243,243)"></span></span></span></fo=
+nt></p><p style=3D"margin-bottom:0.0001pt;line-height:normal;text-align:cen=
+ter"><font size=3D"2"><span style=3D"font-family:arial,helvetica,sans-serif=
+"><span style=3D"color:rgb(39,78,19)"><span style=3D"background-color:rgb(2=
+43,243,243)"></span></span></span></font></p></div></div></div></div></div>=
+</div></div></div></div></div></div></div></div></div></div></div></div></d=
+iv></div></div></div></div></div></div></div>
+</div><img src=3D"http://t.signauxcinq.com/e1t/o/5/f18dQhb0S7ks8dDMPbW2n0x6=
+l2B9gXrN7sKj6v4LGClW2z96hR63K9qzMRJv4Td3_yKW1cdK-w1k1H6H0?si=3D626207458328=
+5760&amp;pi=3D843678bf-1085-4bc8-a0d6-be0e493af8f3" style=3D"display:none!i=
+mportant" height=3D"1" width=3D"1"></div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=

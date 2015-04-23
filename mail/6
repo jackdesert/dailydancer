@@ -1,0 +1,281 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp48351wjc;
+        Wed, 22 Apr 2015 10:34:57 -0700 (PDT)
+X-Received: by 10.194.62.167 with SMTP id z7mr28036118wjr.62.1429724090071;
+        Wed, 22 Apr 2015 10:34:50 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id f9si10092595wie.64.2015.04.22.10.34.50
+        for <jackdesert556@gmail.com>;
+        Wed, 22 Apr 2015 10:34:50 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id B9FBD9CC046
+	for <jackdesert556@gmail.com>; Wed, 22 Apr 2015 17:34:49 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 4DC8863A6029
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 17:33:39 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id D1633C1A032; Wed, 22 Apr 2015 17:33:38 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.50])
+	by outbound.simplelists.com (Postfix) with ESMTP id 59A2163A604E
+	for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 13:10:46 +0000 (UTC)
+X-ASG-Debug-ID: 1429708233-08c1cb5a6e7c9490001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id DYYiLpLv1k31kZia for <sacredcircledance@simplelists.com>; Wed, 22 Apr 2015 09:10:33 -0400 (EDT)
+X-Barracuda-Envelope-From: marie@marieblackstudio.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from gproxy10-pub.mail.unifiedlayer.com ([69.89.20.226]:47144)
+	by a2s71.a2hosting.com with smtp (Exim 4.85)
+	(envelope-from <marie@marieblackstudio.com>)
+	id 1YkuQ8-001JYG-7X
+	for list@sacredcircledance.org; Wed, 22 Apr 2015 09:10:33 -0400
+Received: (qmail 13317 invoked by uid 0); 22 Apr 2015 13:10:25 -0000
+Received: from unknown (HELO cmgw3) (10.0.90.84)
+  by gproxy10.mail.unifiedlayer.com with SMTP; 22 Apr 2015 13:10:25 -0000
+Received: from box876.bluehost.com ([69.195.124.76])
+	by cmgw3 with 
+	id K1AL1q00t1f0wuV011APfh; Wed, 22 Apr 2015 07:10:25 -0600
+X-Authority-Analysis: v=2.1 cv=bfL4Do/B c=1 sm=1 tr=0
+ a=pUvtzVgQmVXibAyw4qXvNQ==:117 a=pUvtzVgQmVXibAyw4qXvNQ==:17 a=cNaOj0WVAAAA:8
+ a=f5113yIGAAAA:8 a=x9HPBuXWPrAA:10 a=wPDyFdB5xvgA:10 a=4IFh1UJnAAAA:8
+ a=3yIwKDryGtAA:10 a=JMHYQVG13d8A:10 a=e9J7MTPGsLIA:10
+ a=QgSNM8Dl6O04KGjJb_YA:9 a=mD8cuZ4NLpsLBUoMApcA:9 a=VuTIzD24-i3Xw3Nv:21
+ a=QEXdDO2ut3YA:10 a=_W_S_7VecoQA:10
+Received: from localhost ([127.0.0.1]:52845 helo=box876.bluehost.com)
+	by box876.bluehost.com with esmtpa (Exim 4.82)
+	(envelope-from <marie@marieblackstudio.com>)
+	id 1YkuQ0-00021c-E3
+	for list@sacredcircledance.org; Wed, 22 Apr 2015 07:10:20 -0600
+MIME-Version: 1.0
+Date: Wed, 22 Apr 2015 07:10:18 -0600
+From: Marie Black Studio <marie@marieblackstudio.com>
+To: SacredCircleDanceList <list@sacredcircledance.org>
+Organization: Marie Black Studio
+X-ASG-Orig-Subj: CircleSinging & Vocal Improvisation Opportunities
+Message-ID: <9ff3b077fea5e8c83d2af0a9bea4b8ef@marieblackstudio.com>
+X-Sender: marie@marieblackstudio.com
+User-Agent: Roundcube Webmail/1.0.1
+X-Identified-User: {3112:box876.bluehost.com:acornorg:marieblackstudio.com} {sentby:smtp auth 127.0.0.1 authed with marie@marieblackstudio.com}
+X-Spam-Status: No, score=0.0 required=5.0 tests=HTML_MESSAGE
+	autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Score: -29
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - marieblackstudio.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429708233
+X-Barracuda-URL: https://216.234.124.50:443/cgi-mod/mark.cgi
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18236
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-13:10:58-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150422-17:33:39-002
+Subject: [SacredCircleDance] CircleSinging & Vocal Improvisation
+ Opportunities
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Marie Black Studio <marie@marieblackstudio.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative;
+ boundary="=_a390878239d8bd5fbb37c0a521a4aac0"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429724089;
+	bh=psBhe4iDW3jTZ5nT8jgEJfMI1/LP1kjcM9tduibUwvI=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=nMlLvXzy1/8P0Hjdn8vvx8au2YLy3fD/wg760EZL9aIYdlWPwK8JRZLjV80SiSUGD
+	 zcpW6zfZUkJIxswC0Xgak5xX7DQWT98lfsqK2c0RI7kVtT5E3uNdOo8j5vKZVeIoQK
+	 zY+JNfqxxE4qYKwOEy96cqx68jVDJSDoQDf3jnMA=
+
+--=_a390878239d8bd5fbb37c0a521a4aac0
+X-SL-Modified: truncated_text
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+ 
+
+I hope you can join us for one or both of the following singing
+opportunities! 
+
+ARTICHOKE MUSIC SCHOOL - SATURDAY MORNING HAPPY HOUR CIRCLESONG!
+SATURDAY, APRIL 25
+
+10 AM
+
+3130 SE Hawthorne Blvd # A, Portland, OR -- ENTER IN THE BACK - PARKING
+LOT SIDE. PLEASE BRING E$XACT CHANGE 
+
+Circle Singing at Artichoke Music School - I am grateful to be part of
+the Artichoke family of artists and teachers. Join us every fourth
+Saturday at 10:00 am. $10 
+
+CircleSongs are community singing events that help participants develop
+musicality, strengthen awareness and community listening, support others
+through the power of voice, and mostly a chance to ReMerge your original
+voice through the power of improvised song. 
+
+Marie has studied CircleSinging and Vocal Improvisation extensively with
+Bobby McFerrin, Roger Treece, Rhiannon and Bob Stoloff and is a TVI
+trained vocal instructor. She loves helping people connect and reconnect
+with their voices. 
+
+HOLISTIC VOICE LAB - SEVEN WEEKS OF VOCAL IMPROV FUN!
+
+Join Us! 
+
+($140 for 7 weeks. Includes half price admission to CircleSongs at
+Holistic Voice Lab.) 
+
+Begins May 7 
+
+7 to 8:30 pm 
+
+This class covers the following: 
+
+Healthy Singing Technique: Sing with fluidity and control, longer. Find
+your own unique voice. 
+
+Lots of Singing! 
+
+Basics of Vocal Improvisation 
+
+Fun Musical Games to exercise each person's musical skills no matter
+your level. 
+
+Payments can be split into two $70 payments payable by the end of the
+third week. 
+
+Students who achieve a level of comfort and musicality may be eligible
+to join One Heart Spontaneous Singers, an improvised a cappello
+ensemble. 
+
+This might be the best singing opportunity in town! 
+
+Don't wait! Sign up NOW through MEETUP. Search ONEHEART CIRCLESONGS &
+HOLISTIC VOICE LAB PORTLAND. 
+
+-- 
+
+With Soul & Harmony,
+
+Marie Black
+ -------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com
+--=_a390878239d8bd5fbb37c0a521a4aac0
+X-SL-Modified: truncated_html
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html><body style=3D'font-size: 10pt; font-family: Helvetica,Arial,sans-ser=
+if'>
+<p><span style=3D"font-size: small;">I hope you can join us for one or both=
+ of the following singing opportunities!</span></p>
+<h1><span style=3D"font-size: small;">Artichoke Music School - Saturday Mor=
+ning Happy Hour CircleSong! Saturday, April 25</span></h1>
+<h1><span style=3D"font-size: small;">10 am</span></h1>
+<p><span style=3D"font-size: small;">3130 SE Hawthorne Blvd # A,&nbsp;Portl=
+and,&nbsp;OR&nbsp;--&nbsp;<span>ENTER IN THE BACK - PARKING LOT SIDE. PLEAS=
+E BRING E$XACT CHANGE &nbsp;</span></span></p>
+<p><span style=3D"font-size: small;">Circle Singing at Artichoke Music Scho=
+ol - I am grateful to be part of the Artichoke family of artists and teache=
+rs. Join us every fourth Saturday at 10:00 am. $10</span></p>
+<p><span style=3D"font-size: small;">CircleSongs are community singing even=
+ts that help participants develop musicality, strengthen awareness and comm=
+unity listening, support others through the power of voice, and mostly a ch=
+ance to ReMerge your original voice through the power of improvised song.</=
+span></p>
+<p><span style=3D"font-size: small;">Marie has studied CircleSinging and Vo=
+cal Improvisation extensively with Bobby McFerrin, Roger Treece, Rhiannon a=
+nd Bob Stoloff and is a TVI trained vocal instructor. She loves helping peo=
+ple connect and reconnect with their voices.</span></p>
+<h1><span style=3D"font-size: small;">Holistic Voice Lab -&nbsp;</span><spa=
+n style=3D"font-size: small;">Seven Weeks of Vocal Improv FUN!</span></h1>
+<p><span style=3D"font-size: small;">Join Us!</span></p>
+<p><span style=3D"font-size: small;">($140 for 7 weeks. Includes half price=
+ admission to CircleSongs at Holistic Voice Lab.)</span></p>
+<p><span style=3D"font-size: small;">Begins May 7</span></p>
+<p><span style=3D"font-size: small;">7 to 8:30 pm</span></p>
+<p><span style=3D"font-size: small;">This class covers the following:</span=
+></p>
+<p><span style=3D"font-size: small;">Healthy Singing Technique: Sing with f=
+luidity and control, longer. Find your own unique voice.</span></p>
+<p><span style=3D"font-size: small;">Lots of Singing!</span></p>
+<p><span style=3D"font-size: small;">Basics of Vocal Improvisation</span></=
+p>
+<p><span style=3D"font-size: small;">Fun Musical Games to exercise each per=
+son's musical skills no matter your level.</span></p>
+<p><span style=3D"font-size: small;">Payments can be split into two $70 pay=
+ments payable by the end of the third week.</span></p>
+<p><span style=3D"font-size: small;">Students who achieve a level of comfor=
+t and musicality may be eligible to join One Heart Spontaneous Singers, an =
+improvised a cappello ensemble.&nbsp;</span></p>
+<p><span style=3D"font-size: small;">This might be the best singing opportu=
+nity in town!</span></p>
+<p><span style=3D"font-size: small;">Don't wait! Sign up NOW through&nbsp;<=
+strong>Meetup</strong>. Search <strong>OneHeart CircleSongs &amp; Holistic =
+Voice Lab Portland</strong>.</span></p>
+<p>&nbsp;</p>
+<div>-- <br />
+<pre><span style=3D"font-family: helvetica; font-size: small; color: #33339=
+9;">With Soul &amp; Harmony,
+
+Marie Black</span></pre>
+</div>
+</body></html>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--=_a390878239d8bd5fbb37c0a521a4aac0--
+

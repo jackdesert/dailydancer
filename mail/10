@@ -1,0 +1,780 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp855833wjc;
+        Tue, 21 Apr 2015 15:16:22 -0700 (PDT)
+X-Received: by 10.194.249.201 with SMTP id yw9mr46198267wjc.5.1429654582240;
+        Tue, 21 Apr 2015 15:16:22 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id ex6si5445102wjc.35.2015.04.21.15.16.22
+        for <jackdesert556@gmail.com>;
+        Tue, 21 Apr 2015 15:16:22 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id E5B5368FC095
+	for <jackdesert556@gmail.com>; Tue, 21 Apr 2015 22:16:21 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 213D463A60B8
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 22:15:12 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id AD4F1C1A030; Tue, 21 Apr 2015 22:15:11 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.51])
+	by outbound.simplelists.com (Postfix) with ESMTP id 99BE163A6016
+	for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 21:03:59 +0000 (UTC)
+X-ASG-Debug-ID: 1429650236-0798da42d4702a30001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id nOOcyKg0vpZ3IqbP for <sacredcircledance@simplelists.com>; Tue, 21 Apr 2015 17:03:56 -0400 (EDT)
+X-Barracuda-Envelope-From: contact@somaspace.us
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from p3nlsmtpcp01-03.prod.phx3.secureserver.net ([184.168.200.142]:35853)
+	by a2s71.a2hosting.com with esmtps (TLSv1:DHE-RSA-AES128-SHA:128)
+	(Exim 4.85)
+	(envelope-from <contact@somaspace.us>)
+	id 1YkfKl-002Ada-4n
+	for list@sacredcircledance.org; Tue, 21 Apr 2015 17:03:56 -0400
+Received: from p3plcpnl0478.prod.phx3.secureserver.net ([50.62.176.5])
+	by p3nlsmtpcp01-03.prod.phx3.secureserver.net with : CPANEL :
+	id JkzF1q00p07Mq5e01kzFtj; Tue, 21 Apr 2015 13:59:15 -0700
+Received: from 71-34-75-232.ptld.qwest.net ([71.34.75.232]:60393 helo=[192.168.0.179])
+	by p3plcpnl0478.prod.phx3.secureserver.net with esmtpsa (TLSv1:AES128-SHA:128)
+	(Exim 4.85)
+	(envelope-from <contact@somaspace.us>)
+	id 1YkfKh-0001Nm-Q2
+	for list@sacredcircledance.org; Tue, 21 Apr 2015 14:03:53 -0700
+From: Jacqueline Rubinstein <contact@somaspace.us>
+Date: Tue, 21 Apr 2015 14:03:48 -0700
+X-ASG-Orig-Subj: A Mother's Day Bellydance Workshop with Erika Ryn ~ May 9th @ SomaSpace
+References: <950f3c46b71109dbadebfbc9ed36f25545b.20150421205932@mail79.atl51.rsgsv.net>
+To: Sacredcircledance <list@sacredcircledance.org>
+Message-Id: <B4B6C6D5-B21D-4038-8F67-6A275342BCB5@somaspace.us>
+Mime-Version: 1.0 (Apple Message framework v1084)
+X-Mailer: Apple Mail (2.1084)
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - p3plcpnl0478.prod.phx3.secureserver.net
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - somaspace.us
+X-Get-Message-Sender-Via: p3plcpnl0478.prod.phx3.secureserver.net: authenticated_id: contact@somaspace.us
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Spam-Status: No, score=0.0 required=5.0 tests=HTML_MESSAGE
+	autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Score: -36
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - somaspace.us
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429650236
+X-Barracuda-URL: https://216.234.124.51:443/cgi-mod/mark.cgi
+Received-SPF: none (supercp.com: contact@somaspace.us does not designate permitted sender hosts)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.20
+X-Barracuda-Spam-Status: No, SCORE=0.20 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_SA038b, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18215
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC0_SA038b         Custom Rule SA038b
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-21:04:02-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150421-22:15:12-001
+Subject: [SacredCircleDance] A Mother's Day Bellydance Workshop with Erika Ryn
+ ~ May 9th @ SomaSpace
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Jacqueline Rubinstein <contact@somaspace.us>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="Apple-Mail-260-371462289"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429654582;
+	bh=ROyExsBpbezr1s1W59jEUszJ5kzUhud2sTVTDAsQiKU=;
+	h=From:Date:References:To:Subject:Reply-To:List-ID:
+	 List-Unsubscribe;
+	b=GyUBhvQJ8Exb3RFT/gNdDdNkwi17UGBnQl6EC/Hiz584ViimWwFN9ACoDozXRhBHO
+	 EdW5mzXZkEQ12UjWBvBhxOp/LQHqobik5Hd4/JGgAF+UsvhZUMVTjBleScgebhtR4s
+	 R6evu99tjJhznl/xYj2nuOGwMUl6VZ9AXgbWcsfE=
+
+--Apple-Mail-260-371462289
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+>=20
+>=20
+>=20
+>=20=20=20=20
+> A Mother's Day
+>=20
+> Bellydance Workshop=20=20
+>=20=20
+> with Erika Ryn
+>=20=20
+> Saturday, May 9th, 2015
+> 1:00pm - 3:30pm=20
+>=20
+>=20=20
+>=20
+>=20
+>=20=20
+> A Mother's Day Workshop
+> Move your Body! Learn A Duet!
+> Bring your Mother - Daughter - Auntie - Friend
+>=20
+> Bring a special lady in your life to share in the beauty and fun of belly=
+dance!
+>=20
+> This workshop will incorporate playful activities with drilling some of t=
+he basics of bellydance, culminating in learning a choreography to take hom=
+e that can be done as a duet or trio!  At the end of class everyone will ha=
+ve the option of receiving a small henna adornment as our gift to you in ce=
+lebration of mothers everywhere!=20=20
+>=20=20
+> When: Saturday, May 9, 2015 ~ 1:00pm - 3:30pm=20
+>=20
+> Where: SomaSpace, 4050 NE Broadway St, Portland, OR 97232
+>=20
+> Cost: Early Bird Special until April 25: $25/person or $35/pair
+> Regular cost for pre-registration: $30/person or $45/pair
+> At the Door: $35/person or $55/pair
+>=20
+> ***Free Surprise for those who pre-register***
+>=20=20
+> To Register: http://www.bridgetownrevue.net/workshop-registration.html
+>=20=20
+> For more information, Contact Erika: hierikaryn@gmail.com
+>=20=20
+>=20
+>=20
+>=20=20
+> Erika Ryn has been studying world fusion dance since 2004, developing a u=
+nique style focused on theatricality and creative movement. She draws heavi=
+ly from tribal fusion bellydance, modern and contemporary dance, yoga, as w=
+ell as a multitude of other dance forms and circus arts.=20=20
+>=20
+> Erika's passion for teaching comes from the belief that dance is an empow=
+ering form of self expression and mind-body healing that can by enjoyed by =
+people of all ages, shapes, and backgrounds. As we connect our bodies and b=
+reath we deepen our body-mind awareness, sparking neurons in the brain and =
+awakening our many different muscle groups.
+>=20
+> Through dance we can learn to express emotions and stories with our entir=
+e being, we develop new ways to communicate with ourselves and each other, =
+ and above all - we remember to have FUN.=20
+>=20
+> Erika's video on her teaching philosophy:www.youtube.com/watch?v=3DWx7xKB=
+i_QfA
+> SomaSpace's Weekly Schedule
+>=20=20
+> Mondays:
+> Chakradance ~ a movement meditation specially designed to awaken and open=
+ your chakras, with Anna Doogan
+> 1st and 3rd Mondays, 7:00-8:30pm
+> $10 =96 20 sliding scale, drop-in
+>=20
+> Tuesdays:
+> Sitting with Comfort ~ the fundamentals of healthy sitting, with Jacqueli=
+ne Rubinstein
+> April 14 - May 19 (Tuesdays): 5:30-6:30pm
+> Full 6-weeks course: $100 earlybird special until=20
+> April 1
+>=20
+> Tergar Mediation  ~ explore meditation and the fundamentals of Buddhist p=
+ractice, with Yongey Mingyur Rinpoche
+> 1st and 3rd Tuesdays
+> 7:15-9:15pm
+> Free!=20
+>=20
+> Beginner Series: Tergar Meditation ~ a special beginner=92s series to tea=
+ch this style of meditation
+> 4th Tuesdays, 7:00-9:00pm
+> Free (donations graciously accepted)
+> (Regular meetings of the Tergar Meditation community happen @ SomaSpace o=
+n 1st and 3rd Tuesdays and 2nd & 4th Sundays)
+>=20=20
+> Wednesdays:
+> Morning Medical Qi Gong ~ generate and move energy throughout your entire=
+ body, with Terrie Lyons
+> 9:00-10:00am, drop-in
+> By Donation
+>=20
+> Healing Chronic Pain ~ gentle movement and awareness exercises, with Jacq=
+ueline Rubinstein
+> 6:00-7:00pm
+> $10-20, drop-in
+>=20=20
+> Saying Yes! ~ a playful improvisational theater class designed to inspire=
+ spontaneity & creativity, with Carlton Grew
+> 7:30-9:30pm
+> $10, drop-in
+>=20
+> Thursdays:
+> Core Flow Creative Movement & Bellydance Flow ~ connect with your flow of=
+ energy & have fun, with Erika Ryn
+> 6:00-7:00pm
+> 2nd & 4th Thursdays: Core Flow Creative Movement
+> 1st & 3rd & 5th Thursdays: Bellydance Flow
+> $15, drop-in
+> Class cards available
+>=20
+> Fridays:
+> Healing Chronic Pain ~ gentle movement and awareness exercises, with Jacq=
+ueline Rubinstein
+> 10:00-11:00am
+> $10-20, drop-in
+>=20
+> Urban Boogie ~ barefoot high-energy dance party, with Paula Byrne & Guest=
+ DJs
+> 1st Fridays, 7:30-9:30pm
+> $10-20 sliding scale, drop-in
+>=20
+> Nectar Fusion ~ An incubator for partner dance exploration and authentic =
+connection, with Antje Martina Schaefer
+> 2nd Fridays, 9:00pm: Class, 10:00pm-1:00am: Dance with Live Music
+> $6-16 sliding scale, drop-in
+>=20
+> Dreamtime ~ dance deep and dream by candlelight, with Paula Byrne & Guest=
+ DJs
+> 3rd Fridays, 7:30-9:30pm
+> $10-20 sliding scale, drop-in
+>=20=20
+> Sundays:
+> Soul Motion Odyssey ~ conscious movement with an inspirational warm-up an=
+d fabulous music, with Paula Byrne
+> 10:30am-12:00pm
+> $10-20 drop-in
+>=20=20
+> Tergar Mediation  ~ explore meditation and the fundamentals of Buddhist p=
+ractice, with Yongey Mingyur Rinpoche
+> 2nd and 4th Sundays
+> 1:00-3:00pm
+> Free!=20
+>=20
+> Introduction to Plant Spirit Medicine ~ cultivate relationships with heal=
+ing plants of oregon, with lisa anne ross
+> Regularly 2nd Sundays, 4:30-6:00pm
+> *In March meets 4th Sunday (March 22 at 5:30pm)
+> *In June meets 1st Sunday (June 7 at 4:00pm)
+> $10 drop-in
+>=20
+> For more information on any of these classes, please visit: www.somaspace=
+.us
+>=20=20
+>=20
+
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--Apple-Mail-260-371462289
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<html><head><base href=3D"x-msg://1119/"></head><body style=3D"word-wrap: b=
+reak-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space;=
+ "><div><blockquote type=3D"cite"><div style=3D"margin-top: 0px; margin-rig=
+ht: 0px; margin-bottom: 0px; margin-left: 0px;"><span style=3D"font-family:=
+'Helvetica'; font-size:medium;"><br></span></div><br><span class=3D"Apple-s=
+tyle-span" style=3D"border-collapse: separate; font-family: Helvetica; font=
+-style: normal; font-variant: normal; font-weight: normal; letter-spacing: =
+normal; line-height: normal; orphans: 2; text-indent: 0px; text-transform: =
+none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-hor=
+izontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-de=
+corations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-str=
+oke-width: 0px; font-size: medium; "><div leftmargin=3D"0" marginwidth=3D"0=
+" topmargin=3D"0" marginheight=3D"0" offset=3D"0" style=3D"height: 4340px; =
+margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; p=
+adding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px=
+; width: 959px; background-color: rgb(242, 242, 242); "><div itemscope=3D""=
+ itemtype=3D"http://schema.org/EmailMessage"><div itemprop=3D"publisher" it=
+emscope=3D"" itemtype=3D"http://schema.org/Organization"></div><div itempro=
+p=3D"about" itemscope=3D"" itemtype=3D"http://schema.org/Offer"></div></div=
+><center><table align=3D"center" border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" height=3D"100%" width=3D"100%" id=3D"bodyTable" style=3D"border-coll=
+apse: collapse; height: 4326px; margin-top: 0px; margin-right: 0px; margin-=
+bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; paddin=
+g-bottom: 0px; padding-left: 0px; width: 959px; background-color: rgb(242, =
+242, 242); "><tbody><tr><td align=3D"center" valign=3D"top" id=3D"bodyCell"=
+ style=3D"height: 4286px; margin-top: 0px; margin-right: 0px; margin-bottom=
+: 0px; margin-left: 0px; padding-top: 20px; padding-right: 20px; padding-bo=
+ttom: 20px; padding-left: 20px; width: 919px; border-top-width: 0px; border=
+-top-style: initial; border-top-color: initial; "><table border=3D"0" cellp=
+adding=3D"0" cellspacing=3D"0" width=3D"600" id=3D"templateContainer" style=
+=3D"border-collapse: collapse; border-top-width: 0px; border-right-width: 0=
+px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial=
+; border-color: initial; border-style: initial; border-color: initial; posi=
+tion: static; z-index: auto; "><tbody><tr><td align=3D"center" valign=3D"to=
+p"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" id=
+=3D"templatePreheader" style=3D"border-collapse: collapse; background-color=
+: rgb(255, 255, 255); border-top-width: 0px; border-top-style: initial; bor=
+der-top-color: initial; border-bottom-width: 0px; border-bottom-style: init=
+ial; border-bottom-color: initial; "><tbody><tr><td valign=3D"top" class=3D=
+"preheaderContainer" style=3D"padding-top: 9px; "></td></tr></tbody></table=
+></td></tr><tr><td align=3D"center" valign=3D"top"><table border=3D"0" cell=
+padding=3D"0" cellspacing=3D"0" width=3D"600" id=3D"templateHeader" style=
+=3D"border-collapse: collapse; background-color: rgb(255, 255, 255); border=
+-top-width: 0px; border-top-style: initial; border-top-color: initial; bord=
+er-bottom-width: 0px; border-bottom-style: initial; border-bottom-color: in=
+itial; "><tbody><tr><td valign=3D"top" class=3D"headerContainer"><table bor=
+der=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnIm=
+ageBlock" style=3D"border-collapse: collapse; "><tbody class=3D"mcnImageBlo=
+ckOuter"><tr><td valign=3D"top" class=3D"mcnImageBlockInner" style=3D"paddi=
+ng-top: 9px; padding-right: 9px; padding-bottom: 9px; padding-left: 9px; ">=
+<table align=3D"left" width=3D"100%" border=3D"0" cellpadding=3D"0" cellspa=
+cing=3D"0" class=3D"mcnImageContentContainer" style=3D"border-collapse: col=
+lapse; position: static; z-index: auto; "><tbody><tr><td class=3D"mcnImageC=
+ontent" valign=3D"top" style=3D"padding-right: 9px; padding-left: 9px; padd=
+ing-top: 0px; padding-bottom: 0px; "><img align=3D"left" alt=3D"" src=3D"ht=
+tp://gallery.mailchimp.com/950f3c46b71109dbadebfbc9e/images/77a380b3-90f6-4=
+f47-8b91-7b99dbad27df.png" width=3D"564" class=3D"mcnImage" style=3D"border=
+-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-=
+left-width: 0px; border-style: initial; border-color: initial; outline-styl=
+e: none; outline-width: initial; outline-color: initial; text-decoration: n=
+one; vertical-align: bottom; max-width: 798px; padding-bottom: 0px; display=
+: inline !important; border-style: initial; border-color: initial; "></td><=
+/tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table></t=
+d></tr><tr><td align=3D"center" valign=3D"top"><table border=3D"0" cellpadd=
+ing=3D"0" cellspacing=3D"0" width=3D"600" id=3D"templateBody" style=3D"bord=
+er-collapse: collapse; background-color: rgb(255, 255, 255); border-top-wid=
+th: 0px; border-top-style: initial; border-top-color: initial; border-botto=
+m-width: 0px; border-bottom-style: initial; border-bottom-color: initial; "=
+><tbody><tr><td valign=3D"top" class=3D"bodyContainer"><table border=3D"0" =
+cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" s=
+tyle=3D"border-collapse: collapse; "><tbody class=3D"mcnTextBlockOuter"><tr=
+><td valign=3D"top" class=3D"mcnTextBlockInner"><table align=3D"left" borde=
+r=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=3D"mcnTextC=
+ontentContainer" style=3D"border-collapse: collapse; "><tbody><tr><td valig=
+n=3D"top" class=3D"mcnTextContent" style=3D"color: rgb(96, 96, 96); font-fa=
+mily: Helvetica; font-size: 15px; line-height: 22px; text-align: center; pa=
+dding-top: 9px; padding-right: 18px; padding-bottom: 9px; padding-left: 18p=
+x; "><h1 style=3D"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; m=
+argin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px;=
+ padding-left: 0px; color: rgb(96, 96, 96) !important; display: block; font=
+-family: Helvetica; font-size: 40px; font-style: normal; font-weight: bold;=
+ line-height: 20.8px; letter-spacing: -1px; text-align: center; "><font cla=
+ss=3D"Apple-style-span">&nbsp; &nbsp;<br>A Mother's Day<br><br>Bellydance W=
+orkshop&nbsp;&nbsp;</font><br>&nbsp;</h1><div style=3D"font-family: Helveti=
+caNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; li=
+ne-height: normal; text-align: center; "><font color=3D"#b22222"><span styl=
+e=3D"font-size: 32px; "><strong>with Erika Ryn</strong></span></font><br><s=
+trong style=3D"color: rgb(0, 0, 0); font-size: 22px; ">&nbsp;</strong></div=
+><div style=3D"color: rgb(0, 0, 0); font-family: HelveticaNeue, 'Helvetica =
+Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; line-height: normal; =
+text-align: center; "><span style=3D"color: rgb(255, 140, 0); "><span style=
+=3D"font-size: 22px; "><strong>Saturday, May 9th, 2015<br>1:00pm - 3:30pm&n=
+bsp;</strong></span></span><br><br>&nbsp;</div><div style=3D"color: rgb(0, =
+0, 0); font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Luc=
+ida Grande', sans-serif; font-size: 16px; line-height: normal; text-align: =
+center; "><img align=3D"none" height=3D"274" src=3D"https://gallery.mailchi=
+mp.com/950f3c46b71109dbadebfbc9e/images/69801cf7-48b3-47d9-b65e-3e98025f23c=
+1.jpg" width=3D"300" style=3D"border-top-width: 0px; border-right-width: 0p=
+x; border-bottom-width: 0px; border-left-width: 0px; border-style: initial;=
+ border-color: initial; outline-style: none; outline-width: initial; outlin=
+e-color: initial; text-decoration: none; height: 274px; width: 300px; margi=
+n-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border=
+-style: initial; border-color: initial; "></div><div style=3D"color: rgb(0,=
+ 0, 0); font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lu=
+cida Grande', sans-serif; font-size: 16px; line-height: normal; text-align:=
+ left; "><br>&nbsp;</div><div style=3D"color: rgb(0, 0, 0); font-family: He=
+lveticaNeue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-seri=
+f; font-size: 16px; line-height: normal; text-align: center; "><strong>A Mo=
+ther's Day Workshop</strong><br><strong>Move your Body! Learn A Duet!</stro=
+ng><br><strong>Bring your Mother - Daughter - Auntie - Friend</strong><br><=
+br>Bring a special lady in your life to share in the beauty and fun of bell=
+ydance!<br><br>This workshop will&nbsp;incorporate playful activities with =
+drilling some of the basics of bellydance, culminating in learning a choreo=
+graphy to take home that can be done as a duet or trio!&nbsp;&nbsp;At the e=
+nd of class everyone will have the option of&nbsp;receiving&nbsp;a small he=
+nna adornment as our gift to you in celebration of mothers everywhere! &nbs=
+p;<br>&nbsp;</div><div style=3D"color: rgb(0, 0, 0); font-family: Helvetica=
+Neue, 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font=
+-size: 16px; line-height: normal; text-align: center; "><strong>When</stron=
+g>: Saturday, May 9, 2015 ~ 1:00pm - 3:30pm&nbsp;<br><br><strong>Where</str=
+ong>: SomaSpace, 4050 NE Broadway St, Portland, OR 97232<br><br><strong>Cos=
+t</strong>: Early Bird Special until April 25: $25/person or $35/pair<br>Re=
+gular cost for pre-registration: $30/person or $45/pair<br>At the Door: $35=
+/person or $55/pair<br><br><strong>***</strong>Free Surprise for those who =
+pre-register<strong>***</strong><br>&nbsp;<br><strong>To Register:</strong>=
+&nbsp;<a href=3D"http://somaspace.us8.list-manage.com/track/click?u=3D950f3=
+c46b71109dbadebfbc9e&amp;id=3D791e37286e&amp;e=3Dd36f25545b" style=3D"word-=
+wrap: break-word; color: rgb(109, 198, 221); font-weight: normal; text-deco=
+ration: underline; ">http://www.bridgetownrevue.net/workshop-registration.h=
+tml</a><br>&nbsp;<div><strong>For more information, Contact Erika:</strong>=
+&nbsp;<a href=3D"http://somaspace.us8.list-manage.com/track/click?u=3D950f3=
+c46b71109dbadebfbc9e&amp;id=3Dc65f621afe&amp;e=3Dd36f25545b" style=3D"word-=
+wrap: break-word; color: rgb(109, 198, 221); font-weight: normal; text-deco=
+ration: underline; ">hierikaryn@gmail.com</a></div></div><div style=3D"colo=
+r: rgb(0, 0, 0); font-family: HelveticaNeue, 'Helvetica Neue', Helvetica, A=
+rial, 'Lucida Grande', sans-serif; font-size: 16px; line-height: normal; te=
+xt-align: left; ">&nbsp;</div><div id=3D"yiv2792588686yui_3_16_0_1_14022916=
+85418_19256"><div id=3D"yiv2792588686yui_3_16_0_1_1402291685418_19255" styl=
+e=3D"text-align: center; "><br><img align=3D"none" height=3D"300" src=3D"ht=
+tps://gallery.mailchimp.com/950f3c46b71109dbadebfbc9e/images/c1fc9346-95d2-=
+417a-8735-a51df10e610f.jpg" width=3D"200" style=3D"border-top-width: 0px; b=
+order-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; b=
+order-style: initial; border-color: initial; outline-style: none; outline-w=
+idth: initial; outline-color: initial; text-decoration: none; height: 300px=
+; width: 200px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; mar=
+gin-left: 0px; border-style: initial; border-color: initial; "><br>&nbsp;</=
+div><div style=3D"color: rgb(0, 0, 0); font-family: HelveticaNeue, 'Helveti=
+ca Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 16px; l=
+ine-height: normal; text-align: left; "><strong>Erika Ryn</strong>&nbsp;has=
+ been studying world fusion dance since 2004, developing a unique style foc=
+used on theatricality and creative movement. She draws heavily from tribal =
+fusion bellydance, modern and contemporary dance, yoga, as well as a multit=
+ude of other dance forms and circus arts. &nbsp;<br><br>Erika's passion for=
+ teaching comes from the belief that dance is an empowering form of self ex=
+pression and mind-body healing that can by enjoyed by people of all ages, s=
+hapes, and backgrounds. As we connect our bodies and breath we deepen our b=
+ody-mind awareness, sparking neurons in the brain and awakening our many di=
+fferent muscle groups.<br><br>Through dance we can learn to express emotion=
+s and stories with our entire being, we develop new ways to communicate wit=
+h ourselves and each other, &nbsp;and above all - we remember to have FUN.&=
+nbsp;<br><br>Erika's video on her teaching philosophy:<a href=3D"http://som=
+aspace.us8.list-manage.com/track/click?u=3D950f3c46b71109dbadebfbc9e&amp;id=
+=3Dd78c1fb2c4&amp;e=3Dd36f25545b" style=3D"word-wrap: break-word; color: rg=
+b(109, 198, 221); font-weight: normal; text-decoration: underline; ">www.yo=
+utube.com/watch?v=3DWx7xKBi_QfA</a></div></div></td></tr></tbody></table></=
+td></tr></tbody></table><table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"100%" class=3D"mcnDividerBlock" style=3D"border-collapse: c=
+ollapse; "><tbody class=3D"mcnDividerBlockOuter"><tr><td class=3D"mcnDivide=
+rBlockInner" style=3D"padding-top: 18px; padding-right: 18px; padding-botto=
+m: 18px; padding-left: 18px; "><table class=3D"mcnDividerContent" border=3D=
+"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%" style=3D"border-coll=
+apse: collapse; border-top-width: 3px; border-top-style: dashed; border-top=
+-color: rgb(101, 1, 22); "><tbody><tr><td><span></span></td></tr></tbody></=
+table></td></tr></tbody></table><table border=3D"0" cellpadding=3D"0" cells=
+pacing=3D"0" width=3D"100%" class=3D"mcnBoxedTextBlock" style=3D"border-col=
+lapse: collapse; "><tbody class=3D"mcnBoxedTextBlockOuter"><tr><td valign=
+=3D"top" class=3D"mcnBoxedTextBlockInner"><table align=3D"left" border=3D"0=
+" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" class=3D"mcnBoxedTextCo=
+ntentContainer" style=3D"border-collapse: collapse; "><tbody><tr><td style=
+=3D"padding-top: 9px; padding-left: 18px; padding-bottom: 9px; padding-righ=
+t: 18px; "><table border=3D"0" cellpadding=3D"18" cellspacing=3D"0" class=
+=3D"mcnTextContentContainer" width=3D"100%" style=3D"border-collapse: colla=
+pse; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 1=
+px; border-left-width: 1px; border-top-style: solid; border-right-style: so=
+lid; border-bottom-style: solid; border-left-style: solid; border-top-color=
+: rgb(153, 153, 153); border-right-color: rgb(153, 153, 153); border-bottom=
+-color: rgb(153, 153, 153); border-left-color: rgb(153, 153, 153); backgrou=
+nd-color: rgb(235, 235, 235); "><tbody><tr><td valign=3D"top" class=3D"mcnT=
+extContent" style=3D"color: rgb(96, 96, 96); font-family: Helvetica; font-s=
+ize: 15px; line-height: 22px; text-align: left; "><div style=3D"text-align:=
+ center; "><div style=3D"line-height: 20.8px; text-align: center; "><div st=
+yle=3D"line-height: 20.8px; text-align: left; background-color: rgb(235, 23=
+5, 235); "><div style=3D"line-height: 20.8px; text-align: center; color: rg=
+b(96, 96, 96); font-family: Helvetica; font-size: 15px; background-color: r=
+gb(235, 235, 235); "><span style=3D"color: rgb(101, 1, 22); "><span style=
+=3D"font-size: 24px; "><strong>SomaSpace's Weekly Schedule</strong></span><=
+/span></div><div style=3D"line-height: 20.8px; text-align: center; color: r=
+gb(96, 96, 96); font-family: Helvetica; font-size: 15px; background-color: =
+rgb(235, 235, 235); ">&nbsp;</div><div dir=3D"ltr" style=3D"line-height: 20=
+.8px; background-color: rgb(235, 235, 235); "><strong style=3D"color: rgb(9=
+6, 96, 96); font-family: helvetica; font-size: 15px; ">Mondays:</strong><br=
+><a href=3D"http://somaspace.us8.list-manage.com/track/click?u=3D950f3c46b7=
+1109dbadebfbc9e&amp;id=3D7f03b1f103&amp;e=3Dd36f25545b" target=3D"_blank" s=
+tyle=3D"word-wrap: break-word; color: rgb(109, 198, 221); font-weight: norm=
+al; text-decoration: underline; font-size: 15px; font-family: Helvetica; ">=
+<span style=3D"color: rgb(218, 165, 32); ">Chakradance</span></a><font face=
+=3D"Helvetica" style=3D"font-family: Helvetica; font-size: 15px; color: rgb=
+(96, 96, 96); ">&nbsp;~ a movement meditation specially designed to awaken =
+and open your chakras, with Anna Doogan</font><br><font face=3D"Helvetica" =
+style=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); "=
+>1st</font><font face=3D"Helvetica" style=3D"font-family: Helvetica; font-s=
+ize: 15px; color: rgb(96, 96, 96); ">&nbsp;and 3rd</font><font face=3D"Helv=
+etica" style=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96,=
+ 96); ">&nbsp;Mondays, 7:00-8:30pm</font><br><font face=3D"Helvetica" style=
+=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">$10 =
+=96 20 sliding scale, drop-in</font><br><br><strong style=3D"color: rgb(96,=
+ 96, 96); font-family: helvetica; font-size: 15px; ">Tuesdays:</strong><br>=
+<font face=3D"helvetica" style=3D"font-family: Helvetica; color: rgb(96, 96=
+, 96); font-size: 15px; line-height: 20.8px; "><a href=3D"http://somaspace.=
+us8.list-manage1.com/track/click?u=3D950f3c46b71109dbadebfbc9e&amp;id=3Dd47=
+fb88c8c&amp;e=3Dd36f25545b" target=3D"_blank" style=3D"word-wrap: break-wor=
+d; color: rgb(109, 198, 221); font-weight: normal; text-decoration: underli=
+ne; "><span style=3D"color: rgb(218, 165, 32); ">Sitting with Comfort</span=
+></a><span style=3D"color: rgb(218, 165, 32); ">&nbsp;</span></font><font f=
+ace=3D"Helvetica" style=3D"color: rgb(96, 96, 96); font-family: Helvetica; =
+font-size: 15px; line-height: 20.8px; ">~ the fundamentals of healthy sitti=
+ng</font><font face=3D"Helvetica" style=3D"color: rgb(96, 96, 96); font-fam=
+ily: Helvetica; font-size: 15px; line-height: 20.8px; ">, with Jacqueline R=
+ubinstein</font><br style=3D"color: rgb(96, 96, 96); font-family: Helvetica=
+; font-size: 15px; line-height: 20.8px; "><font face=3D"Helvetica" style=3D=
+"color: rgb(96, 96, 96); font-family: Helvetica; font-size: 15px; line-heig=
+ht: 20.8px; ">April 14 - May 19&nbsp;(Tuesdays): 5:30-6:30pm</font><br styl=
+e=3D"color: rgb(96, 96, 96); font-family: Helvetica; font-size: 15px; line-=
+height: 20.8px; "><span style=3D"background-color: rgb(235, 235, 235); colo=
+r: rgb(96, 96, 96); font-family: helvetica; font-size: 15px; line-height: 2=
+0.8px; ">Full 6-weeks course:&nbsp;$100 earlybird special until&nbsp;</span=
+><br style=3D"color: rgb(96, 96, 96); font-family: Helvetica; font-size: 15=
+px; line-height: 20.8px; "><span style=3D"background-color: rgb(235, 235, 2=
+35); color: rgb(96, 96, 96); font-family: helvetica; font-size: 15px; line-=
+height: 20.8px; ">April 1</span><br><br><span style=3D"font-size: 15px; "><=
+a href=3D"http://somaspace.us8.list-manage1.com/track/click?u=3D950f3c46b71=
+109dbadebfbc9e&amp;id=3D6e9d4970c8&amp;e=3Dd36f25545b" target=3D"_blank" st=
+yle=3D"word-wrap: break-word; color: rgb(109, 198, 221); font-weight: norma=
+l; text-decoration: underline; "><span style=3D"color: rgb(218, 165, 32); "=
+>Tergar Mediation</span></a><span style=3D"color: rgb(105, 105, 105); ">&nb=
+sp;&nbsp;~ explore meditation and the fundamentals of Buddhist practice, wi=
+th Yongey Mingyur Rinpoche<br>1st and 3rd Tuesdays<br>7:15-9:15pm<br>Free!&=
+nbsp;</span></span><br><br><a href=3D"http://somaspace.us8.list-manage.com/=
+track/click?u=3D950f3c46b71109dbadebfbc9e&amp;id=3D74325a26c2&amp;e=3Dd36f2=
+5545b" target=3D"_blank" style=3D"word-wrap: break-word; color: rgb(109, 19=
+8, 221); font-weight: normal; text-decoration: underline; font-size: 15px; =
+font-family: Helvetica; "><span style=3D"color: rgb(218, 165, 32); ">Beginn=
+er Series: Tergar Meditation</span></a><font face=3D"Helvetica" style=3D"fo=
+nt-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">&nbsp;~ a =
+special beginner=92s series to teach this style of meditation</font><br><fo=
+nt face=3D"Helvetica" style=3D"font-family: Helvetica; font-size: 15px; col=
+or: rgb(96, 96, 96); ">4th</font><font face=3D"Helvetica" style=3D"font-fam=
+ily: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">&nbsp;Tuesdays, =
+7:00-9:00pm</font><br><font face=3D"Helvetica" style=3D"font-family: Helvet=
+ica; font-size: 15px; color: rgb(96, 96, 96); ">Free (donations graciously =
+accepted)</font><br><span style=3D"color: rgb(96, 96, 96); font-family: hel=
+vetica; font-size: 12px; ">(Regular meetings of the Tergar Meditation commu=
+nity happen @ SomaSpace on 1</span><span style=3D"color: rgb(96, 96, 96); f=
+ont-family: helvetica; "><font class=3D"Apple-style-span" size=3D"1">st</fo=
+nt>&nbsp;and 3rd&nbsp;Tuesdays and 2nd&nbsp;&amp; 4th&nbsp;Sundays)</span><=
+br><font face=3D"Helvetica" style=3D"font-family: Helvetica; font-size: 15p=
+x; color: rgb(96, 96, 96); ">&nbsp;</font><br><strong style=3D"color: rgb(9=
+6, 96, 96); font-family: helvetica; font-size: 15px; ">Wednesdays:</strong>=
+<br><a href=3D"http://somaspace.us8.list-manage.com/track/click?u=3D950f3c4=
+6b71109dbadebfbc9e&amp;id=3D35ae7bc2fd&amp;e=3Dd36f25545b" target=3D"_blank=
+" style=3D"word-wrap: break-word; color: rgb(109, 198, 221); font-weight: n=
+ormal; text-decoration: underline; font-size: 15px; font-family: Helvetica;=
+ "><span style=3D"color: rgb(218, 165, 32); ">Morning Medical&nbsp;Qi Gong<=
+/span></a><font face=3D"Helvetica" style=3D"font-family: Helvetica; font-si=
+ze: 15px; color: rgb(96, 96, 96); ">&nbsp;~ generate and move energy throug=
+hout your entire body, with Terrie Lyons</font><br><font face=3D"Helvetica"=
+ style=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); =
+">9:00-10:00am, drop-in</font><br><font face=3D"Helvetica" style=3D"font-fa=
+mily: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">By Donation</fo=
+nt><br><br><a href=3D"http://somaspace.us8.list-manage.com/track/click?u=3D=
+950f3c46b71109dbadebfbc9e&amp;id=3D2c39bbbe36&amp;e=3Dd36f25545b" target=3D=
+"_blank" style=3D"word-wrap: break-word; color: rgb(109, 198, 221); font-we=
+ight: normal; text-decoration: underline; font-size: 15px; font-family: Hel=
+vetica; "><span style=3D"color: rgb(218, 165, 32); ">Healing Chronic Pain</=
+span></a><font face=3D"Helvetica" style=3D"font-family: Helvetica; font-siz=
+e: 15px; color: rgb(96, 96, 96); ">&nbsp;~ gentle movement and awareness ex=
+ercises, with Jacqueline Rubinstein</font><br><font face=3D"Helvetica" styl=
+e=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">6:0=
+0-7:00pm</font><br><font face=3D"Helvetica" style=3D"font-family: Helvetica=
+; font-size: 15px; color: rgb(96, 96, 96); ">$10-20, drop-in</font><br><fon=
+t face=3D"Helvetica" style=3D"font-family: Helvetica; font-size: 15px; colo=
+r: rgb(96, 96, 96); ">&nbsp;</font><br><a href=3D"http://somaspace.us8.list=
+-manage1.com/track/click?u=3D950f3c46b71109dbadebfbc9e&amp;id=3Deb54b7d093&=
+amp;e=3Dd36f25545b" target=3D"_blank" style=3D"word-wrap: break-word; color=
+: rgb(109, 198, 221); font-weight: normal; text-decoration: underline; font=
+-size: 15px; font-family: Helvetica; "><span style=3D"color: rgb(218, 165, =
+32); ">Saying Yes!</span></a><font face=3D"Helvetica" style=3D"font-family:=
+ Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">&nbsp;~ a playful im=
+provisational theater class designed to inspire spontaneity &amp; creativit=
+y, with Carlton Grew</font><br><font face=3D"Helvetica" style=3D"font-famil=
+y: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">7:30-9:30pm</font>=
+<br><font face=3D"Helvetica" style=3D"font-family: Helvetica; font-size: 15=
+px; color: rgb(96, 96, 96); ">$10, drop-in</font><br><br><strong style=3D"c=
+olor: rgb(96, 96, 96); font-family: helvetica; font-size: 15px; line-height=
+: 20.8px; ">Thursdays:</strong><br style=3D"color: rgb(96, 96, 96); line-he=
+ight: 20.8px; "><span style=3D"color: rgb(96, 96, 96); font-family: helveti=
+ca; font-size: 15px; line-height: 20.8px; word-wrap: break-word; "><a href=
+=3D"http://somaspace.us8.list-manage.com/track/click?u=3D950f3c46b71109dbad=
+ebfbc9e&amp;id=3D401cefe968&amp;e=3Dd36f25545b" target=3D"_blank" style=3D"=
+word-wrap: break-word; color: rgb(109, 198, 221); font-weight: normal; text=
+-decoration: underline; "><span style=3D"color: rgb(218, 165, 32); ">C</spa=
+n></a></span><a href=3D"http://somaspace.us8.list-manage2.com/track/click?u=
+=3D950f3c46b71109dbadebfbc9e&amp;id=3Dc4e9516052&amp;e=3Dd36f25545b" style=
+=3D"word-wrap: break-word; color: rgb(96, 96, 96); font-weight: normal; tex=
+t-decoration: underline; font-family: Helvetica; font-size: 15px; "><span s=
+tyle=3D"color: rgb(218, 165, 32); "><span style=3D"font-family: helvetica; =
+line-height: 20.8px; word-wrap: break-word; ">ore Flow&nbsp;Creative Moveme=
+nt &amp; Bellydance Flow</span><font face=3D"Helvetica" style=3D"color: rgb=
+(96, 96, 96); line-height: 20.8px; ">&nbsp;</font></span></a><font face=3D"=
+Helvetica" style=3D"font-family: Helvetica; font-size: 15px; color: rgb(96,=
+ 96, 96); line-height: 20.8px; ">~ c</font><font color=3D"#606060" style=3D=
+"color: rgb(96, 96, 96); font-family: Helvetica; font-size: 15px; ">onnect =
+with your flow of energy &amp; have fun</font><font face=3D"Helvetica" styl=
+e=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); line-=
+height: 20.8px; ">, with Erika Ryn</font><br style=3D"color: rgb(96, 96, 96=
+); line-height: 20.8px; "><font face=3D"Helvetica" style=3D"font-family: He=
+lvetica; font-size: 15px; color: rgb(96, 96, 96); line-height: 20.8px; ">6:=
+00-7:00pm</font><br><font color=3D"#606060" style=3D"color: rgb(96, 96, 96)=
+; font-family: Helvetica; font-size: 15px; ">2nd &amp; 4th Thursdays: Core =
+Flow Creative Movement</font><br><font color=3D"#606060" style=3D"color: rg=
+b(96, 96, 96); font-family: Helvetica; font-size: 15px; ">1st &amp; 3rd &am=
+p; 5th&nbsp;Thursdays: Bellydance Flow</font><br style=3D"color: rgb(96, 96=
+, 96); line-height: 20.8px; "><font face=3D"Helvetica" style=3D"font-family=
+: Helvetica; font-size: 15px; color: rgb(96, 96, 96); line-height: 20.8px; =
+">$15, drop-in</font><br><font class=3D"Apple-style-span" face=3D"Helvetica=
+" style=3D"color: rgb(96, 96, 96); ">Class cards available</font><br><br><s=
+trong style=3D"color: rgb(96, 96, 96); font-family: helvetica; font-size: 1=
+5px; ">Fridays:</strong><br><span style=3D"font-size: 15px; "><a href=3D"ht=
+tp://somaspace.us8.list-manage1.com/track/click?u=3D950f3c46b71109dbadebfbc=
+9e&amp;id=3D48f1a153ba&amp;e=3Dd36f25545b" target=3D"_blank" style=3D"word-=
+wrap: break-word; color: rgb(109, 198, 221); font-weight: normal; text-deco=
+ration: underline; "><span style=3D"color: rgb(218, 165, 32); ">Healing Chr=
+onic Pain</span></a><span style=3D"color: rgb(218, 165, 32); ">&nbsp;</span=
+><span style=3D"color: rgb(105, 105, 105); ">~ gentle movement and awarenes=
+s exercises, with Jacqueline Rubinstein<br>10:00-11:00am<br>$10-20, drop-in=
+</span></span><br><br><a href=3D"http://somaspace.us8.list-manage1.com/trac=
+k/click?u=3D950f3c46b71109dbadebfbc9e&amp;id=3Dc3b1bc64df&amp;e=3Dd36f25545=
+b" target=3D"_blank" style=3D"word-wrap: break-word; color: rgb(109, 198, 2=
+21); font-weight: normal; text-decoration: underline; font-size: 15px; font=
+-family: Helvetica; "><span style=3D"color: rgb(218, 165, 32); ">Urban Boog=
+ie</span></a><font face=3D"Helvetica" style=3D"font-family: Helvetica; font=
+-size: 15px; color: rgb(96, 96, 96); ">&nbsp;~ barefoot high-energy dance p=
+arty, with Paula Byrne &amp; Guest DJs</font><br><font face=3D"Helvetica" s=
+tyle=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">=
+1st Fridays, 7:30-9:30pm</font><br><font face=3D"Helvetica" style=3D"font-f=
+amily: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">$10-20 sliding=
+ scale, drop-in</font><br><br><a target=3D"_blank" style=3D"word-wrap: brea=
+k-word; color: rgb(109, 198, 221); font-weight: normal; text-decoration: un=
+derline; font-size: 15px; line-height: 20.8px; font-family: Helvetica; "><s=
+pan style=3D"color: rgb(218, 165, 32); ">N</span></a><a href=3D"http://soma=
+space.us8.list-manage.com/track/click?u=3D950f3c46b71109dbadebfbc9e&amp;id=
+=3D30d9147e27&amp;e=3Dd36f25545b" style=3D"word-wrap: break-word; color: rg=
+b(96, 96, 96); font-weight: normal; text-decoration: underline; font-family=
+: Helvetica; font-size: 15px; "><span style=3D"color: rgb(218, 165, 32); ">=
+<span style=3D"font-family: helvetica; line-height: 20.8px; word-wrap: brea=
+k-word; ">ectar Fusion</span></span></a><font face=3D"Helvetica" style=3D"f=
+ont-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); line-height=
+: 20.8px; ">&nbsp;~&nbsp;</font><font color=3D"#606060" style=3D"color: rgb=
+(96, 96, 96); font-family: Helvetica; font-size: 15px; ">An incubator for p=
+artner dance exploration and authentic connection</font><font face=3D"Helve=
+tica" style=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, =
+96); line-height: 20.8px; ">, with Antje Martina Schaefer</font><br style=
+=3D"color: rgb(96, 96, 96); line-height: 20.8px; "><font face=3D"Helvetica"=
+ style=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); =
+line-height: 20.8px; ">2nd Fridays, 9:00pm: Class, 10:00pm-1:00am: Dance wi=
+th Live Music</font><br style=3D"color: rgb(96, 96, 96); line-height: 20.8p=
+x; "><font face=3D"Helvetica" style=3D"font-family: Helvetica; font-size: 1=
+5px; color: rgb(96, 96, 96); line-height: 20.8px; ">$6-16 sliding scale, dr=
+op-in</font><br><br><a href=3D"http://somaspace.us8.list-manage.com/track/c=
+lick?u=3D950f3c46b71109dbadebfbc9e&amp;id=3D37c94eb7e5&amp;e=3Dd36f25545b" =
+target=3D"_blank" style=3D"word-wrap: break-word; color: rgb(109, 198, 221)=
+; font-weight: normal; text-decoration: underline; font-size: 15px; font-fa=
+mily: Helvetica; "><span style=3D"color: rgb(218, 165, 32); ">Dreamtime</sp=
+an></a><font face=3D"Helvetica" style=3D"font-family: Helvetica; font-size:=
+ 15px; color: rgb(96, 96, 96); ">&nbsp;~ dance deep and dream by candleligh=
+t, with Paula Byrne &amp; Guest DJs</font><br><font face=3D"Helvetica" styl=
+e=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">3rd=
+ Fridays, 7:30-9:30pm</font><br><font face=3D"Helvetica" style=3D"font-fami=
+ly: Helvetica; font-size: 15px; color: rgb(96, 96, 96); ">$10-20 sliding sc=
+ale, drop-in</font><br><font face=3D"Helvetica" style=3D"font-family: Helve=
+tica; font-size: 15px; color: rgb(96, 96, 96); ">&nbsp;</font><br><strong s=
+tyle=3D"color: rgb(96, 96, 96); font-family: helvetica; font-size: 15px; ">=
+Sundays:</strong><br><a href=3D"http://somaspace.us8.list-manage.com/track/=
+click?u=3D950f3c46b71109dbadebfbc9e&amp;id=3De796a0770f&amp;e=3Dd36f25545b"=
+ target=3D"_blank" style=3D"word-wrap: break-word; color: rgb(109, 198, 221=
+); font-weight: normal; text-decoration: underline; font-size: 15px; font-f=
+amily: Helvetica; "><span style=3D"color: rgb(218, 165, 32); ">Soul Motion =
+Odyssey</span></a><font face=3D"Helvetica" style=3D"font-family: Helvetica;=
+ font-size: 15px; color: rgb(96, 96, 96); ">&nbsp;~ conscious movement with=
+ an inspirational warm-up and fabulous music, with Paula Byrne</font><br><f=
+ont face=3D"Helvetica" style=3D"font-family: Helvetica; font-size: 15px; co=
+lor: rgb(96, 96, 96); ">10:30am-12:00pm</font><br><font face=3D"Helvetica" =
+style=3D"font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); "=
+>$10-20 drop-in</font><br>&nbsp;<div><span style=3D"font-size: 15px; "><a h=
+ref=3D"http://somaspace.us8.list-manage.com/track/click?u=3D950f3c46b71109d=
+badebfbc9e&amp;id=3D5b34fc4af9&amp;e=3Dd36f25545b" target=3D"_blank" style=
+=3D"word-wrap: break-word; color: rgb(109, 198, 221); font-weight: normal; =
+text-decoration: underline; "><span style=3D"color: rgb(218, 165, 32); ">Te=
+rgar Mediation</span></a><span style=3D"color: rgb(218, 165, 32); ">&nbsp;<=
+/span></span><span style=3D"color: rgb(105, 105, 105); "><span style=3D"fon=
+t-size: 15px; ">&nbsp;~ explore meditation and the fundamentals of Buddhist=
+ practice, with Yongey Mingyur Rinpoche<br>2nd and 4th Sundays<br>1:00-3:00=
+pm<br>Free!&nbsp;</span></span></div><br><font face=3D"Helvetica" style=3D"=
+font-family: Helvetica; font-size: 15px; color: rgb(96, 96, 96); line-heigh=
+t: 20.8px; "><a href=3D"http://somaspace.us8.list-manage1.com/track/click?u=
+=3D950f3c46b71109dbadebfbc9e&amp;id=3Dda0cfc64eb&amp;e=3Dd36f25545b" target=
+=3D"_blank" style=3D"word-wrap: break-word; color: rgb(109, 198, 221); font=
+-weight: normal; text-decoration: underline; "><span style=3D"color: rgb(21=
+8, 165, 32); ">Introduction to Plant Spirit Medicine</span></a>&nbsp;~ cult=
+ivate relationships with healing plants of oregon, with lisa anne ross</fon=
+t><br style=3D"color: rgb(96, 96, 96); line-height: 20.8px; "><font face=3D=
+"Helvetica" style=3D"font-family: Helvetica; font-size: 15px; color: rgb(96=
+, 96, 96); line-height: 20.8px; ">Regularly 2nd Sundays, 4:30-6:00pm</font>=
+<br style=3D"color: rgb(96, 96, 96); line-height: 20.8px; "><strong style=
+=3D"color: rgb(96, 96, 96); ">*In March meets 4th Sunday (March 22 at 5:30p=
+m)<br>*In June meets 1st Sunday (June 7 at 4:00pm)</strong></div><div dir=
+=3D"ltr" style=3D"color: rgb(96, 96, 96); line-height: 20.8px; background-c=
+olor: rgb(235, 235, 235); "><font face=3D"Helvetica" style=3D"font-family: =
+Helvetica; font-size: 15px; color: rgb(96, 96, 96); line-height: 20.8px; ">=
+$10&nbsp;drop-in</font></div><br style=3D"line-height: 20.8px; text-align: =
+center; color: rgb(96, 96, 96); font-family: Helvetica; font-size: 15px; ba=
+ckground-color: rgb(235, 235, 235); "><span style=3D"background-color: rgb(=
+235, 235, 235); color: rgb(96, 96, 96); font-family: helvetica; font-size: =
+18px; line-height: 20.8px; text-align: center; "><strong>For more informati=
+on on any of these classes, please visit:&nbsp;</strong></span><a href=3D"h=
+ttp://somaspace.us8.list-manage.com/track/click?u=3D950f3c46b71109dbadebfbc=
+9e&amp;id=3D860d42e1fa&amp;e=3Dd36f25545b" target=3D"_blank" style=3D"word-=
+wrap: break-word; color: rgb(109, 198, 221); font-weight: normal; text-deco=
+ration: underline; line-height: 20.8px; text-align: center; font-family: He=
+lvetica; font-size: 15px; background-color: rgb(235, 235, 235); ">www.somas=
+pace.us</a></div><div style=3D"text-align: left; ">&nbsp;</div></div></div>=
+</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></tab=
+le></td></tr></tbody></table></td></tr><tr><td align=3D"center" valign=3D"t=
+op"><table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"600" i=
+d=3D"templateFooter" style=3D"border-collapse: collapse; background-color: =
+rgb(255, 255, 255); border-top-width: 0px; border-top-style: initial; borde=
+r-top-color: initial; border-bottom-width: 0px; border-bottom-style: initia=
+l; border-bottom-color: initial; "><tbody><tr><td valign=3D"top" class=3D"f=
+ooterContainer" style=3D"padding-bottom: 9px; "><table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"100%" class=3D"mcnTextBlock" style=3D=
+"border-collapse: collapse; "><tbody class=3D"mcnTextBlockOuter"><tr><td va=
+lign=3D"top" class=3D"mcnTextBlockInner"></td></tr></tbody></table></td></t=
+r></tbody></table></td></tr></tbody></table></td></tr></tbody></table></cen=
+ter><img src=3D"http://somaspace.us8.list-manage.com/track/open.php?u=3D950=
+f3c46b71109dbadebfbc9e&amp;id=3D7434ef0bab&amp;e=3Dd36f25545b" height=3D"1"=
+ width=3D"1" style=3D"border-top-width: 0px; border-right-width: 0px; borde=
+r-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-=
+color: initial; outline-style: none; outline-width: initial; outline-color:=
+ initial; text-decoration: none; "></div></span></blockquote></div><br></bo=
+dy></html>
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--Apple-Mail-260-371462289--

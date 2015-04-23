@@ -1,0 +1,403 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp435954wjc;
+        Sat, 18 Apr 2015 05:57:23 -0700 (PDT)
+X-Received: by 10.194.249.201 with SMTP id yw9mr14735599wjc.5.1429361843506;
+        Sat, 18 Apr 2015 05:57:23 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id s5si7409941wix.78.2015.04.18.05.57.23
+        for <jackdesert556@gmail.com>;
+        Sat, 18 Apr 2015 05:57:23 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 196F268FC027
+	for <jackdesert556@gmail.com>; Sat, 18 Apr 2015 12:57:23 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 17E7B63A602F
+	for <sacredcircledance@simplelists.com>; Sat, 18 Apr 2015 12:56:39 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 231C0BE06D; Sat, 18 Apr 2015 12:56:38 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.51])
+	by outbound.simplelists.com (Postfix) with ESMTP id 6CC4463A602F
+	for <sacredcircledance@simplelists.com>; Sat, 18 Apr 2015 05:59:27 +0000 (UTC)
+X-ASG-Debug-ID: 1429336757-0798da42d433d8a0001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id myAqcSBDdBjQhaqD for <sacredcircledance@simplelists.com>; Sat, 18 Apr 2015 01:59:17 -0400 (EDT)
+X-Barracuda-Envelope-From: paul@100fires.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from tkt-001-i346.relay.mailchannels.net ([72.249.127.66]:38129 helo=relay.mailchannels.net)
+	by a2s71.a2hosting.com with esmtp (Exim 4.85)
+	(envelope-from <paul@100fires.com>)
+	id 1YjLmc-003J7j-GA
+	for list@sacredcircledance.org; Sat, 18 Apr 2015 01:59:17 -0400
+X-Sender-Id: wwwh|x-authuser|paul@100fires.com
+Received: from wedmore.webserversystems.com (ip-10-213-14-133.us-west-2.compute.internal [10.213.14.133])
+	by relay.mailchannels.net (Postfix) with ESMTPA id B387460FB0
+	for <list@sacredcircledance.org>; Sat, 18 Apr 2015 05:59:10 +0000 (UTC)
+X-Sender-Id: wwwh|x-authuser|paul@100fires.com
+Received: from wedmore.webserversystems.com (wedmore.webserversystems.com [10.246.31.37])
+	(using TLSv1 with cipher DHE-RSA-AES256-SHA)
+	by 0.0.0.0:2500 (trex/5.4.8);
+	Sat, 18 Apr 2015 05:59:11 +0000
+X-MC-Relay: Good
+X-MailChannels-SenderId: wwwh|x-authuser|paul@100fires.com
+X-MailChannels-Auth-Id: wwwh
+X-MC-Loop-Signature: 1429336751032:1608383395
+X-MC-Ingress-Time: 1429336751032
+Received: from c-24-21-225-63.hsd1.or.comcast.net ([24.21.225.63]:53901 helo=[10.0.0.3])
+	by wedmore.webserversystems.com with esmtpsa (TLSv1:AES128-SHA:128)
+	(Exim 4.82)
+	(envelope-from <paul@100fires.com>)
+	id 1YjLmX-0007g5-Fs
+	for list@sacredcircledance.org; Sat, 18 Apr 2015 00:59:09 -0500
+From: Paul Cienfuegos <paul@100fires.com>
+Date: Fri, 17 Apr 2015 23:02:12 -0700
+X-ASG-Orig-Subj: Compassionate Communication Plus: Living from the Heart - A weekend workshop led by Phyllis Brzozowska - May 15-17, 2015
+Message-Id: <BE32AFC5-6234-419E-9543-82DCE296751B@100fires.com>
+To: list@sacredcircledance.org
+Mime-Version: 1.0 (Apple Message framework v1283)
+X-Mailer: Apple Mail (2.1283)
+X-AuthUser: paul@100fires.com
+X-Spam-Status: No, score=0.0 required=5.0 tests=HTML_MESSAGE,LOTS_OF_MONEY
+	autolearn=unavailable autolearn_force=no version=3.4.0
+X-Spam-Score: -23
+X-Spam-Bar: --
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - 100fires.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429336757
+X-Barracuda-URL: https://216.234.124.51:443/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of paul@100fires.com designates 72.249.127.66 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Spam-Score: 0.00
+X-Barracuda-Spam-Status: No, SCORE=0.00 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18068
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150418-05:59:29-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150418-12:56:39-001
+Subject: [SacredCircleDance] Compassionate Communication Plus: Living from the
+ Heart - A weekend workshop led by Phyllis Brzozowska - May 15-17, 2015
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Paul Cienfuegos <paul@100fires.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative;
+ boundary="Apple-Mail=_4F02B586-4C16-42FD-8159-9EC58B364854"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429361843;
+	bh=uGiTdIFyW0REYJdOzpcLepZV6t45nyODTmRGbCSK2kI=;
+	h=From:Date:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=KieLQZ7O4zitayxMUvQ16DTjHZFWZG8jSDqmU7wxIC8zUcQKDhux0cQvMS1oA1F0H
+	 oC1X0fX18GeY7hEKmyORybMtU6cF05A5cKUNFEhZFT7mGfTY7+qxRzJXtdBLpMzPro
+	 /PQ6YybqXkwuMH3pw8hQmgOdZxvA07TdjFC7ELDQ=
+
+--Apple-Mail=_4F02B586-4C16-42FD-8159-9EC58B364854
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+Compassionate Communication Plus: Living from the Heart
+A weekend workshop led by Phyllis Brzozowska
+May 15-17, 2015
+
+=93Compassionate Communication helps me bring my inner world into the relat=
+ional world. I want to connect to life as it flows through me so that I can=
+ connect to life as it flows through you. It is the same life.=94 -- Robert=
+ Gonzales, PhD
+
+I came to the work of Robert Gonzales by way of the study of Nonviolent Com=
+munication (NVC), as do most people. Encountering NVC was life changing for=
+ me. It provided me with exquisite tools for growing in self-awareness, sel=
+f-connection and empathy. Robert Gonzales=92 work builds on these tools and=
+ invites you to go way beyond NVC as simply a language model. It invites yo=
+u to connect to your fullest and deepest authentic self, the self that is c=
+ompassion, that is love and that is whole.
+
+This work is about living your Passion. And when life events or circumstanc=
+es appear to block you from living the fullness of your Passion, it is thro=
+ugh Compassion, within yourself, with others or situations that we find hea=
+ling and are empowered to transform our experience.
+
+In this weekend workshop, we will start with an overview of the basics of C=
+ompassionate Communication. You=92ll be introduced to the =93Beauty of Need=
+s=94 =96 how our life force energy manifests in us as the yearnings of our =
+hearts. Then we=92ll dive into and learn two of the core practices develope=
+d by Robert Gonzales as roadmaps for cultivating inner clarity, loving conn=
+ections and mutual understanding.
+
+About Me=85.
+
+I began studying with Robert Gonzales in 2006 and was in the first class of=
+ his two-year, intensive study called the LIFE Program. (LIFE being an acro=
+nym for Living and Integrating, Full Embodiment.) I have worked as Robert=
+=92s Assistant since 2007, managing the day-to-day administration of the LI=
+FE Program and coordinating his national and international trainings.=20
+
+I moved to Portland, Oregon in 2010 when Robert moved his center here from =
+Prescott, Arizona and renamed it the Center for Living Compassion. I have t=
+aught classes in Compassionate Communication for the Prescott Center for No=
+nviolent Communication and Unity of Portland.  I=92ve led small workshops a=
+nd also worked one-on-one coaching individuals and couples in Compassionate=
+ Communication.
+
+-------------------------------
+
+
+Dates and Times:
+Friday, May 15, 7-9pm
+Saturday May 16, and Sunday May 17, 9am to 5pm
+
+
+Cost:
+$50 to $200+ sliding scale, based on your ability to pay
+See Sliding Scale Fees description and explanation below.
+
+
+Location:
+A private home in SE Portland, just south of Mount Tabor. Further details o=
+nce you register.
+
+
+Phyllis' full contact info, if you want to chat with her directly:
+
+Phyllis Brzozowska <phyllis@living-compassion.org>
+c: 928-499-8603
+Center for Living Compassion
+
+
+--------------------------------------
+
+Sliding Scale Fees=20
+
+I would like you to consider paying a bit more than you are used to paying =
+if you are in an upper-income bracket, and a bit less than you are used to =
+paying if you are in a lower income bracket. In this society, we tend to fo=
+rget that lower income people have much less disposable income for extras o=
+f any kind than do higher income people. So what ends up happening is that =
+lower income people actually end up subsidizing the participation of higher=
+ income people at events where everyone pays the same price to attend.
+
+If you have lots of dependents, please consider paying a bit less than the =
+amounts listed below. If you have few or no dependents, please consider pay=
+ing a bit more than the amounts listed below.
+
+If you are at all uncomfortable with my suggested fee scale, please pay wha=
+tever amount you feel is right for you to pay. YOU are the best judge of wh=
+at you can afford to pay.
+
+If you make less than $15,000 per year, please consider paying $50 or more.
+If you make $15,000 to 25,000 per year, please consider paying $80 or more.
+If you make $25,000 to $50,000 per year, please consider paying $120 or mor=
+e.
+If you make $50,000 to $100,000 per year, please consider paying $160 or mo=
+re.
+If you make $100,000 or more per year, please consider paying $200 or more.
+
+
+Paul Cienfuegos
+PaulCienfuegos.com (dismantling corporate rule work)
+100fires.com (my online bookstore)
+CommunityRightsPDX.org (local group I co-founded)
+
+paul@100fires.com
+POB 86605, Portland, OR 97286
+Cascadia, USA, Mother Earth
+
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--Apple-Mail=_4F02B586-4C16-42FD-8159-9EC58B364854
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<html><head></head><body style=3D"word-wrap: break-word; -webkit-nbsp-mode:=
+ space; -webkit-line-break: after-white-space; "><div><span class=3D"Apple-=
+style-span" style=3D"font-size: 18px; ">Compassionate Communication Plus:&n=
+bsp;</span><span class=3D"Apple-style-span" style=3D"font-size: 18px; ">Liv=
+ing from the Heart</span></div><div><div><span class=3D"Apple-style-span" s=
+tyle=3D"font-size: 18px; ">A weekend workshop led by&nbsp;Phyllis Brzozowsk=
+a</span></div><div><span class=3D"Apple-style-span" style=3D"font-size: 18p=
+x; ">May 15-17, 2015<br></span><br><i>=93Compassionate Communication helps =
+me bring my inner world&nbsp;into the relational world.&nbsp;I want to&nbsp=
+;connect to life as it flows through me so that I can connect to life as it=
+&nbsp;flows through you.&nbsp;It is the same life.=94&nbsp;</i><i>-- Robert=
+&nbsp;Gonzales, PhD</i><div><br>I came to the work of Robert Gonzales by wa=
+y of the study of&nbsp;Nonviolent Communication (NVC), as do most people. E=
+ncountering NVC was&nbsp;life changing for me. It&nbsp;provided me with exq=
+uisite tools for growing in&nbsp;self-awareness, self-connection and empath=
+y. Robert Gonzales=92 work builds&nbsp;on these tools and invites you to go=
+ way beyond&nbsp;NVC as simply a language&nbsp;model. It invites you to con=
+nect to your fullest and deepest authentic&nbsp;self, the self that is comp=
+assion, that is love and that is whole.<br><br></div><div>This work is abou=
+t living your&nbsp;Passion. And&nbsp;when life events or circumstances appe=
+ar to block you from living the fullness&nbsp;of your Passion, it is throug=
+h&nbsp;Compassion,&nbsp;within yourself, with others&nbsp;or situations tha=
+t we find healing and are empowered to transform our&nbsp;experience.<br><b=
+r>In this weekend workshop, we will start with an overview&nbsp;of the basi=
+cs of Compassionate Communication. You=92ll be introduced to the&nbsp;=93Be=
+auty of Needs=94 =96 how our life force&nbsp;energy manifests in us as the =
+yearnings&nbsp;of our hearts. Then we=92ll dive into and learn two of the c=
+ore practices&nbsp;developed by Robert Gonzales as roadmaps for cultivating=
+&nbsp;inner clarity,&nbsp;loving&nbsp;connections and mutual understanding.=
+<br><br><b><u>About Me=85.</u></b><br><br>I began studying with Robert Gonz=
+ales in 2006 and was in the&nbsp;first class of his&nbsp;two-year, intensiv=
+e&nbsp;study called the&nbsp;LIFE Program.&nbsp;(LIFE being an acronym for =
+Living and&nbsp;Integrating, Full Embodiment.) I have worked as Robert=92s =
+Assistant since 2007,&nbsp;managing the day-to-day administration of the LI=
+FE Program and coordinating his&nbsp;national&nbsp;and international traini=
+ngs.&nbsp;<br><br>I moved to Portland, Oregon in 2010 when Robert moved his=
+&nbsp;center here from Prescott, Arizona and renamed it the Center for Livi=
+ng&nbsp;Compassion.&nbsp;I have taught classes in&nbsp;Compassionate&nbsp;C=
+ommunication for the Prescott Center for Nonviolent Communication and Unity=
+ of&nbsp;Portland.&nbsp;&nbsp;I=92ve led small workshops and&nbsp;also work=
+ed one-on-one&nbsp;coaching individuals and couples in Compassionate&nbsp;C=
+ommunication.<br><br>-------------------------------</div></div></div><div>=
+<br></div><div><br></div><div><u><b>Dates and Times:</b></u></div><div>Frid=
+ay, May 15, 7-9pm</div><div>Saturday May 16, and Sunday May 17, 9am to 5pm<=
+/div><div><br></div><div><br></div><div><b><u>Cost:</u></b></div><div>$50 t=
+o $200+ sliding scale, based on your ability to pay</div><div><b><i>See&nbs=
+p;<u>Sliding Scale Fees</u>&nbsp;description and explanation below.</i></b>=
+</div><div><br></div><div><br></div><div><b><u>Location:</u></b></div><div>=
+A private home in SE Portland, just south of Mount Tabor. Further details o=
+nce you register.</div><div><br></div><div><br></div><div>Phyllis' full con=
+tact info, if you want to chat with her directly:</div><div><br><div>Phylli=
+s Brzozowska &lt;<a href=3D"mailto:phyllis@living-compassion.org">phyllis@l=
+iving-compassion.org</a>&gt;<br>c: 928-499-8603<br>Center for Living Compas=
+sion</div><div><br></div><div><br></div><div>------------------------------=
+--------</div><div><br></div><div><span class=3D"Apple-style-span" style=3D=
+"font-size: 18px; "><b><u><font class=3D"Apple-style-span" color=3D"#631b77=
+">Sliding Scale Fees&nbsp;</font></u></b></span><br><br>I would like you to=
+ consider paying a bit more than you are used to paying if you are in an up=
+per-income bracket, and a bit less than&nbsp;you are used to paying if you =
+are in a lower income bracket. In this society, we tend to forget that lowe=
+r income people have much less&nbsp;disposable income for extras of any kin=
+d than do higher income people. So what ends up happening is that lower inc=
+ome people&nbsp;actually end up subsidizing the participation of higher inc=
+ome people at events where everyone pays the same price to attend.<br><br>I=
+f you have lots of dependents, please consider paying a bit less than the a=
+mounts listed below. If you have few or no dependents,&nbsp;please consider=
+ paying a bit more than the amounts listed below.<br><br>If you are at all =
+uncomfortable with my suggested fee scale, please pay whatever amount you f=
+eel is right for you to pay. YOU are the&nbsp;best judge of what you can af=
+ford to pay.<br><br>If you make less than $15,000 per year, please consider=
+ paying $50 or more.<br>If you make $15,000 to 25,000 per year, please cons=
+ider paying $80 or more.<br>If you make $25,000 to $50,000 per year, please=
+ consider paying $120 or more.<br>If you make $50,000 to $100,000 per year,=
+ please consider paying $160 or more.<br>If you make $100,000 or more per y=
+ear, please consider paying $200 or more.</div></div><div apple-content-edi=
+ted=3D"true">
+<span class=3D"Apple-style-span" style=3D"border-collapse: separate; color:=
+ rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: no=
+rmal; font-weight: normal; letter-spacing: normal; line-height: normal; orp=
+hans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; =
+white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizonta=
+l-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorati=
+ons-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-wi=
+dth: 0px; font-size: medium; "><span class=3D"Apple-style-span" style=3D"bo=
+rder-collapse: separate; color: rgb(0, 0, 0); font-family: Helvetica; font-=
+style: normal; font-variant: normal; font-weight: normal; letter-spacing: n=
+ormal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-inde=
+nt: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing=
+: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spac=
+ing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjus=
+t: auto; -webkit-text-stroke-width: 0px; font-size: medium; "><div style=3D=
+"word-wrap: break-word; -webkit-nbsp-mode: space; -webkit-line-break: after=
+-white-space; "><span class=3D"Apple-style-span" style=3D"border-collapse: =
+separate; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; =
+font-variant: normal; font-weight: normal; letter-spacing: normal; line-hei=
+ght: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-t=
+ransform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-=
+border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webk=
+it-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webki=
+t-text-stroke-width: 0px; font-size: medium; "><div style=3D"word-wrap: bre=
+ak-word; -webkit-nbsp-mode: space; -webkit-line-break: after-white-space; "=
+><span class=3D"Apple-style-span" style=3D"border-collapse: separate; color=
+: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant: n=
+ormal; font-weight: normal; letter-spacing: normal; line-height: normal; or=
+phans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none;=
+ white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizont=
+al-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorat=
+ions-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-w=
+idth: 0px; font-size: medium; "><div style=3D"word-wrap: break-word; -webki=
+t-nbsp-mode: space; -webkit-line-break: after-white-space; "><span class=3D=
+"Apple-style-span" style=3D"border-collapse: separate; color: rgb(0, 0, 0);=
+ font-family: Helvetica; font-style: normal; font-variant: normal; font-wei=
+ght: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-=
+align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: n=
+ormal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px=
+; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect:=
+ none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font=
+-size: medium; "><div style=3D"word-wrap: break-word; -webkit-nbsp-mode: sp=
+ace; -webkit-line-break: after-white-space; "><span class=3D"Apple-style-sp=
+an" style=3D"border-collapse: separate; color: rgb(0, 0, 0); font-family: H=
+elvetica; font-style: normal; font-variant: normal; font-weight: normal; le=
+tter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-=
+auto; text-indent: 0px; text-transform: none; white-space: normal; widows: =
+2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-borde=
+r-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-=
+text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; =
+"><div><br class=3D"Apple-interchange-newline"><br></div><div>Paul Cienfueg=
+os</div><div><a href=3D"http://PaulCienfuegos.com">PaulCienfuegos.com</a> (=
+dismantling corporate rule work)</div><div><a href=3D"http://100fires.com">=
+100fires.com</a> (my online bookstore)</div><div><a href=3D"http://Communit=
+yRightsPDX.org">CommunityRightsPDX.org</a> (local group I co-founded)</div>=
+<div><br></div><div><a href=3D"mailto:paul@100fires.com">paul@100fires.com<=
+/a></div><div>POB 86605, Portland, OR 97286</div><div>Cascadia, USA, Mother=
+ Earth</div></span></div></span></div></span></div></span></div></span></sp=
+an>
+</div>
+<br></body></html>
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--Apple-Mail=_4F02B586-4C16-42FD-8159-9EC58B364854--

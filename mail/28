@@ -1,0 +1,246 @@
+                                                                                                                                                                                                                                                               
+Delivered-To: jackdesert556@gmail.com
+Received: by 10.194.246.100 with SMTP id xv4csp267839wjc;
+        Mon, 20 Apr 2015 15:09:24 -0700 (PDT)
+X-Received: by 10.194.187.41 with SMTP id fp9mr35286742wjc.58.1429567758390;
+        Mon, 20 Apr 2015 15:09:18 -0700 (PDT)
+Return-Path: <owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com>
+Received: from saturn.simplelists.com (saturn.simplelists.com. [89.16.184.173])
+        by mx.google.com with ESMTP id ez10si421031wib.101.2015.04.20.15.09.18
+        for <jackdesert556@gmail.com>;
+        Mon, 20 Apr 2015 15:09:18 -0700 (PDT)
+Received-SPF: pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) client-ip=89.16.184.173;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com designates 89.16.184.173 as permitted sender) smtp.mail=owner-sacredcircledance+jackdesert556=gmail.com@simplelists.com;
+       dkim=pass header.i=@simplelists.com;
+       dmarc=fail (p=NONE dis=NONE) header.from=gmail.com
+Received: from outbound.simplelists.com (localhost.localdomain [127.0.0.1])
+	by saturn.simplelists.com (Postfix) with ESMTP id 27AD768FC0A2
+	for <jackdesert556@gmail.com>; Mon, 20 Apr 2015 22:09:18 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Delivered-To: resend+sacredcircledance=simplelists.com@outbound.simplelists.com
+Received: from ground.simplelists.com (ground.simplelists.com [213.138.108.193])
+	by outbound.simplelists.com (Postfix) with ESMTP id 2DEDD63A6029
+	for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 22:07:55 +0000 (UTC)
+Received: by ground.simplelists.com (Postfix, from userid 33)
+	id 03DE4BE085; Mon, 20 Apr 2015 22:07:54 +0000 (UTC)
+X-Original-To: sacredcircledance@simplelists.com
+Received: from barracuda.supercp.com (barracuda.supercp.com [216.234.124.52])
+	by outbound.simplelists.com (Postfix) with ESMTP id 7719563A600E
+	for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 21:24:00 +0000 (UTC)
+X-ASG-Debug-ID: 1429565038-089ef71e385aff70001-WeKjOg
+Received: from a2s71.a2hosting.com (a2s71.a2hosting.com [75.98.160.130]) by barracuda.supercp.com with ESMTP id 3CicO4T6VjlFeXEJ for <sacredcircledance@simplelists.com>; Mon, 20 Apr 2015 17:23:58 -0400 (EDT)
+X-Barracuda-Envelope-From: jillianbrown1@gmail.com
+X-Barracuda-Apparent-Source-IP: 75.98.160.130
+Received: from mail-wi0-f181.google.com ([209.85.212.181]:36852)
+	by a2s71.a2hosting.com with esmtps (TLSv1:RC4-SHA:128)
+	(Exim 4.85)
+	(envelope-from <jillianbrown1@gmail.com>)
+	id 1YkJAa-002Rhe-GS
+	for list@sacredcircledance.org; Mon, 20 Apr 2015 17:23:58 -0400
+Received: by wizk4 with SMTP id k4so115866167wiz.1
+        for <list@sacredcircledance.org>; Mon, 20 Apr 2015 14:23:54 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:date:message-id:subject:from:to:content-type;
+        bh=czb58Bq+ISIdt+o1AIVIQJyPgqi20CfIyvgyxYO5sW0=;
+        b=LLFJpiw2dOEqy9CJDKGbb/YKFqgzzbLoV/xjs7F1WTRz6SsE9TiTLb7P8corRDZ9Kh
+         Z42iAtRu62hctRZAnatDtAE8uVTofPd10tRZBj+rmZKRG6yz+kSBKbs1FYtd5joWqQX/
+         2iUc42jud0ufDCNSWtYlsZeuuaeEJ/hsJuvhGtgDKHhkDyFzqVv2sChZIcD25QPdY6yD
+         csR/jwtN9Vog2Yx2Vs+FD2zILeoZBbL4iBgDDoQGQo8vRmgCWnmkTRNnzhSi3OA5XNyY
+         tdFRdFCf1O23k7KSH8vN1fOn7KmekSD5VYq7VIQTmetJWNKKxvmaAAJUWa6M8G4j8Qr6
+         Rykw==
+MIME-Version: 1.0
+X-Received: by 10.180.75.102 with SMTP id b6mr28768336wiw.75.1429565034652;
+ Mon, 20 Apr 2015 14:23:54 -0700 (PDT)
+Received: by 10.194.172.129 with HTTP; Mon, 20 Apr 2015 14:23:54 -0700 (PDT)
+Date: Mon, 20 Apr 2015 14:23:54 -0700
+Message-ID: <CAPSHsu=6n-F7T0pwks1_4g20RBHuRqO9_jZ9zbzSTz6Re04yVw@mail.gmail.com>
+From: Jillian Brown <jillianbrown1@gmail.com>
+X-ASG-Orig-Subj: Lunch Break Shamanic Journeys
+To: "list@sacredcircledance.org" <list@sacredcircledance.org>
+X-Spam-Status: No, score=0.2 required=5.0 tests=DKIM_SIGNED,DKIM_VALID,
+	DKIM_VALID_AU,FREEMAIL_ENVFROM_END_DIGIT,FREEMAIL_FROM,HTML_MESSAGE
+	autolearn=no autolearn_force=no version=3.4.0
+X-Spam-Score: -35
+X-Spam-Bar: ---
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - a2s71.a2hosting.com
+X-AntiAbuse: Original Domain - sacredcircledance.org
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - gmail.com
+X-Get-Message-Sender-Via: a2s71.a2hosting.com: redirect/forwarder owner list@sacredcircledance.com -> sacredcircledance@simplelists.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+X-Barracuda-Connect: a2s71.a2hosting.com[75.98.160.130]
+X-Barracuda-Start-Time: 1429565038
+X-Barracuda-URL: http://barracuda.supercp.com:8000/cgi-mod/mark.cgi
+Received-SPF: pass (supercp.com: domain of jillianbrown1@gmail.com designates 209.85.212.181 as permitted sender)
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-BRTS-Evidence: cariocabowls.com
+X-Barracuda-Spam-Score: 0.20
+X-Barracuda-Spam-Status: No, SCORE=0.20 using per-user scores of TAG_LEVEL=1000.0 QUARANTINE_LEVEL=4.0 KILL_LEVEL=5.0 tests=BSF_SC0_MISMATCH_TO, BSF_SC0_SA074b, HTML_MESSAGE
+X-Barracuda-Spam-Report: Code version 3.2, rules version 3.2.3.18172
+	Rule breakdown below
+	 pts rule name              description
+	---- ---------------------- --------------------------------------------------
+	0.00 BSF_SC0_MISMATCH_TO    Envelope rcpt doesn't match header
+	0.00 HTML_MESSAGE           BODY: HTML included in message
+	0.20 BSF_SC0_SA074b         Custom Rule SA074b
+X-Virus-Scanned: clamav-milter 0.98.5 at outbound.simplelists.com
+X-Virus-Status: Clean
+X-Spam-Checker-Version: SpamAssassin 3.4.0 (2014-02-07) on
+	outbound.simplelists.com
+X-SimpleLists: /var/lib/simplelists/incoming/20150420-21:24:02-001
+X-SimpleLists: /var/lib/simplelists/incoming/20150420-22:07:55-002
+Subject: [SacredCircleDance] Lunch Break Shamanic Journeys
+Precedence: bulk
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+Reply-To: Jillian Brown <jillianbrown1@gmail.com>
+List-ID: sacredcircledance mailing list <sacredcircledance.simplelists.com>
+Sender: sacredcircledance-manager@simplelists.com
+Content-Type: multipart/alternative; boundary="f46d0438915512e7a205142e8ce4"
+List-Unsubscribe: <http://www.simplelists.com/confirm.php?u=OFulnQJTEau71mnVCoWHu66W9B4ESoYw>,
+ <mailto:unsubscribe-OFulnQJTEau71mnVCoWHu66W9B4ESoYw@simplelists.com>
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple; d=simplelists.com;
+	s=selector1; t=1429567758;
+	bh=LqdKiAjOGNAIpWtcDxH75tIUssUy15Qs3VqkmKXIC6I=;
+	h=Date:From:To:Subject:Reply-To:List-ID:List-Unsubscribe;
+	b=DeljA1E+MgkGZIP9Kj32FXkfspOeIrx9JBGzDgQIfTWSHvtJrj8AUzlUszJ3tCHPE
+	 gtMSf3o3O6Bg6kjBzQsRyIojSZg8Lr0vwX24aPCDfvP1ITWMa1Tjvwq4a0Q6sFyYPr
+	 9FjFYDESrAfbUWItGcWISpMKmFDvA82z/mLv4xQ0=
+
+--f46d0438915512e7a205142e8ce4
+X-SL-Modified: truncated_text
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_text
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+We get blocked, we get stuck, we get frustrated, and end repeating the same
+habits and patterns over and over again. Let=E2=80=99s break the cycle! Per=
+sonally
+I'm sick of being stuck and feeling like I don't have control over my
+actions. What=E2=80=99s the best thing to do when you are stuck? First STOP=
+ what
+you are doing, then DROP it and DO SOMETHING DIFFERENT! Simple, but easier
+said than done.
+I want to offer this opportunity to shake things up in the middle of your
+work week, to offer something different to create change and open the
+doorway to new possibilities. I love new possibilities! The easiest way I
+have found to create change and allow a new expression of life is
+throughconnection
+to subconscious mind. What an endlessly amazing and fascinating place!
+There are many ways to access the wisdom of the subconscious, the modality
+I will be using during this lunch time offering with be through shamanic
+drumming and intention setting. The drum really helps in knocking things
+loose and breaking down stuck energy. The beat of the drum also gets us
+into trance quickly and easily where we can more easily have visions and
+realizations about our intentions and how to easily have what we desire.
+Another aspect of the shamanic journeying that has been endlessly valuable
+to me has been my spirit animal guides. Our animal guides are our allies,
+each animal brings their own gifts and wisdom, I cannot express enough how
+valuable my guides have been to me. Of all the healing modalities I have
+experienced (and I love learning about all kinds of things) the connection
+to my animal guides has been the most powerful and healing. Meeting and
+gaining guidance and wisdom from our animal guides will be part of this
+process.
+Come play! Create new possibilities! Embrace your desires!
+827 NE Alberta St
+Every Wednesday 12-1pm
+All classes offered at this venue are by donation. Find out more here:
+http://cariocabowls.com/fulllotus.html
+<http://l.facebook.com/l.php?u=3Dhttp%3A%2F%2Fcariocabowls.com%2Ffulllotus.=
+html&h=3DOAQHDn1pQ&enc=3DAZMfCrkGheleBd1ib-pP7tboMsznkT2uFyMWNa43m3Kwy87EX-=
+_dSUc2Et5s74_pyMs&s=3D1>
+--=20
+Jillian M. Brown, CHt
+Certified Hypnotherapist
+jillianbrownhypnosis.com
+503-523-9569
+-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    http://sacredcircledance.org/post
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland's Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com=
+
+--f46d0438915512e7a205142e8ce4
+X-SL-Modified: truncated_html
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+X-SL-Modified: wrapped_html
+X-SL-Unsub-Added: http://archives.simplelists.com
+
+<div dir=3D"ltr"><div><span style=3D"color:rgb(20,24,35);font-family:helvet=
+ica,arial,&#39;lucida grande&#39;,sans-serif;font-size:14px;line-height:18.=
+7600002288818px">We get blocked, we get stuck, we get frustrated, and end r=
+epeating the same habits and patterns over and over again. Let=E2=80=99s br=
+eak the cycle! Personally I&#39;m sick of being stuck and feeling like I do=
+n&#39;t have control over my actions. What=E2=80=99s the best thing to do w=
+hen you are stuck? First STOP what you are doing, then DROP it and DO SOMET=
+HING DIFFERENT! Simple, but easier said than done.=C2=A0</span><br style=3D=
+"color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sa=
+ns-serif;font-size:14px;line-height:18.7600002288818px"><span style=3D"colo=
+r:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-se=
+rif;font-size:14px;line-height:18.7600002288818px">I want to offer this opp=
+ortunity to shake things up in the middle of your work week, to offer somet=
+hing different to create change and open the doorway to new possibilities. =
+I love new possibilities! The easiest way I have found to create change and=
+ allow a new expression of life is through</span><span class=3D"" style=3D"=
+display:inline;color:rgb(20,24,35);font-family:helvetica,arial,&#39;lucida =
+grande&#39;,sans-serif;font-size:14px;line-height:18.7600002288818px">conne=
+ction to subconscious mind. What an endlessly amazing and fascinating place=
+!=C2=A0<br>There are many ways to access the wisdom of the subconscious, th=
+e modality I will be using during this lunch time offering with be through =
+shamanic drumming and intention setting. The drum really helps in knocking =
+things loose and breaking down stuck energy. The beat of the drum also gets=
+ us into trance quickly and easily where we can more easily have visions an=
+d realizations about our intentions and how to easily have what we desire.=
+=C2=A0<br>Another aspect of the shamanic journeying that has been endlessly=
+ valuable to me has been my spirit animal guides. Our animal guides are our=
+ allies, each animal brings their own gifts and wisdom, I cannot express en=
+ough how valuable my guides have been to me. Of all the healing modalities =
+I have experienced (and I love learning about all kinds of things) the conn=
+ection to my animal guides has been the most powerful and healing. Meeting =
+and gaining guidance and wisdom from our animal guides will be part of this=
+ process.=C2=A0<br>Come play! Create new possibilities! Embrace your desire=
+s!</span></div><div><span class=3D"" style=3D"display:inline;color:rgb(20,2=
+4,35);font-family:helvetica,arial,&#39;lucida grande&#39;,sans-serif;font-s=
+ize:14px;line-height:18.7600002288818px">827 NE Alberta St<br>Every Wednesd=
+ay 12-1pm<br>All classes offered at this venue are by donation. Find out mo=
+re here:<a href=3D"http://l.facebook.com/l.php?u=3Dhttp%3A%2F%2Fcariocabowl=
+s.com%2Ffulllotus.html&amp;h=3DOAQHDn1pQ&amp;enc=3DAZMfCrkGheleBd1ib-pP7tbo=
+MsznkT2uFyMWNa43m3Kwy87EX-_dSUc2Et5s74_pyMs&amp;s=3D1" rel=3D"nofollow nofo=
+llow" target=3D"_blank" style=3D"color:rgb(59,89,152);text-decoration:none"=
+>http://cariocabowls.com/<span class=3D"" style=3D"display:inline-block"></=
+span>fulllotus.html</a></span><br></div>-- <br><div class=3D"gmail_signatur=
+e"><div>Jillian M. Brown, CHt</div>
+<div>Certified Hypnotherapist</div>
+<div><a href=3D"http://jillianbrownhypnosis.com" target=3D"_blank">jillianb=
+rownhypnosis.com</a></div>
+<div>503-523-9569</div></div>
+</div>
+
+<tt><pre>-------------------------------------------------------------------
+Welcome to the new Sacred Circle Dance mailing list!
+To post a message, just email it to:  list@sacredcircledance.org
+Post from the web:                    <a href=3D"http://sacredcircledance.o=
+rg/post">http://sacredcircledance.org/post</a>
+Read the list archive:                http://sacredcircledance.org/archive
+Unsubscribe or change your subscription:
+http://sacredcircledance.org/subscribe
+Portland&#39;s Ecstatic Dance listings:   http://pdxecstaticdance.com
+Questions - please email us at:       info@sacredcircledance.org
+
+NEW: The Daily Dancer - Events from Sacred Circle Mailing List
+http://pdxdailydancer.com</pre></tt>=
+
+--f46d0438915512e7a205142e8ce4--

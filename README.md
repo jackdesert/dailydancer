@@ -235,6 +235,9 @@ NEEDS PRIORITIZATION
   * Get better formatting of "from" when it's one of those weird ones
   * CTRL-z
   * Offer a way to send people "perma"links to events
+  * Ensure the gzip is operating for all mime types via nginx
+  * Make sure that for those who have caching disabled (like curl) that the
+    cached response is still given
 
 
 Notes from my Sweetheart:

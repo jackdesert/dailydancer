@@ -73,10 +73,10 @@ Add a symlink in nginx' sites-enabled directory that points to config/dancer-ngi
 Then migrate a database with rack env set to production (see above)
 
 Test that is starts
- 
+
     RACK_ENV=production bundle exec rackup config-dancer.ru
 
-Then shut if off and start it with this long-running script that will restart it if it 
+Then shut if off and start it with this long-running script that will restart it if it
 stops for any reason:
 
     nohup script/run_dancer_indefinitely.sh &
@@ -238,6 +238,7 @@ NEEDS PRIORITIZATION
   * Ensure the gzip is operating for all mime types via nginx
   * Make sure that for those who have caching disabled (like curl) that the
     cached response is still given
+  * Note ids 409 - 449 inclusive were manually added using script
 
 
 Notes from my Sweetheart:

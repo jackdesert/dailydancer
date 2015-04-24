@@ -143,7 +143,7 @@ Roadmap
 
 COMPLETED:
 
-  * Confirmed Util.current_date_in_portland works correctly before and after midnight
+  * Confirmed Util.current-date-in-portland works correctly before and after midnight
   * Hyperlinks are clickable
   * robots.txt opts out of search engines
   * /admin/messages allows a view into which messages are being picked up
@@ -166,6 +166,8 @@ COMPLETED:
 
 PASSIONATE ABOUT:
 
+
+  * Health check endpoint with monitor.us checking
   * Beautiful rendering of email content (possibly using html and parsing out custom styles)
 
 

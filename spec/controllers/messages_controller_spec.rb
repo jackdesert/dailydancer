@@ -92,4 +92,11 @@ describe 'the controller' do
     end
   end
 
+  context 'GET /status' do
+    it 'returns 200' do
+      response = browser.get '/status'
+      response.status.should == 200
+    end
+  end
+
 end

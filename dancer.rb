@@ -101,6 +101,10 @@ class Dancer < Sinatra::Base
     haml :'pages/faq', locals: {page_title: 'Daily Dancer', nav_class: :faq}
   end
 
+  get '/status' do
+    display_status
+  end
+
   get '/admin/messages' do
     locals = { messages: Message.order(Sequel.desc(:id)) }
     haml :'admin/messages/index', locals: locals, layout: false

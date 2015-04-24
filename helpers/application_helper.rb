@@ -57,5 +57,30 @@ module ApplicationHelper
     "last_message_id:#{Message.last.try(:id)}/last_event_id:#{Event.last.try(:id)}/date:#{Util.current_date_in_portland}"
   end
 
+  def display_status
+    if Message.count == 0
+      return 'No Messages found in database'
+    end
+
+    if (Message.last.received_at - Time.now).abs > 1.day
+      return "Have not received new messages recently. Last message at #{Message.last.received_at}"
+    end
+
+    unless (Event.count > 10) && (Event.count < 22)
+      return "Number of Events expected to be between 10 and 22, but found #{Event.count}"
+    end
+
+    time_ago_in_hours = (Message.last.received_at - Time.now).abs / 3600
+
+    lines = ["All Systems Go",
+             "#{time_ago_in_hours.round(1)} hours ago" ,
+             "Message.count: #{Message.count}",
+             "Event.count: #{Event.count}",
+             'Most Recent Message:',
+             "  received_at: #{Message.last.received_at}",
+             "  subject: #{Message.last.subject_filtered}"]
+    lines.join("\n")
+  end
+
 end
 

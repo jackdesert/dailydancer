@@ -70,6 +70,10 @@ Add a symlink in nginx' sites-enabled directory that points to config/dancer-ngi
     sudo ln -s /home/<user>/dancer/config/dancer-nginx.conf
     sudo nginx -s reload
 
+Install redis-server
+
+    sudo apt-get install redis-server
+
 Then migrate a database with rack env set to production (see above)
 
 Test that is starts

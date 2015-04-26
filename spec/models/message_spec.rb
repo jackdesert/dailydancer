@@ -283,4 +283,25 @@ describe Message do
     end
   end
 
+  describe '.num_hidden' do
+    before do
+      described_class.map(&:delete)
+    end
+
+    let!(:message) { create(:message) }
+
+    context 'when none are hidden' do
+      it 'returns 0' do
+        described_class.num_hidden.should == 0
+      end
+    end
+
+    context 'when one is hidden' do
+      it 'returns 0' do
+        message.hide('reason')
+        described_class.num_hidden.should == 1
+      end
+    end
+  end
+
 end

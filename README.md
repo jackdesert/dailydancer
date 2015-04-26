@@ -242,6 +242,8 @@ NEEDS PRIORITIZATION
     cached response is still given
   * Note ids 409 - 449 inclusive were manually added using script
   * Teach it to ignore "until May 20th"
+  * Teach it to ignore "due May 20th"
+  * Teach it to ignore "approximately May 20th"
 
 
 Notes from my Sweetheart:

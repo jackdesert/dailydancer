@@ -153,4 +153,8 @@ class Message < Sequel::Model
     output
   end
 
+  def self.num_hidden
+    where(hidden: true).count
+  end
+
 end

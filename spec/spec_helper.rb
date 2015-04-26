@@ -2,6 +2,7 @@ ENV['RACK_ENV'] = 'test'
 
 require 'sinatra'
 require 'sequel'
+require 'redis'
 
 # Set Sequel::Model to return nil if save fails, as opposed to raising an exception
 #Sequel::Model.raise_on_save_failure = false
@@ -31,6 +32,7 @@ DB = Sequel.connect("sqlite://#{DB_FILE}")
 Dir["#{File.dirname(__FILE__)}/../db/migrations/*.rb"].each { |f| require(f) }
 
 require_relative '../models/util'
+require_relative '../models/ledger'
 require_relative '../models/message'
 require_relative '../models/event'
 require_relative '../models/date_parser'

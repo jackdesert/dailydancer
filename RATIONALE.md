@@ -152,7 +152,7 @@ Why is a weak etag being used?
 
 When nginx gzips the content, it removes strong etags.
 The custom version of nginx being used has been patched to not remove
-weak etags. 
+weak etags.
 See http://forum.nginx.org/read.php?2,240120,243846#msg-243846
 
 
@@ -160,3 +160,8 @@ Why is the status page at status.pdxdailydancer.com instead of pdxdailydancer.co
 -----------------------------------------------------------------------------------------
 
 Because it is a common practice among tech companies.
+
+Why was Redis chosen for the Ledger model?
+------------------------------------------
+
+Because it has an easy way of working with sets, and offers key expiration.

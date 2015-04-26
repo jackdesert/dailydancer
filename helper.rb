@@ -2,6 +2,7 @@ require 'sinatra'
 require 'sinatra/content_for'
 require 'sinatra/subdomain'
 require 'rack/cache'
+require 'redis'
 require 'pry'
 require 'sequel'
 require 'json'
@@ -17,6 +18,7 @@ unless settings.test?
 end
 
 require './models/util'
+require './models/ledger'
 require './models/date_parser'
 require './models/message'
 require './models/event'

@@ -162,12 +162,15 @@ COMPLETED:
   * Link for "More Events" that shows three additional weeks
   * Now using pdxdailydancer.com
   * All user-agents see Events; Only browsers see Messages. This means we can be indexed by Google
+  * collect unique IP addresses via (redis?) by date
+  * Health check endpoint with monitor.us checking
+  * Allow google to index either the faq page or the main page (without events)
+  * Supply an etag for '/' and '/?xhr=true' so users can refresh without downloading code
 
 
 PASSIONATE ABOUT:
 
 
-  * Health check endpoint with monitor.us checking
   * Beautiful rendering of email content (possibly using html and parsing out custom styles)
 
 
@@ -181,7 +184,11 @@ PRETTY WARM ABOUT:
   * Improve FAQ to include what it includes / doesn't include
   * Improve FAQ to include "What is this again?"
   * Spot-on styling and positioning on Android and iPhone (especially nav tabs)
-  * Complete Rationale idea
+  * Do not show "register by April 1"
+  * Teach it to ignore "until May 20th"
+  * Teach it to ignore "due May 20th"
+  * Teach it to ignore "approximately May 20th"
+  * negative lookbehind for "until <date>" and "before <date>"
 
 SEEMS LIKE A GOOD IDEA:
 
@@ -201,23 +208,18 @@ NOT SO SURE ABOUT:
   * Inline scripts and stylesheets in production mode so only one network hit
   * Make a /jack page that tells about the author, and link to it instead of giving a mailto
   * Make sure received-at is converted to the correct day (Pacific time) when used to parse relative dates in subjects
-  * Staging site
   * Build an interactive thing that displays a message and asks if the correct date has been found, then saves
     the "confirmed_date" so it is easy to test whether they are all correctly identified.
-  * Investigate Zepto
   * Load Testing
   * Using the artwork from one of the fiverr artists (in /doc/artwork)
 
 NEEDS PRIORITIZATION
 
-  * Allow google to index either the faq page or the main page (without events)
-  * collect unique IP addresses via (redis?) by date
   * Set up automatic database archiving
   * Print out slips of cardstock that have daily dancer address
   * Talk with Abigail about ways to get more mindshare around DailyDancer
   * Only load messages that arrived within the last 30 days. (And use an index on received at)
   * Make it faster (loading in 0.6 seconds). index on hidden? store parsed date? Memcached?
-  * Do not show "register by April 1"
   * Search in subject + plain for date
   * Make sure digital ocean is set for automatic backups
   * Fix bug where when in UTC time it is a new month, but in Portland it is still the old month, and daily dancer
@@ -227,12 +229,9 @@ NEEDS PRIORITIZATION
   * Canonical site---redirect anything that uses a subdomain to pdxdailydancer.com
   * 2" x 3.5" cards artfully designed (or not) with pdxdailydancer.com on it (and my name as creator/webmaster)
   * Disable button which fetching AJAX (at least for two seconds)
-  * put scraping of pdxecstaticdance.com into transaction so dupes cannot happen
   * Find out how to get author email address
   * remove event-id column from Message since we don't link to it
   * nginx caching of dancer.js and style.css and reset.css
-  * Supply an etag for '/' and '/?xhr=true' so users can refresh without downloading code
-  * negative lookbehind for "until <date>" and "before <date>"
   * Get email addresses to show up in "from" above body. (now we have name)
   * Get better formatting of "from" when it's one of those weird ones
   * CTRL-z
@@ -241,9 +240,6 @@ NEEDS PRIORITIZATION
   * Make sure that for those who have caching disabled (like curl) that the
     cached response is still given
   * Note ids 409 - 449 inclusive were manually added using script
-  * Teach it to ignore "until May 20th"
-  * Teach it to ignore "due May 20th"
-  * Teach it to ignore "approximately May 20th"
 
 
 Notes from my Sweetheart:
@@ -252,7 +248,6 @@ Notes from my Sweetheart:
   * Can we put the first four lines of the body?
   * Location, time? Are those hard?
   * I notice that a four-day event only shows up on the first day of that event...
-  * Votes for ten days' worth
   * What about really juicy events that are announced six weeks ahead and that will fill up fast? Do
     I want that to show up in DD?
   * When show-more button opens, can it go ALL THE WAY into the future.

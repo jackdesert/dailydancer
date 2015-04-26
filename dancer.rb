@@ -56,6 +56,7 @@ class Dancer < Sinatra::Base
                 last_ingestion_in_hours: last_ingestion_in_hours,
                 num_events: Event.count,
                 num_messages: Message.count,
+                unique_visitors_today: Ledger.party_size,
                 page_title: 'Daily Dancer',
                 nav_class: :status }
 
@@ -69,6 +70,10 @@ class Dancer < Sinatra::Base
     browser = Util.is_browser?(env['HTTP_USER_AGENT'])
     show_duplicates = admin = !!params[:admin]
     allow_cache = !!params[:allow_cache]
+
+    if browser
+      Ledger.record_guest(env['HTTP_X_REAL_IP'])
+    end
 
     cache_text = 'no cache'
     if (browser && settings.production? && !admin) || allow_cache

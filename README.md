@@ -175,6 +175,7 @@ COMPLETED:
 PASSIONATE ABOUT:
 
 
+  * Allow site to function even if redis-server is down
   * Beautiful rendering of email content (possibly using html and parsing out custom styles)
 
 

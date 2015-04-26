@@ -15,7 +15,7 @@
   .status-statistics Statistics:
 
   .status-data-holder
-    .status-data= last_ingestion_in_hours.round(1)
+    .status-data= last_ingestion_in_hours.try(:round, 1)
     .status-label hours since last message ingestion
 
   .status-data-holder

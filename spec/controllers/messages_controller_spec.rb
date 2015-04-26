@@ -92,10 +92,11 @@ describe 'the controller' do
     end
   end
 
-  context 'GET /status' do
+  context 'GET status.example.com' do
     it 'returns 200' do
-      response = browser.get '/status'
+      response = browser.get 'http://status.example.com'
       response.status.should == 200
+      response.body.should include('Statistics')
     end
   end
 

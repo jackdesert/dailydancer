@@ -1,0 +1,29 @@
+%h1#title= page_title
+#subtitle System Status
+
+.date-holder
+  = haml :_nav, locals: { nav_class: nil }
+  %h2
+    - if system_errors.empty?
+      .status-heading.healthy All Systems Go
+    - else
+      .status-heading.has-issues Issue Found:
+
+  - system_errors.each do |error|
+    .status-error-message= error
+
+  .status-statistics Statistics:
+
+  .status-data-holder
+    .status-data= last_ingestion_in_hours.round(1)
+    .status-label hours since last message ingestion
+
+  .status-data-holder
+    .status-data= num_events
+    .status-label Events
+
+  .status-data-holder
+    .status-data= num_messages
+    .status-label Messages
+
+

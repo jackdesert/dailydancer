@@ -1,9 +1,17 @@
 #nav
   - if nav_class == :faq
     .nav-item.faq FAQ
-    %a{href: '/'}
-      .nav-item{class: 'active'} Events
-  - else
-    %a{href: '/faq'}
+    %a{href: root_url}
+      .nav-item.root{class: 'active'} Events
+
+  - elsif nav_class == :root
+    %a{href: faq_url}
       .nav-item.faq{class: 'active'} FAQ
-    .nav-item Events
+    .nav-item.root Events
+
+  - else
+    %a{href: faq_url}
+      .nav-item.faq{class: 'active'} FAQ
+    %a{href: root_url}
+      .nav-item.root{class: 'active'} Events
+    .nav-item.status Status

@@ -1,4 +1,10 @@
 module ApplicationHelper
+
+  PRODUCTION_SERVER_NAME = 'pdxdailydancer.com'
+  LOCAL_SERVER_NAME = 'dancer-local.com:9292'
+
+  RACK_ENV = ENV['RACK_ENV']
+
   # Note the FOOTER_REGEX has the /m flag which allows it to match multiple lines
   FOOTER_REGEX = /-------------------------------------------------------------------.*/m
 
@@ -57,29 +63,52 @@ module ApplicationHelper
     "last_message_id:#{Message.last.try(:id)}/last_event_id:#{Event.last.try(:id)}/date:#{Util.current_date_in_portland}"
   end
 
-  def display_status
-    if Message.count == 0
-      return 'No Messages found in database'
-    end
+  def system_errors
+    errors = []
 
-    if (Message.last.received_at - Time.now).abs > 1.day
-      return "Have not received new messages recently. Last message at #{Message.last.received_at}"
+    if Message.count == 0
+      errors << 'No Messages found in database'
+    elsif (Message.last.received_at - Time.now).abs > 1.day
+      errors << "Have not received new messages recently. Last message at #{Message.last.received_at}"
     end
 
     unless (Event.count > 10) && (Event.count < 22)
-      return "Number of Events expected to be between 10 and 22, but found #{Event.count}"
+      errors << "Number of Events expected to be between 10 and 22, but found #{Event.count}"
     end
 
-    time_ago_in_hours = (Message.last.received_at - Time.now).abs / 3600
+    unless (Message.count > 400)
+      errors << "Number of Messages expected to be above 400, but found #{Message.count}"
+    end
 
-    lines = ["All Systems Go",
-             "#{time_ago_in_hours.round(1)} hours ago" ,
-             "Message.count: #{Message.count}",
-             "Event.count: #{Event.count}",
-             'Most Recent Message:',
-             "  received_at: #{Message.last.received_at}",
-             "  subject: #{Message.last.subject_filtered}"]
-    lines.join("\n")
+    errors
+  end
+
+  def last_ingestion_in_hours
+    if Message.count == 0
+      nil
+    else
+      (Message.last.try(:received_at) - Time.now).abs / 3600
+    end
+  end
+
+  def server_name
+    if RACK_ENV == 'production'
+      PRODUCTION_SERVER_NAME
+    else
+      LOCAL_SERVER_NAME
+    end
+  end
+
+  def root_url
+    "http://#{server_name}"
+  end
+
+  def status_url
+    "http://status.#{server_name}"
+  end
+
+  def faq_url
+    "http://#{server_name}/faq"
   end
 
 end

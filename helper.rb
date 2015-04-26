@@ -1,5 +1,6 @@
 require 'sinatra'
 require 'sinatra/content_for'
+require 'sinatra/subdomain'
 require 'rack/cache'
 require 'pry'
 require 'sequel'

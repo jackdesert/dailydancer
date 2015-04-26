@@ -63,5 +63,120 @@ describe ApplicationHelper do
       build_etag.match(',').should be_nil
     end
   end
+
+  describe 'root_url' do
+    after do
+      ApplicationHelper::RACK_ENV = 'test'
+    end
+
+    context 'test environment' do
+      it 'is a valid url' do
+        root_url.match(URI::ABS_URI).should_not be_nil
+      end
+
+      it 'points to the canonical location' do
+        root_url.should == 'http://dancer-local.com:9292'
+      end
+    end
+
+    context 'production environment' do
+      before do
+        ApplicationHelper::RACK_ENV = 'production'
+      end
+
+      it 'is a valid url' do
+        root_url.match(URI::ABS_URI).should_not be_nil
+      end
+
+      it 'points to the canonical location' do
+        root_url.should == 'http://pdxdailydancer.com'
+      end
+    end
+  end
+
+  describe 'faq_url' do
+    after do
+      ApplicationHelper::RACK_ENV = 'test'
+    end
+
+    context 'test environment' do
+      it 'is a valid url' do
+        faq_url.match(URI::ABS_URI).should_not be_nil
+      end
+
+      it 'points to the canonical location' do
+        faq_url.should == 'http://dancer-local.com:9292/faq'
+      end
+    end
+
+    context 'production environment' do
+      before do
+        ApplicationHelper::RACK_ENV = 'production'
+      end
+
+      it 'is a valid url' do
+        faq_url.match(URI::ABS_URI).should_not be_nil
+      end
+
+      it 'points to the canonical location' do
+        faq_url.should == 'http://pdxdailydancer.com/faq'
+      end
+    end
+  end
+
+  describe 'status_url' do
+    after do
+      ApplicationHelper::RACK_ENV = 'test'
+    end
+
+    context 'test environment' do
+      it 'is a valid url' do
+        status_url.match(URI::ABS_URI).should_not be_nil
+      end
+
+      it 'points to the canonical location' do
+        status_url.should == 'http://status.dancer-local.com:9292'
+      end
+    end
+
+    context 'production environment' do
+      before do
+        ApplicationHelper::RACK_ENV = 'production'
+      end
+
+      it 'is a valid url' do
+        status_url.match(URI::ABS_URI).should_not be_nil
+      end
+
+      it 'points to the canonical location' do
+        status_url.should == 'http://status.pdxdailydancer.com'
+      end
+    end
+  end
+
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

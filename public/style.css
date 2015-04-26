@@ -45,9 +45,6 @@ body.admin{
   float: right;
   padding: 0.1rem 0.7rem;
   border-radius: 0.3rem 0.3rem 0 0;
-}
-
-.nav-item.faq{
   margin-left: 0.15rem;
 }
 
@@ -261,10 +258,41 @@ button.toggle-additional-dates:before{
   overflow: hidden; /* this is so that gravity() can control it's apparent height using max-height css property */
 }
 
+/* Status Page */
+.status-heading{
+  font-size: 200%;
+  padding-bottom: 0.5rem;
+}
 
+.status-statistics{
+  font-size: 170%;
+}
 
+.status-heading.healthy{
+  color: green;
+}
 
+.status-heading.has-issues{
+  color: #d00;
+}
 
+.status-error-message{
+  color: #d00;
+  font-size: 130%;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.status-data, .status-label{
+  font-size: 130%;
+  display: inline-block;
+}
+
+.status-data{
+  width: 4rem;
+  text-align: right;
+  padding-right: 0.2rem;
+}
 
 
 /* Medium and large screens */

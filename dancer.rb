@@ -16,6 +16,7 @@ end
 class Dancer < Sinatra::Base
   include ApplicationHelper
   helpers Sinatra::ContentFor
+  register Sinatra::Subdomain
 
   BASELINE_DAYS = 7
   ADDITIONAL_DAYS = 24
@@ -45,6 +46,20 @@ class Dancer < Sinatra::Base
 
   before do
     redirect_to_canonical_url
+  end
+
+  subdomain :status do
+    get '/' do
+
+    locals  = { system_errors: system_errors,
+                last_ingestion_in_hours: last_ingestion_in_hours,
+                num_events: Event.count,
+                num_messages: Message.count,
+                page_title: 'Daily Dancer',
+                nav_class: :status }
+
+      haml :'status', locals: locals
+    end
   end
 
   get '/' do
@@ -88,7 +103,7 @@ class Dancer < Sinatra::Base
     locals  = { date_range_with_messages: date_range_with_messages,
                 date_range_with_events: date_range_with_events,
                 page_title: 'Daily Dancer',
-                nav_class: :home,
+                nav_class: :root,
                 admin: admin,
                 xhr: xhr
               }
@@ -99,10 +114,6 @@ class Dancer < Sinatra::Base
 
   get '/faq' do
     haml :'pages/faq', locals: {page_title: 'Daily Dancer', nav_class: :faq}
-  end
-
-  get '/status' do
-    display_status
   end
 
   get '/admin/messages' do

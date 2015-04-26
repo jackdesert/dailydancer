@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'sinatra-contrib' # This provides :content_for
+gem 'sinatra-subdomain'
 gem 'sequel'
 gem 'sqlite3' # `apt-get install libsqlite3-dev` is required on ubuntu
 gem 'tzinfo'

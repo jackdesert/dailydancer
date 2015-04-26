@@ -241,6 +241,7 @@ NEEDS PRIORITIZATION
   * Make sure that for those who have caching disabled (like curl) that the
     cached response is still given
   * Note ids 409 - 449 inclusive were manually added using script
+  * Teach it to ignore "until May 20th"
 
 
 Notes from my Sweetheart:

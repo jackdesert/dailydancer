@@ -6,7 +6,11 @@ class Ledger
 
   class << self
     def record_guest(ip)
-      redis.sadd(date_key, ip)
+      begin
+        redis.sadd(date_key, ip)
+      rescue Redis::CannotConnectError
+        # This is rescued so redis cannot bring down the site
+      end
     end
 
     def guest_list
@@ -14,11 +18,25 @@ class Ledger
     end
 
     def party_size
-      redis.scard(date_key)
+      begin
+        redis.scard(date_key)
+      rescue Redis::CannotConnectError
+        # This is rescued so redis cannot bring down the site
+      end
     end
 
     def redis
       @redis ||= Redis.new
+    end
+
+    def available?
+      # This method is used as a health check
+      begin
+        redis.ping
+        true
+      rescue Redis::CannotConnectError
+        false
+      end
     end
 
     private

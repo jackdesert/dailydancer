@@ -80,6 +80,10 @@ module ApplicationHelper
       errors << "Number of Messages expected to be above 400, but found #{Message.count}"
     end
 
+    unless Ledger.available?
+      errors << 'Visitor tracking system is down'
+    end
+
     errors
   end
 

@@ -23,6 +23,7 @@ class Dancer < Sinatra::Base
 
   PRODUCTION = 'pdxdailydancer.com'
   STAGING = 'pdxdailydancer-staging.com'
+
   CANONICAL_SERVER_NAMES = [PRODUCTION, STAGING]
 
   LOG_FILE = settings.root + "/log/#{settings.environment}.log"
@@ -162,6 +163,7 @@ class Dancer < Sinatra::Base
     return unless settings.production?
 
     server_name = env['SERVER_NAME']
+    server_name = server_name.sub('status.', '') if server_name
 
     unless CANONICAL_SERVER_NAMES.include?(server_name)
       redirect "http://#{PRODUCTION}"

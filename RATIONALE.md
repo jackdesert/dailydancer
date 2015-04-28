@@ -165,3 +165,16 @@ Why was Redis chosen for the Ledger model?
 ------------------------------------------
 
 Because it has an easy way of working with sets, and offers key expiration.
+
+Why is this (still) a Sinatra App?
+--------------------------
+May 1, 2015 Originally this was a sinatra app because it was a simple app and
+it was intended to run in a small footprint.
+However, there are a few features that would be easier in Rails.
+Emails in test environment going to a hash instead of actually being sent is one example.
+Assets digested is another.
+Assets bundled together is another.
+Separate controllers for separate actions is another.
+Easier multipart (plain and html) mailers
+Granted, I have learned a lot doing things the "hard way". Like rendering erb templates from a mailer.
+But Rails would be kinda nice at this point.

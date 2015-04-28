@@ -142,6 +142,7 @@ class Dancer < Sinatra::Base
 
     if message.valid?
       message.save
+      confirm_listing(message)
       status 201
       message.values.to_json
     else
@@ -173,6 +174,17 @@ class Dancer < Sinatra::Base
     unless CANONICAL_SERVER_NAMES.include?(server_name)
       redirect "http://#{PRODUCTION}"
     end
+  end
+
+  def confirm_listing(message)
+    thread = Thread.new do
+      email = Mailer.confirm_listing(message)
+      email.deliver if email
+    end
+
+    # Do not wait in production --- It's faster that way
+    # (though we will not know about errors)
+    thread.join unless settings.production?
   end
 
 end

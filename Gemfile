@@ -16,7 +16,7 @@ gem 'rb-readline' # For some reason this is required on my Digital Ocean box und
 gem 'chronic'
 gem 'nokogiri'
 gem 'redis'
-# gem 'mail' # only enable this when using script/manual_import.rb
+gem 'mail'
 
 group :test do
   gem 'time-warp'

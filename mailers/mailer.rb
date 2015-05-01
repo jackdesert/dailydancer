@@ -12,11 +12,17 @@ Mail.defaults do
 end
 
 class Mailer
+  RESTRICTED_EMAIL_ADDRESSES = ['list@sacredcircledance.org']
 
   class << self
 
     def confirm_listing(message)
+
+      return if message.parsed_date.nil?
+
       to = message.author
+      return if RESTRICTED_EMAIL_ADDRESSES.include?(to)
+
       subject = "Your Event Has Been Listed on Daily Dancer"
 
       pretty_date = message.parsed_date.strftime('%b %d')
@@ -24,8 +30,7 @@ class Mailer
       author_first_name = message.author.split('<').first
 
       body  = haml :'mailers/confirm_listing', locals: { message: message }
-      message = build_email(to, subject, body)
-      message
+      build_email(to, subject, body)
     end
 
 

@@ -56,8 +56,11 @@ class Mailer
     private
 
     def build_email(to_arg, subject_arg, body_arg)
+      from_email = Mail.delivery_method.settings[:user_name]
+      from_name = 'PDX Daily Dancer'
+
       Mail.new do
-        from     Mail.delivery_method.settings[:user_name]
+        from     "#{from_name} <#{from_email}>"
         to       to_arg
         subject  subject_arg
         body     body_arg

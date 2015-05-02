@@ -74,11 +74,17 @@ Install redis-server
 
     sudo apt-get install redis-server
 
+Copy config/smtp.yml-EXAMPLE to config/smtp.yml and put in appropriate values for user_name and password
+
 Then migrate a database with rack env set to production (see above)
 
 Test that is starts
 
     RACK_ENV=production bundle exec rackup config-dancer.ru
+
+Test that you can send mail by setting a breakpoint right before the mail is sent,
+and send the mail. You may need to visit https://accounts.google.com/b/0/DisplayUnlockCaptcha to convince
+google that your app is legit and owned by you.
 
 Then shut if off and start it with this long-running script that will restart it if it
 stops for any reason:

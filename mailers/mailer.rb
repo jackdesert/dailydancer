@@ -2,7 +2,7 @@ CONFIG = YAML.load_file('config/smtp.yml')
 
 Mail.defaults do
   delivery_method :smtp, {
-    :address => 'smtp.gmail.com',
+    :address => 'smtp.zoho.com',
     :port => '587',
     :user_name  => CONFIG['user_name'],
     :password   => CONFIG['password'],
@@ -13,6 +13,7 @@ end
 
 class Mailer
   RESTRICTED_EMAIL_ADDRESSES = ['list@sacredcircledance.org']
+  SUPPORT_EMAIL = 'support@pdxdailydancer.com'
 
   class << self
 
@@ -45,6 +46,7 @@ class Mailer
       b.local_variable_set(:pretty_date_with_weekday, pretty_date_with_weekday)
       b.local_variable_set(:author_first_name, author_first_name)
       b.local_variable_set(:original_to, original_to)
+      b.local_variable_set(:support_email, SUPPORT_EMAIL)
 
       template = File.read('views/mailers/confirm_listing.erb')
       body = ERB.new(template).result(b)

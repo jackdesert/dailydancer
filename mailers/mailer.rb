@@ -11,19 +11,36 @@ Mail.defaults do
   }
 end
 
+module Mail
+  class NullMessage < Message
+    def deliver
+      # Do nothing
+    end
+  end
+end
+
+
 class Mailer
-  RESTRICTED_EMAIL_ADDRESSES = ['list@sacredcircledance.org']
   SUPPORT_EMAIL = 'support@pdxdailydancer.com'
 
   class << self
 
+    def null_message
+      Mail::NullMessage.new
+    end
+
     def confirm_listing(message)
 
-      return if message.parsed_date.nil?
+      return null_message if message.parsed_date.nil?
 
-      original_to = message.author
-      to = 'Jack <jackdesert556@gmail.com>'
-      return if RESTRICTED_EMAIL_ADDRESSES.include?(to)
+      original_to = message.author_multiple_source
+      to = ['Jack <jackdesert556@gmail.com>', SUPPORT_EMAIL]
+
+      # One more check to make sure no mail is sent directly to the list
+      return null_message if          to.include?(Message::LIST_EMAIL_ADDRESS)
+      return null_message if original_to.include?(Message::LIST_EMAIL_ADDRESS)
+      return null_message if original_to == Message::UNKNOWN_AUTHOR
+      return null_message if          to == Message::UNKNOWN_AUTHOR
 
       subject = "Your Event Has Been Listed on Daily Dancer"
 
@@ -38,7 +55,7 @@ class Mailer
       pretty_date = "#{month} #{day_of_month}"
       pretty_date_with_weekday = "#{day_of_week} #{pretty_date}"
 
-      author_first_name = message.author.split('<').first.strip
+      author_first_name = message.author_multiple_source.split('<').first.strip
 
       # Create a binding that will be available to the ERB template
       b = binding

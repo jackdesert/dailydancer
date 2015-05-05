@@ -1,10 +1,16 @@
 class Message < Sequel::Model
+  # SimpleLists sometimes puts the author in
+  LIST_EMAIL_ADDRESS = 'list@sacredcircledance.org'
+  NOBODY_EMAIL_ADDRESS = 'nobody@simplelists.com'
+  UNKNOWN_AUTHOR = 'unknown'
+
   # These regexes would normally be in ApplicationHelper, but they are needed here
   # in order to determine duplicates
   #
+  AUTHOR_IN_BODY_REGEX = /From:.*?@.*?\n\n/
   # Note the FOOTER_REGEX has the /m flag which allows it to match multiple lines
   FOOTER_REGEX = /-------------------------------------------------------------------.*/m
-  FORWARDED_EMAIL_REGEX = /This email was sent from \w{1,25}\.com which does not allow forwarding of emails via email lists. Therefore the sender's email address \(.*\) has been replaced with a dummy one. The original message follows:/
+  FORWARDED_EMAIL_REGEX = /This email was sent from \w{1,25}\.com which does not allow forwarding of emails via email lists. Therefore the sender's email address \((.*)\) has been replaced with a dummy one. The original message follows:/
 
   DUPLICATE_SPLITTER_REGEX = /[,.]/
 
@@ -101,8 +107,23 @@ class Message < Sequel::Model
     marked_as_duplicate
   end
 
+  def author_multiple_source
+    if author.include?(LIST_EMAIL_ADDRESS)
+      author_from_plain = plain.match(AUTHOR_IN_BODY_REGEX).to_s.sub('From:', '').strip
+      author_from_plain.empty? ? UNKNOWN_AUTHOR : author_from_plain
+    elsif author.include?(NOBODY_EMAIL_ADDRESS)
+      # use name if present
+      name = ''
+      name = author.split('(').first.sub('"', '').strip if author.include?('(')
+      email = plain.match(FORWARDED_EMAIL_REGEX).try(:captures).try(:first)
+      email ? "#{name} <#{email}>".strip : UNKNOWN_AUTHOR
+    else
+      author
+    end
+  end
+
   def plain_filtered
-    plain.sub(FOOTER_REGEX, '').sub(FORWARDED_EMAIL_REGEX, '')
+    plain.sub(AUTHOR_IN_BODY_REGEX, '').sub(FOOTER_REGEX, '').sub(FORWARDED_EMAIL_REGEX, '')
   end
 
   def subject_filtered

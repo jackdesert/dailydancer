@@ -1,8 +1,8 @@
 Dear <%= author_first_name %>,
 
-Thanks for hosting an event in our community! 
+Thanks for hosting an event in our community!
 
-"<%= message.subject_filtered %>" has been listed with other "<%= pretty_date_with_weekday %>" events on http://pdxdailydancer.com.*
+"<%= message.subject_filtered %>" has been listed with other "<%= pretty_date_with_weekday %>" events on http://pdxdailydancer.com
 
 If this is not the correct date, or if this is not an event, please contact <%= support_email %>.
 
@@ -19,4 +19,5 @@ Instigator and Creator, pdxdailydancer.com
 easier for dancers to find what's happening on a particular day.
 
 <%= "original_to: #{original_to}" if defined?(original_to) %>
+<%= "id: #{message.id}" %>
 

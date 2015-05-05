@@ -304,4 +304,48 @@ describe Message do
     end
   end
 
+  describe '#author_multiple_source' do
+    context 'when author includes LIST_ADDRESS' do
+      context 'when first line of plain shows author' do
+        let(:plain) { "From: Laureli@thrive-wise.com\n\nDiscover Yourself!" }
+        let(:message) { create(:message, plain: plain, author: 'Blah Blah Blah <list@sacredcircledance.org>') }
+        it 'uses the author from plain' do
+          message.author_multiple_source.should == 'Laureli@thrive-wise.com'
+        end
+      end
+
+      context 'when first line of plain does not show author' do
+        let(:plain) { "Discover Yourself!\n\nToday!" }
+        let(:message) { create(:message, plain: plain, author: 'Blah Blah Blah <list@sacredcircledance.org>') }
+        it 'returns unknown' do
+          message.author_multiple_source.should == 'unknown'
+        end
+      end
+    end
+
+    context 'when author is nobody@simplelist.com' do
+      context 'when the author is in the first line of plain' do
+        let(:plain) { "This email was sent from yahoo.com which does not allow forwarding of emails via email lists. Therefore the sender's email address (touch@yahoo.com) has been replaced with a dummy one. The original message follows:\n\nFire" }
+        let(:message) { create(:message, plain: plain, author: "\"Carolyn Sleuth (via sacredcircledance list)\" <nobody@simplelists.com>") }
+        it 'uses the author from plain' do
+          message.author_multiple_source.should == 'Carolyn Sleuth <touch@yahoo.com>'
+        end
+      end
+
+      context 'when the author is not the first line of plain' do
+        let(:message) { create(:message, plain: 'Fire', author: "\"Carolyn Sleuth (via sacredcircledance list)\" <nobody@simplelists.com>") }
+        it 'returns unknown' do
+          message.author_multiple_source.should == 'unknown'
+        end
+      end
+    end
+
+    context 'when author does not include LIST_ADDRESS' do
+      let(:plain) { "From: Laureli@thrive-wise.com\n\nDiscover Yourself!" }
+      let(:message) { create(:message, plain: plain, author: 'A Real Author <real@author.com>') }
+      it 'uses the author from plain' do
+        message.author_multiple_source.should == 'A Real Author <real@author.com>'
+      end
+    end
+  end
 end

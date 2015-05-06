@@ -48,7 +48,7 @@
       .message-or-event{id: "message-#{message.id}", class: klass}
         %h3.subject= message.subject_filtered
         .details.hidden
-          .source= "(Posted by #{CGI.escapeHTML(message.author_multiple_source)} on #{message.received_at})"
+          .source= "(Posted by #{CGI.escapeHTML(message.author_multiple_source)} on #{message.received_at.strftime('%b %e')})"
           - details_as_array(message).each do |line|
             .line= line
 

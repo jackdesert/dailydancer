@@ -33,14 +33,11 @@ class Mailer
 
       return null_message if message.parsed_date.nil?
 
-      original_to = message.author_multiple_source
-      to = ['Jack <jackdesert556@gmail.com>', SUPPORT_EMAIL]
+      to = [message.author_multiple_source, SUPPORT_EMAIL]
 
       # One more check to make sure no mail is sent directly to the list
-      return null_message if          to.include?(Message::LIST_EMAIL_ADDRESS)
-      return null_message if original_to.include?(Message::LIST_EMAIL_ADDRESS)
-      return null_message if original_to == Message::UNKNOWN_AUTHOR
-      return null_message if          to == Message::UNKNOWN_AUTHOR
+      return null_message if to.include?(Message::LIST_EMAIL_ADDRESS)
+      return null_message if to == Message::UNKNOWN_AUTHOR
 
       subject = "Your Event Has Been Listed on Daily Dancer"
 
@@ -62,7 +59,6 @@ class Mailer
       b.local_variable_set(:pretty_date, pretty_date)
       b.local_variable_set(:pretty_date_with_weekday, pretty_date_with_weekday)
       b.local_variable_set(:author_first_name, author_first_name)
-      b.local_variable_set(:original_to, original_to)
       b.local_variable_set(:support_email, SUPPORT_EMAIL)
 
       template = File.read('views/mailers/confirm_listing.erb')

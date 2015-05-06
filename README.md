@@ -251,6 +251,7 @@ NEEDS PRIORITIZATION
   * Make sure that for those who have caching disabled (like curl) that the
     cached response is still given
   * Note ids 409 - 449 inclusive were manually added using script
+  * Get author "list@sacredcircledance.org (=?UTF-8?Q?Susan-P?=)" to show up correctly in Message.author-multiple-source
 
 
 Notes from my Sweetheart:

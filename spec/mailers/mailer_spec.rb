@@ -3,12 +3,12 @@ require 'spec_helper'
 describe Mailer do
 
   let(:author) { 'Jack <jackdesert@gmail.com>' }
-  let(:message) { create(:message, author: author, plain: "From: list@sacredcircledance.org\n\nMarch 2") }
   describe '.confirm_listing' do
     context 'when to is restricted' do
+      let(:message) { create(:message, plain: 'May 2') }
+
       it do
-        # the only way to force 'to' to be restricted is to set it as both the author and in the first line of plain
-        message.author = 'Blah Blah Blah <list@sacredcircledance.org>'
+        stub(message).author_multiple_source{ 'Blah Blah Blah <list@sacredcircledance.org>' }
         message.parsed_date.should_not be_nil
         message.author_multiple_source.should include(Message::LIST_EMAIL_ADDRESS)
         email = described_class.confirm_listing(message)
@@ -17,6 +17,7 @@ describe Mailer do
     end
 
     context 'when to is not restricted' do
+      let(:message) { create(:message, author: author, plain: "March 2") }
       it do
         email = described_class.confirm_listing(message)
         email.should be_a(Mail::Message)
@@ -26,9 +27,10 @@ describe Mailer do
   end
 
   describe '.deliver' do
+    let(:message) { create(:message, author: author, plain: "March 2") }
     it do
       email = described_class.confirm_listing(message)
-      email.should_not be_nil
+      email.should be_a(Mail::Message)
       email.deliver
     end
   end

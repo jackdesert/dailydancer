@@ -33,7 +33,8 @@ class Mailer
 
       return null_message if message.parsed_date.nil?
 
-      to = [message.author_multiple_source, SUPPORT_EMAIL]
+      to = message.author_multiple_source
+      bcc = SUPPORT_EMAIL
 
       # One more check to make sure no mail is sent directly to the list
       return null_message if to.include?(Message::LIST_EMAIL_ADDRESS)
@@ -64,19 +65,20 @@ class Mailer
       template = File.read('views/mailers/confirm_listing.erb')
       body = ERB.new(template).result(b)
 
-      build_email(to, subject, body)
+      build_email(to, bcc, subject, body)
     end
 
 
     private
 
-    def build_email(to_arg, subject_arg, body_arg)
+    def build_email(to_arg, bcc_arg, subject_arg, body_arg)
       from_email = Mail.delivery_method.settings[:user_name]
       from_name = 'PDX Daily Dancer'
 
       Mail.new do
         from     "#{from_name} <#{from_email}>"
         to       to_arg
+        bcc      bcc_arg
         subject  subject_arg
         body     body_arg
       end

@@ -109,10 +109,17 @@ class Message < Sequel::Model
 
   def author_multiple_source
     if author.include?(LIST_EMAIL_ADDRESS)
-      author_from_plain = plain.match(AUTHOR_IN_BODY_REGEX).to_s.sub('From:', '').strip
-      author_from_plain.empty? ? UNKNOWN_AUTHOR : author_from_plain
+      # Here's the common pattern:
+      #   author: "list@sacredcircledance.org (=?UTF-8?Q?James_Brown?=)"
+      #   plain:  "From: littlenikki78@gmail.com\n\n ..."
+      name = ''
+      name = author.match(/Q\?(.*?)\?/).try(:captures).try(:first).to_s.gsub('_', ' ')
+      email = plain.match(AUTHOR_IN_BODY_REGEX).to_s.sub('From:', '').strip
+      email.empty? ? UNKNOWN_AUTHOR : "#{name} <#{email}>".strip
     elsif author.include?(NOBODY_EMAIL_ADDRESS)
-      # use name if present
+      # Here's the common pattern:
+      #   author: "\"Chris Browne (via sacredcircledance list)\" <nobody@simplelists.com>"
+      #   plain: "This email was sent from yahoo.com which does not ..."
       name = ''
       name = author.split('(').first.sub('"', '').strip if author.include?('(')
       email = plain.match(FORWARDED_EMAIL_REGEX).try(:captures).try(:first)

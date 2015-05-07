@@ -306,11 +306,11 @@ describe Message do
 
   describe '#author_multiple_source' do
     context 'when author includes LIST_ADDRESS' do
-      context 'when first line of plain shows author' do
-        let(:plain) { "From: Laureli@thrive-wise.com\n\nDiscover Yourself!" }
-        let(:message) { create(:message, plain: plain, author: 'Blah Blah Blah <list@sacredcircledance.org>') }
+      context 'when first line of plain shows author email' do
+        let(:plain) { "From: James@brown.com\n\nDiscover Yourself!" }
+        let(:message) { create(:message, plain: plain, author: 'list@sacredcircledance.org (=?UTF-8?Q?Amie_Charles?=)') }
         it 'uses the author from plain' do
-          message.author_multiple_source.should == 'Laureli@thrive-wise.com'
+          message.author_multiple_source.should == 'Amie Charles <James@brown.com>'
         end
       end
 

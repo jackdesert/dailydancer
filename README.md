@@ -252,6 +252,8 @@ NEEDS PRIORITIZATION
     cached response is still given
   * Note ids 409 - 449 inclusive were manually added using script
   * Get author "list@sacredcircledance.org (=?UTF-8?Q?Susan-P?=)" to show up correctly in Message.author-multiple-source
+  * Find out why Message 630 did not send the first time. (Sent manually later)
+  * Include somaspace.us/schedule.html ? calendar events?
 
 
 Notes from my Sweetheart:

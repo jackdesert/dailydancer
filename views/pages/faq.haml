@@ -9,38 +9,38 @@
   = haml :_nav, locals: locals
   .question What is Daily Dancer?
   .answer
-    Daily Dancer helps to answer the question, "What's going on today in the Portland ecstatic dance community?"
-  .answer
     Daily Dancer is a computer program that pulls events from two sources: from the
     %a{href: 'http://pdxecstaticdance.com/subscribe/', target: '_blank'} Sacred Circle mailing list
     and from the dance calendar at
     <a href='http://pdxecstaticdance.com/', target='_blank'>pdxecstaticdance.com</a>.
     All the events found are grouped by date of occurrence.
 
-  .question How does it identify events from the mailing list?
-  .answer
-    First, it looks for one of these patterns in the subject:
-    .example This Coming Thursday
-  .answer
-    If it doesn't find anything there, then it goes to the body of the email and uses the first date it comes to with the following format:
-    .example Oct. 12
-    .example Dec 1
-    .example January 31
+  .question What's going on today in the Portland ecstatic dance community?
+  .answer That is exactly the question the Daily Dancer sets out to answer.
 
-  .question How do I make sure the event I post gets recognized correctly?
+  -#.question How does it identify events from the mailing list?
+  -#.answer
+  -#  First, it looks for one of these patterns in the subject:
+  -#  .example This Coming Thursday
+  -#.answer
+  -#  If it doesn't find anything there, then it goes to the body of the email and uses the first date it comes to with the following format:
+  -#  .example Oct. 12
+  -#  .example Dec 1
+  -#  .example January 31
+
+  .question How do I make sure an event I post to the list gets displayed on the Daily Dancer?
   .answer
-    Either: use the "This Friday" pattern in the
-    .inline.italic subject:
+    Put the date near the top of your email, and spell out the month:
     %br
-    .example.inline Watch the Moon Rise with us This Friday
-  .answer
-    Or: use one of the date formats shown above in the
-    .inline.italic body:
-    %br
-    .example.inline
-      First annual
-      = cool_event
-      is March 25. Register by March 15 to get early bird pricing. Cost is blah blah blah...
+    .example.inline Watch the Moon Rise with us March 15th at 7pm.
+  -#.answer
+  -#  Or: use one of the date formats shown above in the
+  -#  .inline.italic body:
+  -#  %br
+  -#  .example.inline
+  -#    First annual
+  -#    = cool_event
+  -#    is March 25. Register by March 15 to get early bird pricing. Cost is blah blah blah...
 
     %br
     Make sure you list the event date before any ancillary dates, since the first one it comes to (March 25 in this example) is the one that counts.
@@ -50,7 +50,8 @@
   .answer Second, has the message already come through the list?
   .answer
     Third, if the above are true and it still does not show up,
-    %a{href: mailto('Support')} send us an email
+    send an email to
+    = mailto('Support')
     so we can help. Please reference the subject line of the message you posted to the list and what day and time you sent it.
 
   .question I posted the same event twice, and it only shows up on Daily Dancer once. Is that normal?
@@ -58,15 +59,26 @@
 
   .question I have a suggestion. Where do I send it?
   .answer
-    Great! Would love to hear your feedback on how to improve Daily Dancer. You can
-    = "<a href='#{mailto('Feedback')}'>send feedback by email</a>."
+    Please send suggestions to
+    = "#{mailto('Feedback')}."
+
+  .question Help?
+  .answer
+    Help offered, concerns addressed. Please contact
+    = "#{mailto('Feedback')}."
 
   .question Who built this?
-  .answer This is the site that Jack built. Jack Desert. Yes that's his real name. You've probably seen him in the Tiffany Center on Sunday mornings in red pants and a black tanktop, or at contact improv on Tuesday nights. Jack started dancing in 2014, and loves to build things.
+  .answer
+    This is the site that Jack built.
+    = "<a href='http://jackdesert.com'>Jack Desert</a>."
+    Yes that's his real name. You've probably seen him in the Tiffany Center on Sunday mornings
+    in red pants and a black tanktop, holding hands with Jennifer Gates.
+    Jack started dancing
+    in 2014, and loves to build things.
 
   .question Where can I find the source code?
   .answer
-    Daily Dancer is open source, and it uses other open-source technologies---a combination of ruby, regular expressions, rspec, sinatra, sqlite, the sequel gem, jqlite, JavaScript, and CSS. Read the source code <a href='http://github.com/jackdesert/dailydancer' target='_blank'>here</a>.
+    Daily Dancer is open source, and it uses other open-source technologies---a combination of ruby, regular expressions, rspec, sinatra, sqlite, the sequel gem, jQuery, JavaScript, and CSS. Read the source code <a href='http://github.com/jackdesert/dailydancer' target='_blank'>here</a>.
 
   #faq-spacer
 

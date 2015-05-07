@@ -254,6 +254,9 @@ NEEDS PRIORITIZATION
   * Get author "list@sacredcircledance.org (=?UTF-8?Q?Susan-P?=)" to show up correctly in Message.author-multiple-source
   * Find out why Message 630 did not send the first time. (Sent manually later)
   * Include somaspace.us/schedule.html ? calendar events?
+  * Nicholas suggests: Yea I would use ...  the "point click finger" to - indicate opening the event bubbles
+    indicate clickable hyperlinks (I might remove the bold shift that occurs when hovering over hyperlinks)
+    the curser when hovering over text the arrow the rest of the time
 
 
 Notes from my Sweetheart:

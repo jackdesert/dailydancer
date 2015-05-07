@@ -54,7 +54,7 @@ module ApplicationHelper
   end
 
   def mailto(last_word='')
-    "mailto:#{Mailer::SUPPORT_EMAIL}?subject=Daily%20Dancer%20#{last_word}"
+    "<a href='mailto:#{Mailer::SUPPORT_EMAIL}?subject=Daily%20Dancer%20#{last_word}'>#{Mailer::SUPPORT_EMAIL}</a>"
   end
 
   def build_etag

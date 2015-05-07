@@ -198,7 +198,8 @@ a{
   color: inherit;
 }
 a:hover{
-  font-weight: bold;
+  /*font-weight: bold;*/
+  color: #666;
 }
 
 .question, .answer{

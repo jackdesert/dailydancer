@@ -108,25 +108,32 @@ class Message < Sequel::Model
   end
 
   def author_multiple_source
-    if author.include?(LIST_EMAIL_ADDRESS)
-      # Here's the common pattern:
-      #   author: "list@sacredcircledance.org (=?UTF-8?Q?James_Brown?=)"
-      #   plain:  "From: littlenikki78@gmail.com\n\n ..."
-      name = ''
-      name = author.match(/Q\?(.*?)\?/).try(:captures).try(:first).to_s.gsub('_', ' ')
-      email = plain.match(AUTHOR_IN_BODY_REGEX).to_s.sub('From:', '').strip
-      email.empty? ? UNKNOWN_AUTHOR : "#{name} <#{email}>".strip
-    elsif author.include?(NOBODY_EMAIL_ADDRESS)
-      # Here's the common pattern:
-      #   author: "\"Chris Browne (via sacredcircledance list)\" <nobody@simplelists.com>"
-      #   plain: "This email was sent from yahoo.com which does not ..."
-      name = ''
-      name = author.split('(').first.sub('"', '').strip if author.include?('(')
-      email = plain.match(FORWARDED_EMAIL_REGEX).try(:captures).try(:first)
-      email ? "#{name} <#{email}>".strip : UNKNOWN_AUTHOR
-    else
-      author
-    end
+    prepped = if author.include?(LIST_EMAIL_ADDRESS)
+                # Here's the common pattern:
+                #   author: "list@sacredcircledance.org (=?UTF-8?Q?James_Brown?=)"
+                #   plain:  "From: littlenikki78@gmail.com\n\n ..."
+                name = ''
+                name = author.match(/Q\?(.*?)\?/).try(:captures).try(:first).to_s.gsub('_', ' ')
+                email = plain.match(AUTHOR_IN_BODY_REGEX).to_s.sub('From:', '').strip
+                email.empty? ? UNKNOWN_AUTHOR : "#{name} <#{email}>".strip
+              elsif author.include?(NOBODY_EMAIL_ADDRESS)
+                # Here's the common pattern:
+                #   author: "\"Chris Browne (via sacredcircledance list)\" <nobody@simplelists.com>"
+                #   plain: "This email was sent from yahoo.com which does not ..."
+                name = ''
+                name = author.split('(').first.strip if author.include?('(')
+                email = plain.match(FORWARDED_EMAIL_REGEX).try(:captures).try(:first)
+                email ? "#{name} <#{email}>".strip : UNKNOWN_AUTHOR
+              else
+                author
+              end
+    prepped.gsub('"', '').strip
+  end
+
+  def author_first_name
+    first_name = author_multiple_source.split(' ').first
+    first_name = first_name.gsub(/[<>]/, '') if first_name[0] == '<'
+    first_name
   end
 
   def plain_filtered

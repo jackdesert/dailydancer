@@ -53,13 +53,11 @@ class Mailer
       pretty_date = "#{month} #{day_of_month}"
       pretty_date_with_weekday = "#{day_of_week} #{pretty_date}"
 
-      author_first_name = message.author_multiple_source.split('<').first.strip
 
       # Create a binding that will be available to the ERB template
       b = binding
       b.local_variable_set(:pretty_date, pretty_date)
       b.local_variable_set(:pretty_date_with_weekday, pretty_date_with_weekday)
-      b.local_variable_set(:author_first_name, author_first_name)
       b.local_variable_set(:support_email, SUPPORT_EMAIL)
 
       template = File.read('views/mailers/confirm_listing.erb')

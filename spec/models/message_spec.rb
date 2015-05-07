@@ -348,4 +348,22 @@ describe Message do
       end
     end
   end
+
+  describe '#author_first_name' do
+    let(:message) { described_class.new }
+    hash =  { 'Jo Ma <jo@ma.com>' => 'Jo',
+              'JoMa <jo@ma.com>'  => 'JoMa',
+              '<jo@ma.com>'       => 'jo@ma.com',
+              'jo@ma.com'         => 'jo@ma.com' }
+
+    hash.each do |full_email, first_name|
+      context "when author is #{full_email}" do
+        it "returns #{first_name}" do
+          stub(message).author_multiple_source.returns(full_email)
+          message.author_first_name.should == first_name
+        end
+      end
+    end
+  end
+
 end

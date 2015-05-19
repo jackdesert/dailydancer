@@ -20,6 +20,7 @@ class Message < Sequel::Model
   HOUSE_SITTER_REGEX = /house\s+sit/
   PET_SITTER_REGEX = /(dog|cat|pet)\s+sit/
   KICKSTARTER_REGEX = /kickstarter\.com/
+  ASTROLOGYNOW_REGEX = /astrologynow\s+forecast/
 
   plugin :validation_helpers
 
@@ -56,8 +57,8 @@ class Message < Sequel::Model
   end
 
   def not_an_event?
-    regexes = [RENTAL_REGEX, HOUSE_SITTER_REGEX, PET_SITTER_REGEX, KICKSTARTER_REGEX]
-    subject_and_plain = subject + plain
+    regexes = [RENTAL_REGEX, HOUSE_SITTER_REGEX, PET_SITTER_REGEX, KICKSTARTER_REGEX, ASTROLOGYNOW_REGEX]
+    subject_and_plain = (subject + plain).downcase
     regexes.any?{|f| subject_and_plain.match(f)}
   end
 

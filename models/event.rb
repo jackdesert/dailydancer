@@ -78,12 +78,15 @@ class Event < Sequel::Model
     location.titleize
   end
 
+  def location_url_formatted
+    # Ignore anything after first parenthesis
+    location_url.split('(').first
+  end
+
   def address
     match = location_url.match(/\?q=([^&]+)/)
     return '' unless match
-    full_address = match[1].gsub('+', SPACE)
-    # Ignore anything after first parenthesis
-    full_address.split('(').first.try(:strip)
+    match[1].gsub('+', SPACE)
   end
 
   # Redefine the equality operator to only check particular fields

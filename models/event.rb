@@ -81,7 +81,9 @@ class Event < Sequel::Model
   def address
     match = location_url.match(/\?q=([^&]+)/)
     return '' unless match
-    match[1].gsub('+', SPACE)
+    full_address = match[1].gsub('+', SPACE)
+    # Ignore anything after first parenthesis
+    full_address.split('(').first.try(:strip)
   end
 
   # Redefine the equality operator to only check particular fields

@@ -199,6 +199,7 @@ PRETTY WARM ABOUT:
   * Teach it to ignore "until May 20th"
   * Teach it to ignore "due May 20th"
   * Teach it to ignore "approximately May 20th"
+  * Teach it to ignore "by May 20th"
   * negative lookbehind for "until <date>" and "before <date>"
 
 SEEMS LIKE A GOOD IDEA:
@@ -257,6 +258,10 @@ NEEDS PRIORITIZATION
   * Nicholas suggests: Yea I would use ...  the "point click finger" to - indicate opening the event bubbles
     indicate clickable hyperlinks (I might remove the bold shift that occurs when hovering over hyperlinks)
     the curser when hovering over text the arrow the rest of the time
+  * Make sure cache is flushed when new code is pushed. (Etag remains the same...how to make sure new html is downloaded?)
+    This will also ensure that if something is broken it displays as broken immediately
+    One way to do this would be to `cat .git/refs/heads/master`
+    Or add a counter every time the server is restarted
 
 
 Notes from my Sweetheart:

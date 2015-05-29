@@ -176,6 +176,7 @@ COMPLETED:
   * Health check endpoint with monitor.us checking
   * Allow google to index either the faq page or the main page (without events)
   * Supply an etag for '/' and '/?xhr=true' so users can refresh without downloading code
+  * Mark as "not an event" things like "as soon as March 15th" and variations
 
 
 PASSIONATE ABOUT:
@@ -189,17 +190,11 @@ PRETTY WARM ABOUT:
 
   * Better posting guidelines: Nicholas suggests "put the date at the top". Jack suggests: "Spell out the date, and put it near the top"
   * If two dates in body, choose the first one AFTER received-at
-  * Do not display "Move in as soon as May 1st." as an event
   * Advertise it among friends
   * Advertise on facebook list
   * Improve FAQ to include what it includes / doesn't include
   * Improve FAQ to include "What is this again?"
   * Spot-on styling and positioning on Android and iPhone (especially nav tabs)
-  * Do not show "register by April 1"
-  * Teach it to ignore "until May 20th"
-  * Teach it to ignore "due May 20th"
-  * Teach it to ignore "approximately May 20th"
-  * Teach it to ignore "by May 20th"
   * negative lookbehind for "until <date>" and "before <date>"
 
 SEEMS LIKE A GOOD IDEA:

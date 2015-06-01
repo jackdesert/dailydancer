@@ -19,7 +19,12 @@ class DateParser
   # The word 'wrote' with a colon after it generally the preamble to a forwarded mail, not an event date
   NOT_A_FORWARD_INTRO = '(?!.{0,75}wrote:)'
 
-  DATE_REGEX = /(#{MONTH_OPTIONS})#{OPTIONAL_PERIOD}#{OPTIONAL_SPACES}#{ONE_OR_TWO_DIGITS}#{NOT_YEAR}#{NOT_A_FORWARD_INTRO}/
+  END_OF_PERIOD_PHRASES = ['through', 'starting', 'ending', 'as soon as', 'as early as', 'as late as', 'no later than', 'by', 'until', 'before', 'due']
+
+  NEGATIVE_LOOKBEHINDS = END_OF_PERIOD_PHRASES.map { |phrase| "(?<!#{phrase} )" }.join
+
+
+  DATE_REGEX = /#{NEGATIVE_LOOKBEHINDS}(#{MONTH_OPTIONS})#{OPTIONAL_PERIOD}#{OPTIONAL_SPACES}#{ONE_OR_TWO_DIGITS}#{NOT_YEAR}#{NOT_A_FORWARD_INTRO}/
 
 
   DAYS_OF_WEEK = %w(sunday monday tuesday wednesday thursday friday saturday)
@@ -72,4 +77,5 @@ class DateParser
   def chronic_options
     { now: now }
   end
+
 end

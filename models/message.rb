@@ -40,12 +40,28 @@ class Message < Sequel::Model
 
   def before_create
     self.received_at ||= DateTime.now
+    parse if event_date.nil?
     super
+  end
+
+  def parse
+    self.event_date = parsed_date
+  end
+
+  def parse_and_save
+    original_event_date = event_date
+    parse
+
+    if original_event_date != event_date
+      puts "id: #{id} changed from #{original_event_date || 'nil'} to #{event_date || 'nil'}   subject: #{subject_filtered[0..40]} "
+    end
+
+    save
   end
 
   def parsed_date
     return nil if not_an_event?
-    @parsed_date ||= parsed_relative_date_from_subject_and_received_at || parsed_date_from_plain
+    parsed_relative_date_from_subject_and_received_at || parsed_date_from_plain
   end
 
   def parsed_date_from_plain
@@ -153,23 +169,21 @@ class Message < Sequel::Model
   end
 
   def self.visible
-    where(hidden: false)
-  end
-
-  def self.future_with_parsed_date(offset_in_days=0)
-    messages = visible.all.select do |message|
-      message.parsed_date && message.parsed_date >= (Util.current_date_in_portland + offset_in_days).to_s
-    end
+    where(hidden: false).where('event_date NOT NULL')
   end
 
   def self.by_date(num_days, offset)
     return {} if num_days == 0
     output = {}
-    messages = future_with_parsed_date(offset).sort_by{|m| "#{m.parsed_date} #{m.subject}"}
+    start_date = Util.current_date_in_portland + offset
+    end_date = start_date + num_days - 1
+
+    messages = visible.where(event_date: start_date .. end_date).order(:event_date, :subject).all
 
     Util.range_of_date_strings(num_days, offset).each do |date_string|
       output[date_string] = []
-      while date_string == messages.first.try(:parsed_date)
+      # The #try in this case is for when messages is empty
+      while date_string == messages.first.try(:event_date)
         output[date_string] << messages.shift
       end
     end
@@ -192,5 +206,12 @@ class Message < Sequel::Model
   def self.num_hidden
     where(hidden: true).count
   end
+
+  def self.parse_all
+    all.each(&:parse_and_save)
+    # Return true so presentation is clearer
+    true
+  end
+
 
 end

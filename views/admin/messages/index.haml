@@ -23,10 +23,10 @@
         .admin-date.bold
           not_an_event
 
-      - if message.parsed_date
+      - if message.event_date
         .admin-date.bold
           Event found:
-          = message.parsed_date
+          = message.event_date
 
       - if message.hidden
         .admin-date.bold

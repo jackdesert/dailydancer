@@ -9,7 +9,9 @@ describe Mailer do
 
       it do
         stub(message).author_multiple_source{ 'Blah Blah Blah <list@sacredcircledance.org>' }
-        message.parsed_date.should_not be_nil
+        message.event_date = message.parsed_date
+        message.event_date.should_not be_nil
+
         message.author_multiple_source.should include(Message::LIST_EMAIL_ADDRESS)
         email = described_class.confirm_listing(message)
         email.should be_a(Mail::NullMessage)

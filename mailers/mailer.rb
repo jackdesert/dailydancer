@@ -31,7 +31,7 @@ class Mailer
 
     def confirm_listing(message)
 
-      return null_message if message.parsed_date.nil?
+      return null_message if message.event_date.nil?
 
       to = message.author_multiple_source
       bcc = SUPPORT_EMAIL
@@ -42,7 +42,7 @@ class Mailer
 
       subject = "Your Event Has Been Listed on Daily Dancer"
 
-      date_object = message.parsed_date.to_date
+      date_object = message.event_date.to_date
 
       # Using strftime on each piece individually in order to get
       # day of month with no leading zero and no zero space

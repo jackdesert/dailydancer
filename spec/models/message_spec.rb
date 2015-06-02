@@ -123,6 +123,21 @@ describe Message do
     end
   end
 
+  describe '#parse' do
+    let(:message) { described_class.new(author: 'author', subject: 'subject', plain: 'plain' ) }
+    let(:date) { '2000-01-02' }
+    it 'calls parsed_date' do
+      mock(message).parsed_date
+      message.parse
+    end
+
+    it 'sets event_date' do
+      mock(message).parsed_date.returns{ date }
+      message.parse
+      message.event_date.should == date
+    end
+  end
+
   describe '#parsed_date' do
     context 'when there is no relative date in subject' do
       it 'returns nil' do
@@ -170,37 +185,6 @@ describe Message do
       end
     end
   end
-
-  describe '.future_with_parsed_date' do
-
-    context 'when there are messages' do
-      let!(:message_1) { create(:message, plain: 'Feb 13') }
-      let!(:message_2) { create(:message, plain: 'Feb 14') }
-      let!(:message_3) { create(:message, plain: 'Feb 15') }
-      let!(:message_4) { create(:message, plain: 'Feb 14') }
-      let!(:message_5) { create(:message, plain: 'Feb 15') }
-      let!(:message_6) { create(:message, plain: 'no date') }
-      it 'returns messages that have present or future parsed_date' do
-
-        pretend_now_is(valentines_day_2015_at_noon) do
-          described_class.future_with_parsed_date.should =~ [message_2, message_3, message_4, message_5]
-        end
-      end
-    end
-
-    context 'when there are no messages' do
-      before do
-        Message.all.map(&:delete)
-      end
-
-      it 'returns an empty Array' do
-        pretend_now_is(valentines_day_2015_at_noon) do
-          described_class.future_with_parsed_date.should be_empty
-        end
-      end
-    end
-  end
-
 
   describe '.by_date' do
 
@@ -369,4 +353,13 @@ describe Message do
     end
   end
 
+  describe 'before_create callback' do
+    let(:message) { described_class.new(author: 'author', subject: 'subject', plain: 'plain' ) }
+    let(:date) { '2000-01-02' }
+    it 'sets event_date to parsed_date' do
+      stub(message).parsed_date.returns(date)
+      message.save
+      message.event_date.should == date
+    end
+  end
 end

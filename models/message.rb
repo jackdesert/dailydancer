@@ -16,7 +16,7 @@ class Message < Sequel::Model
 
   SUBJECT_SNIP = '[SacredCircleDance] '
 
-  RENTAL_REGEX = /(looking\s+for\s+therapy\s+space)|(\d\s+bedroom)|(one\s+bedroom)|(two\s+bedroom)|(three\s+bedroom)|(four\s+bedroom)|(to\s+rent)|(for\s+rent)|(sublet)|(month\s+to\s+month)/
+  RENTAL_REGEX = /(looking\s+for\s+therapy\s+space)|(\d\s+bedroom)|(one\s+bedroom)|(two\s+bedroom)|(three\s+bedroom)|(four\s+bedroom)|(to\s+rent)|(for\s+rent)|(\s+rent)|(^rent)|(sublet)|(month\s+to\s+month)/
   HOUSE_SITTER_REGEX = /house\s+sit/
   PET_SITTER_REGEX = /(dog|cat|pet)\s+sit/
   KICKSTARTER_REGEX = /kickstarter\.com/

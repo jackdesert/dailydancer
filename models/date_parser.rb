@@ -19,7 +19,7 @@ class DateParser
   # The word 'wrote' with a colon after it generally the preamble to a forwarded mail, not an event date
   NOT_A_FORWARD_INTRO = '(?!.{0,75}wrote:)'
 
-  END_OF_PERIOD_PHRASES = ['through', 'starting', 'ending', 'as soon as', 'as early as', 'as late as', 'no later than', 'by', 'until', 'before', 'due']
+  END_OF_PERIOD_PHRASES = ['between now and', 'through', 'starting', 'ending', 'as soon as', 'as early as', 'as late as', 'no later than', 'by', 'until', 'before', 'due']
 
   NEGATIVE_LOOKBEHINDS = END_OF_PERIOD_PHRASES.map { |phrase| "(?<!#{phrase} )" }.join
 

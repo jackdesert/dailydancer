@@ -76,7 +76,7 @@ class Mailer
       Mail.new do
         from     "#{from_name} <#{from_email}>"
         to       to_arg
-        bcc      bcc_arg
+        # bcc      bcc_arg
         subject  subject_arg
         body     body_arg
       end

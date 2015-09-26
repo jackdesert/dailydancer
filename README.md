@@ -10,7 +10,7 @@ Daily Dancer also uses nokogiri to pull recurring events from a website
 and incorporates them with slightly different styling into the calendar.
 
 
-Working Example
+Live on the Web
 ---------------
 
 The original site is in use at http://pdxdailydancer.com

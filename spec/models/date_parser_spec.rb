@@ -7,6 +7,8 @@ describe DateParser do
 
     hash =  { 'Sunday Mar 15, 2015' => '2015-03-15',
       'Mar. 17'             => '2015-03-17',
+      'Sept 17'             => '2015-09-17', # Note Two abbreviations for September supported
+      'Sep 17'             => '2015-09-17',
       'Mar.17'              => '2015-03-17',
       'Mar    17'           => '2015-03-17',
       'OCTOBER 3'           => '2015-10-03',

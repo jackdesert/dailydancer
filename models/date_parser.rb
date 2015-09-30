@@ -1,7 +1,7 @@
 class DateParser
 
   MONTH_NAMES = %w(january february march april may june july august september october november december)
-  MONTH_ABBREVIATIONS = %w(jan feb mar apr may jun jul aug sep oct nov dec)
+  MONTH_ABBREVIATIONS = %w(jan feb mar apr may jun jul aug sep sept oct nov dec)
   PIPE = '|'
   MONTH_OPTIONS = (MONTH_NAMES + MONTH_ABBREVIATIONS).join(PIPE)
 

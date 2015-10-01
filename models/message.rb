@@ -22,6 +22,8 @@ class Message < Sequel::Model
   KICKSTARTER_REGEX = /kickstarter\.com/
   ASTROLOGYNOW_REGEX = /astrologynow\s+forecast/
 
+  BATCH_SIZE = 100
+
   plugin :validation_helpers
 
   attr_accessor :marked_as_duplicate
@@ -208,8 +210,24 @@ class Message < Sequel::Model
   end
 
   def self.parse_all
-    all.each(&:parse_and_save)
+    max = last.id
+
+    # Add padding in case more records are added after .parse_all is called
+    max_with_padding = max + 2 * BATCH_SIZE
+    counter = 0
+    records_processed = 0
+
+    while counter < max_with_padding
+      # Parse each one, using a batch size of BATCH_SIZE
+      # to prevent memory overload
+      where("id >= #{counter} AND id <  #{counter + BATCH_SIZE}").all.each do |m|
+        m.parse_and_save
+        records_processed += 1
+      end
+      counter += BATCH_SIZE
+    end
     # Return true so presentation is clearer
+    puts "#{records_processed} of #{count} records processed"
     true
   end
 

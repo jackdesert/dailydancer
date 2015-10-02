@@ -225,6 +225,8 @@ class Message < Sequel::Model
         records_processed += 1
       end
       counter += BATCH_SIZE
+      sleep 5
+      puts counter
     end
     # Return true so presentation is clearer
     puts "#{records_processed} of #{count} records processed"

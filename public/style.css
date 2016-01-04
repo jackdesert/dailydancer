@@ -138,6 +138,10 @@ h2.empty{
   color: #bbb;
 }
 
+.line{
+  min-height: 1rem; # This makes it so empty lines actually take up space
+}
+
 .website a{
   font-size: 140%;
   padding-top: 0.2rem;

@@ -32,6 +32,37 @@ module Util
       dates.map(&:to_s)
     end
 
+    def by_date_empty(num_days, offset)
+      # this is the version that gets sent to bots
+      return {} if num_days == 0
+      output = {}
+
+      range_of_date_strings(num_days, offset).each do |date_string|
+        output[date_string] = []
+      end
+
+      output
+    end
+
+    def by_date(klass, num_days, offset)
+      return {} if num_days == 0
+      output = {}
+      start_date = current_date_in_portland + offset
+      end_date = start_date + num_days - 1
+
+      things = klass.visible.where(klass.date_column => start_date .. end_date).order(*klass.order_columns).all
+
+      range_of_date_strings(num_days, offset).each do |date_string|
+        output[date_string] = []
+        # The #try in this case is for when things is empty
+        while date_string == things.first.try(klass.date_column)
+          output[date_string] << things.shift
+        end
+      end
+
+      output
+    end
+
     def is_browser?(user_agent)
       return false if user_agent.nil?
       !!user_agent.match(IS_BROWSER_REGEX)

@@ -180,7 +180,7 @@ describe Event do
 
   describe '.load' do
 
-    let(:minimum_to_create) { 15 }
+    let(:minimum_to_create) { 13 }
     it 'loads events' do
       described_class.all.map(&:delete)
 

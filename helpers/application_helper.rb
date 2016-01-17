@@ -19,12 +19,16 @@ module ApplicationHelper
     Chronic.parse(date_string).strftime('%A, %b %d')
   end
 
-  def details_as_array(message)
+  def text_as_array(text)
+    text.split(LINE_FEED)
+  end
+
+  def message_details_as_array(message)
     # This is returned as an array so haml can be used to do the line breaks
     raise ArgumentError, 'Expected a Message' unless message.is_a?(Message)
     text = message.plain_filtered
     text = insert_hyperlinks(text)
-    text.split(LINE_FEED)
+    text_as_array(text)
   end
 
   def insert_hyperlinks(text)
@@ -60,7 +64,7 @@ module ApplicationHelper
   def build_etag
     # Note this does not have any commas in it, because rack-cache will not
     # cache anything if there are commas
-    "last_message_id:#{Message.last.try(:id)}/num_hidden_events:#{Message.num_hidden}/last_event_id:#{Event.last.try(:id)}/date:#{Util.current_date_in_portland}"
+    "last_message_id:#{Message.last.try(:id)}/num_hidden_events:#{Message.num_hidden}/last_event_id:#{Event.last.try(:id)}/date:#{Util.current_date_in_portland}/last_faisbook_update:#{FaisbookEvent.last_update}"
   end
 
   def system_errors
@@ -93,6 +97,14 @@ module ApplicationHelper
     else
       (Message.last.try(:received_at) - Time.now).abs / 3600
     end
+  end
+
+  def last_faisbook_update_in_hours
+    (FaisbookEvent.last_update - Time.now).abs / 3600
+  end
+
+  def last_faisbook_create_in_hours
+    (FaisbookEvent.last_create - Time.now).abs / 3600
   end
 
   def server_name

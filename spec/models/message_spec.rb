@@ -201,7 +201,7 @@ describe Message do
         expected  = { '2015-02-14' => [message_2, message_4],
                       '2015-02-15' => [message_3, message_5] }
         pretend_now_is(valentines_day_2015_at_noon) do
-          described_class.by_date(2, 0).should == expected
+          Util.by_date(described_class, 2, 0).should == expected
         end
       end
     end
@@ -213,17 +213,7 @@ describe Message do
 
       it 'returns a Hash with values that are empty arrays' do
         pretend_now_is(valentines_day_2015_at_noon) do
-          described_class.by_date(2, 0).should == { '2015-02-14' => [], '2015-02-15' => [] }
-        end
-      end
-    end
-  end
-
-  describe '.by_date_empty' do
-    context 'when num_days is 2 and offset is 1' do
-      it 'returns empty arrays for tomorrow and the next day' do
-        pretend_now_is(valentines_day_2015_at_noon) do
-          described_class.by_date_empty(2, 1).should == { '2015-02-15' => [], '2015-02-16' => [] }
+          Util.by_date(described_class, 2, 0).should == { '2015-02-14' => [], '2015-02-15' => [] }
         end
       end
     end

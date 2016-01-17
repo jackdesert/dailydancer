@@ -191,7 +191,7 @@ PRETTY WARM ABOUT:
   * Better posting guidelines: Nicholas suggests "put the date at the top". Jack suggests: "Spell out the date, and put it near the top"
   * If two dates in body, choose the first one AFTER received-at
   * Advertise it among friends
-  * Advertise on facebook list
+  * Advertise on faisbook list
   * Improve FAQ to include what it includes / doesn't include
   * Improve FAQ to include "What is this again?"
   * Spot-on styling and positioning on Android and iPhone (especially nav tabs)
@@ -261,10 +261,20 @@ NEEDS PRIORITIZATION
 
 Notes from my Sweetheart:
   * ctrl-z to hide additional messages
-  * Can it bring in things from the facebook list too?
+  * Can it bring in things from the faisbook list too?
   * Can we put the first four lines of the body?
   * Location, time? Are those hard?
   * I notice that a four-day event only shows up on the first day of that event...
   * What about really juicy events that are announced six weeks ahead and that will fill up fast? Do
     I want that to show up in DD?
   * When show-more button opens, can it go ALL THE WAY into the future.
+
+Regarding FaisbookEvent:
+  * Make sure to click "see more events" until we get to the point where we are seeing
+    event ids that are already saved
+  * Add a method to update all FaisbookEvents where date > yesterday
+  * Make sure empty dates still work from Util
+  * Teach long names to obey margins in the body
+  * 70 seconds to scrape 100 pages
+  * 7 days go by in ten pages === one page captures almost a single day
+  * Put background job code in its own file (feels dirty having it in event.rb)

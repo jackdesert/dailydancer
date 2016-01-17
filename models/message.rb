@@ -174,35 +174,12 @@ class Message < Sequel::Model
     where(hidden: false).where('event_date NOT NULL')
   end
 
-  def self.by_date(num_days, offset)
-    return {} if num_days == 0
-    output = {}
-    start_date = Util.current_date_in_portland + offset
-    end_date = start_date + num_days - 1
-
-    messages = visible.where(event_date: start_date .. end_date).order(:event_date, :subject).all
-
-    Util.range_of_date_strings(num_days, offset).each do |date_string|
-      output[date_string] = []
-      # The #try in this case is for when messages is empty
-      while date_string == messages.first.try(:event_date)
-        output[date_string] << messages.shift
-      end
-    end
-
-    output
+  def self.order_columns
+    [:event_date, :subject]
   end
 
-  def self.by_date_empty(num_days, offset)
-    # this is the version that gets sent to bots
-    return {} if num_days == 0
-    output = {}
-
-    Util.range_of_date_strings(num_days, offset).each do |date_string|
-      output[date_string] = []
-    end
-
-    output
+  def self.date_column
+    :event_date
   end
 
   def self.num_hidden

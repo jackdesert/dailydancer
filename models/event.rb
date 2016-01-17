@@ -188,6 +188,10 @@ class Event < Sequel::Model
       ensure
         self.currently_loading = false
       end
+
+      # TODO: Put this background job code into a different file
+      FaisbookEvent.fetch_and_save_newly_posted
+      FaisbookEvent.update_future_events
     end
   end
 

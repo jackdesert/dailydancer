@@ -11,6 +11,7 @@
 - date_strings.each do |date_string|
   - messages = date_range_with_messages[date_string]
   - events = date_range_with_events[date_string]
+  - faisbook_events = date_range_with_faisbook_events[date_string]
   - odd = !odd
   - date_holder_class = odd ? 'odd' : 'even'
   - date_holder_class += ' additional' if xhr
@@ -21,6 +22,7 @@
       = haml :_nav, locals: locals unless xhr
       - first_time = false
     %h2.date{class: display_date_class}= display_date(date_string)
+
     - events.each do |event|
       .message-or-event{id: "event-#{event.id}"}
         .event-marker
@@ -43,13 +45,36 @@
               .address
                 %a{href: event.location_url_formatted, target: '_blank'}= event.address
 
+    - faisbook_events.each do |faisbook_event|
+      .message-or-event{id: "faisbook-event-#{faisbook_event.id}"}
+        .event-marker f
+        %h3.subject= faisbook_event.name
+        .details.hidden
+          .source= "(#{FaisbookEvent::ACTUAL_NAME} Event)"
+          .website
+            .label Website:
+            %a{href: faisbook_event.link, target: '_blank'}= faisbook_event.name
+          .time
+            .label When:
+            = faisbook_event.when
+          .location
+            .label Location:
+            .venue-and-address
+              .venue= faisbook_event.location
+              .address
+                %a{href: faisbook_event.address_link, target: '_blank'}= faisbook_event.address
+          .description
+            %h3 Details
+            - text_as_array(faisbook_event.description).each do |line|
+              .line= line
+
     - messages.each do |message|
       - klass = message.marked_as_duplicate? ? 'duplicate' : ''
       .message-or-event{id: "message-#{message.id}", class: klass}
         %h3.subject= message.subject_filtered
         .details.hidden
           .source= "(Posted by #{CGI.escapeHTML(message.author_multiple_source)} on #{message.received_at.strftime('%b %e')})"
-          - details_as_array(message).each do |line|
+          - message_details_as_array(message).each do |line|
             .line= line
 
 

@@ -17,6 +17,7 @@ gem 'chronic'
 gem 'nokogiri'
 gem 'redis'
 gem 'mail'
+gem 'mechanize'
 
 group :test do
   gem 'time-warp'

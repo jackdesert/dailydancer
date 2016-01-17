@@ -18,6 +18,21 @@
     .status-data= last_ingestion_in_hours.try(:round, 1)
     .status-label hours since last message ingestion
 
+
+  .status-data-holder
+    .status-data= last_faisbook_update
+    .status-label
+      hours since last
+      =FaisbookEvent::ACTUAL_NAME
+      update
+
+  .status-data-holder
+    .status-data= last_faisbook_create
+    .status-label
+      hours since last
+      =FaisbookEvent::ACTUAL_NAME
+      create
+
   .status-data-holder
     .status-data= num_events
     .status-label Events
@@ -27,6 +42,14 @@
     .status-label Messages
 
   .status-data-holder
+    .status-data= num_faisbook_events
+    .status-label
+      =FaisbookEvent::ACTUAL_NAME
+      Events
+
+  .status-data-holder
     .status-data= unique_visitors_today
     .status-label Unique visitors today
+
+
 

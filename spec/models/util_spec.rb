@@ -158,5 +158,17 @@ describe Util do
     end
 
   end
+
+  describe '.by_date_empty' do
+    context 'when num_days is 2 and offset is 1' do
+      let(:valentines_day_2015_at_noon) { Time.new(2015, 2, 14, 12) }
+
+      it 'returns empty arrays for tomorrow and the next day' do
+        pretend_now_is(valentines_day_2015_at_noon) do
+          described_class.by_date_empty(2, 1).should == { '2015-02-15' => [], '2015-02-16' => [] }
+        end
+      end
+    end
+  end
 end
 

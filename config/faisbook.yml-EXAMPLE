@@ -1,0 +1,5 @@
+domain: 'some_domain'
+email: 'some_email'
+password: 'some_password'
+access_token: 'some_access_token'
+actual_name: 'some_actual_name'

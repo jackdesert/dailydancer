@@ -132,6 +132,11 @@ h2.empty{
   border-radius: 0 0.5rem 0.5rem 0;
   top: 0;
   right: 0;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  font-stretch: expanded;
+  padding-top: 0.4rem;
 }
 
 .source{

@@ -56,6 +56,9 @@ class Dancer < Sinatra::Base
                 last_ingestion_in_hours: last_ingestion_in_hours,
                 num_events: Event.count,
                 num_messages: Message.count,
+                num_faisbook_events: FaisbookEvent.count,
+                last_faisbook_update: last_faisbook_update_in_hours.round(2),
+                last_faisbook_create: last_faisbook_create_in_hours.round(2),
                 unique_visitors_today: Ledger.party_size,
                 page_title: 'Daily Dancer',
                 nav_class: :status }
@@ -66,6 +69,8 @@ class Dancer < Sinatra::Base
 
   get '/' do
 
+    # For next time
+    Event.load_in_thread_if_its_been_a_while
 
     browser = Util.is_browser?(env['HTTP_USER_AGENT'])
     show_duplicates = admin = !!params[:admin]
@@ -96,18 +101,19 @@ class Dancer < Sinatra::Base
     end
 
     if browser
-      date_range_with_messages = MessagePresenter.by_date_deduplicated(num_days, offset, show_duplicates)
+      date_range_with_messages        = MessagePresenter.by_date_deduplicated(num_days, offset, show_duplicates)
+      date_range_with_faisbook_events = Util.by_date(FaisbookEvent, num_days, offset)
     else
-      date_range_with_messages = Message.by_date_empty(num_days, offset)
+      date_range_with_messages        = Util.by_date_empty(num_days, offset)
+      date_range_with_faisbook_events = Util.by_date_empty(num_days, offset)
     end
 
+    # Note Event has its own by_date method (not the common Util.by_date)
     date_range_with_events = Event.by_date(num_days, offset)
-
-    # For next time
-    Event.load_in_thread_if_its_been_a_while
 
     locals  = { date_range_with_messages: date_range_with_messages,
                 date_range_with_events: date_range_with_events,
+                date_range_with_faisbook_events: date_range_with_faisbook_events,
                 page_title: 'Daily Dancer',
                 nav_class: :root,
                 admin: admin,

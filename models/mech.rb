@@ -1,3 +1,4 @@
+require 'open-uri'
 require 'mechanize'
 require 'pry'
 
@@ -24,6 +25,21 @@ event_ids = links.map do |link|
   link.uri.to_s.match(/\/events\/(\d+)/)
   $1
 end
+
+events = event_ids.uniq.map do |event_id|
+  url = "https://graph.facebook.com/v2.5/#{event_id}?access_token=221487008193174%7C239e8bd7cbb603957391246491cff75a"
+  result = begin
+            open(url).read
+           rescue OpenURI::HTTPError
+             nil
+           end
+  if result.nil?
+    nil
+  else
+    JSON.parse(result)
+  end
+end
+
 
 
 binding.pry

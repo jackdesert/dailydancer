@@ -96,11 +96,14 @@ class Dancer < Sinatra::Base
     end
 
     if browser
-      date_range_with_messages = MessagePresenter.by_date_deduplicated(num_days, offset, show_duplicates)
+      date_range_with_messages        = MessagePresenter.by_date_deduplicated(num_days, offset, show_duplicates)
+      date_range_with_faisbook_events = Util.by_date(FaisbookEvent, num_days, offset)
     else
-      date_range_with_messages = Message.by_date_empty(num_days, offset)
+      date_range_with_messages        = Util.by_date_empty(num_days, offset)
+      date_range_with_faisbook_events = Util.by_date_empty(num_days, offset)
     end
 
+    # Note Event has its own by_date method (not the common Util.by_date)
     date_range_with_events = Event.by_date(num_days, offset)
 
     # For next time
@@ -108,6 +111,7 @@ class Dancer < Sinatra::Base
 
     locals  = { date_range_with_messages: date_range_with_messages,
                 date_range_with_events: date_range_with_events,
+                date_range_with_faisbook_events: date_range_with_faisbook_events,
                 page_title: 'Daily Dancer',
                 nav_class: :root,
                 admin: admin,

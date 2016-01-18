@@ -80,5 +80,13 @@ describe FaisbookEvent do
       end
     end
   end
+
+  describe '.fetch_and_save_all' do
+    it 'populates the database', focus: true do
+      described_class.fetch_and_save_all
+      binding.pry
+      described_class.count.should_not == 0
+    end
+  end
 end
 

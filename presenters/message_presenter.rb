@@ -2,7 +2,7 @@ module MessagePresenter
 
   class << self
     def by_date_deduplicated(num_days, offset, show_duplicates)
-      date_range_with_messages = Message.by_date(num_days, offset)
+      date_range_with_messages = Util.by_date(Message, num_days, offset)
 
       date_range_with_messages.each do |date, messages|
         # Cloning messages because deduplicate shifts from the array

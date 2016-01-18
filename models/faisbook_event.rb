@@ -4,6 +4,12 @@ require 'pry'
 
 class FaisbookEvent < Sequel::Model
 
+  CONFIG          = YAML.load_file('config/faisbook.yml')
+  DOMAIN          = CONFIG['domain']
+  EMAIL           = CONFIG['email']
+  PASSWORD        = CONFIG['password']
+  ACTUAL_NAME     = CONFIG['actual_name']
+
   plugin :validation_helpers
 
   def validate
@@ -22,6 +28,26 @@ class FaisbookEvent < Sequel::Model
   def before_save
     self.updated_at = DateTime.now
     super
+  end
+
+  def link
+    "http://#{DOMAIN}/#{faisbook_id}"
+  end
+
+  def address_link
+    "http://maps.google.com/maps?q=#{address.gsub(' ', '+')}"
+  end
+
+  def self.visible
+    where('')
+  end
+
+  def self.order_columns
+    [:date, :name]
+  end
+
+  def self.date_column
+    :date
   end
 
   def self.agent
@@ -111,7 +137,13 @@ class FaisbookEvent < Sequel::Model
     new_event.save unless new_event.changed_columns.empty?
   end
 
-  def self.fetch_and_save
+  def self.fetch_and_save_all
+    json_events = fetch_events_from_api
+    json_events.each do |json_event|
+      save_event(json_event)
+    end
+
+    nil
   end
 
 end

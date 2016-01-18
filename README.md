@@ -268,3 +268,9 @@ Notes from my Sweetheart:
   * What about really juicy events that are announced six weeks ahead and that will fill up fast? Do
     I want that to show up in DD?
   * When show-more button opens, can it go ALL THE WAY into the future.
+
+Regarding FaisbookEvent:
+  * Make sure to click "see more events" until we get to the point where we are seeing
+    event ids that are already saved
+  * Add a method to update all FaisbookEvents where date > yesterday
+  * Make sure empty dates still work from Util

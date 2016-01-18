@@ -19,12 +19,16 @@ module ApplicationHelper
     Chronic.parse(date_string).strftime('%A, %b %d')
   end
 
-  def details_as_array(message)
+  def text_as_array(text)
+    text.split(LINE_FEED)
+  end
+
+  def message_details_as_array(message)
     # This is returned as an array so haml can be used to do the line breaks
     raise ArgumentError, 'Expected a Message' unless message.is_a?(Message)
     text = message.plain_filtered
     text = insert_hyperlinks(text)
-    text.split(LINE_FEED)
+    text_as_array(text)
   end
 
   def insert_hyperlinks(text)

@@ -56,17 +56,17 @@
             %a{href: faisbook_event.link, target: '_blank'}= faisbook_event.name
           .time
             .label When:
-            = faisbook_event.start_time
-          .hostess
-            .label Host:
-            unknown
-          .description= faisbook_event.description
+            = faisbook_event.when
           .location
             .label Location:
             .venue-and-address
               .venue= faisbook_event.location
               .address
                 %a{href: faisbook_event.address_link, target: '_blank'}= faisbook_event.address
+          .description
+            %h3 Details
+            - text_as_array(faisbook_event.description).each do |line|
+              .line= line
 
     - messages.each do |message|
       - klass = message.marked_as_duplicate? ? 'duplicate' : ''

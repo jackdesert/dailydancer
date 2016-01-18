@@ -38,6 +38,21 @@ class FaisbookEvent < Sequel::Model
     "http://maps.google.com/maps?q=#{address.gsub(' ', '+')}"
   end
 
+  def when
+    start_datetime = DateTime.parse(start_time)
+    end_datetime = DateTime.parse(end_time)
+
+    format_string = '%l%P'
+    start_time_formatted = start_datetime.strftime(format_string)
+    end_time_formatted   = end_datetime.strftime(format_string)
+
+    if start_datetime.to_date == end_datetime.to_date
+      "#{start_time_formatted} - #{end_time_formatted}"
+    else
+      start_time_formatted
+    end
+  end
+
   def self.visible
     where('')
   end

@@ -191,7 +191,7 @@ PRETTY WARM ABOUT:
   * Better posting guidelines: Nicholas suggests "put the date at the top". Jack suggests: "Spell out the date, and put it near the top"
   * If two dates in body, choose the first one AFTER received-at
   * Advertise it among friends
-  * Advertise on facebook list
+  * Advertise on faisbook list
   * Improve FAQ to include what it includes / doesn't include
   * Improve FAQ to include "What is this again?"
   * Spot-on styling and positioning on Android and iPhone (especially nav tabs)
@@ -261,7 +261,7 @@ NEEDS PRIORITIZATION
 
 Notes from my Sweetheart:
   * ctrl-z to hide additional messages
-  * Can it bring in things from the facebook list too?
+  * Can it bring in things from the faisbook list too?
   * Can we put the first four lines of the body?
   * Location, time? Are those hard?
   * I notice that a four-day event only shows up on the first day of that event...

@@ -21,16 +21,16 @@ describe ApplicationHelper do
     context 'when there is one hyperlink' do
       context 'when there is no period after the hyperlink' do
         it 'inserts an anchor' do
-          original = 'Go to http://facebook.com '
-          expected = "Go to <a href='http://facebook.com' target='_blank'>http://facebook.com</a> "
+          original = 'Go to http://example.com '
+          expected = "Go to <a href='http://example.com' target='_blank'>http://example.com</a> "
           insert_hyperlinks(original).should == expected
         end
       end
 
       context 'when there is a period after the hyperlink' do
         it 'inserts an anchor but leaves the period outside the hyperlink' do
-          original = 'Go to http://facebook.com.'
-          expected = "Go to <a href='http://facebook.com' target='_blank'>http://facebook.com</a>."
+          original = 'Go to http://example.com.'
+          expected = "Go to <a href='http://example.com' target='_blank'>http://example.com</a>."
         end
       end
     end
@@ -38,8 +38,8 @@ describe ApplicationHelper do
     context 'when there are two hyperlinks' do
       context 'when the second hyperlink is a subset of the first' do
         it 'inserts both anchors properly' do
-          original = 'Go to http://facebook.com '
-          expected = "Go to <a href='http://facebook.com' target='_blank'>http://facebook.com</a> "
+          original = 'Go to http://example.com '
+          expected = "Go to <a href='http://example.com' target='_blank'>http://example.com</a> "
           insert_hyperlinks(original).should == expected
         end
       end

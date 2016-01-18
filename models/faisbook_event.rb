@@ -81,12 +81,12 @@ class FaisbookEvent < Sequel::Model
 
   def self.login_page
     # Using faisbook's mobile-optimized site because it does not depend on Javascript!
-    agent.get('http://m.facebook.com/')
+    agent.get("http://m.#{DOMAIN}/")
   end
 
   def self.dance_page
     # Using faisbook's mobile-optimized site because it does not depend on Javascript!
-    dance_page = agent.get('http://m.facebook.com/groups/sacredcircledance')
+    agent.get("http://m.#{DOMAIN}/groups/sacredcircledance")
   end
 
   def self.scrape_event_ids
@@ -94,12 +94,12 @@ class FaisbookEvent < Sequel::Model
     # Note that only string values are recognized in params
     form = login_page.forms.first
     email_field = form.field_with(name: 'email')
-    email_field.value = 'facebook@sunni.ru'
+    email_field.value = EMAIL
     password_field = form.field_with(name: 'pass')
-    password_field.value = 's0prano'
+    password_field.value = PASSWORD
 
     form.submit
-    dance_page = agent.get('http://m.facebook.com/groups/sacredcircledance')
+
     links = dance_page.links_with(:href => %r{/events/\d+})
     event_ids = links.map do |link|
       link.uri.to_s.match(/\/events\/(\d+)/)
@@ -111,14 +111,14 @@ class FaisbookEvent < Sequel::Model
 
   def self.fetch_events_from_api
     events = []
-    event_ids = scrape_event_ids
+    faisbook_ids = scrape_event_ids
 
-    event_ids.each do |event_id|
-      url = "https://graph.facebook.com/v2.5/#{event_id}?access_token=221487008193174%7C239e8bd7cbb603957391246491cff75a"
+    faisbook_ids.each do |faisbook_id|
+      url = "https://graph.#{DOMAIN}/v2.5/#{faisbook_id}?access_token=221487008193174%7C239e8bd7cbb603957391246491cff75a"
       result = begin
                 open(url).read
                rescue OpenURI::HTTPError
-                 puts "Unable to read event_id #{event_id}"
+                 puts "Unable to read event_id #{faisbook_id}"
                  nil
                end
 

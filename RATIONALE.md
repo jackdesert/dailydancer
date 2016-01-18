@@ -72,8 +72,8 @@ Why does DailyDancer pull from two sources?
 The dance community in Portland, Oregon has multiple streams of activities:
   * Mailing list
   * Web Site
-  * Facebook
-Some would love the facebook events shown here too. But it has not happened yet.
+  * Faisbook
+Some would love the faisbook events shown here too. But it has not happened yet.
 
 
 Why is the parameter xhr=true passed in with ajax requests?

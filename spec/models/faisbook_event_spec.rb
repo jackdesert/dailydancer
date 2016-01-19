@@ -21,10 +21,10 @@ describe FaisbookEvent do
      "id"=>"724793004324241"}
   end
 
-  describe '.scrape_event_ids' do
+  describe '.scrape_faisbook_ids_from_mobile_optimized' do
     context 'happy path' do
       it 'returns a list of integers' do
-        ids = described_class.scrape_event_ids
+        ids = described_class.scrape_faisbook_ids_from_mobile_optimized
         ids.each do |id|
           id.match(/\A\d+\z/).should_not be_nil
         end

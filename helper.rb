@@ -12,6 +12,8 @@ require 'chronic'
 require 'nokogiri'
 require 'yaml'
 require 'mail'
+require 'open-uri'
+require 'mechanize'
 
 # Note you must connect to Sequel before requiring any models that inherit from Sequel::Model
 unless settings.test?

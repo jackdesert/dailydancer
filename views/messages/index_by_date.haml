@@ -52,7 +52,9 @@
         .details.hidden
           .source= "(#{FaisbookEvent::ACTUAL_NAME} Event)"
           .website
-            .label Website:
+            .label
+              = FaisbookEvent::ACTUAL_NAME
+              Event:
             %a{href: faisbook_event.link, target: '_blank'}= faisbook_event.name
           .time
             .label When:

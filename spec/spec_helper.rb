@@ -16,6 +16,8 @@ require 'nokogiri'
 require 'time-warp'
 require 'yaml'
 require 'mail'
+require 'open-uri'
+require 'mechanize'
 
 
 

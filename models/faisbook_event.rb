@@ -1,7 +1,3 @@
-require 'open-uri'
-require 'mechanize'
-require 'pry'
-
 class FaisbookEvent < Sequel::Model
 
   CONFIG          = YAML.load_file('config/faisbook.yml')
@@ -108,6 +104,19 @@ class FaisbookEvent < Sequel::Model
     @agent = nil
   end
 
+  def self.login
+    logout
+    form = login_page.forms.first
+
+    # Note that only string values are recognized in params
+    email_field = form.field_with(name: 'email')
+    email_field.value = EMAIL
+    password_field = form.field_with(name: 'pass')
+    password_field.value = PASSWORD
+
+    form.submit
+  end
+
   def self.login_page
     # Using faisbook's mobile-optimized site because it does not depend on Javascript!
     agent.get("http://m.#{DOMAIN}/")
@@ -118,19 +127,7 @@ class FaisbookEvent < Sequel::Model
     agent.get("http://m.#{DOMAIN}/groups/sacredcircledance")
   end
 
-  def self.login
-    logout
-    # Note that only string values are recognized in params
-    form = login_page.forms.first
-    email_field = form.field_with(name: 'email')
-    email_field.value = EMAIL
-    password_field = form.field_with(name: 'pass')
-    password_field.value = PASSWORD
-
-    form.submit
-  end
-
-  def self.scrape_event_ids(num_pages=NUM_PAGES)
+  def self.scrape_faisbook_ids_from_mobile_optimized(num_pages=NUM_PAGES)
     login
 
     faisbook_ids = []
@@ -150,7 +147,6 @@ class FaisbookEvent < Sequel::Model
         faisbook_ids << $1
       end
 
-      puts faisbook_ids.uniq.count
     end
 
     faisbook_ids.uniq
@@ -160,7 +156,7 @@ class FaisbookEvent < Sequel::Model
     events = []
 
     if faisbook_ids.nil?
-      faisbook_ids = scrape_event_ids
+      faisbook_ids = scrape_faisbook_ids_from_mobile_optimized
     end
 
     faisbook_ids.each do |faisbook_id|
@@ -172,9 +168,7 @@ class FaisbookEvent < Sequel::Model
                  {id: faisbook_id}.to_json
                end
 
-      unless result.nil?
-        events << JSON.parse(result)
-      end
+      events << JSON.parse(result)
     end
 
     events
@@ -209,17 +203,10 @@ class FaisbookEvent < Sequel::Model
 
       new_event.start_time = json_event['start_time']
       new_event.end_time = json_event['end_time']
-      new_event.date = date_from_datetime_string(json_event['end_time'])
-      puts "saving event"
-    else
-      puts "saving placeholder event"
+      new_event.date = date_from_datetime_string(json_event['start_time'])
     end
 
-    begin
     new_event.save unless new_event.changed_columns.empty?
-    rescue
-      binding.pry
-    end
   end
 
   def self.save_json_events(json_events)

@@ -100,11 +100,17 @@ module ApplicationHelper
   end
 
   def last_faisbook_update_in_hours
-    (FaisbookEvent.last_update - Time.now).abs / 3600
+    last_update = FaisbookEvent.last_update
+    return 0.0 if last_update.nil?
+
+    (last_update - Time.now).abs / 3600
   end
 
   def last_faisbook_create_in_hours
-    (FaisbookEvent.last_create - Time.now).abs / 3600
+    last_create = FaisbookEvent.last_create
+    return 0.0 if last_create.nil?
+
+    (last_create - Time.now).abs / 3600
   end
 
   def server_name

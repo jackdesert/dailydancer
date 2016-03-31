@@ -16,6 +16,12 @@ Live on the Web
 The original site is in use at http://pdxdailydancer.com
 
 
+Prerequisites
+-------------
+
+    apt-get install sqlite3 libsqlite3-dev
+
+
 Running the Tests
 -----------------
 

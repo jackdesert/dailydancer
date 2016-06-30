@@ -146,6 +146,14 @@ Manually Hiding Messages
     Message.find(id: <id>).hide('<reason>')
 
 
+Bulk Hiding Messages to prevent wrap-around from previous year
+--------------------------------------------------------------
+
+Choose a date about three months ago.
+
+    UPDATE messages set hidden = 1, hide_reason = 'Hiding all received before March 1, 2016' WHERE received_at < '2016-03-01' AND hidden = 0;
+
+
 Credits
 -------
 

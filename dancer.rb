@@ -148,7 +148,7 @@ class Dancer < Sinatra::Base
 
     if message.valid?
       message.save
-      confirm_listing(message)
+      #confirm_listing(message)
       status 201
       message.values.to_json
     else
